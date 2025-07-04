@@ -86,6 +86,9 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
+  "Wiederholbar": [
+    "Nein"
+  ],
   "@context": {
     "@version": 1.1,
     "id": "@id",

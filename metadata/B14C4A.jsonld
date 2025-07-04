@@ -31,6 +31,18 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
+  "TextOrUri": [
+    "URI"
+  ],
+  "Verpflichtungsgrad": [
+    "Pflicht"
+  ],
+  "Wiederholbar": [
+    "Ja"
+  ],
+  "EmpfohleneVokabulare": [
+    "Art & Architecture Thesaurus"
+  ],
   "@context": {
     "@version": 1.1,
     "id": "@id",

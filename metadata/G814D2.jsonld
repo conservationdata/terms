@@ -51,6 +51,9 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
+  "Verpflichtungsgrad": [
+    "Pflicht"
+  ],
   "@context": {
     "@version": 1.1,
     "id": "@id",
