@@ -2,7 +2,12 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/B14C4A",
   "type": "Concept",
   "prefLabel": {
-    "de": "Handlingsempfehlungen"
+    "de": "Empfehlungen zur Handhabung"
+  },
+  "altLabel": {
+    "de": [
+      "Handlingsempfehlungen"
+    ]
   },
   "definition": {
     "de": "Angaben zu Besonderheiten, die im Zuge der Handhabung des Objektes berücksichtigt werden müssen. \r\r\n\r\r\nBeispiel: \"Nicht an den Henkeln anfassen\""

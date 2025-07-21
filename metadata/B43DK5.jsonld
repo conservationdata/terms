@@ -1,24 +1,19 @@
 {
-  "id": "https://www.w3id.org/conservation/terms/metadata/B14C4A",
+  "id": "https://www.w3id.org/conservation/terms/metadata/B43DK5",
   "type": "Concept",
   "prefLabel": {
-    "de": "Empfehlungen zur Handhabung"
-  },
-  "altLabel": {
-    "de": [
-      "Handlingsempfehlungen"
-    ]
+    "de": "Änderungsdatum"
   },
   "definition": {
-    "de": "Angaben zu Besonderheiten, die im Zuge der Handhabung des Objektes berücksichtigt werden müssen. \r\r\n\r\r\nBeispiel: \"Nicht an den Henkeln anfassen\""
+    "de": "Zeitpunkt, zu dem der Bericht geändert wurde"
   },
   "notation": [
-    "B14C4A"
+    "B43DK5"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/GF9C49",
+    "id": "https://www.w3id.org/conservation/terms/metadata/D1F5D3",
     "prefLabel": {
-      "de": "Allgemeine Umgangsempfehlungen"
+      "de": "Version"
     }
   },
   "inScheme": [
@@ -38,7 +33,7 @@
     "empfohlen"
   ],
   "Wiederholbar": [
-    "Ja"
+    "Nein"
   ],
   "@context": {
     "@version": 1.1,

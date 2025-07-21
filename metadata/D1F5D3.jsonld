@@ -10,6 +10,20 @@
   "notation": [
     "D1F5D3"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/98ZG32",
+      "prefLabel": {
+        "de": "Bearbeiter*in der Änderung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/B43DK5",
+      "prefLabel": {
+        "de": "Änderungsdatum"
+      }
+    }
+  ],
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/AC16G1",
     "prefLabel": {
@@ -33,7 +47,7 @@
     "empfohlen"
   ],
   "Wiederholbar": [
-    "Nein"
+    "Ja"
   ],
   "@context": {
     "@version": 1.1,

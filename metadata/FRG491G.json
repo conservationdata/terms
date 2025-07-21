@@ -1,5 +1,5 @@
 {
-  "id": "https://www.w3id.org/conservation/terms/metadata/Fgr491G",
+  "id": "https://www.w3id.org/conservation/terms/metadata/FRG491G",
   "type": "Concept",
   "prefLabel": {
     "de": "Durchmesser"
@@ -8,7 +8,7 @@
     "de": "Angabe zur größten linearen Ausdehnung eines Objekten mit runder, ovaler oder ringförmiger Grundform, gemessen zwischen zwei gegenüberliegenden Punkten über den geometrischen Mittelpunkt."
   },
   "notation": [
-    "Fgr491G"
+    "FRG491G"
   ],
   "inScheme": [
     {
