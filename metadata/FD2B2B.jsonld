@@ -2,23 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/FD2B2B",
   "type": "Concept",
   "prefLabel": {
-    "de": "Temperatur (konservatorische Bedingungen)"
+    "de": "Probenbeschreibung"
   },
   "definition": {
-    "de": "Angabe der erforderlichen Temperaturwerte und zulässigen Schwankungsbereiche (maximal tolerierbare Abweichungen) für die sachgerechte Lagerung zur Vermeidung temperaturbedingter Schäden."
-  },
-  "note": {
-    "de": [
-      "F8F594"
-    ]
+    "de": "Kurze Definition der wichtigsten Eigenschaften und Beschaffenheit der Probe. Möglichkeit, weitere Hintergrundinformationen zur Probe bzw. dem Befund, aus dem die Probe entstammt, zu erfassen.\r\r\n\r\r\nBeispiel: \"Erdreste mit roten Verfärbungen\" , \"Textilfasern von rechter Skelettrippe\""
   },
   "notation": [
     "FD2B2B"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/FC3322",
+    "id": "https://www.w3id.org/conservation/terms/metadata/CD5C3F",
     "prefLabel": {
-      "de": "Konservatorische Bedingungen"
+      "de": "Probeentnahme"
     }
   },
   "inScheme": [

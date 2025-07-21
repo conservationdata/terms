@@ -2,18 +2,48 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/AC1786",
   "type": "Concept",
   "prefLabel": {
-    "de": "Objektbeziehung"
+    "de": "Zustandsbeschreibung"
+  },
+  "altLabel": {
+    "de": [
+      "Diagnose"
+    ]
   },
   "definition": {
-    "de": "Sofern das Objekt Teil eines Ensemble, einer definierten Sammlung ist oder anderweitig besondere Beziehungen zu anderen Objekten aufweist, sollten diese erfasst werden. \r\r\n\r\r\nBeispiel: \"Teil der Sammlung Becker\""
+    "de": "Oberbegriff für beobachtete, gemessene, geprüfte oder bewertete Informationen, die den Zustand des Objektes zum Zeitpunkt der Erfassung näher beschreiben. Insbesondere Veränderungen des Objektes, die im Vergleich zu einem früheren oder ursprünglichen Zustand bzw. vom zuletzt berichteten Zustand festgestellt werden, müssen dokumentiert werden."
+  },
+  "note": {
+    "de": [
+      "Begriff und Definition nach DIN EN 16095:2012-10 und DIN EN 15898:2020-02"
+    ]
   },
   "notation": [
     "AC1786"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/BC5B57",
+      "prefLabel": {
+        "de": "Physischer Objektzustand"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/AA6941",
+      "prefLabel": {
+        "de": "Schadensphänomene"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/G79CA9",
+      "prefLabel": {
+        "de": "Umgebungsbedingungen"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/A13CD1",
+    "id": "https://www.w3id.org/conservation/terms/metadata/F52262",
     "prefLabel": {
-      "de": "Objektkennzeichnung"
+      "de": "Zustandserfassung"
     }
   },
   "inScheme": [
@@ -26,14 +56,11 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "TextOrUri": [
-    "Text"
-  ],
   "Verpflichtungsgrad": [
-    "bedingte Pflicht"
+    "Pflicht"
   ],
   "Wiederholbar": [
-    "Ja"
+    "Nein"
   ],
   "@context": {
     "@version": 1.1,

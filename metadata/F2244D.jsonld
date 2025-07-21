@@ -2,23 +2,23 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F2244D",
   "type": "Concept",
   "prefLabel": {
-    "de": "Konzentration"
-  },
-  "altLabel": {
-    "de": [
-      "Mischungsverhältnis"
-    ]
+    "de": "Verpackungs- und Transportempfehlungen"
   },
   "definition": {
-    "de": "Beschreibung der genauen Konzentration oder Zusammensetzung des Materials zur Sicherstellung der Reproduzierbarkeit und Beurteilung der Langzeitwirkung bzw.-stabilität."
+    "de": "Angaben zu Besonderheiten, die im Zuge der Objektverpackung oder des Transportes zu beachten sind. \r\r\n\r\r\nBeispiel: \"Objekt ausschließlich liegend transportieren\", \"Transport nur in klimatisiertem Fahrzeug\""
+  },
+  "note": {
+    "de": [
+      "C3A182"
+    ]
   },
   "notation": [
     "F2244D"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/DF7759",
+    "id": "https://www.w3id.org/conservation/terms/metadata/GF9C49",
     "prefLabel": {
-      "de": "Verwendetes Material"
+      "de": "Allgemeine Umgangsempfehlungen"
     }
   },
   "inScheme": [
@@ -35,10 +35,10 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "optional"
+    "empfohlen"
   ],
   "Wiederholbar": [
-    "Nein"
+    "Ja"
   ],
   "@context": {
     "@version": 1.1,

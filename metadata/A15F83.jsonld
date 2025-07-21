@@ -2,23 +2,23 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/A15F83",
   "type": "Concept",
   "prefLabel": {
-    "de": "Objektansprache"
+    "de": "Lokalisation"
   },
   "altLabel": {
     "de": [
-      "Objekttitel"
+      "Untersuchungsstelle"
     ]
   },
   "definition": {
-    "de": "Benennung des konkreten Objektes. Kann sich aus einem offiziellen Titel oder aus Objekttyp und beschreibenden Attributen zusammensetzen.\r\r\n\r\r\nBeispiel: \"Mona-Lisa\", \"rotfiguriger Krater\""
+    "de": "Angabe, an welcher Stelle auf dem Objekt die Untersuchung durchgeführt wurde. Nur bei Untersuchungen direkt auf dem Originalenobjekt nötig, entfällt bei Untersuchungen von Proben"
   },
   "notation": [
     "A15F83"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/A13CD1",
+    "id": "https://www.w3id.org/conservation/terms/metadata/B3FCA1",
     "prefLabel": {
-      "de": "Objektkennzeichnung"
+      "de": "Untersuchung"
     }
   },
   "inScheme": [
@@ -35,7 +35,7 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "Pflicht"
+    "bedingte Pflicht"
   ],
   "Wiederholbar": [
     "Ja"

@@ -2,18 +2,23 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/G76A78",
   "type": "Concept",
   "prefLabel": {
-    "de": "Zuständige Person (Monitoring)"
+    "de": "Schöpfer*in"
   },
   "definition": {
-    "de": "Angaben zur Person (Name, ggfs. Funktion) der für die Durchführung des Monitorings verantwortlichen Person.\r\r\n\r\r\nFür die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. \r\r\nBei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann!"
+    "de": "Angaben zur Person, die das Objekt hergestellt hat - sofern bekannt. \r\r\n\r\r\nBeispiel: \"Leonardo da Vinci\""
+  },
+  "note": {
+    "de": [
+      "Begriff nach DIN EN 16095:2012-10"
+    ]
   },
   "notation": [
     "G76A78"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/G56866",
+    "id": "https://www.w3id.org/conservation/terms/metadata/B51DAF",
     "prefLabel": {
-      "de": "Monitoring"
+      "de": "Objektkennzeichnung"
     }
   },
   "inScheme": [
@@ -27,13 +32,16 @@
     }
   ],
   "TextOrUri": [
-    "Text"
+    "Text/URI"
   ],
   "Verpflichtungsgrad": [
-    "empfohlen"
+    "optional"
   ],
   "Wiederholbar": [
-    "Nein"
+    "Ja"
+  ],
+  "EmpfohleneVokabulare": [
+    "GND, Wikidata, VIAF"
   ],
   "@context": {
     "@version": 1.1,

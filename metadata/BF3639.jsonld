@@ -2,23 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/BF3639",
   "type": "Concept",
   "prefLabel": {
-    "de": "Erfassungsdatum"
-  },
-  "altLabel": {
-    "de": [
-      "Datum der Erfassung (Zustandserfassung)"
-    ]
+    "de": "Schadstoffe"
   },
   "definition": {
-    "de": "Angabe des Datums, an dem die Erfassung des Zustandes durchgeführt wurde."
+    "de": "Angabe ob Vorhandensein von luftgetragenen Verunreinigungen, Ausgasungen oder andere chemische Belastungen in der Objektumgebung kontrolliert wurden."
   },
   "notation": [
     "BF3639"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/BB78D2",
+    "id": "https://www.w3id.org/conservation/terms/metadata/FFFCB7",
     "prefLabel": {
-      "de": "Zustandserfassung"
+      "de": "Überprüfte Bedingungen"
     }
   },
   "inScheme": [
@@ -35,7 +30,7 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "Pflicht"
+    "empfohlen"
   ],
   "Wiederholbar": [
     "Nein"

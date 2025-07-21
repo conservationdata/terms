@@ -2,18 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/C6A532",
   "type": "Concept",
   "prefLabel": {
-    "de": "Durchführende Einrichtung (Untersuchung)"
+    "de": "Anlass der Maßnahme"
   },
   "definition": {
-    "de": "Benennung der Einrichtung, die die Untersuchung durchgeführt hat. \r\r\n\r\r\nBesonders wenn dies von einer externen Einrichtung durchgeführt wird, ist die Erfassung zu empfehlen.\r\r\nIn Fällen, in denen bei der Veröffentlichung des Datensatzes die zuständige Person nicht genannt werden kann/darf, sollte stattdessen zumindest die zuständige Einrichtung im Datensatz enthalten sein."
+    "de": "Hintergrundinformationen, aus welchem Grund das Objekt konservatorisch-restauratorisch behandelt werden soll. I.d.R. beziehen sich diese Angaben darauf, was im Anschluss mit dem Objekt geschehen soll oder zuvor bereits geschehen ist. \r\r\n\r\r\nBeispiel: Ausstellungsvorbereitung, Rückkehr aus Leihverkehr"
   },
   "notation": [
     "C6A532"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/C421BF",
+    "id": "https://www.w3id.org/conservation/terms/metadata/BAA258",
     "prefLabel": {
-      "de": "Untersuchung"
+      "de": "Konservierungskonzept"
     }
   },
   "inScheme": [
@@ -27,7 +27,7 @@
     }
   ],
   "TextOrUri": [
-    "Text/URI"
+    "Text"
   ],
   "Verpflichtungsgrad": [
     "empfohlen"

@@ -2,34 +2,25 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F7D3DB",
   "type": "Concept",
   "prefLabel": {
-    "de": "Präventive Konservierung"
+    "de": "Kennzeichnungsnummer"
   },
   "definition": {
-    "de": "Übergeordneter Begriff zur Erfassung aller Angaben bezüglich vorbeugender Maßnahmen, die ohne direkten Eingriff am Objekt selbst darauf abzielen Schäden am Objekt zu vermindern."
+    "de": "Nummer, die das Objekt eindeutig identifiziert. \r\r\n\r\r\nBeispiel: \"O.3649\", \"2025-05-21\""
+  },
+  "note": {
+    "de": [
+      "Begriff nach DIN EN 16095:2012-10"
+    ]
   },
   "notation": [
     "F7D3DB"
   ],
-  "narrower": [
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/F87124",
-      "prefLabel": {
-        "de": "Allgemeine Umgangsempfehlungen"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/FC3322",
-      "prefLabel": {
-        "de": "Konservatorische Bedingungen"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/G56866",
-      "prefLabel": {
-        "de": "Monitoring"
-      }
+  "broader": {
+    "id": "https://www.w3id.org/conservation/terms/metadata/B51DAF",
+    "prefLabel": {
+      "de": "Objektkennzeichnung"
     }
-  ],
+  },
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
@@ -40,13 +31,11 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "topConceptOf": [
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
-    }
+  "TextOrUri": [
+    "Text"
   ],
   "Verpflichtungsgrad": [
-    "empfohlen"
+    "Pflicht"
   ],
   "Wiederholbar": [
     "Nein"

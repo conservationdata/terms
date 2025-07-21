@@ -2,23 +2,25 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/CF3C22",
   "type": "Concept",
   "prefLabel": {
-    "de": "Datum der Probenentnahme"
+    "de": "Untersuchungsanlass"
   },
   "altLabel": {
     "de": [
-      "Datum der Beprobung"
+      "Fragestellung",
+      "Grund der Untersuchung",
+      "Untersuchungsgrund"
     ]
   },
   "definition": {
-    "de": "Datum, an dem die Probe aus dem Objekt entnommen wurde."
+    "de": "Hintergrundinformationen, warum diese Untersuchung durchgeführt wurde. Angabe der Fragestellung, die mit der Untersuchung bearbeitet werden soll."
   },
   "notation": [
     "CF3C22"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/CDD613",
+    "id": "https://www.w3id.org/conservation/terms/metadata/B3FCA1",
     "prefLabel": {
-      "de": "Probeentnahme"
+      "de": "Untersuchung"
     }
   },
   "inScheme": [

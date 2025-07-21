@@ -2,18 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/CDF685",
   "type": "Concept",
   "prefLabel": {
-    "de": "Durchführende Einrichtung (Probeentnahme)"
+    "de": "Ende der Maßnahme"
   },
   "definition": {
-    "de": "Benennung der Einrichtung, die die Probenentnahme durchgeführt hat. \r\r\n\r\r\nBesonders wenn dies von einer externen Einrichtung durchgeführt wird, sollte die Erfassung verpflichtend angesehen werden. \r\r\nIn Fällen, in denen bei der Veröffentlichung des Datensatzes die zuständige Person nicht genannt werden kann/darf, sollte stattdessen zumindest die zuständige Einrichtung im Datensatz enthalten sein."
+    "de": "kalendermäßige Erfassung des Zeitpunktes, an dem die jeweilige Maßnahme beendet wurde."
   },
   "notation": [
     "CDF685"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/CDD613",
+    "id": "https://www.w3id.org/conservation/terms/metadata/DA9CGG",
     "prefLabel": {
-      "de": "Probeentnahme"
+      "de": "Durchgeführte Maßnahme"
     }
   },
   "inScheme": [
@@ -27,10 +27,10 @@
     }
   ],
   "TextOrUri": [
-    "Text/URI"
+    "Text"
   ],
   "Verpflichtungsgrad": [
-    "bedingte Pflicht"
+    "Pflicht"
   ],
   "Wiederholbar": [
     "Nein"

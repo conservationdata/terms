@@ -2,30 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/A5C668",
   "type": "Concept",
   "prefLabel": {
-    "de": "Herkunft"
-  },
-  "altLabel": {
-    "de": [
-      "Fundort",
-      "Herstellungsort",
-      "kulturelle Verortung"
-    ]
+    "de": "Klimawerte"
   },
   "definition": {
-    "de": "Sammelbegriff für Angaben zur räumlichen oder kulturellen Verortung eines Objektes, die dessen Entstehungs- oder Auffindungskontext beschreiben. Soll als Einordnung von Objekten in ihren historischen, geografischen und kulturellen Zusammhang dienen. Die Angaben können dabei exakte Ortsangaben als auch größere geografische oder kulturelle Räume sein, je nach Überliefungslage bzw. Erkenntnisstand. \r\r\n\r\r\nBeispiel: \"Fundort: Italien - Numana - Grab 34\", \"kultureller Kontext: Renaissance\""
-  },
-  "note": {
-    "de": [
-      "Begriff und Definition nach DIN EN 16095: 2012-10"
-    ]
+    "de": "Angabe ob Temperatur- und Luftfeuchtigkeitswerte im Zuge des Monitorings kontrolliert wurden."
   },
   "notation": [
     "A5C668"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/A13CD1",
+    "id": "https://www.w3id.org/conservation/terms/metadata/FFFCB7",
     "prefLabel": {
-      "de": "Objektkennzeichnung"
+      "de": "Überprüfte Bedingungen"
     }
   },
   "inScheme": [
@@ -39,13 +27,13 @@
     }
   ],
   "TextOrUri": [
-    "Text/URI"
+    "Text"
   ],
   "Verpflichtungsgrad": [
     "empfohlen"
   ],
   "Wiederholbar": [
-    "Ja"
+    "Nein"
   ],
   "@context": {
     "@version": 1.1,

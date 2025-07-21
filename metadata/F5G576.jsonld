@@ -2,18 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F5G576",
   "type": "Concept",
   "prefLabel": {
-    "de": "Datum der Sicherheitsbewertung"
+    "de": "Datum des Monitoring"
   },
   "definition": {
-    "de": "Erfassung des Datums, an dem die letzte Sicherheitsbewertung durchgeführt wurde."
+    "de": "Zeitpunkt der durchgeführten Kontrollmaßnahme zur chronologischen Dokumentation und Nachvollziehbarkeit"
   },
   "notation": [
     "F5G576"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/F58F6D",
+    "id": "https://www.w3id.org/conservation/terms/metadata/C11192",
     "prefLabel": {
-      "de": "Letzte Sicherheitsbewertung"
+      "de": "Monitoring"
     }
   },
   "inScheme": [

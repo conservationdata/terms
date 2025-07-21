@@ -2,18 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F285B2",
   "type": "Concept",
   "prefLabel": {
-    "de": "Herstellungsdatum"
+    "de": "Bearbeiter*in des Berichts"
   },
   "definition": {
-    "de": "Erfassung des Produktions- oder Abfülldatums industrieller Produkte zur Nachvollziehbarkeit von Rezepturänderungen und Qualitätsschwankungen. Dient der Rückverfolgung von Chargen bei ungewöhnlichen Vorkommnissen und ermöglicht das Einholen relevanter Hintergrundinformationen zur Langzeitstabilität"
+    "de": "Angaben zur Person (Name, ggfs. Funktion) der für den Bericht verantwortlichen Person."
   },
   "notation": [
     "F285B2"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/DF7759",
+    "id": "https://www.w3id.org/conservation/terms/metadata/AC16G1",
     "prefLabel": {
-      "de": "Verwendetes Material"
+      "de": "Administrative Metadaten"
     }
   },
   "inScheme": [
@@ -30,7 +30,7 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "optional"
+    "Pflicht"
   ],
   "Wiederholbar": [
     "Nein"

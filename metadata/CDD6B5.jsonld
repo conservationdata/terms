@@ -2,18 +2,26 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/CDD6B5",
   "type": "Concept",
   "prefLabel": {
-    "de": "Zuständige Person (Probeentnahme)"
+    "de": "Dokumentationsform"
   },
   "definition": {
-    "de": "Benennung der Person, die die Entnahme der Probe durchgeführt hat bzw. für diese verantwortlich ist. \r\r\n\r\r\nFür die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. Bei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann!"
+    "de": "Angaben, in welcher Form der Zustand erfasst wurde bzw. in welcher/welchen Datenformen/Medien die Dokumentation des Zustandes vorliegt.\r\r\n\r\r\nBeispiel: \"Zustandsbericht + Fotos\""
   },
   "notation": [
     "CDD6B5"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/GDF23F",
+      "prefLabel": {
+        "de": "Verweis"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/CDD613",
+    "id": "https://www.w3id.org/conservation/terms/metadata/F52262",
     "prefLabel": {
-      "de": "Probeentnahme"
+      "de": "Zustandserfassung"
     }
   },
   "inScheme": [
@@ -30,10 +38,10 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "Pflicht"
+    "bedingte Pflicht"
   ],
   "Wiederholbar": [
-    "Nein"
+    "Ja"
   ],
   "@context": {
     "@version": 1.1,

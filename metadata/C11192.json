@@ -2,18 +2,44 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/C11192",
   "type": "Concept",
   "prefLabel": {
-    "de": "Physischer Objektzustand"
+    "de": "Monitoring"
   },
   "definition": {
-    "de": "Beschreibung der physischen Merkmale und Eigenschaften des Objektes wie Vollständigkeit, Stabilität, Festigkeit, Maße, Feuchtigkeitsgehalt, etc."
+    "de": "Sammeloberbegriff zur Dokumentation regelmäßiger Kontrollmaßnahmen des Objektzustandes und der Umgebungsbedingungen zur frühzeitigen Erkennung von Veränderungen und Einleitung entsprechender (Gegen-)Maßnahmen"
   },
   "notation": [
     "C11192"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/FFFCB7",
+      "prefLabel": {
+        "de": "Überprüfte Bedingungen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/B9835A",
+      "prefLabel": {
+        "de": "Zuständige Person (Monitoring)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/F396G6",
+      "prefLabel": {
+        "de": "Ergebnis des Monitorings"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/F5G576",
+      "prefLabel": {
+        "de": "Datum des Monitoring"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/BGG5A6",
+    "id": "https://www.w3id.org/conservation/terms/metadata/C93638",
     "prefLabel": {
-      "de": "Zustandsbeschreibung"
+      "de": "Präventive Konservierung"
     }
   },
   "inScheme": [
@@ -26,11 +52,8 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "TextOrUri": [
-    "Text/URI"
-  ],
   "Verpflichtungsgrad": [
-    "Pflicht"
+    "empfohlen"
   ],
   "Wiederholbar": [
     "Ja"

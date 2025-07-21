@@ -2,70 +2,23 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/D866AD",
   "type": "Concept",
   "prefLabel": {
-    "de": "Durchgeführte Maßnahme"
+    "de": "Objektmaterial"
   },
   "altLabel": {
     "de": [
-      "Bestandserhaltung",
-      "Konservierung",
-      "Konservierung-Restaurierung",
-      "Restaurierung"
+      "Objektwerkstoff"
     ]
   },
   "definition": {
-    "de": "Oberbegriff für die Sammlung an Angaben, die zur konkreten Maßnahme erfasst werden."
+    "de": "Angaben zum Material bzw. den Materialien aus dem/aus denen das Objekt besteht. \r\r\n\r\r\n\r\r\nBeispiel: \"Bronze (Ergebnis RFA)\", \"Buntmetall (Ergebnis visuelle Begutachtung) \""
   },
   "notation": [
     "D866AD"
   ],
-  "narrower": [
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/D941BB",
-      "prefLabel": {
-        "de": "Zuständige Restaurierungseinrichtung"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/D949G6",
-      "prefLabel": {
-        "de": "Maßnahmenkennnummer"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/D9A6FA",
-      "prefLabel": {
-        "de": "Zuständige Person (Durchgeführte Maßnahme)"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/DA2D73",
-      "prefLabel": {
-        "de": "Beginn der Maßnahme"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/DA9CGG",
-      "prefLabel": {
-        "de": "Ende der Maßnahme"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/DAB4B7",
-      "prefLabel": {
-        "de": "Zeitaufwand"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/DBC278",
-      "prefLabel": {
-        "de": "Eingriff"
-      }
-    }
-  ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/D6A11G",
+    "id": "https://www.w3id.org/conservation/terms/metadata/DA2D73",
     "prefLabel": {
-      "de": "Konservierungskonzept"
+      "de": "Objektbeschreibung"
     }
   },
   "inScheme": [
@@ -78,8 +31,17 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
+  "TextOrUri": [
+    "URI"
+  ],
+  "Verpflichtungsgrad": [
+    "Pflicht"
+  ],
   "Wiederholbar": [
     "Ja"
+  ],
+  "EmpfohleneVokabulare": [
+    "Art & Architecture Thesaurus"
   ],
   "@context": {
     "@version": 1.1,

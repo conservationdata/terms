@@ -2,18 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/D1CFD5",
   "type": "Concept",
   "prefLabel": {
-    "de": "Probenbeschreibung"
+    "de": "verwendetes Material (Untersuchung)"
   },
   "definition": {
-    "de": "Kurze Definition der wichtigsten Eigenschaften und Beschaffenheit der Probe. Möglichkeit, weitere Hintergrundinformationen zur Probe bzw. dem Befund, aus dem die Probe entstammt, zu erfassen.\r\r\n\r\r\nBeispiel: \"Erdreste mit roten Verfärbungen\" , \"Textilfasern von rechter Skelettrippe\""
+    "de": "Angaben zum Material, welches für die Untersuchung des Objektes verwendet wurde. Diese Angabe ist besonders dann wichtig, wenn die Materialien Spuren bzw. Rückstände auf dem Objekt hinterlassen haben könnten."
   },
   "notation": [
     "D1CFD5"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/CDD613",
+    "id": "https://www.w3id.org/conservation/terms/metadata/DAB4B7",
     "prefLabel": {
-      "de": "Probeentnahme"
+      "de": "Untersuchungsverfahren"
     }
   },
   "inScheme": [
@@ -27,13 +27,13 @@
     }
   ],
   "TextOrUri": [
-    "Text"
+    "Text/URI"
   ],
   "Verpflichtungsgrad": [
     "empfohlen"
   ],
   "Wiederholbar": [
-    "Nein"
+    "Ja"
   ],
   "@context": {
     "@version": 1.1,

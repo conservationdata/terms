@@ -2,18 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/GF856C",
   "type": "Concept",
   "prefLabel": {
-    "de": "Erstellungsdatum des Berichts"
+    "de": "Höhe"
   },
   "definition": {
-    "de": "Zeitpunkt, zu dem der Bericht erstellt wurde"
+    "de": "Angabe der vertikalen Ausdehnung eines Objektes von seiner untersten zur höchsten Stelle (Y-Achse)."
   },
   "notation": [
     "GF856C"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/GF41DG",
+    "id": "https://www.w3id.org/conservation/terms/metadata/DBC278",
     "prefLabel": {
-      "de": "Administrative Metadaten"
+      "de": "aktuelle Maße"
     }
   },
   "inScheme": [

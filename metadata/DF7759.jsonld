@@ -2,38 +2,28 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/DF7759",
   "type": "Concept",
   "prefLabel": {
-    "de": "Verwendetes Material"
+    "de": "Beleuchtungsstärke (konservatorische Bedingungen)"
+  },
+  "altLabel": {
+    "de": [
+      "LUX (konservatorische Bedingung)"
+    ]
   },
   "definition": {
-    "de": "Benennung des bzw. der Materialien, die für die jeweilige konservatorische und/oder restauratorische Maßnahme verwendet wurden."
+    "de": "Angabe der maximal zulässigen Beleuchtungsstärke in LUX für die schonende Präsenation zur Minimierung photochemischer und photophysikalischer Schädigungsprozesse bei gleichzeitig Gewährleistung ausreichender Sichtbarkeit für Betrachtung."
+  },
+  "note": {
+    "de": [
+      "D941BB"
+    ]
   },
   "notation": [
     "DF7759"
   ],
-  "narrower": [
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/F1BA31",
-      "prefLabel": {
-        "de": "Bezugsquelle"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/F2244D",
-      "prefLabel": {
-        "de": "Konzentration"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/F285B2",
-      "prefLabel": {
-        "de": "Herstellungsdatum"
-      }
-    }
-  ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/DBC278",
+    "id": "https://www.w3id.org/conservation/terms/metadata/C3A182",
     "prefLabel": {
-      "de": "Eingriff"
+      "de": "Konservatorische Bedingungen"
     }
   },
   "inScheme": [
@@ -47,16 +37,13 @@
     }
   ],
   "TextOrUri": [
-    "Text/URI"
+    "Text"
   ],
   "Verpflichtungsgrad": [
-    "Pflicht"
+    "optional"
   ],
   "Wiederholbar": [
-    "Ja"
-  ],
-  "EmpfohleneVokabulare": [
-    "Art & Architecture Thesaurus"
+    "Nein"
   ],
   "@context": {
     "@version": 1.1,

@@ -2,18 +2,27 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F396G6",
   "type": "Concept",
   "prefLabel": {
-    "de": "Gefährdungshinweise"
+    "de": "Ergebnis des Monitorings"
   },
   "definition": {
-    "de": "Hinweise auf potenzielle Gefahrenquellen und Risiken im Zusammenhang mit dem Objekt oder den bei der konservatorisch-restauratorischen Maßnahme (oder früheren Maßnahmen) verwendeten Materialien.\r\r\n\r\r\nBeispiel: Schimmelbefall, Schadstoff kontaminiert"
+    "de": "Zusammenfassende Bewertung aller durchgeführten Kontrollmaßnahme mit Angabe festgestellter Beobachtungen, Auffälligkeiten oder Handlungsempfehlungen. \r\r\n\r\r\nBeispiel: \"Alle Parameter im Normbereich\", \"Luftfeuchtigkeit 5% über Sollwert, Nachregulierung erforderlich\", \"Verdacht auf Schimmelbildung, Objekt zur weiteren Untersuchung in Labor verbracht\""
+  },
+  "note": {
+    "de": [
+      "A5C668",
+      "BF3639",
+      "BF6D19",
+      "C9C527",
+      "FFFCB7"
+    ]
   },
   "notation": [
     "F396G6"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/F2AG55",
+    "id": "https://www.w3id.org/conservation/terms/metadata/C11192",
     "prefLabel": {
-      "de": "Sicherheit & Arbeitsschutz"
+      "de": "Monitoring"
     }
   },
   "inScheme": [
@@ -30,7 +39,7 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "Pflicht"
+    "empfohlen"
   ],
   "Wiederholbar": [
     "Ja"

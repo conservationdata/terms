@@ -2,7 +2,15 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/B5DD1A",
   "type": "Concept",
   "prefLabel": {
-    "de": "Länge"
+    "de": "Objektansprache"
+  },
+  "altLabel": {
+    "de": [
+      "Objekttitel"
+    ]
+  },
+  "definition": {
+    "de": "Benennung des konkreten Objektes. \r\r\n\r\r\nBeispiel: \"Mona-Lisa\", \"rotfiguriger Krater\""
   },
   "notation": [
     "B5DD1A"
@@ -10,7 +18,7 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/B51DAF",
     "prefLabel": {
-      "de": "aktuelle Maße"
+      "de": "Objektkennzeichnung"
     }
   },
   "inScheme": [
@@ -30,7 +38,7 @@
     "Pflicht"
   ],
   "Wiederholbar": [
-    "Nein"
+    "Ja"
   ],
   "@context": {
     "@version": 1.1,

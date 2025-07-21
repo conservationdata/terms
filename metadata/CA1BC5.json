@@ -2,39 +2,23 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/CA1BC5",
   "type": "Concept",
   "prefLabel": {
-    "de": "Untersuchungsverfahren"
+    "de": "Erfassungsdatum"
   },
   "altLabel": {
     "de": [
-      "Untersuchungsmethode",
-      "Untersuchungstechnik",
-      "praktische Vorgehensweise"
+      "Datum der Erfassung (Zustandserfassung)"
     ]
   },
   "definition": {
-    "de": "Angabe, auf welche Art und Weise die Untersuchung durchgeführt wurde."
+    "de": "Angabe des Datums, an dem die Erfassung des Zustandes durchgeführt wurde."
   },
   "notation": [
     "CA1BC5"
   ],
-  "narrower": [
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/CB7747",
-      "prefLabel": {
-        "de": "verwendetes Material (Untersuchung)"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/CCCC7G",
-      "prefLabel": {
-        "de": "Untersuchungsgerät"
-      }
-    }
-  ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/C421BF",
+    "id": "https://www.w3id.org/conservation/terms/metadata/F52262",
     "prefLabel": {
-      "de": "Untersuchung"
+      "de": "Zustandserfassung"
     }
   },
   "inScheme": [
@@ -48,7 +32,7 @@
     }
   ],
   "TextOrUri": [
-    "Text/URI"
+    "Text"
   ],
   "Verpflichtungsgrad": [
     "Pflicht"

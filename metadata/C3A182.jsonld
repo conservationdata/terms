@@ -2,23 +2,49 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/C3A182",
   "type": "Concept",
   "prefLabel": {
-    "de": "konservatorische Vorgeschichte"
-  },
-  "altLabel": {
-    "de": [
-      "Spuren früherer Konservierungs- /Restaurierunseingriffe"
-    ]
+    "de": "Konservatorische Bedingungen"
   },
   "definition": {
-    "de": "Beschreibung von Spuren früherer, nicht dokumentierter konservatorisch-restauratorischer Eingriffe am Objekt sowie der vermuteten Behandlungsmaßnahmen, die diese Spuren verursacht haben könnten."
+    "de": "Sammeloberbegriff für Angaben bezüglich erforderlicher Umgebungsparameter und physikalischer Rahmenbedingungen, die für die optimale Erhaltung des Objektes notwendig sind."
+  },
+  "note": {
+    "de": [
+      "D941BB"
+    ]
   },
   "notation": [
     "C3A182"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/A2FA1B",
+      "prefLabel": {
+        "de": "Temperatur (konservatorische Bedingungen)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/BA8198",
+      "prefLabel": {
+        "de": "Luftfeuchte (konservatorische Bedingungen)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/DF7759",
+      "prefLabel": {
+        "de": "Beleuchtungsstärke (konservatorische Bedingungen)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/FD6617",
+      "prefLabel": {
+        "de": "UV-Schutz (konservatorische Bedingungen)"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/BB78D2",
+    "id": "https://www.w3id.org/conservation/terms/metadata/C93638",
     "prefLabel": {
-      "de": "Zustandserfassung"
+      "de": "Präventive Konservierung"
     }
   },
   "inScheme": [
@@ -30,9 +56,6 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
-  ],
-  "TextOrUri": [
-    "Text"
   ],
   "Verpflichtungsgrad": [
     "empfohlen"

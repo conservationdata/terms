@@ -2,24 +2,24 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/D9A6FA",
   "type": "Concept",
   "prefLabel": {
-    "de": "Zuständige Person (Durchgeführte Maßnahme)"
+    "de": "Entnahmemethode"
   },
   "altLabel": {
     "de": [
-      "Konservator*in",
-      "Restaurator*in"
+      "Beprobungsmethode",
+      "Entnahmeverfahren"
     ]
   },
   "definition": {
-    "de": "Benennung der Person, die die jeweilige Maßnahme durchgeführt hat bzw. für diese verantwortlich ist. \r\r\n\r\r\nFür die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. \r\r\nBei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann! \""
+    "de": "Beschreibung, mit welcher Methode die Probe entnommen wurde. Angaben zur Vorgehensweise und zum eingesetzten Werkzeug.\r\r\n\r\r\nBeispiel: Skalpellentnahme, Bohrkernentnahme, Abstrich mit Wattestäbchen"
   },
   "notation": [
     "D9A6FA"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/D866AD",
+    "id": "https://www.w3id.org/conservation/terms/metadata/CD5C3F",
     "prefLabel": {
-      "de": "Durchgeführte Maßnahme"
+      "de": "Probeentnahme"
     }
   },
   "inScheme": [
@@ -33,7 +33,7 @@
     }
   ],
   "TextOrUri": [
-    "Text"
+    "Text/URI"
   ],
   "Verpflichtungsgrad": [
     "Pflicht"

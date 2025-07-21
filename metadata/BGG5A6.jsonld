@@ -2,48 +2,23 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/BGG5A6",
   "type": "Concept",
   "prefLabel": {
-    "de": "Zustandsbeschreibung"
+    "de": "Untersuchungsergebnis"
   },
   "altLabel": {
     "de": [
-      "Diagnose"
+      "Befund"
     ]
   },
   "definition": {
-    "de": "Oberbegriff für beobachtete, gemessene, geprüfte oder bewertete Informationen, die den Zustand des Objektes zum Zeitpunkt der Erfassung näher beschreiben. Insbesondere Veränderungen des Objektes, die im Vergleich zu einem früheren oder ursprünglichen Zustand bzw. vom zuletzt berichteten Zustand festgestellt werden, müssen dokumentiert werden."
-  },
-  "note": {
-    "de": [
-      "Begriff und Definition nach DIN EN 16095:2012-10 und DIN EN 15898:2020-02"
-    ]
+    "de": "Angabe, der bei der Untersuchung festgestellten Beobachtungen und Ergebnisse."
   },
   "notation": [
     "BGG5A6"
   ],
-  "narrower": [
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/BGGCA4",
-      "prefLabel": {
-        "de": "Umgebungsbedingungen"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/C11192",
-      "prefLabel": {
-        "de": "Physischer Objektzustand"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/C2488A",
-      "prefLabel": {
-        "de": "Schadensphänomene"
-      }
-    }
-  ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/BB78D2",
+    "id": "https://www.w3id.org/conservation/terms/metadata/B3FCA1",
     "prefLabel": {
-      "de": "Zustandserfassung"
+      "de": "Untersuchung"
     }
   },
   "inScheme": [
@@ -55,6 +30,9 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
+  ],
+  "TextOrUri": [
+    "Text"
   ],
   "Verpflichtungsgrad": [
     "Pflicht"

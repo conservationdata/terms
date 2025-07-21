@@ -2,45 +2,44 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/DBC278",
   "type": "Concept",
   "prefLabel": {
-    "de": "Eingriff"
+    "de": "aktuelle Maße"
   },
   "altLabel": {
     "de": [
-      "Applikationstechnik",
-      "Behandlung",
-      "Methode",
-      "Vorgehensweise"
+      "Abmessungen",
+      "Maßangabe"
     ]
   },
   "definition": {
-    "de": "Beschreibung der konkreten Vorgehensweise und Techniken mit denen das Objekt zur Erreichung der festgelegten konservatorischen Zielsetzung behandelt wurde."
-  },
-  "note": {
-    "de": [
-      "Begriff und Definition nach DIN EN 15898:2020-02"
-    ]
+    "de": "Angaben zu den räumlichen Dimensionen des Objektes, zum letzten Zeitpunkt der Begutachtung. Die Maße des Objektes können sich im Laufe der Zeit verändern (z.B. durch Beschädigung oder die Zusammensetzung eines zerscherbten Objektes)."
   },
   "notation": [
     "DBC278"
   ],
   "narrower": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata/DF7759",
+      "id": "https://www.w3id.org/conservation/terms/metadata/GF856C",
       "prefLabel": {
-        "de": "Verwendetes Material"
+        "de": "Höhe"
       }
     },
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata/F2A45F",
+      "id": "https://www.w3id.org/conservation/terms/metadata/QD45G7",
       "prefLabel": {
-        "de": "Werkzeug"
+        "de": "Tiefe"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/WF436G",
+      "prefLabel": {
+        "de": "Breite"
       }
     }
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/D866AD",
+    "id": "https://www.w3id.org/conservation/terms/metadata/DA2D73",
     "prefLabel": {
-      "de": "Durchgeführte Maßnahme"
+      "de": "Objektbeschreibung"
     }
   },
   "inScheme": [
@@ -53,14 +52,11 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "TextOrUri": [
-    "Text/URI"
-  ],
   "Verpflichtungsgrad": [
     "Pflicht"
   ],
   "Wiederholbar": [
-    "Ja"
+    "Nein"
   ],
   "@context": {
     "@version": 1.1,

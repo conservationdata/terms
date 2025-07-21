@@ -2,23 +2,23 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/A2FA1B",
   "type": "Concept",
   "prefLabel": {
-    "de": "Weitere Objektnummern"
-  },
-  "altLabel": {
-    "de": [
-      "Alternative Nummern"
-    ]
+    "de": "Temperatur (konservatorische Bedingungen)"
   },
   "definition": {
-    "de": "Weitere Nummern, die in der Vergangenheit dem Objekt zugeordnet wurden."
+    "de": "Angabe der erforderlichen Temperaturwerte und zulässigen Schwankungsbereiche (maximal tolerierbare Abweichungen) für die sachgerechte Lagerung zur Vermeidung temperaturbedingter Schäden."
+  },
+  "note": {
+    "de": [
+      "D941BB"
+    ]
   },
   "notation": [
     "A2FA1B"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/A13CD1",
+    "id": "https://www.w3id.org/conservation/terms/metadata/C3A182",
     "prefLabel": {
-      "de": "Objektkennzeichnung"
+      "de": "Konservatorische Bedingungen"
     }
   },
   "inScheme": [
@@ -35,10 +35,10 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "optional"
+    "empfohlen"
   ],
   "Wiederholbar": [
-    "Ja"
+    "Nein"
   ],
   "@context": {
     "@version": 1.1,

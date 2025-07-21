@@ -2,26 +2,32 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/CCCC7G",
   "type": "Concept",
   "prefLabel": {
-    "de": "Untersuchungsgerät"
+    "de": "Letzte Sicherheitsbewertung"
   },
   "definition": {
-    "de": "Angaben, welches Gerät für die Untersuchung verwendet wurde."
+    "de": "Oberbegriff zu Angaben der zuletzt durchgeführten Risikoanalyse und Beurteilung der Arbeitssicherheit"
   },
   "notation": [
     "CCCC7G"
   ],
   "narrower": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata/CD3341",
+      "id": "https://www.w3id.org/conservation/terms/metadata/ADD53A",
       "prefLabel": {
-        "de": "Geräteeinstellungen (Untersuchungsgerät)"
+        "de": "Einschätzung (Sicherheitsbewertung)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/AFD671",
+      "prefLabel": {
+        "de": "Datum der Sicherheitsbewertung"
       }
     }
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/CA1BC5",
+    "id": "https://www.w3id.org/conservation/terms/metadata/B7B8B6",
     "prefLabel": {
-      "de": "Untersuchungsverfahren"
+      "de": "Sicherheit & Arbeitsschutz"
     }
   },
   "inScheme": [
@@ -34,14 +40,11 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "TextOrUri": [
-    "Text/URI"
-  ],
   "Verpflichtungsgrad": [
-    "empfohlen"
+    "optional"
   ],
   "Wiederholbar": [
-    "Ja"
+    "Nein"
   ],
   "@context": {
     "@version": 1.1,

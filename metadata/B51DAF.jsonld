@@ -2,10 +2,15 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/B51DAF",
   "type": "Concept",
   "prefLabel": {
-    "de": "aktuelle Maße"
+    "de": "Objektkennzeichnung"
   },
   "definition": {
-    "de": "Angaben zu den räumlichen Dimensionen des Objektes, zum letzten Zeitpunkt der Begutachtung. Die Maße des Objektes können sich im Laufe der Zeit verändern (z.B. durch Beschädigung oder die Zusammensetzung eines zerscherbten Objektes)."
+    "de": "Übergeordneter Begriff zur eindeutigen Kennzeichnung des zu behandelnden Objektes sowie Erfassung weiterer indentifizierender Merkmale, die eine zweifelsfreie Zuordnung des Objektes während des gesamten Behandlungsprozesses gewährleistet."
+  },
+  "note": {
+    "de": [
+      "Begriff nach DIN EN 16095:2012-10"
+    ]
   },
   "notation": [
     "B51DAF"
@@ -14,28 +19,58 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/B5DD1A",
       "prefLabel": {
-        "de": "Länge"
+        "de": "Objektansprache"
       }
     },
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata/B7B8B6",
+      "id": "https://www.w3id.org/conservation/terms/metadata/CD3341",
       "prefLabel": {
-        "de": "Breite"
+        "de": "Herkunft"
       }
     },
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata/B9835A",
+      "id": "https://www.w3id.org/conservation/terms/metadata/F2A45F",
       "prefLabel": {
-        "de": "Tiefe"
+        "de": "Eingangsdatum"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/F3G8D1",
+      "prefLabel": {
+        "de": "Ansprechpartner*in"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/F7D3DB",
+      "prefLabel": {
+        "de": "Kennzeichnungsnummer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/F9GB13",
+      "prefLabel": {
+        "de": "Datierung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/G76A78",
+      "prefLabel": {
+        "de": "Schöpfer*in"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/GB6DF3",
+      "prefLabel": {
+        "de": "Objektbeziehung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/K343FVC",
+      "prefLabel": {
+        "de": "Weitere Objektnummern"
       }
     }
   ],
-  "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/ADD53A",
-    "prefLabel": {
-      "de": "Objektbeschreibung"
-    }
-  },
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
@@ -46,8 +81,10 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "Verpflichtungsgrad": [
-    "Pflicht"
+  "topConceptOf": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata"
+    }
   ],
   "Wiederholbar": [
     "Nein"

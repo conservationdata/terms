@@ -2,25 +2,23 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/D865C3",
   "type": "Concept",
   "prefLabel": {
-    "de": "konservatorische Zielsetzung"
+    "de": "Bezugsquelle"
   },
   "altLabel": {
     "de": [
-      "Erhaltungsziel",
-      "Konservierungsziel",
-      "konservatorische Zielsetzung"
+      "Hersteller"
     ]
   },
   "definition": {
-    "de": "Beschreibung der angestrebten Ergebnisse, die mit der durchgeführten Maßnahme erreicht werden sollen.\r\r\n\r\r\nBeispiel: Sicherung der Malschichten, Volle Rekonstruktion der ursprünglichen Form"
+    "de": "Angabe des Herstellers, Lieferanten oder der sonstigen Herkunft des verwendeten Materials zur Rückverfolgbarkeit und Qualitätssicherung. Diese Angaben liefern für spätere erneute Objektuntersuchungen und/oder Maßnahmen Hintergrundinformationen zu den Eigenschaften des Materials."
   },
   "notation": [
     "D865C3"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/D6A11G",
+    "id": "https://www.w3id.org/conservation/terms/metadata/CGC619",
     "prefLabel": {
-      "de": "Konservierungskonzept"
+      "de": "Verwendetes Material"
     }
   },
   "inScheme": [
@@ -37,7 +35,7 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "Pflicht"
+    "optional"
   ],
   "Wiederholbar": [
     "Nein"

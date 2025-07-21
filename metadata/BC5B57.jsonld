@@ -2,23 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/BC5B57",
   "type": "Concept",
   "prefLabel": {
-    "de": "Erfassungszeitpunkt"
-  },
-  "altLabel": {
-    "de": [
-      "Zeitpunkt der Erfassung"
-    ]
+    "de": "Physischer Objektzustand"
   },
   "definition": {
-    "de": "Angaben ob es sich bei dem erfassten Zustand um den Zeitpunkt vor, nach oder zwischen einem konservatorisch-restauratorischen Eingriff handelt oder der Zustand beispielsweise im Zuge eines Monitorings, ohne anschließendem Eingriff, erfasst wurde. \r\r\n\r\r\nDer Zustand vor und nach einem Eingriff sollte dabei verpflichtend erfasst werden. Weitere Zustandserfassungen sind bei Bedarf möglich."
+    "de": "Beschreibung der physischen Merkmale und Eigenschaften des Objektes wie Vollständigkeit, Stabilität, Festigkeit, Maße, Feuchtigkeitsgehalt, etc."
   },
   "notation": [
     "BC5B57"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/BB78D2",
+    "id": "https://www.w3id.org/conservation/terms/metadata/AC1786",
     "prefLabel": {
-      "de": "Zustandserfassung"
+      "de": "Zustandsbeschreibung"
     }
   },
   "inScheme": [
@@ -32,13 +27,13 @@
     }
   ],
   "TextOrUri": [
-    "Text"
+    "Text/URI"
   ],
   "Verpflichtungsgrad": [
     "Pflicht"
   ],
   "Wiederholbar": [
-    "Nein"
+    "Ja"
   ],
   "@context": {
     "@version": 1.1,

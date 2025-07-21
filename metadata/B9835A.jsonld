@@ -2,15 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/B9835A",
   "type": "Concept",
   "prefLabel": {
-    "de": "Tiefe"
+    "de": "Zuständige Person (Monitoring)"
+  },
+  "definition": {
+    "de": "Angaben zur Person (Name, ggfs. Funktion) der für die Durchführung des Monitorings verantwortlichen Person."
   },
   "notation": [
     "B9835A"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/B51DAF",
+    "id": "https://www.w3id.org/conservation/terms/metadata/C11192",
     "prefLabel": {
-      "de": "aktuelle Maße"
+      "de": "Monitoring"
     }
   },
   "inScheme": [
@@ -27,7 +30,7 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "optional"
+    "empfohlen"
   ],
   "Wiederholbar": [
     "Nein"

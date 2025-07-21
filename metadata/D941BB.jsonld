@@ -2,23 +2,27 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/D941BB",
   "type": "Concept",
   "prefLabel": {
-    "de": "Zuständige Restaurierungseinrichtung"
-  },
-  "altLabel": {
-    "de": [
-      "Werkstatt, Labor, Atelier, Restaurierungswerkstatt"
-    ]
+    "de": "Präsentationsvorgaben"
   },
   "definition": {
-    "de": "Benennung der Einrichtung, in der die jeweilige Maßnahme durchgeführt würde. Der Begriff \"Einrichtung\" wurde dabei als generischer Überbegriff verwendet, um individuelle Bezeichnungen wie \"Werkstatt\", \"Atelier\", \"Labor\", etc. unter einem Begriff zu vereinen. Institutionen können den jeweils in ihrem Arbeitsalltag verwendeten Begriff auf diesen Überbegriff mappen, ohne ihre eigene hausinterne Terminologie verändern zu müssen.\r\r\n\r\r\nIn Fällen, in denen bei der Veröffentlichung des Datensatzes die zuständige Person nicht genannt werden kann/darf, sollte stattdessen zumindest die zuständige Einrichtung im Datensatz enthalten sein.\""
+    "de": "Angaben zu Besonderheiten, die bei der Ausstellung/Präsentation des Objektes zu beachten sind. \r\r\n\r\r\nBeispiel: \"Objekt ausschließlich auf individuell angepasster Stützkonstruktion präsentieren\", \"Ausstellung nur in klimatisierter Vitrine\""
+  },
+  "note": {
+    "de": [
+      "A2FA1B",
+      "BA8198",
+      "C3A182",
+      "DF7759",
+      "FD6617"
+    ]
   },
   "notation": [
     "D941BB"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/D866AD",
+    "id": "https://www.w3id.org/conservation/terms/metadata/GF9C49",
     "prefLabel": {
-      "de": "Durchgeführte Maßnahme"
+      "de": "Allgemeine Umgangsempfehlungen"
     }
   },
   "inScheme": [
@@ -35,10 +39,10 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "Pflicht"
+    "empfohlen"
   ],
   "Wiederholbar": [
-    "Nein"
+    "Ja"
   ],
   "@context": {
     "@version": 1.1,

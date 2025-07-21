@@ -2,23 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/BGGCA4",
   "type": "Concept",
   "prefLabel": {
-    "de": "Umgebungsbedingungen"
+    "de": "Art der Gefährdung"
   },
   "definition": {
-    "de": "Aufzeichnung der Bedingungen, unter denen das Objekt bis zum Zeitpunkt der Zustandserfassung gehalten wurde. Insbesondere sofern Auswirkungen der Umgebung auf das Objekt erkannt werden, sollten diese in der Zustandsbeschreibung gemeinsam mit der vermuteten Ursache festgehalten werden."
-  },
-  "note": {
-    "de": [
-      "Begriff und Definition nach DIN EN 16095:2012-10"
-    ]
+    "de": "Kategorisierung und Beschreibung der konkreten Gefährdungsart, z. B. chemisch, physikalisch oder biologisch"
   },
   "notation": [
     "BGGCA4"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/BGG5A6",
+    "id": "https://www.w3id.org/conservation/terms/metadata/B7B8B6",
     "prefLabel": {
-      "de": "Zustandsbeschreibung"
+      "de": "Sicherheit & Arbeitsschutz"
     }
   },
   "inScheme": [
@@ -32,10 +27,10 @@
     }
   ],
   "TextOrUri": [
-    "Text/URI"
+    "Text"
   ],
   "Verpflichtungsgrad": [
-    "empfohlen"
+    "bedingte Pflicht"
   ],
   "Wiederholbar": [
     "Ja"

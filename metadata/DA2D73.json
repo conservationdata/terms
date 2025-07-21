@@ -2,20 +2,63 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/DA2D73",
   "type": "Concept",
   "prefLabel": {
-    "de": "Beginn der Maßnahme"
+    "de": "Objektbeschreibung"
   },
   "definition": {
-    "de": "kalendermäßige Erfassung des Zeitpunktes, an dem die jeweilige Maßnahme begonnen wurde."
+    "de": "Oberbegriff für Informationen, die die Beschaffenheit des Objektes näher beschreiben"
+  },
+  "note": {
+    "de": [
+      "Begriff nach DIN EN 16095:2012-10"
+    ]
   },
   "notation": [
     "DA2D73"
   ],
-  "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/D866AD",
-    "prefLabel": {
-      "de": "Durchgeführte Maßnahme"
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/BGC9F3",
+      "prefLabel": {
+        "de": "Weitere Objekteigenschaften"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/C4BCF8",
+      "prefLabel": {
+        "de": "Herstellungstechnik"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/C7C3B7",
+      "prefLabel": {
+        "de": "aktuelles Gewicht"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/D866AD",
+      "prefLabel": {
+        "de": "Objektmaterial"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/F1BA31",
+      "prefLabel": {
+        "de": "Objekttyp"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/FC3322",
+      "prefLabel": {
+        "de": "aktueller Standort"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/DBC278",
+      "prefLabel": {
+        "de": "aktuelle Maße"
+      }
     }
-  },
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
@@ -26,11 +69,10 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "TextOrUri": [
-    "Text"
-  ],
-  "Verpflichtungsgrad": [
-    "Pflicht"
+  "topConceptOf": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata"
+    }
   ],
   "Wiederholbar": [
     "Nein"

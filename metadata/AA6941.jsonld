@@ -2,18 +2,39 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/AA6941",
   "type": "Concept",
   "prefLabel": {
-    "de": "Ansprechpartner*in"
+    "de": "Schadensphänomene"
+  },
+  "altLabel": {
+    "de": [
+      "Beschädigung",
+      "Schaden",
+      "Schadensbild"
+    ]
   },
   "definition": {
-    "de": "Benannte Person, die für Rückfragen in Bezug auf das Objekt und den Umgang mit diesem kontaktiert werden kann. Dies kann bei Privatbesitz der Eigentümer sein oder bei Objekten aus öffentlichen Einrichtungen z.B. der/die zuständige Kurator*in."
+    "de": "Beschreibung der beobachteten negativen Veränderungen am Objekt im Vergleich zu seinem als ursprünglich angenommenen Zustandes."
   },
   "notation": [
     "AA6941"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/C2488A",
+      "prefLabel": {
+        "de": "Schadensgrad"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/D4A13D",
+      "prefLabel": {
+        "de": "Schadensfaktor"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/A13CD1",
+    "id": "https://www.w3id.org/conservation/terms/metadata/AC1786",
     "prefLabel": {
-      "de": "Objektkennzeichnung"
+      "de": "Zustandsbeschreibung"
     }
   },
   "inScheme": [
@@ -27,13 +48,13 @@
     }
   ],
   "TextOrUri": [
-    "Text"
+    "Text/URI"
   ],
   "Verpflichtungsgrad": [
-    "optional"
+    "Pflicht"
   ],
   "Wiederholbar": [
-    "Nein"
+    "Ja"
   ],
   "@context": {
     "@version": 1.1,

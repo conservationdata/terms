@@ -2,25 +2,40 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/AC16G1",
   "type": "Concept",
   "prefLabel": {
-    "de": "Schöpfer*in"
+    "de": "Administrative Metadaten"
   },
   "definition": {
-    "de": "Angaben zur Person, die das Objekt hergestellt hat - sofern bekannt. \r\r\n\r\r\nBeispiel: \"Leonardo da Vinci\""
-  },
-  "note": {
-    "de": [
-      "Begriff nach DIN EN 16095:2012-10"
-    ]
+    "de": "administrative Angaben zu dem vorliegenden Bericht und seinen Inhalten"
   },
   "notation": [
     "AC16G1"
   ],
-  "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/A13CD1",
-    "prefLabel": {
-      "de": "Objektkennzeichnung"
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/D1F5D3",
+      "prefLabel": {
+        "de": "Version"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/D78721",
+      "prefLabel": {
+        "de": "Erstellungsdatum des Berichts"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/F285B2",
+      "prefLabel": {
+        "de": "Bearbeiter*in des Berichts"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/G56866",
+      "prefLabel": {
+        "de": "Zugangsrecht"
+      }
     }
-  },
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
@@ -31,17 +46,13 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "TextOrUri": [
-    "Text/URI"
+  "topConceptOf": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata"
+    }
   ],
   "Verpflichtungsgrad": [
-    "optional"
-  ],
-  "Wiederholbar": [
-    "Ja"
-  ],
-  "EmpfohleneVokabulare": [
-    "GND, Wikidata, VIAF"
+    "Pflicht"
   ],
   "@context": {
     "@version": 1.1,

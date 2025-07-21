@@ -2,18 +2,38 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/GF9C49",
   "type": "Concept",
   "prefLabel": {
-    "de": "Bearbeiter*in des Berichts"
+    "de": "Allgemeine Umgangsempfehlungen"
   },
   "definition": {
-    "de": "Angaben zur Person (Name, ggfs. Funktion) der für den Bericht verantwortlichen Person."
+    "de": "Sammelbegriff zur Strukturierung von Richtlinien und Handlungsanweisungen für den sachgerechten Umgang mit dem behandelten Objekt, die zur langfristigen Erhaltung und Vermeidung von Folgeschäden generell und/oder nach abgeschlossener Konservierungs-Restaurierungsbehandlung zu beachten sind."
   },
   "notation": [
     "GF9C49"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/B14C4A",
+      "prefLabel": {
+        "de": "Handlingsempfehlungen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/D941BB",
+      "prefLabel": {
+        "de": "Präsentationsvorgaben"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/F2244D",
+      "prefLabel": {
+        "de": "Verpackungs- und Transportempfehlungen"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/GF41DG",
+    "id": "https://www.w3id.org/conservation/terms/metadata/C93638",
     "prefLabel": {
-      "de": "Administrative Metadaten"
+      "de": "Präventive Konservierung"
     }
   },
   "inScheme": [
@@ -26,11 +46,8 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "TextOrUri": [
-    "Text"
-  ],
   "Verpflichtungsgrad": [
-    "Pflicht"
+    "empfohlen"
   ],
   "Wiederholbar": [
     "Nein"

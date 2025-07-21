@@ -2,69 +2,20 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/CDD613",
   "type": "Concept",
   "prefLabel": {
-    "de": "Probeentnahme"
-  },
-  "altLabel": {
-    "de": [
-      "Beprobung"
-    ]
+    "de": "Beginn der Maßnahme"
   },
   "definition": {
-    "de": "Oberbegriff für Informationen, die die systematische Entnahme von Materialproben aus einem Objekt für Analyse- und Untersuchungszwecke dokumentieren."
+    "de": "kalendermäßige Erfassung des Zeitpunktes, an dem die jeweilige Maßnahme begonnen wurde."
   },
   "notation": [
     "CDD613"
   ],
-  "narrower": [
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/CDD6B5",
-      "prefLabel": {
-        "de": "Zuständige Person (Probeentnahme)"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/CDF685",
-      "prefLabel": {
-        "de": "Durchführende Einrichtung (Probeentnahme)"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/CF3C22",
-      "prefLabel": {
-        "de": "Datum der Probenentnahme"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/CGC619",
-      "prefLabel": {
-        "de": "Kennung der Probe"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/D1CFD5",
-      "prefLabel": {
-        "de": "Probenbeschreibung"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/D1F5D3",
-      "prefLabel": {
-        "de": "Anlass der Probenentnahme"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/D3AF3A",
-      "prefLabel": {
-        "de": "Stelle der Probenentnahme"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/D4A13D",
-      "prefLabel": {
-        "de": "Entnahmemethode"
-      }
+  "broader": {
+    "id": "https://www.w3id.org/conservation/terms/metadata/DA9CGG",
+    "prefLabel": {
+      "de": "Durchgeführte Maßnahme"
     }
-  ],
+  },
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
@@ -75,16 +26,14 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "topConceptOf": [
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
-    }
+  "TextOrUri": [
+    "Text"
   ],
   "Verpflichtungsgrad": [
-    "bedingte Pflicht"
+    "Pflicht"
   ],
   "Wiederholbar": [
-    "Ja"
+    "Nein"
   ],
   "@context": {
     "@version": 1.1,

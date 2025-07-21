@@ -2,44 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/G56866",
   "type": "Concept",
   "prefLabel": {
-    "de": "Monitoring"
+    "de": "Zugangsrecht"
   },
   "definition": {
-    "de": "Sammeloberbegriff zur Dokumentation regelmäßiger Kontrollmaßnahmen des Objektzustandes und der Umgebungsbedingungen zur frühzeitigen Erkennung von Veränderungen und Einleitung entsprechender (Gegen-)Maßnahmen"
+    "de": "Angaben zum Urheberrecht bzw. der Nutzungsrechte des Berichtes"
   },
   "notation": [
     "G56866"
   ],
-  "narrower": [
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/G73958",
-      "prefLabel": {
-        "de": "Datum des Monitoring"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/G76A78",
-      "prefLabel": {
-        "de": "Zuständige Person (Monitoring)"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/G76B7G",
-      "prefLabel": {
-        "de": "Überprüfte Bedingungen"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/GDF23F",
-      "prefLabel": {
-        "de": "Ergebnis des Monitorings"
-      }
-    }
-  ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/F7D3DB",
+    "id": "https://www.w3id.org/conservation/terms/metadata/AC16G1",
     "prefLabel": {
-      "de": "Präventive Konservierung"
+      "de": "Administrative Metadaten"
     }
   },
   "inScheme": [
@@ -52,11 +26,14 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
+  "TextOrUri": [
+    "Text"
+  ],
   "Verpflichtungsgrad": [
     "empfohlen"
   ],
   "Wiederholbar": [
-    "Ja"
+    "Nein"
   ],
   "@context": {
     "@version": 1.1,

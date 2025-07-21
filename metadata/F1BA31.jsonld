@@ -2,23 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F1BA31",
   "type": "Concept",
   "prefLabel": {
-    "de": "Bezugsquelle"
-  },
-  "altLabel": {
-    "de": [
-      "Hersteller"
-    ]
+    "de": "Objekttyp"
   },
   "definition": {
-    "de": "Angabe des Herstellers, Lieferanten oder der sonstigen Herkunft des verwendeten Materials zur Rückverfolgbarkeit und Qualitätssicherung. Diese Angaben liefern für spätere erneute Objektuntersuchungen und/oder Maßnahmen Hintergrundinformationen zu den Eigenschaften des Materials."
+    "de": "grundlegende formale Kategorie, in die das Objekt eingeordnet wird. \r\r\n\r\r\nBeispiel: \"Gemälde\" , \"Skulptur\", \"Münze\""
   },
   "notation": [
     "F1BA31"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/DF7759",
+    "id": "https://www.w3id.org/conservation/terms/metadata/DA2D73",
     "prefLabel": {
-      "de": "Verwendetes Material"
+      "de": "Objektbeschreibung"
     }
   },
   "inScheme": [
@@ -32,13 +27,16 @@
     }
   ],
   "TextOrUri": [
-    "Text"
+    "URI"
   ],
   "Verpflichtungsgrad": [
-    "optional"
+    "Pflicht"
   ],
   "Wiederholbar": [
     "Nein"
+  ],
+  "EmpfohleneVokabulare": [
+    "Art & Architecture Thesaurus"
   ],
   "@context": {
     "@version": 1.1,

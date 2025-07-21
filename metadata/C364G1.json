@@ -2,28 +2,23 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/C364G1",
   "type": "Concept",
   "prefLabel": {
-    "de": "Schadensfaktor"
+    "de": "Konzentration"
   },
   "altLabel": {
     "de": [
-      "Schadensursache"
+      "Mischungsverhältnis"
     ]
   },
   "definition": {
-    "de": "Beschreibung der ermittelten oder vermuteten Ursachen für die Beschädigung des Objektes. \r\r\n\r\r\nIdealerweise sollte auch die Belastbarkeit dieser Angabe erfasst werden, d.h. in wie weit es sich um eine interpretative/subjektive Aussage handelt."
-  },
-  "note": {
-    "de": [
-      "Begriff nach DIN EN 15898:2020-02"
-    ]
+    "de": "Beschreibung der genauen Konzentration oder Zusammensetzung des Materials zur Sicherstellung der Reproduzierbarkeit und Beurteilung der Langzeitwirkung bzw.-stabilität."
   },
   "notation": [
     "C364G1"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/C2488A",
+    "id": "https://www.w3id.org/conservation/terms/metadata/CGC619",
     "prefLabel": {
-      "de": "Schadensphänomene"
+      "de": "Verwendetes Material"
     }
   },
   "inScheme": [

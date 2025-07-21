@@ -2,23 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/C7C3B7",
   "type": "Concept",
   "prefLabel": {
-    "de": "Untersuchungsdatum"
-  },
-  "altLabel": {
-    "de": [
-      "Datum der Untersuchung"
-    ]
+    "de": "aktuelles Gewicht"
   },
   "definition": {
-    "de": "Datum, an dem die jeweilige Untersuchung durchgeführt wurde."
+    "de": "Angaben zur Masse des Objekts zum letzten Zeitpunkt der Objektuntersuchung"
   },
   "notation": [
     "C7C3B7"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/C421BF",
+    "id": "https://www.w3id.org/conservation/terms/metadata/DA2D73",
     "prefLabel": {
-      "de": "Untersuchung"
+      "de": "Objektbeschreibung"
     }
   },
   "inScheme": [
@@ -35,7 +30,7 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "Pflicht"
+    "optional"
   ],
   "Wiederholbar": [
     "Nein"

@@ -2,27 +2,23 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F8F594",
   "type": "Concept",
   "prefLabel": {
-    "de": "Präsentationsvorgaben"
+    "de": "Untersuchungsart"
+  },
+  "altLabel": {
+    "de": [
+      "Art der Untersuchung"
+    ]
   },
   "definition": {
-    "de": "Angaben zu Besonderheiten, die bei der Ausstellung/Präsentation des Objektes zu beachten sind. \r\r\n\r\r\nBeispiel: \"Objekt ausschließlich auf individuell angepasster Stützkonstruktion präsentieren\", \"Ausstellung nur in klimatisierter Vitrine\""
-  },
-  "note": {
-    "de": [
-      "A2FA1B",
-      "BA8198",
-      "C3A182",
-      "DF7759",
-      "FD6617"
-    ]
+    "de": "Möglichkeit der Spezifikation, ob es sich um eine naturwissenschaftliche, technologische, materialtechnische oder sonstige Untersuchung handelt."
   },
   "notation": [
     "F8F594"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/F87124",
+    "id": "https://www.w3id.org/conservation/terms/metadata/B3FCA1",
     "prefLabel": {
-      "de": "Allgemeine Umgangsempfehlungen"
+      "de": "Untersuchung"
     }
   },
   "inScheme": [
@@ -39,10 +35,10 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "empfohlen"
+    "optionale"
   ],
   "Wiederholbar": [
-    "Ja"
+    "Nein"
   ],
   "@context": {
     "@version": 1.1,

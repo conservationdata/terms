@@ -2,23 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/D1F5D3",
   "type": "Concept",
   "prefLabel": {
-    "de": "Anlass der Probenentnahme"
-  },
-  "altLabel": {
-    "de": [
-      "Grund der Beprobung"
-    ]
+    "de": "Version"
   },
   "definition": {
-    "de": "Hintergrundinformationen, warum die Probe entnommen wurde. Angabe zur Fragestellung, die mit der Probennahme bearbeitet werden soll, oder der geplanten Untersuchungsart.\r\r\n\r\r\nBeispiel: Materialbestimmung, Altersdatierung"
+    "de": "Angaben zur Versionierung bzw. Überarbeitung des Berichtes"
   },
   "notation": [
     "D1F5D3"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/CDD613",
+    "id": "https://www.w3id.org/conservation/terms/metadata/AC16G1",
     "prefLabel": {
-      "de": "Probeentnahme"
+      "de": "Administrative Metadaten"
     }
   },
   "inScheme": [
@@ -35,7 +30,7 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "bedingte Pflicht"
+    "empfohlen"
   ],
   "Wiederholbar": [
     "Nein"

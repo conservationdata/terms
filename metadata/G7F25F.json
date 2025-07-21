@@ -2,18 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/G7F25F",
   "type": "Concept",
   "prefLabel": {
-    "de": "Klimawerte"
+    "de": "Zuständige Person (Untersuchung)"
   },
   "definition": {
-    "de": "Angabe ob Temperatur- und Luftfeuchtigkeitswerte im Zuge des Monitorings kontrolliert wurden."
+    "de": "Benennung der Person, die die Untersuchung durchgeführt hat bzw. für diese verantwortlich ist."
   },
   "notation": [
     "G7F25F"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/G76B7G",
+    "id": "https://www.w3id.org/conservation/terms/metadata/B3FCA1",
     "prefLabel": {
-      "de": "Überprüfte Bedingungen"
+      "de": "Untersuchung"
     }
   },
   "inScheme": [
@@ -30,7 +30,7 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "empfohlen"
+    "Pflicht"
   ],
   "Wiederholbar": [
     "Nein"

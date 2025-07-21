@@ -2,21 +2,21 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/D3AF3A",
   "type": "Concept",
   "prefLabel": {
-    "de": "Stelle der Probenentnahme"
+    "de": "Datum der Probenentnahme"
   },
   "altLabel": {
     "de": [
-      "Lokalisation der Probenentnahme"
+      "Datum der Beprobung"
     ]
   },
   "definition": {
-    "de": "Angabe, an welcher Stelle des Objekts die Probe entnommen wurde. Möglichst genaue Beschreibung des Probenortes zur späteren Zuordnung.\r\r\n\r\r\nBeispiele: Vorderseite, linker unterer Rand, Bruchkante der Scherbe, Sockelinnenseite"
+    "de": "Datum, an dem die Probe aus dem Objekt entnommen wurde."
   },
   "notation": [
     "D3AF3A"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/CDD613",
+    "id": "https://www.w3id.org/conservation/terms/metadata/CD5C3F",
     "prefLabel": {
       "de": "Probeentnahme"
     }
@@ -38,7 +38,7 @@
     "Pflicht"
   ],
   "Wiederholbar": [
-    "Ja"
+    "Nein"
   ],
   "@context": {
     "@version": 1.1,

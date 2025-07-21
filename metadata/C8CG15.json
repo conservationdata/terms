@@ -2,25 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/C8CG15",
   "type": "Concept",
   "prefLabel": {
-    "de": "Untersuchungsanlass"
-  },
-  "altLabel": {
-    "de": [
-      "Fragestellung",
-      "Grund der Untersuchung",
-      "Untersuchungsgrund"
-    ]
+    "de": "Zuständige Person (Probeentnahme)"
   },
   "definition": {
-    "de": "Hintergrundinformationen, warum diese Untersuchung durchgeführt wurde. Angabe der Fragestellung, die mit der Untersuchung bearbeitet werden soll."
+    "de": "Benennung der Person, die die Entnahme der Probe durchgeführt hat bzw. für diese verantwortlich ist."
   },
   "notation": [
     "C8CG15"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/C421BF",
+    "id": "https://www.w3id.org/conservation/terms/metadata/CD5C3F",
     "prefLabel": {
-      "de": "Untersuchung"
+      "de": "Probeentnahme"
     }
   },
   "inScheme": [

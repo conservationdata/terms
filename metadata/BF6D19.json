@@ -2,26 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/BF6D19",
   "type": "Concept",
   "prefLabel": {
-    "de": "Dokumentationsform"
+    "de": "biologischer Befall"
   },
   "definition": {
-    "de": "Angaben, in welcher Form der Zustand erfasst wurde bzw. in welcher/welchen Datenformen/Medien die Dokumentation des Zustandes vorliegt.\r\r\n\r\r\nBeispiel: \"Zustandsbericht + Fotos\""
+    "de": "Angabe ob Kontrolle auf Schädlingsbefall, Schimmelbildung oder andere biologische Aktivität am Objekt oder in dessen unmittelbarer Umgebung durchgeführt wurde."
   },
   "notation": [
     "BF6D19"
   ],
-  "narrower": [
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/BGC9F3",
-      "prefLabel": {
-        "de": "Verweis"
-      }
-    }
-  ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/BB78D2",
+    "id": "https://www.w3id.org/conservation/terms/metadata/FFFCB7",
     "prefLabel": {
-      "de": "Zustandserfassung"
+      "de": "Überprüfte Bedingungen"
     }
   },
   "inScheme": [
@@ -38,10 +30,10 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "bedingte Pflicht"
+    "empfohlen"
   ],
   "Wiederholbar": [
-    "Ja"
+    "Nein"
   ],
   "@context": {
     "@version": 1.1,

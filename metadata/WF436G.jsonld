@@ -2,14 +2,20 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/WF436G",
   "type": "Concept",
   "prefLabel": {
-    "de": "Verwendete Literatur"
+    "de": "Breite"
   },
   "definition": {
-    "de": "Angaben zu Literatur, die für die Erstellung des Berichtes verwendet wurde."
+    "de": "Angabe der horizontalen Ausdehnung eines Objektes von seiner linken zur rechten Seite in Frontalansicht (X-Achse)."
   },
   "notation": [
     "WF436G"
   ],
+  "broader": {
+    "id": "https://www.w3id.org/conservation/terms/metadata/DBC278",
+    "prefLabel": {
+      "de": "aktuelle Maße"
+    }
+  },
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
@@ -20,19 +26,14 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "topConceptOf": [
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
-    }
-  ],
   "TextOrUri": [
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "optional"
+    "Pflicht"
   ],
   "Wiederholbar": [
-    "Ja"
+    "Nein"
   ],
   "@context": {
     "@version": 1.1,

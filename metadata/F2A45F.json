@@ -2,23 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F2A45F",
   "type": "Concept",
   "prefLabel": {
-    "de": "Werkzeug"
-  },
-  "altLabel": {
-    "de": [
-      "Gerät"
-    ]
+    "de": "Eingangsdatum"
   },
   "definition": {
-    "de": "Benennung des bzw. der Werkzeuge und Geräte, die für die jeweilige konservatorische und/oder restauratorische Maßnahme verwendet wurden. Diese Angabe empfiehlt sich besonders dann, wenn durch die verwendeten Werkzeuge Spuren auf dem Objekt hinterlassen wurden."
+    "de": "Datum, an dem das Objekt in die aktuell zuständige Sammlung aufgenommen wurde. An dieser Stelle ist (noch) nicht das Datum, an dem das Objekt in die Restaurierungseinrichtung eingeliefert wurde gemeint."
   },
   "notation": [
     "F2A45F"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/DBC278",
+    "id": "https://www.w3id.org/conservation/terms/metadata/B51DAF",
     "prefLabel": {
-      "de": "Eingriff"
+      "de": "Objektkennzeichnung"
     }
   },
   "inScheme": [
@@ -32,16 +27,13 @@
     }
   ],
   "TextOrUri": [
-    "Text/URI"
+    "Text"
   ],
   "Verpflichtungsgrad": [
-    "empfohlen"
+    "Pflicht"
   ],
   "Wiederholbar": [
-    "Ja"
-  ],
-  "EmpfohleneVokabulare": [
-    "Art & Architecture Thesaurus"
+    "Nein"
   ],
   "@context": {
     "@version": 1.1,

@@ -2,24 +2,30 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/CD3341",
   "type": "Concept",
   "prefLabel": {
-    "de": "Geräteeinstellungen (Untersuchungsgerät)"
+    "de": "Herkunft"
   },
   "altLabel": {
     "de": [
-      "Metadaten",
-      "Parameter"
+      "Fundort",
+      "Herstellungsort",
+      "kulturelle Verortung"
     ]
   },
   "definition": {
-    "de": "Angaben zu den Einstellungen bzw. Metadaten des Gerätes, welches für die Untersuchung verwendet wurde."
+    "de": "Sammelbegriff für Angaben zur räumlichen oder kulturellen Verortung eines Objektes, die dessen Entstehungs- oder Auffindungskontext beschreiben. Soll als Einordnung von Objekten in ihren historischen, geografischen und kulturellen Zusammhang dienen. Die Angaben können dabei exakte Ortsangaben als auch größere geografische oder kulturelle Räume sein, je nach Überliefungslage bzw. Erkenntnisstand. \r\r\n\r\r\nBeispiel: \"Fundort: Italien - Numana - Grab 34\", \"kultureller Kontext: Renaissance\""
+  },
+  "note": {
+    "de": [
+      "Begriff und Definition nach DIN EN 16095: 2012-10"
+    ]
   },
   "notation": [
     "CD3341"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/CCCC7G",
+    "id": "https://www.w3id.org/conservation/terms/metadata/B51DAF",
     "prefLabel": {
-      "de": "Untersuchungsgerät"
+      "de": "Objektkennzeichnung"
     }
   },
   "inScheme": [
@@ -33,13 +39,13 @@
     }
   ],
   "TextOrUri": [
-    "Text"
+    "Text/URI"
   ],
   "Verpflichtungsgrad": [
     "empfohlen"
   ],
   "Wiederholbar": [
-    "Nein"
+    "Ja"
   ],
   "@context": {
     "@version": 1.1,

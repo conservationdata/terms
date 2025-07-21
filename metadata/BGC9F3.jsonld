@@ -2,23 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/BGC9F3",
   "type": "Concept",
   "prefLabel": {
-    "de": "Verweis"
-  },
-  "altLabel": {
-    "de": [
-      "Kennnummer"
-    ]
+    "de": "Weitere Objekteigenschaften"
   },
   "definition": {
-    "de": "Eindeutiger Hinweis, an welchem Ort die Dokumentation(en) zu finden ist/sind. Dies kann zum Beispiel eine URI oder URL zum entsprechenden Datensatz sein oder bei analogen Daten eine Identifikationsnummer oder Angabe zum Standort der Ablage."
+    "de": "Möglichkeit weitere charakteristische Eigenschaften des Objektes zu beschreiben, die sich nicht eindeutig zum Objekttyp oder einer der anderen definierten Beschreibungselemente zuordnen lassen. \r\r\n\r\r\nBeispiel: Farbe, Form, Besonderheit beim Aussehen"
   },
   "notation": [
     "BGC9F3"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/BF6D19",
+    "id": "https://www.w3id.org/conservation/terms/metadata/DA2D73",
     "prefLabel": {
-      "de": "Dokumentationsform"
+      "de": "Objektbeschreibung"
     }
   },
   "inScheme": [
@@ -35,7 +30,7 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "bedingte Pflicht"
+    "optional"
   ],
   "Wiederholbar": [
     "Nein"

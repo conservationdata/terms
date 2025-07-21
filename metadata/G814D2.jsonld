@@ -2,23 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/G814D2",
   "type": "Concept",
   "prefLabel": {
-    "de": "Lichtexposition"
-  },
-  "altLabel": {
-    "de": [
-      "LUX-Stunden"
-    ]
+    "de": "Zeitaufwand"
   },
   "definition": {
-    "de": "Angabe ob akkumulierte Lichtexposition in LUX-Stunden während des Monitorings gemessen wurden."
+    "de": "Summe der tatsächlich am Objekt geleisteten Arbeitsstunden währen der Maßnahme, ohne passive Zeiten wie Trocknungsphasen oder parallele Wartezeiten."
   },
   "notation": [
     "G814D2"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/G76B7G",
+    "id": "https://www.w3id.org/conservation/terms/metadata/DA9CGG",
     "prefLabel": {
-      "de": "Überprüfte Bedingungen"
+      "de": "Durchgeführte Maßnahme"
     }
   },
   "inScheme": [
@@ -35,7 +30,7 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "empfohlen"
+    "(optional)"
   ],
   "Wiederholbar": [
     "Nein"

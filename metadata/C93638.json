@@ -2,25 +2,34 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/C93638",
   "type": "Concept",
   "prefLabel": {
-    "de": "Untersuchungsart"
-  },
-  "altLabel": {
-    "de": [
-      "Art der Untersuchung"
-    ]
+    "de": "Präventive Konservierung"
   },
   "definition": {
-    "de": "Möglichkeit der Spezifikation, ob es sich um eine naturwissenschaftliche, technologische, materialtechnische oder sonstige Untersuchung handelt."
+    "de": "Übergeordneter Begriff zur Erfassung aller Angaben bezüglich vorbeugender Maßnahmen, die ohne direkten Eingriff am Objekt selbst darauf abzielen Schäden am Objekt zu vermindern."
   },
   "notation": [
     "C93638"
   ],
-  "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/C421BF",
-    "prefLabel": {
-      "de": "Untersuchung"
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/C3A182",
+      "prefLabel": {
+        "de": "Konservatorische Bedingungen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/GF9C49",
+      "prefLabel": {
+        "de": "Allgemeine Umgangsempfehlungen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/C11192",
+      "prefLabel": {
+        "de": "Monitoring"
+      }
     }
-  },
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
@@ -31,11 +40,13 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "TextOrUri": [
-    "Text"
+  "topConceptOf": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata"
+    }
   ],
   "Verpflichtungsgrad": [
-    "optionale"
+    "empfohlen"
   ],
   "Wiederholbar": [
     "Nein"

@@ -2,18 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F72743",
   "type": "Concept",
   "prefLabel": {
-    "de": "Einschätzung (Sicherheitsbewertung)"
+    "de": "Durchführende Einrichtung (Probeentnahme)"
   },
   "definition": {
-    "de": "Bewertung des aktuellen Sicherheitsstatus und der verbleibenden Risiken basierend auf der letzten Sicherheitsbewertung."
+    "de": "Benennung der Einrichtung, die die Probenentnahme durchgeführt hat."
   },
   "notation": [
     "F72743"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/F58F6D",
+    "id": "https://www.w3id.org/conservation/terms/metadata/CD5C3F",
     "prefLabel": {
-      "de": "Letzte Sicherheitsbewertung"
+      "de": "Probeentnahme"
     }
   },
   "inScheme": [
@@ -27,10 +27,10 @@
     }
   ],
   "TextOrUri": [
-    "Text"
+    "Text/URI"
   ],
   "Verpflichtungsgrad": [
-    "empfohlen"
+    "bedingte Pflicht"
   ],
   "Wiederholbar": [
     "Nein"

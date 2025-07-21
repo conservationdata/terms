@@ -2,24 +2,38 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/CGC619",
   "type": "Concept",
   "prefLabel": {
-    "de": "Kennung der Probe"
-  },
-  "altLabel": {
-    "de": [
-      "Name der Probe",
-      "Nummer der Probe"
-    ]
+    "de": "Verwendetes Material"
   },
   "definition": {
-    "de": "Bezeichnung oder Nummer, mit der die jeweilige Probe eindeutig identifiziert werden kann. Der genaue Aufbau der Kennung kann individuell gestaltet werden. Wichtig ist, dass eindeutig zugeordnet werden kann, auf welche konkrete Probe sich die Angaben beziehen. \r\r\n\r\r\nBeispiel: Metall-Probe_24601"
+    "de": "Benennung des bzw. der Materialien, die für die jeweilige konservatorische und/oder restauratorische Maßnahme verwendet wurden."
   },
   "notation": [
     "CGC619"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/C364G1",
+      "prefLabel": {
+        "de": "Konzentration"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/C421BF",
+      "prefLabel": {
+        "de": "Herstellungsdatum"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/D865C3",
+      "prefLabel": {
+        "de": "Bezugsquelle"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/CDD613",
+    "id": "https://www.w3id.org/conservation/terms/metadata/A13CD1",
     "prefLabel": {
-      "de": "Probeentnahme"
+      "de": "Eingriff"
     }
   },
   "inScheme": [
@@ -33,13 +47,16 @@
     }
   ],
   "TextOrUri": [
-    "Text"
+    "Text/URI"
   ],
   "Verpflichtungsgrad": [
     "Pflicht"
   ],
   "Wiederholbar": [
-    "Nein"
+    "Ja"
+  ],
+  "EmpfohleneVokabulare": [
+    "Art & Architecture Thesaurus"
   ],
   "@context": {
     "@version": 1.1,

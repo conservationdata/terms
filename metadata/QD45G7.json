@@ -2,18 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/QD45G7",
   "type": "Concept",
   "prefLabel": {
-    "de": "Zugangsrecht"
+    "de": "Tiefe"
   },
   "definition": {
-    "de": "Angaben zum Urheberrecht bzw. der Nutzungsrechte des Berichtes"
+    "de": "Angabe zur räumlichen Ausdehnung eines Objektes von seiner Vorder- zur Rückseite (Z-Achse)."
   },
   "notation": [
     "QD45G7"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/GF41DG",
+    "id": "https://www.w3id.org/conservation/terms/metadata/DBC278",
     "prefLabel": {
-      "de": "Administrative Metadaten"
+      "de": "aktuelle Maße"
     }
   },
   "inScheme": [
@@ -30,7 +30,7 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "empfohlen"
+    "optional"
   ],
   "Wiederholbar": [
     "Nein"

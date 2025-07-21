@@ -2,18 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/FBFFF5",
   "type": "Concept",
   "prefLabel": {
-    "de": "Handlingsempfehlungen"
+    "de": "Gefährdungshinweise"
   },
   "definition": {
-    "de": "Angaben zu Besonderheiten, die im Zuge der Handhabung des Objektes berücksichtigt werden müssen. \r\r\n\r\r\nBeispiel: \"Nicht an den Henkeln anfassen\""
+    "de": "Hinweise auf potenzielle Gefahrenquellen und Risiken im Zusammenhang mit dem Objekt oder den bei der konservatorisch-restauratorischen Maßnahme (oder früheren Maßnahmen) verwendeten Materialien.\r\r\n\r\r\nBeispiel: Schimmelbefall, Schadstoff kontaminiert"
   },
   "notation": [
     "FBFFF5"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/F87124",
+    "id": "https://www.w3id.org/conservation/terms/metadata/B7B8B6",
     "prefLabel": {
-      "de": "Allgemeine Umgangsempfehlungen"
+      "de": "Sicherheit & Arbeitsschutz"
     }
   },
   "inScheme": [
@@ -30,7 +30,7 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "empfohlen"
+    "Pflicht"
   ],
   "Wiederholbar": [
     "Ja"

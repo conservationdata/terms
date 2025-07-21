@@ -2,49 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/G76B7G",
   "type": "Concept",
   "prefLabel": {
-    "de": "Überprüfte Bedingungen"
+    "de": "Durchführende Einrichtung (Untersuchung)"
   },
   "definition": {
-    "de": "Oberbegriff der kontrollierten Parameter und Umgebungsfaktoren während des Monitorings."
-  },
-  "note": {
-    "de": [
-      "GDF23F"
-    ]
+    "de": "Benennung der Einrichtung, die die Untersuchung durchgeführt hat."
   },
   "notation": [
     "G76B7G"
   ],
-  "narrower": [
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/G79CA9",
-      "prefLabel": {
-        "de": "biologischer Befall"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/G7F25F",
-      "prefLabel": {
-        "de": "Klimawerte"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/G814D2",
-      "prefLabel": {
-        "de": "Lichtexposition"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/GB6DF3",
-      "prefLabel": {
-        "de": "Schadstoffe"
-      }
-    }
-  ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/G56866",
+    "id": "https://www.w3id.org/conservation/terms/metadata/B3FCA1",
     "prefLabel": {
-      "de": "Monitoring"
+      "de": "Untersuchung"
     }
   },
   "inScheme": [
@@ -58,13 +27,13 @@
     }
   ],
   "TextOrUri": [
-    "Text"
+    "Text/URI"
   ],
   "Verpflichtungsgrad": [
     "empfohlen"
   ],
   "Wiederholbar": [
-    "Ja"
+    "Nein"
   ],
   "@context": {
     "@version": 1.1,

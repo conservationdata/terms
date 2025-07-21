@@ -2,20 +2,75 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/B3FCA1",
   "type": "Concept",
   "prefLabel": {
-    "de": "Herstellungstechnik"
+    "de": "Untersuchung"
   },
   "definition": {
-    "de": "Angaben zur Technik bzw. zu Techniken, die zur Herstellung des Objektes verwendet wurden. \r\r\n\r\r\nIdealerweise sollte auch die Belastbarkeit dieser Angaben mit erfasst werden, z.B. die Spuren/Indizien die auf dem Objekt beobachtet wurden. \r\r\n\r\r\nBeispiel: \"Geschmiedet (Hammerspuren)\""
+    "de": "Oberbegriff für Informationen im Kontext der systematischen Begutachtung und Analyse eines Objekte zur Ermittlung von Materialzusammensetzungen, Objektaufbau, Herstellungstechnik, Erhaltungszuständen und/oder weitere Fragestellungen"
+  },
+  "note": {
+    "de": [
+      "Begriff nach DIN EN 15898:2020-02"
+    ]
   },
   "notation": [
     "B3FCA1"
   ],
-  "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/ADD53A",
-    "prefLabel": {
-      "de": "Objektbeschreibung"
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/A15F83",
+      "prefLabel": {
+        "de": "Lokalisation"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/A2AG55",
+      "prefLabel": {
+        "de": "Untersuchungskennung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/BGG5A6",
+      "prefLabel": {
+        "de": "Untersuchungsergebnis"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/CF3C22",
+      "prefLabel": {
+        "de": "Untersuchungsanlass"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/DAB4B7",
+      "prefLabel": {
+        "de": "Untersuchungsverfahren"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/F8F594",
+      "prefLabel": {
+        "de": "Untersuchungsart"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/G73958",
+      "prefLabel": {
+        "de": "Untersuchungsdatum"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/G76B7G",
+      "prefLabel": {
+        "de": "Durchführende Einrichtung (Untersuchung)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/G7F25F",
+      "prefLabel": {
+        "de": "Zuständige Person (Untersuchung)"
+      }
     }
-  },
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
@@ -26,17 +81,16 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "TextOrUri": [
-    "Text/URI"
+  "topConceptOf": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata"
+    }
   ],
   "Verpflichtungsgrad": [
-    "empfohlen"
+    "bedingte Pflicht"
   ],
   "Wiederholbar": [
     "Ja"
-  ],
-  "EmpfohleneVokabulare": [
-    "Art & Architecture Thesaurus"
   ],
   "@context": {
     "@version": 1.1,

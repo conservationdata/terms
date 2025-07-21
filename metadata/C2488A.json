@@ -2,39 +2,23 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/C2488A",
   "type": "Concept",
   "prefLabel": {
-    "de": "Schadensphänomene"
+    "de": "Schadensgrad"
   },
   "altLabel": {
     "de": [
-      "Beschädigung",
-      "Schaden",
-      "Schadensbild"
+      "Grad des Schadensphänomens"
     ]
   },
   "definition": {
-    "de": "Beschreibung der beobachteten negativen Veränderungen am Objekt im Vergleich zu seinem als ursprünglich angenommenen Zustandes. \r\r\n\r\r\nIdealerweise sollte auch die Belastbarkeit dieser Angaben mit erfasst werden, indem z.B. die Art der Untersuchung/Feststellung dieser Veränderung dokumentiert wird."
+    "de": "Bewertung des Ausmaßes der Beschädigung eines Objektes.\r\r\n\r\r\nz.B. Abnutzung - leicht, Korrosion - stark"
   },
   "notation": [
     "C2488A"
   ],
-  "narrower": [
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/C33D85",
-      "prefLabel": {
-        "de": "Schadensgrad"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/C364G1",
-      "prefLabel": {
-        "de": "Schadensfaktor"
-      }
-    }
-  ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/BGG5A6",
+    "id": "https://www.w3id.org/conservation/terms/metadata/AA6941",
     "prefLabel": {
-      "de": "Zustandsbeschreibung"
+      "de": "Schadensphänomene"
     }
   },
   "inScheme": [
@@ -48,13 +32,13 @@
     }
   ],
   "TextOrUri": [
-    "Text/URI"
+    "Text"
   ],
   "Verpflichtungsgrad": [
-    "Pflicht"
+    "empfohlen"
   ],
   "Wiederholbar": [
-    "Ja"
+    "Nein"
   ],
   "@context": {
     "@version": 1.1,

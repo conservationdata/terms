@@ -2,40 +2,25 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/GF41DG",
   "type": "Concept",
   "prefLabel": {
-    "de": "Administrative Metadaten"
+    "de": "Zuständige Restaurierungseinrichtung"
+  },
+  "altLabel": {
+    "de": [
+      "Werkstatt, Labor, Atelier, Restaurierungswerkstatt"
+    ]
   },
   "definition": {
-    "de": "administrative Angaben zu dem vorliegenden Bericht und seinen Inhalten"
+    "de": "Benennung der Einrichtung, in der die jeweilige Maßnahme durchgeführt würde. Der Begriff \"Einrichtung\" wurde dabei als generischer Überbegriff verwendet, um individuelle Bezeichnungen wie \"Werkstatt\", \"Atelier\", \"Labor\", etc. unter einem Begriff zu vereinen. Institutionen können den jeweils in ihrem Arbeitsalltag verwendeten Begriff auf diesen Überbegriff mappen, ohne ihre eigene hausinterne Terminologie verändern zu müssen."
   },
   "notation": [
     "GF41DG"
   ],
-  "narrower": [
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/GF856C",
-      "prefLabel": {
-        "de": "Erstellungsdatum des Berichts"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/GF9C49",
-      "prefLabel": {
-        "de": "Bearbeiter*in des Berichts"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/K343FVC",
-      "prefLabel": {
-        "de": "Version"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/QD45G7",
-      "prefLabel": {
-        "de": "Zugangsrecht"
-      }
+  "broader": {
+    "id": "https://www.w3id.org/conservation/terms/metadata/DA9CGG",
+    "prefLabel": {
+      "de": "Durchgeführte Maßnahme"
     }
-  ],
+  },
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
@@ -46,13 +31,14 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "topConceptOf": [
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
-    }
+  "TextOrUri": [
+    "Text"
   ],
   "Verpflichtungsgrad": [
     "Pflicht"
+  ],
+  "Wiederholbar": [
+    "Nein"
   ],
   "@context": {
     "@version": 1.1,

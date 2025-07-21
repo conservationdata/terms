@@ -2,17 +2,40 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/B7B8B6",
   "type": "Concept",
   "prefLabel": {
-    "de": "Breite"
+    "de": "Sicherheit & Arbeitsschutz"
+  },
+  "definition": {
+    "de": "Übergeordneter Begriff zur Strukturierung aller Angaben, die dem Schutz der Gesundheit, der Unfallverhütung und der Einhaltung sicherheitsrelevanter Vorschriften bei Konservierungs-Restaurierungsarbeiten oder dem Umgang mit den jeweiligen behandelten Objekten dienen."
   },
   "notation": [
     "B7B8B6"
   ],
-  "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/B51DAF",
-    "prefLabel": {
-      "de": "aktuelle Maße"
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/CCCC7G",
+      "prefLabel": {
+        "de": "Letzte Sicherheitsbewertung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/BB78D2",
+      "prefLabel": {
+        "de": "Getroffene Schutzmaßnahmen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/BGGCA4",
+      "prefLabel": {
+        "de": "Art der Gefährdung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/FBFFF5",
+      "prefLabel": {
+        "de": "Gefährdungshinweise"
+      }
     }
-  },
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
@@ -23,11 +46,13 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "TextOrUri": [
-    "Text"
+  "topConceptOf": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata"
+    }
   ],
   "Verpflichtungsgrad": [
-    "Pflicht"
+    "bedingte Pflicht"
   ],
   "Wiederholbar": [
     "Nein"

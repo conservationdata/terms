@@ -2,18 +2,26 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/D949G6",
   "type": "Concept",
   "prefLabel": {
-    "de": "Maßnahmenkennnummer"
+    "de": "Untersuchungsgerät"
   },
   "definition": {
-    "de": "Nummer, die die jeweilige Maßnahme eindeutig identifiziert. Wie genau diese Nummer in den jeweiligen Einrichtungen bezeichnet wird, bleibt individuell und wird auf diesen generischen Oberbegriff gemappt.\r\r\n\r\r\nBeipspiel: Labornummer, Dokumentationsnummern, Werkblattnummer, etc."
+    "de": "Angaben, welches Gerät für die Untersuchung verwendet wurde."
   },
   "notation": [
     "D949G6"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/D6A11G",
+      "prefLabel": {
+        "de": "Geräteeinstellungen (Untersuchungsgerät)"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/D866AD",
+    "id": "https://www.w3id.org/conservation/terms/metadata/DAB4B7",
     "prefLabel": {
-      "de": "Durchgeführte Maßnahme"
+      "de": "Untersuchungsverfahren"
     }
   },
   "inScheme": [
@@ -27,13 +35,13 @@
     }
   ],
   "TextOrUri": [
-    "Text"
+    "Text/URI"
   ],
   "Verpflichtungsgrad": [
-    "Bedingte Pflicht"
+    "empfohlen"
   ],
   "Wiederholbar": [
-    "Nein"
+    "Ja"
   ],
   "@context": {
     "@version": 1.1,

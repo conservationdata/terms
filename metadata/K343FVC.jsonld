@@ -2,18 +2,23 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/K343FVC",
   "type": "Concept",
   "prefLabel": {
-    "de": "Version"
+    "de": "Weitere Objektnummern"
+  },
+  "altLabel": {
+    "de": [
+      "Alternative Nummern"
+    ]
   },
   "definition": {
-    "de": "Angaben zur Versionierung bzw. Überarbeitung des Berichtes"
+    "de": "Weitere Nummern, die in der Vergangenheit dem Objekt zugeordnet wurden."
   },
   "notation": [
     "K343FVC"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/GF41DG",
+    "id": "https://www.w3id.org/conservation/terms/metadata/B51DAF",
     "prefLabel": {
-      "de": "Administrative Metadaten"
+      "de": "Objektkennzeichnung"
     }
   },
   "inScheme": [
@@ -30,10 +35,10 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "empfohlen"
+    "optional"
   ],
   "Wiederholbar": [
-    "Nein"
+    "Ja"
   ],
   "@context": {
     "@version": 1.1,

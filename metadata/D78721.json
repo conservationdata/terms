@@ -2,18 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/D78721",
   "type": "Concept",
   "prefLabel": {
-    "de": "Anlass der Maßnahme"
+    "de": "Erstellungsdatum des Berichts"
   },
   "definition": {
-    "de": "Hintergrundinformationen, aus welchem Grund das Objekt konservatorisch-restauratorisch behandelt werden soll. I.d.R. beziehen sich diese Angaben darauf, was im Anschluss mit dem Objekt geschehen soll oder zuvor bereits geschehen ist. \r\r\n\r\r\nBeispiel: Ausstellungsvorbereitung, Rückkehr aus Leihverkehr"
+    "de": "Zeitpunkt, zu dem der Bericht erstellt wurde"
   },
   "notation": [
     "D78721"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/D6A11G",
+    "id": "https://www.w3id.org/conservation/terms/metadata/AC16G1",
     "prefLabel": {
-      "de": "Konservierungskonzept"
+      "de": "Administrative Metadaten"
     }
   },
   "inScheme": [
@@ -30,7 +30,7 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "empfohlen"
+    "Pflicht"
   ],
   "Wiederholbar": [
     "Nein"

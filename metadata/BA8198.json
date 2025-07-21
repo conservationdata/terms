@@ -2,18 +2,23 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/BA8198",
   "type": "Concept",
   "prefLabel": {
-    "de": "aktuelles Gewicht"
+    "de": "Luftfeuchte (konservatorische Bedingungen)"
   },
   "definition": {
-    "de": "Angaben zum Gewicht des Objekts zum letzten Zeitpunkt der Objektuntersuchung"
+    "de": "Angabe der einzuhaltenden relativen Luftfeuchtigkeit und zulässigen Schwankungsbereiche (maximal tolerierbare Abweichungen) für die sachgerechte Lagerung zur Vermeidung feuchtigkeitsbedingter Schäden."
+  },
+  "note": {
+    "de": [
+      "D941BB"
+    ]
   },
   "notation": [
     "BA8198"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/ADD53A",
+    "id": "https://www.w3id.org/conservation/terms/metadata/C3A182",
     "prefLabel": {
-      "de": "Objektbeschreibung"
+      "de": "Konservatorische Bedingungen"
     }
   },
   "inScheme": [
@@ -30,7 +35,7 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "optional"
+    "empfohlen"
   ],
   "Wiederholbar": [
     "Nein"

@@ -2,21 +2,26 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/FD6617",
   "type": "Concept",
   "prefLabel": {
-    "de": "Luftfeuchte (konservatorische Bedingungen)"
+    "de": "UV-Schutz (konservatorische Bedingungen)"
+  },
+  "altLabel": {
+    "de": [
+      "UV (konservatorische Bedingungen)"
+    ]
   },
   "definition": {
-    "de": "Angabe der einzuhaltenden relativen Luftfeuchtigkeit und zulässigen Schwankungsbereiche (maximal tolerierbare Abweichungen) für die sachgerechte Lagerung zur Vermeidung feuchtigkeitsbedingter Schäden."
+    "de": "Angabe der Anforderungen bezüglich ultravioletter Strahlung, einschließlich maximal zulässiger UV-Anteile im Beleuchtungsspektrum oder erforderliche UV-Filtermaßnahmen, zur Verhinderung UV-bedingter Materialschäden am Objekt."
   },
   "note": {
     "de": [
-      "F8F594"
+      "D941BB"
     ]
   },
   "notation": [
     "FD6617"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/FC3322",
+    "id": "https://www.w3id.org/conservation/terms/metadata/C3A182",
     "prefLabel": {
       "de": "Konservatorische Bedingungen"
     }
@@ -35,7 +40,7 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "empfohlen"
+    "optional"
   ],
   "Wiederholbar": [
     "Nein"

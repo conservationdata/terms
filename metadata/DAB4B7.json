@@ -2,18 +2,39 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/DAB4B7",
   "type": "Concept",
   "prefLabel": {
-    "de": "Zeitaufwand"
+    "de": "Untersuchungsverfahren"
+  },
+  "altLabel": {
+    "de": [
+      "Untersuchungsmethode",
+      "Untersuchungstechnik",
+      "praktische Vorgehensweise"
+    ]
   },
   "definition": {
-    "de": "Summe der tatsächlich am Objekt geleisteten Arbeitsstunden währen der Maßnahme, ohne passive Zeiten wie Trocknungsphasen oder parallele Wartezeiten."
+    "de": "Angabe, auf welche Art und Weise die Untersuchung durchgeführt wurde."
   },
   "notation": [
     "DAB4B7"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/D1CFD5",
+      "prefLabel": {
+        "de": "verwendetes Material (Untersuchung)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/D949G6",
+      "prefLabel": {
+        "de": "Untersuchungsgerät"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/D866AD",
+    "id": "https://www.w3id.org/conservation/terms/metadata/B3FCA1",
     "prefLabel": {
-      "de": "Durchgeführte Maßnahme"
+      "de": "Untersuchung"
     }
   },
   "inScheme": [
@@ -27,10 +48,10 @@
     }
   ],
   "TextOrUri": [
-    "Text"
+    "Text/URI"
   ],
   "Verpflichtungsgrad": [
-    "(optional)"
+    "Pflicht"
   ],
   "Wiederholbar": [
     "Nein"

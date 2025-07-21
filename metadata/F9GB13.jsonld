@@ -2,23 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F9GB13",
   "type": "Concept",
   "prefLabel": {
-    "de": "Verpackungs- und Transportempfehlungen"
+    "de": "Datierung"
   },
   "definition": {
-    "de": "Angaben zu Besonderheiten, die im Zuge der Objektverpackung oder des Transportes zu beachten sind. \r\r\n\r\r\nBeispiel: \"Objekt ausschließlich liegend transportieren\", \"Transport nur in klimatisiertem Fahrzeug\""
-  },
-  "note": {
-    "de": [
-      "FC3322"
-    ]
+    "de": "zeitliche Einordnung des Objektes.\r\r\n\r\r\nBeispiel: \"Urnenfelderzeit\" , \"15. Jh.\""
   },
   "notation": [
     "F9GB13"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/F87124",
+    "id": "https://www.w3id.org/conservation/terms/metadata/B51DAF",
     "prefLabel": {
-      "de": "Allgemeine Umgangsempfehlungen"
+      "de": "Objektkennzeichnung"
     }
   },
   "inScheme": [
@@ -32,7 +27,7 @@
     }
   ],
   "TextOrUri": [
-    "Text"
+    "Text/URI"
   ],
   "Verpflichtungsgrad": [
     "empfohlen"

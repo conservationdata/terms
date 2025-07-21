@@ -2,23 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/B14C4A",
   "type": "Concept",
   "prefLabel": {
-    "de": "Objektmaterial"
-  },
-  "altLabel": {
-    "de": [
-      "Objektwerkstoff"
-    ]
+    "de": "Handlingsempfehlungen"
   },
   "definition": {
-    "de": "Angaben zum Material bzw. den Materialien aus dem/aus denen das Objekt besteht. \r\r\n\r\r\nIdealerweise sollte auch die Belastbarkeit dieser Angaben mit erfasst werden, zum Beispiel ob zur Materialbestimmung eine naturwissenschaftliche Analyse verwendet wurde oder ob sie lediglich auf einer visuellen Begutachtung des Objektes beruht. \r\r\n\r\r\nBeispiel: \"Bronze (Ergebnis RFA)\", \"Buntmetall (Ergebnis visuelle Begutachtung) \""
+    "de": "Angaben zu Besonderheiten, die im Zuge der Handhabung des Objektes berücksichtigt werden müssen. \r\r\n\r\r\nBeispiel: \"Nicht an den Henkeln anfassen\""
   },
   "notation": [
     "B14C4A"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/ADD53A",
+    "id": "https://www.w3id.org/conservation/terms/metadata/GF9C49",
     "prefLabel": {
-      "de": "Objektbeschreibung"
+      "de": "Allgemeine Umgangsempfehlungen"
     }
   },
   "inScheme": [
@@ -32,16 +27,13 @@
     }
   ],
   "TextOrUri": [
-    "URI"
+    "Text"
   ],
   "Verpflichtungsgrad": [
-    "Pflicht"
+    "empfohlen"
   ],
   "Wiederholbar": [
     "Ja"
-  ],
-  "EmpfohleneVokabulare": [
-    "Art & Architecture Thesaurus"
   ],
   "@context": {
     "@version": 1.1,

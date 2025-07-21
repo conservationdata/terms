@@ -2,18 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/GB6DF3",
   "type": "Concept",
   "prefLabel": {
-    "de": "Schadstoffe"
+    "de": "Objektbeziehung"
   },
   "definition": {
-    "de": "Angabe ob Vorhandensein von luftgetragenen Verunreinigungen, Ausgasungen oder andere chemische Belastungen in der Objektumgebung kontrolliert wurden."
+    "de": "Sofern das Objekt Teil eines Ensemble, einer definierten Sammlung ist oder anderweitig besondere Beziehungen zu anderen Objekten aufweist, sollten diese erfasst werden. \r\r\n\r\r\nBeispiel: \"Teil der Sammlung Becker\""
   },
   "notation": [
     "GB6DF3"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/G76B7G",
+    "id": "https://www.w3id.org/conservation/terms/metadata/B51DAF",
     "prefLabel": {
-      "de": "Überprüfte Bedingungen"
+      "de": "Objektkennzeichnung"
     }
   },
   "inScheme": [
@@ -30,10 +30,10 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "empfohlen"
+    "bedingte Pflicht"
   ],
   "Wiederholbar": [
-    "Nein"
+    "Ja"
   ],
   "@context": {
     "@version": 1.1,

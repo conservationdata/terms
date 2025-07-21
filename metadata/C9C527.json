@@ -2,23 +2,23 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/C9C527",
   "type": "Concept",
   "prefLabel": {
-    "de": "Lokalisation"
+    "de": "Lichtexposition"
   },
   "altLabel": {
     "de": [
-      "Untersuchungsstelle"
+      "LUX-Stunden"
     ]
   },
   "definition": {
-    "de": "Angabe, an welcher Stelle auf dem Objekt die Untersuchung durchgeführt wurde. Nur bei Untersuchungen direkt auf dem Originalenobjekt nötig, entfällt bei Untersuchungen von Proben"
+    "de": "Angabe ob akkumulierte Lichtexposition in LUX-Stunden während des Monitorings gemessen wurden."
   },
   "notation": [
     "C9C527"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/C421BF",
+    "id": "https://www.w3id.org/conservation/terms/metadata/FFFCB7",
     "prefLabel": {
-      "de": "Untersuchung"
+      "de": "Überprüfte Bedingungen"
     }
   },
   "inScheme": [
@@ -35,10 +35,10 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "bedingte Pflicht"
+    "empfohlen"
   ],
   "Wiederholbar": [
-    "Ja"
+    "Nein"
   ],
   "@context": {
     "@version": 1.1,

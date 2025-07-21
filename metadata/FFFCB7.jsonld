@@ -2,28 +2,49 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/FFFCB7",
   "type": "Concept",
   "prefLabel": {
-    "de": "Beleuchtungsstärke (konservatorische Bedingungen)"
-  },
-  "altLabel": {
-    "de": [
-      "LUX (konservatorische Bedingung)"
-    ]
+    "de": "Überprüfte Bedingungen"
   },
   "definition": {
-    "de": "Angabe der maximal zulässigen Beleuchtungsstärke in LUX für die schonende Präsenation zur Minimierung photochemischer und photophysikalischer Schädigungsprozesse bei gleichzeitig Gewährleistung ausreichender Sichtbarkeit für Betrachtung."
+    "de": "Oberbegriff der kontrollierten Parameter und Umgebungsfaktoren während des Monitorings."
   },
   "note": {
     "de": [
-      "F8F594"
+      "F396G6"
     ]
   },
   "notation": [
     "FFFCB7"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/A5C668",
+      "prefLabel": {
+        "de": "Klimawerte"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/BF3639",
+      "prefLabel": {
+        "de": "Schadstoffe"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/BF6D19",
+      "prefLabel": {
+        "de": "biologischer Befall"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/C9C527",
+      "prefLabel": {
+        "de": "Lichtexposition"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/FC3322",
+    "id": "https://www.w3id.org/conservation/terms/metadata/C11192",
     "prefLabel": {
-      "de": "Konservatorische Bedingungen"
+      "de": "Monitoring"
     }
   },
   "inScheme": [
@@ -40,10 +61,10 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "optional"
+    "empfohlen"
   ],
   "Wiederholbar": [
-    "Nein"
+    "Ja"
   ],
   "@context": {
     "@version": 1.1,

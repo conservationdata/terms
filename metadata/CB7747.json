@@ -2,18 +2,24 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/CB7747",
   "type": "Concept",
   "prefLabel": {
-    "de": "verwendetes Material (Untersuchung)"
+    "de": "Kennung der Probe"
+  },
+  "altLabel": {
+    "de": [
+      "Name der Probe",
+      "Nummer der Probe"
+    ]
   },
   "definition": {
-    "de": "Angaben zum Material, welches für die Untersuchung des Objektes verwendet wurde. Diese Angabe ist besonders dann wichtig, wenn die Materialien Spuren bzw. Rückstände auf dem Objekt hinterlassen haben könnten."
+    "de": "Bezeichnung oder Nummer, mit der die jeweilige Probe eindeutig identifiziert werden kann. \r\r\n\r\r\nBeispiel: Metall-Probe_24601"
   },
   "notation": [
     "CB7747"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/CA1BC5",
+    "id": "https://www.w3id.org/conservation/terms/metadata/CD5C3F",
     "prefLabel": {
-      "de": "Untersuchungsverfahren"
+      "de": "Probeentnahme"
     }
   },
   "inScheme": [
@@ -27,13 +33,13 @@
     }
   ],
   "TextOrUri": [
-    "Text/URI"
+    "Text"
   ],
   "Verpflichtungsgrad": [
-    "empfohlen"
+    "Pflicht"
   ],
   "Wiederholbar": [
-    "Ja"
+    "Nein"
   ],
   "@context": {
     "@version": 1.1,

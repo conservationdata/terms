@@ -2,18 +2,23 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/G79CA9",
   "type": "Concept",
   "prefLabel": {
-    "de": "biologischer Befall"
+    "de": "Umgebungsbedingungen"
   },
   "definition": {
-    "de": "Angabe ob Kontrolle auf Schädlingsbefall, Schimmelbildung oder andere biologische Aktivität am Objekt oder in dessen unmittelbarer Umgebung durchgeführt wurde."
+    "de": "Aufzeichnung der Bedingungen, unter denen das Objekt bis zum Zeitpunkt der Zustandserfassung gehalten wurde. Insbesondere sofern Auswirkungen der Umgebung auf das Objekt erkannt werden, sollten diese in der Zustandsbeschreibung gemeinsam mit der vermuteten Ursache festgehalten werden."
+  },
+  "note": {
+    "de": [
+      "Begriff und Definition nach DIN EN 16095:2012-10"
+    ]
   },
   "notation": [
     "G79CA9"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/G76B7G",
+    "id": "https://www.w3id.org/conservation/terms/metadata/AC1786",
     "prefLabel": {
-      "de": "Überprüfte Bedingungen"
+      "de": "Zustandsbeschreibung"
     }
   },
   "inScheme": [
@@ -27,13 +32,13 @@
     }
   ],
   "TextOrUri": [
-    "Text"
+    "Text/URI"
   ],
   "Verpflichtungsgrad": [
     "empfohlen"
   ],
   "Wiederholbar": [
-    "Nein"
+    "Ja"
   ],
   "@context": {
     "@version": 1.1,

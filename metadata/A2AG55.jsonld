@@ -2,23 +2,23 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/A2AG55",
   "type": "Concept",
   "prefLabel": {
-    "de": "Kennzeichnungsnummer"
+    "de": "Untersuchungskennung"
+  },
+  "altLabel": {
+    "de": [
+      "Kennung der Untersuchung"
+    ]
   },
   "definition": {
-    "de": "Nummer, die das Objekt eindeutig identifiziert. Dies sollte im Idealfall eine Inventarnummer sein, aber auch andere Arten von eindeutigen Identifikationsnummern sind möglich.\r\r\n\r\r\nBeispiel: \"O.3649\", \"2025-05-21\""
-  },
-  "note": {
-    "de": [
-      "Begriff nach DIN EN 16095:2012-10"
-    ]
+    "de": "Bezeichnung oder Nummer, mit der die jeweilige Untersuchung eindeutig identifiziert werden kann. \r\r\nBeispiel: 2025-05-13_RFA_1 oder XY_24601"
   },
   "notation": [
     "A2AG55"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/A13CD1",
+    "id": "https://www.w3id.org/conservation/terms/metadata/B3FCA1",
     "prefLabel": {
-      "de": "Objektkennzeichnung"
+      "de": "Untersuchung"
     }
   },
   "inScheme": [
@@ -35,7 +35,7 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "Pflicht"
+    "bedingte Pflicht"
   ],
   "Wiederholbar": [
     "Nein"

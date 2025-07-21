@@ -2,18 +2,23 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/A4G52F",
   "type": "Concept",
   "prefLabel": {
-    "de": "Datierung"
+    "de": "konservatorische Vorgeschichte"
+  },
+  "altLabel": {
+    "de": [
+      "Spuren früherer Konservierungs- /Restaurierunseingriffe"
+    ]
   },
   "definition": {
-    "de": "zeitliche Einordnung des Objektes.\r\r\n\r\r\nBeispiel: \"Urnenfelderzeit\" , \"15. Jh.\""
+    "de": "Beschreibung von Spuren früherer, nicht dokumentierter konservatorisch-restauratorischer Eingriffe am Objekt sowie der vermuteten Behandlungsmaßnahmen, die diese Spuren verursacht haben könnten."
   },
   "notation": [
     "A4G52F"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/A13CD1",
+    "id": "https://www.w3id.org/conservation/terms/metadata/F52262",
     "prefLabel": {
-      "de": "Objektkennzeichnung"
+      "de": "Zustandserfassung"
     }
   },
   "inScheme": [
@@ -27,13 +32,13 @@
     }
   ],
   "TextOrUri": [
-    "Text/URI"
+    "Text"
   ],
   "Verpflichtungsgrad": [
     "empfohlen"
   ],
   "Wiederholbar": [
-    "Ja"
+    "Nein"
   ],
   "@context": {
     "@version": 1.1,

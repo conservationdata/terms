@@ -2,32 +2,23 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F58F6D",
   "type": "Concept",
   "prefLabel": {
-    "de": "Letzte Sicherheitsbewertung"
+    "de": "Stelle der Probenentnahme"
+  },
+  "altLabel": {
+    "de": [
+      "Lokalisation der Probenentnahme"
+    ]
   },
   "definition": {
-    "de": "Oberbegriff zu Angaben der zuletzt durchgeführten Risikoanalyse und Beurteilung der Arbeitssicherheit"
+    "de": "Angabe, an welcher Stelle des Objekts die Probe entnommen wurde. Möglichst genaue Beschreibung des Probenortes zur späteren Zuordnung.\r\r\n\r\r\nBeispiele: Vorderseite, linker unterer Rand, Bruchkante der Scherbe, Sockelinnenseite"
   },
   "notation": [
     "F58F6D"
   ],
-  "narrower": [
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/F5G576",
-      "prefLabel": {
-        "de": "Datum der Sicherheitsbewertung"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/F72743",
-      "prefLabel": {
-        "de": "Einschätzung (Sicherheitsbewertung)"
-      }
-    }
-  ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/F2AG55",
+    "id": "https://www.w3id.org/conservation/terms/metadata/CD5C3F",
     "prefLabel": {
-      "de": "Sicherheit & Arbeitsschutz"
+      "de": "Probeentnahme"
     }
   },
   "inScheme": [
@@ -40,11 +31,14 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
+  "TextOrUri": [
+    "Text"
+  ],
   "Verpflichtungsgrad": [
-    "optional"
+    "Pflicht"
   ],
   "Wiederholbar": [
-    "Nein"
+    "Ja"
   ],
   "@context": {
     "@version": 1.1,

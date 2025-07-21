@@ -2,20 +2,57 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F52262",
   "type": "Concept",
   "prefLabel": {
-    "de": "Getroffene Schutzmaßnahmen"
+    "de": "Zustandserfassung"
+  },
+  "altLabel": {
+    "de": [
+      "Zustandserhebung"
+    ]
   },
   "definition": {
-    "de": "Dokumentation der bereits umgesetzten und/oder während der Objektbehandlung einzuhaltenden Schutzmaßnahmen zur Minimierung der Gefährdung. Einschließlich persönlicher Schutzausrüstung (PSA), technischer und organisatorischer Maßnahmen.\r\r\n\r\r\nBeispiele: Tragen von Schutzhandschuhen, Arbeiten unter Abzug/ im Quarantänebereich, Objekt eingeschweißt"
+    "de": "Oberbegriff für Informationen, die die systematische Erfassung des Zustands eines Objektes zu einem definierten Zeitpunkt dokumentieren."
   },
   "notation": [
     "F52262"
   ],
-  "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/F2AG55",
-    "prefLabel": {
-      "de": "Sicherheit & Arbeitsschutz"
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/A4G52F",
+      "prefLabel": {
+        "de": "konservatorische Vorgeschichte"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/A8ABBA",
+      "prefLabel": {
+        "de": "Erfassungszeitpunkt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/AC1786",
+      "prefLabel": {
+        "de": "Zustandsbeschreibung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/CA1BC5",
+      "prefLabel": {
+        "de": "Erfassungsdatum"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/CDD6B5",
+      "prefLabel": {
+        "de": "Dokumentationsform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/HRO94F",
+      "prefLabel": {
+        "de": "Zuständige Person (Zustandserfassung)"
+      }
     }
-  },
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
@@ -26,11 +63,10 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "TextOrUri": [
-    "Text"
-  ],
-  "Verpflichtungsgrad": [
-    "bedingte Pflicht"
+  "topConceptOf": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata"
+    }
   ],
   "Wiederholbar": [
     "Ja"

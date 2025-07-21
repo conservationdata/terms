@@ -2,18 +2,70 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/DA9CGG",
   "type": "Concept",
   "prefLabel": {
-    "de": "Ende der Maßnahme"
+    "de": "Durchgeführte Maßnahme"
+  },
+  "altLabel": {
+    "de": [
+      "Bestandserhaltung",
+      "Konservierung",
+      "Konservierung-Restaurierung",
+      "Restaurierung"
+    ]
   },
   "definition": {
-    "de": "kalendermäßige Erfassung des Zeitpunktes, an dem die jeweilige Maßnahme beendet wurde."
+    "de": "Oberbegriff für die Sammlung an Angaben, die zur konkreten Maßnahme erfasst werden."
   },
   "notation": [
     "DA9CGG"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/AF1F5C",
+      "prefLabel": {
+        "de": "Maßnahmenkennnummer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/C79561",
+      "prefLabel": {
+        "de": "Zuständige Person (Durchgeführte Maßnahme)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/CDD613",
+      "prefLabel": {
+        "de": "Beginn der Maßnahme"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/CDF685",
+      "prefLabel": {
+        "de": "Ende der Maßnahme"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/A13CD1",
+      "prefLabel": {
+        "de": "Eingriff"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/G814D2",
+      "prefLabel": {
+        "de": "Zeitaufwand"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/GF41DG",
+      "prefLabel": {
+        "de": "Zuständige Restaurierungseinrichtung"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/D866AD",
+    "id": "https://www.w3id.org/conservation/terms/metadata/BAA258",
     "prefLabel": {
-      "de": "Durchgeführte Maßnahme"
+      "de": "Konservierungskonzept"
     }
   },
   "inScheme": [
@@ -26,14 +78,8 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "TextOrUri": [
-    "Text"
-  ],
-  "Verpflichtungsgrad": [
-    "Pflicht"
-  ],
   "Wiederholbar": [
-    "Nein"
+    "Ja"
   ],
   "@context": {
     "@version": 1.1,

@@ -2,18 +2,23 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/G73958",
   "type": "Concept",
   "prefLabel": {
-    "de": "Datum des Monitoring"
+    "de": "Untersuchungsdatum"
+  },
+  "altLabel": {
+    "de": [
+      "Datum der Untersuchung"
+    ]
   },
   "definition": {
-    "de": "Zeitpunkt der durchgeführten Kontrollmaßnahme zur chronologischen Dokumentation und Nachvollziehbarkeit"
+    "de": "Datum, an dem die jeweilige Untersuchung durchgeführt wurde."
   },
   "notation": [
     "G73958"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/G56866",
+    "id": "https://www.w3id.org/conservation/terms/metadata/B3FCA1",
     "prefLabel": {
-      "de": "Monitoring"
+      "de": "Untersuchung"
     }
   },
   "inScheme": [
@@ -30,7 +35,7 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "empfohlen"
+    "Pflicht"
   ],
   "Wiederholbar": [
     "Nein"
