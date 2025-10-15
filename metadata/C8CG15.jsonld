@@ -2,7 +2,7 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/C8CG15",
   "type": "Concept",
   "prefLabel": {
-    "de": "Zuständige Person (Probeentnahme)"
+    "de": "Zuständige Person (Probenahme)"
   },
   "definition": {
     "de": "Benennung der Person, die die Entnahme der Probe durchgeführt hat bzw. für diese verantwortlich ist."
@@ -13,9 +13,14 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/CD5C3F",
     "prefLabel": {
-      "de": "Probeentnahme"
+      "de": "Probenahme"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://terminology.lido-schema.org/lido00163"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"

@@ -2,10 +2,12 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/B5DD1A",
   "type": "Concept",
   "prefLabel": {
-    "de": "Objektansprache"
+    "de": "Objektbenennung"
   },
   "altLabel": {
     "de": [
+      "Objektansprache",
+      "Objektname",
       "Objekttitel"
     ]
   },
@@ -21,6 +23,11 @@
       "de": "Objektkennzeichnung"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://terminology.lido-schema.org/lido00113"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"

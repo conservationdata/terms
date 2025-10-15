@@ -6,6 +6,7 @@
   },
   "altLabel": {
     "de": [
+      "Material",
       "Objektwerkstoff"
     ]
   },
@@ -21,6 +22,11 @@
       "de": "Objektbeschreibung"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://terminology.lido-schema.org/lido00132"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"

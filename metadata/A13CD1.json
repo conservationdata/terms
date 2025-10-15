@@ -27,7 +27,7 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/CGC619",
       "prefLabel": {
-        "de": "Verwendetes Material"
+        "de": "Verwendetes Material (Erhaltungsmaßnahme)"
       }
     },
     {
@@ -40,7 +40,7 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/DA9CGG",
     "prefLabel": {
-      "de": "Durchgeführte Maßnahme"
+      "de": "Erhaltungsmaßnahme"
     }
   },
   "inScheme": [

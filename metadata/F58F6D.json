@@ -2,11 +2,11 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F58F6D",
   "type": "Concept",
   "prefLabel": {
-    "de": "Stelle der Probenentnahme"
+    "de": "Stelle der Probenahme"
   },
   "altLabel": {
     "de": [
-      "Lokalisation der Probenentnahme"
+      "Lokalisation der Probennahme"
     ]
   },
   "definition": {
@@ -18,7 +18,7 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/CD5C3F",
     "prefLabel": {
-      "de": "Probeentnahme"
+      "de": "Probenahme"
     }
   },
   "inScheme": [

@@ -2,7 +2,7 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/G79CA9",
   "type": "Concept",
   "prefLabel": {
-    "de": "Umgebungsbedingungen"
+    "de": "bisherige Umgebungsbedingungen"
   },
   "definition": {
     "de": "Aufzeichnung der Bedingungen, unter denen das Objekt bis zum Zeitpunkt der Zustandserfassung gehalten wurde. Insbesondere sofern Auswirkungen der Umgebung auf das Objekt erkannt werden, sollten diese in der Zustandsbeschreibung gemeinsam mit der vermuteten Ursache festgehalten werden."

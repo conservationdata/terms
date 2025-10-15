@@ -36,7 +36,7 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/G79CA9",
       "prefLabel": {
-        "de": "Umgebungsbedingungen"
+        "de": "bisherige Umgebungsbedingungen"
       }
     }
   ],
@@ -46,6 +46,11 @@
       "de": "Zustandserfassung"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://terminology.lido-schema.org/lido00268"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"

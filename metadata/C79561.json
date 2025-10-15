@@ -2,7 +2,7 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/C79561",
   "type": "Concept",
   "prefLabel": {
-    "de": "Zuständige Person (Durchgeführte Maßnahme)"
+    "de": "Zuständige Person (Erhaltungsmaßnahme)"
   },
   "altLabel": {
     "de": [
@@ -19,9 +19,14 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/DA9CGG",
     "prefLabel": {
-      "de": "Durchgeführte Maßnahme"
+      "de": "Erhaltungsmaßnahme"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://terminology.lido-schema.org/lido00163"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"

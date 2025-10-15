@@ -10,6 +10,12 @@
   "notation": [
     "FRG491G"
   ],
+  "broader": {
+    "id": "https://www.w3id.org/conservation/terms/metadata/DBC278",
+    "prefLabel": {
+      "de": "aktuelle Maße"
+    }
+  },
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"

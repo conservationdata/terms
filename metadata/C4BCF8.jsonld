@@ -4,6 +4,11 @@
   "prefLabel": {
     "de": "Herstellungstechnik"
   },
+  "altLabel": {
+    "de": [
+      "Technik"
+    ]
+  },
   "definition": {
     "de": "Angaben zur Technik bzw. zu Techniken, die zur Herstellung des Objektes verwendet wurden. \r\r\n\r\r\n\r\r\nBeispiel: \"Geschmiedet (Hammerspuren)\""
   },
@@ -16,6 +21,11 @@
       "de": "Objektbeschreibung"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://terminology.lido-schema.org/lido00131"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"

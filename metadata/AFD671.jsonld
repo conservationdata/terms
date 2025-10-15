@@ -2,10 +2,10 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/AFD671",
   "type": "Concept",
   "prefLabel": {
-    "de": "Datum der Sicherheitsbewertung"
+    "de": "Datum der Gefährdungsbewertung"
   },
   "definition": {
-    "de": "Erfassung des Datums, an dem die letzte Sicherheitsbewertung durchgeführt wurde."
+    "de": "Erfassung des Datums, an dem die letzte Gefährdungsbewertung durchgeführt wurde."
   },
   "notation": [
     "AFD671"
@@ -13,9 +13,14 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/CCCC7G",
     "prefLabel": {
-      "de": "Letzte Sicherheitsbewertung"
+      "de": "Letzte Gefährdungsbewertung"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://terminology.lido-schema.org/lido00528"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"

@@ -2,7 +2,7 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/D78721",
   "type": "Concept",
   "prefLabel": {
-    "de": "Erstellungsdatum des Berichts"
+    "de": "Erstellungsdatum des Datensatzes"
   },
   "definition": {
     "de": "Zeitpunkt, zu dem der Bericht erstellt wurde"
@@ -16,6 +16,11 @@
       "de": "Administrative Metadaten"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://terminology.lido-schema.org/lido00528"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"

@@ -2,10 +2,10 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/ADD53A",
   "type": "Concept",
   "prefLabel": {
-    "de": "Einschätzung (Sicherheitsbewertung)"
+    "de": "Einschätzung (Gefährdungsbewertung)"
   },
   "definition": {
-    "de": "Bewertung des aktuellen Sicherheitsstatus und der verbleibenden Risiken basierend auf der letzten Sicherheitsbewertung."
+    "de": "Bewertung des aktuellen Gefährdungsstatus und der verbleibenden Risiken basierend auf der letzten Gefährdungsbewertung."
   },
   "notation": [
     "ADD53A"
@@ -13,7 +13,7 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/CCCC7G",
     "prefLabel": {
-      "de": "Letzte Sicherheitsbewertung"
+      "de": "Letzte Gefährdungsbewertung"
     }
   },
   "inScheme": [

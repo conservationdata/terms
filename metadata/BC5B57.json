@@ -4,8 +4,18 @@
   "prefLabel": {
     "de": "Physischer Objektzustand"
   },
+  "altLabel": {
+    "de": [
+      "Erhaltungszustand"
+    ]
+  },
   "definition": {
     "de": "Beschreibung der physischen Merkmale und Eigenschaften des Objektes wie Vollständigkeit, Stabilität, Festigkeit, Maße, Feuchtigkeitsgehalt, etc."
+  },
+  "note": {
+    "de": [
+      "Begriff nach DIN EN 15898:2020-02"
+    ]
   },
   "notation": [
     "BC5B57"

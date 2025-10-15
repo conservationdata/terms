@@ -2,7 +2,7 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/CGC619",
   "type": "Concept",
   "prefLabel": {
-    "de": "Verwendetes Material"
+    "de": "Verwendetes Material (Erhaltungsmaßnahme)"
   },
   "definition": {
     "de": "Benennung des bzw. der Materialien, die für die jeweilige konservatorische und/oder restauratorische Maßnahme verwendet wurden."

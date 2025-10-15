@@ -16,9 +16,9 @@
     "A8ABBA"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/F52262",
+    "id": "https://www.w3id.org/conservation/terms/metadata/G5TA85",
     "prefLabel": {
-      "de": "Zustandserfassung"
+      "de": "Anlass der Zustandserfassung"
     }
   },
   "inScheme": [
@@ -35,7 +35,7 @@
     "Text"
   ],
   "Verpflichtungsgrad": [
-    "Pflicht"
+    "bedingte Pflicht"
   ],
   "Wiederholbar": [
     "Nein"

@@ -2,7 +2,7 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F72743",
   "type": "Concept",
   "prefLabel": {
-    "de": "Durchführende Einrichtung (Probeentnahme)"
+    "de": "Durchführende Einrichtung (Probenahme)"
   },
   "definition": {
     "de": "Benennung der Einrichtung, die die Probenentnahme durchgeführt hat."
@@ -13,9 +13,14 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/CD5C3F",
     "prefLabel": {
-      "de": "Probeentnahme"
+      "de": "Probenahme"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://terminology.lido-schema.org/lido00413"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"

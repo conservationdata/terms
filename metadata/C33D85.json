@@ -2,7 +2,7 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/C33D85",
   "type": "Concept",
   "prefLabel": {
-    "de": "Anlass der Probenentnahme"
+    "de": "Anlass der Probenahme"
   },
   "altLabel": {
     "de": [
@@ -18,7 +18,7 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/CD5C3F",
     "prefLabel": {
-      "de": "Probeentnahme"
+      "de": "Probenahme"
     }
   },
   "inScheme": [

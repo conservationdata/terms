@@ -4,6 +4,11 @@
   "prefLabel": {
     "de": "Objektkennzeichnung"
   },
+  "altLabel": {
+    "de": [
+      "Objektidentifikation"
+    ]
+  },
   "definition": {
     "de": "Übergeordneter Begriff zur eindeutigen Kennzeichnung des zu behandelnden Objektes sowie Erfassung weiterer indentifizierender Merkmale, die eine zweifelsfreie Zuordnung des Objektes während des gesamten Behandlungsprozesses gewährleistet."
   },
@@ -19,7 +24,7 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/B5DD1A",
       "prefLabel": {
-        "de": "Objektansprache"
+        "de": "Objektbenennung"
       }
     },
     {

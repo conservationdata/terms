@@ -23,9 +23,9 @@
       }
     },
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata/A8ABBA",
+      "id": "https://www.w3id.org/conservation/terms/metadata/G5TA85",
       "prefLabel": {
-        "de": "Erfassungszeitpunkt"
+        "de": "Anlass der Zustandserfassung"
       }
     },
     {
@@ -51,6 +51,11 @@
       "prefLabel": {
         "de": "Zuständige Person (Zustandserfassung)"
       }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://terminology.lido-schema.org/lido00931"
     }
   ],
   "inScheme": [

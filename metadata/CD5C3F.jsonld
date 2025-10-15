@@ -2,15 +2,21 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/CD5C3F",
   "type": "Concept",
   "prefLabel": {
-    "de": "Probeentnahme"
+    "de": "Probenahme"
   },
   "altLabel": {
     "de": [
-      "Beprobung"
+      "Beprobung",
+      "Probenentnahme"
     ]
   },
   "definition": {
     "de": "Oberbegriff für Informationen, die die systematische Entnahme von Materialproben aus einem Objekt für Analyse- und Untersuchungszwecke dokumentieren."
+  },
+  "note": {
+    "de": [
+      "DIN EN 16085:2012-10"
+    ]
   },
   "notation": [
     "CD5C3F"
@@ -19,13 +25,13 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/C33D85",
       "prefLabel": {
-        "de": "Anlass der Probenentnahme"
+        "de": "Anlass der Probenahme"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/C8CG15",
       "prefLabel": {
-        "de": "Zuständige Person (Probeentnahme)"
+        "de": "Zuständige Person (Probenahme)"
       }
     },
     {
@@ -37,7 +43,7 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/D3AF3A",
       "prefLabel": {
-        "de": "Datum der Probenentnahme"
+        "de": "Datum der Probennahme"
       }
     },
     {
@@ -49,13 +55,13 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/F58F6D",
       "prefLabel": {
-        "de": "Stelle der Probenentnahme"
+        "de": "Stelle der Probenahme"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/F72743",
       "prefLabel": {
-        "de": "Durchführende Einrichtung (Probeentnahme)"
+        "de": "Durchführende Einrichtung (Probenahme)"
       }
     },
     {

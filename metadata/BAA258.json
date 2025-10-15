@@ -2,12 +2,15 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/BAA258",
   "type": "Concept",
   "prefLabel": {
-    "de": "Konservierungskonzept"
+    "de": "Erhaltungskonzept"
   },
   "altLabel": {
     "de": [
+      "Behandlungskonzept",
       "Konservierungs-Restaurierungsplanung",
+      "Konservierungskonzept",
       "Konservierungsplanung",
+      "Maßnahmenkonzept",
       "Restaurierungskonzept"
     ]
   },
@@ -21,13 +24,13 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/DA9CGG",
       "prefLabel": {
-        "de": "Durchgeführte Maßnahme"
+        "de": "Erhaltungsmaßnahme"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/C6A532",
       "prefLabel": {
-        "de": "Anlass der Maßnahme"
+        "de": "Anlass der Erhaltungsmaßnahme"
       }
     },
     {
@@ -35,6 +38,11 @@
       "prefLabel": {
         "de": "konservatorische Zielsetzung"
       }
+    }
+  ],
+  "closeMatch": [
+    {
+      "id": "http://terminology.lido-schema.org/lido00032"
     }
   ],
   "inScheme": [

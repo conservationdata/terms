@@ -2,10 +2,10 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/CCCC7G",
   "type": "Concept",
   "prefLabel": {
-    "de": "Letzte Sicherheitsbewertung"
+    "de": "Letzte Gefährdungsbewertung"
   },
   "definition": {
-    "de": "Oberbegriff zu Angaben der zuletzt durchgeführten Risikoanalyse und Beurteilung der Arbeitssicherheit"
+    "de": "Oberbegriff zu Angaben der zuletzt durchgeführten Risikoanalyse und Beurteilung des Gefährdungspotentitals eines Objektes"
   },
   "notation": [
     "CCCC7G"
@@ -14,20 +14,20 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/ADD53A",
       "prefLabel": {
-        "de": "Einschätzung (Sicherheitsbewertung)"
+        "de": "Einschätzung (Gefährdungsbewertung)"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/AFD671",
       "prefLabel": {
-        "de": "Datum der Sicherheitsbewertung"
+        "de": "Datum der Gefährdungsbewertung"
       }
     }
   ],
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/B7B8B6",
     "prefLabel": {
-      "de": "Sicherheit & Arbeitsschutz"
+      "de": "Gefährdungspotential"
     }
   },
   "inScheme": [

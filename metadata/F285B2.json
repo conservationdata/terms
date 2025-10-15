@@ -2,7 +2,7 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F285B2",
   "type": "Concept",
   "prefLabel": {
-    "de": "Bearbeiter*in des Berichts"
+    "de": "Bearbeiter*in des Datensatzes"
   },
   "definition": {
     "de": "Angaben zur Person (Name, ggfs. Funktion) der für den Bericht verantwortlichen Person."
@@ -16,6 +16,11 @@
       "de": "Administrative Metadaten"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://terminology.lido-schema.org/lido00163"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"

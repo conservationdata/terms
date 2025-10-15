@@ -4,6 +4,12 @@
   "prefLabel": {
     "de": "Datierung"
   },
+  "altLabel": {
+    "de": [
+      "Objektdatierung",
+      "zeitliche Einordnung"
+    ]
+  },
   "definition": {
     "de": "zeitliche Einordnung des Objektes.\r\r\n\r\r\nBeispiel: \"Urnenfelderzeit\" , \"15. Jh.\""
   },
@@ -16,6 +22,11 @@
       "de": "Objektkennzeichnung"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://terminology.lido-schema.org/lido00529"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"

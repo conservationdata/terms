@@ -5,7 +5,7 @@
     "de": "Gefährdungshinweise"
   },
   "definition": {
-    "de": "Hinweise auf potenzielle Gefahrenquellen und Risiken im Zusammenhang mit dem Objekt oder den bei der konservatorisch-restauratorischen Maßnahme (oder früheren Maßnahmen) verwendeten Materialien.\r\r\n\r\r\nBeispiel: Schimmelbefall, Schadstoff kontaminiert"
+    "de": "Hinweise auf potenzielle Gefahrenquellen und Risiken im Zusammenhang mit dem Objekt oder den bei der konservatorisch-restauratorischen Maßnahme (oder früheren Maßnahmen) verwendeten Materialien.\r\r\n\r\r\nBeispiel: Schimmelbefall, Schadstoffkontaminiert"
   },
   "notation": [
     "FBFFF5"
@@ -13,7 +13,7 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/B7B8B6",
     "prefLabel": {
-      "de": "Sicherheit & Arbeitsschutz"
+      "de": "Gefährdungspotential"
     }
   },
   "inScheme": [

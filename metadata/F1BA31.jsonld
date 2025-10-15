@@ -4,6 +4,13 @@
   "prefLabel": {
     "de": "Objekttyp"
   },
+  "altLabel": {
+    "de": [
+      "Objektart",
+      "Objektbezeichnung",
+      "Sachbegriff"
+    ]
+  },
   "definition": {
     "de": "grundlegende formale Kategorie, in die das Objekt eingeordnet wird. \r\r\n\r\r\nBeispiel: \"Gemälde\" , \"Skulptur\", \"Münze\""
   },

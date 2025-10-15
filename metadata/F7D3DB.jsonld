@@ -4,6 +4,11 @@
   "prefLabel": {
     "de": "Kennzeichnungsnummer"
   },
+  "altLabel": {
+    "de": [
+      "Inventarnummer, Objektnummer, Signatur, Katalognummer"
+    ]
+  },
   "definition": {
     "de": "Nummer, die das Objekt eindeutig identifiziert. \r\r\n\r\r\nBeispiel: \"O.3649\", \"2025-05-21\""
   },
@@ -21,6 +26,11 @@
       "de": "Objektkennzeichnung"
     }
   },
+  "closeMatch": [
+    {
+      "id": "http://vocab.getty.edu/aat/300404626"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"

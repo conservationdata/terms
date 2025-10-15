@@ -7,6 +7,7 @@
   "altLabel": {
     "de": [
       "Abmessungen",
+      "Dimension",
       "Maßangabe"
     ]
   },
@@ -17,6 +18,12 @@
     "DBC278"
   ],
   "narrower": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/FRG491G",
+      "prefLabel": {
+        "de": "Durchmesser"
+      }
+    },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/GF856C",
       "prefLabel": {
