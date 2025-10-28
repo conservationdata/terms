@@ -12,7 +12,7 @@
     ]
   },
   "definition": {
-    "de": "Beschreibung der beobachteten negativen Veränderungen am Objekt im Vergleich zu seinem als ursprünglich angenommenen Zustandes."
+    "de": "Beschreibung der beobachteten negativen Veränderungen am Objekt im Vergleich zu seinem als ursprünglich angenommenen Zustandes. \r\r\n\r\r\nAuch die Angabe, dass keine Beschädigung erkennbar ist, sollte hier erfasst werden!"
   },
   "notation": [
     "AA6941"

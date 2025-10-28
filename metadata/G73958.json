@@ -10,7 +10,7 @@
     ]
   },
   "definition": {
-    "de": "Datum, an dem die jeweilige Untersuchung durchgeführt wurde."
+    "de": "Datum, an dem die jeweilige Untersuchung durchgeführt wurde.\r\r\n\r\r\nAuch vage Angaben über den genauen Zeitpunkt einer Untersuchung, z.B. bei der Nacherfassung historischer Untersuchungen, sind Informationen. Auch die Angabe \"unbekannt\" ist möglich."
   },
   "notation": [
     "G73958"

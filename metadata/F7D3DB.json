@@ -20,6 +20,14 @@
   "notation": [
     "F7D3DB"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/G59SR3",
+      "prefLabel": {
+        "de": "Art der Kennzeichnungsnummer"
+      }
+    }
+  ],
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/B51DAF",
     "prefLabel": {
