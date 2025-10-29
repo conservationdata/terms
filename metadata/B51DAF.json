@@ -91,6 +91,9 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
+  "Verpflichtungsgrad": [
+    "Pflicht"
+  ],
   "Wiederholbar": [
     "Nein"
   ],
