@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 from rdflib import Graph, URIRef, Literal
-from rdflib.namespace import SKOS, RDF, DCTERMS, RDFS, VANN
+from rdflib.namespace import SKOS, RDF, DCTERMS, RDFS, VANN, Namespace
 from io import StringIO
 
 def csv2Df(link, filename):
@@ -63,6 +63,9 @@ def propertyWalk(df, row, g, subj, scheme, namespace):
 def df2Skos(schemeDf, conceptsDf):
 
     g = Graph()
+    g.bind("ocmp", ocmp)
+    g.bind("ex", ex)
+
     # extract and declare conceptScheme and namespace
     for index, row in schemeDf.iterrows():
         if row["ConceptScheme"] and isinstance(row["ConceptScheme"], str) and row["namespace"] and isinstance(row["namespace"], str):
@@ -94,6 +97,8 @@ def main():
 conceptsLink = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRb0tjnjkyjzReZ_--dYJOD4rbl1_iV8EdVTFXATh9ie6u3bRAeEYYrMNKZF0AcM_PQJkQbmZyGFfYe/pub?gid=0&single=true&output=tsv"
 schemeLink = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRb0tjnjkyjzReZ_--dYJOD4rbl1_iV8EdVTFXATh9ie6u3bRAeEYYrMNKZF0AcM_PQJkQbmZyGFfYe/pub?gid=2056585273&single=true&output=tsv"
 baseLanguageLabel = "de"
+ocmp = Namespace("https://www.w3id.org/objectcore/terminology/")
+ex = Namespace("http://example.org/")
 
 propertyDict = {
     # SKOS Mapping Properties
@@ -141,7 +146,18 @@ propertyDict = {
     # Other Properties
     "seeAlso": (RDFS.seeAlso, Literal, False),
 
-    # 
+    # ocmp
+    "Verpflichtungsgrad":(ocmp.JYGNTK, Literal, False),
+    "Feldwert": (ocmp.TQKQBM, Literal, False),
+    "Wiederholbar": (ocmp.EO7QK9, Literal, False),
+    "Unsicher": (ocmp.KL9LCA, Literal, False),
+    
+
+    # ex (not declared yet...)
+    "Verwendungshinweis": (ex.Verwendungshinweis, Literal, False),
+    "Empfohlene Vokabulare": (ex.Empfohlene_Vokabulare, Literal, False),
+    "Zugangslevel":(ex.Zugangslevel, Literal, False)
+
 }
 
 seperator = "|"

@@ -1,4 +1,6 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.org/> .
+@prefix ocmp: <https://www.w3id.org/objectcore/terminology/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 
@@ -8,14 +10,17 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "G50P34" ;
     skos:prefLabel "Sprache"@de,
-        "language"@en .
+        "language"@en ;
+    ocmp:JYGNTK "empfohlen" .
 
 <https://www.w3id.org/conservation/terms/metadata/LGPT6AC> a skos:Concept ;
     skos:definition "Angabe, um was für eine Art von weitere Objektnummer es sich handelt.   z.B. frühere Inventarnummer, temporäre Nummer, etc."@de,
         "Indication of what type of additional object number it is.  E.g. previous inventory number, temporary number, etc."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "LGPT6AC" ;
-    skos:prefLabel "Art der weiteren Objektnummer"@de .
+    skos:prefLabel "Art der weiteren Objektnummer"@de ;
+    ocmp:JYGNTK "optional" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/WE34BL> a skos:Concept ;
     skos:altLabel "ID Datensatz"@de ;
@@ -24,9 +29,11 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "WE34BL" ;
     skos:prefLabel "Datensatzkennung"@de,
-        "record identifier"@en .
+        "record identifier"@en ;
+    ocmp:JYGNTK "Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/98ZG32> a skos:Concept ;
+    ex:Verwendungshinweis "Der Name sollte im Format \"Vorname Nachname\" erfasst werden." ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/D1F5D3> ;
     skos:definition "Angaben zur Person, die die Änderung durchgeführt hat."@de,
         "Details of the person who made the change"@en ;
@@ -34,7 +41,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "98ZG32" ;
     skos:prefLabel "Bearbeiter*in der Änderung"@de,
-        "editor"@en .
+        "editor"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/A15F83> a skos:Concept ;
     skos:altLabel "Untersuchungsstelle"@de,
@@ -46,9 +56,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "A15F83" ;
     skos:prefLabel "Lokalisation"@de,
-        "place of examination"@en .
+        "place of examination"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/A2AG55> a skos:Concept ;
+    ex:Verwendungshinweis "Der genaue Aufbau der Kennung kann individuell gestaltet werden. Wichtig ist, dass eindeutig zugeordnet werden kann, auf welche konkrete Untersuchung sich die Angaben beziehen." ;
     skos:altLabel "Kennung der Untersuchung"@de,
         "examiantion identification"@en,
         "examination ID"@en ;
@@ -58,9 +72,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "A2AG55" ;
     skos:prefLabel "Untersuchungskennung"@de,
-        "examination identifier"@en .
+        "examination identifier"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/A2FA1B> a skos:Concept ;
+    ex:Verwendungshinweis "Die einzuhaltenden Temperaturwerte ebenso wie die Abweichung sollen in Grad Celsius erfasst werden." ;
     dcterms:source "D941BB" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/C3A182> ;
     skos:definition "Angabe der erforderlichen Temperaturwerte und zulässigen Schwankungsbereiche (maximal tolerierbare Abweichungen) für die sachgerechte Lagerung zur Vermeidung temperaturbedingter Schäden."@de,
@@ -68,7 +86,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "A2FA1B" ;
     skos:prefLabel "Temperatur (konservatorische Bedingungen)"@de,
-        "temperature (recommended conditions)"@en .
+        "temperature (recommended conditions)"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/A4G52F> a skos:Concept ;
     skos:altLabel "Spuren früherer Konservierungs- /Restaurierunseingriffe"@de,
@@ -79,9 +100,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "A4G52F" ;
     skos:prefLabel "konservatorische Vorgeschichte"@de,
-        "conservation history"@en .
+        "conservation history"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/A5C668> a skos:Concept ;
+    ex:Verwendungshinweis "Die Erfassung sollte hier hin Form von \"Ja/Nein\" Abfragen oder Checkboxen erfolgen." ;
     skos:altLabel "climate data"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/FFFCB7> ;
     skos:definition "Angabe ob Temperatur- und Luftfeuchtigkeitswerte im Zuge des Monitorings kontrolliert wurden."@de,
@@ -89,9 +114,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "A5C668" ;
     skos:prefLabel "Klimawerte"@de,
-        "climate values"@en .
+        "climate values"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/A8ABBA> a skos:Concept ;
+    ex:Verwendungshinweis "Auswahl zwischen: vor Eingriff, nach Eingriff, zwischen Eingriff, Monitoring" ;
     skos:altLabel "Zeitpunkt der Erfassung"@de,
         "time of recording"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/G5TA85> ;
@@ -100,7 +129,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "A8ABBA" ;
     skos:prefLabel "Erfassungszeitpunkt"@de,
-        "time of entry"@en .
+        "time of entry"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/ADD53A> a skos:Concept ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/CCCC7G> ;
@@ -109,9 +141,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "ADD53A" ;
     skos:prefLabel "Einschätzung (Gefährdungsbewertung)"@de,
-        "result (safety assessment)"@en .
+        "result (safety assessment)"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/AF1F5C> a skos:Concept ;
+    ex:Verwendungshinweis "Wie genau diese Nummer in den jeweiligen Einrichtungen bezeichnet wird, bleibt individuell und wird auf diesen generischen Oberbegriff gemappt." ;
     skos:altLabel "Identifikationsnummer (Erhaltungsmaßnahme)"@de,
         "intervention ID"@en,
         "intervention identification"@en ;
@@ -121,9 +157,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "AF1F5C" ;
     skos:prefLabel "Maßnahmenkennnummer"@de,
-        "intervention identifier"@en .
+        "intervention identifier"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Bedingte Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/AFD671> a skos:Concept ;
+    ex:Verwendungshinweis "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden." ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/CCCC7G> ;
     skos:definition "Erfassung des Datums, an dem die letzte Gefährdungsbewertung durchgeführt wurde."@de,
         "Recording of the date on which the last risk assessment was carried out"@en ;
@@ -131,7 +171,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "AFD671" ;
     skos:prefLabel "Datum der Gefährdungsbewertung"@de,
-        "date of hazard assessment"@en .
+        "date of hazard assessment"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/B14C4A> a skos:Concept ;
     skos:altLabel "Handlingsempfehlungen"@de ;
@@ -141,9 +184,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "B14C4A" ;
     skos:prefLabel "Empfehlungen zur Handhabung"@de,
-        "handling recommendations"@en .
+        "handling recommendations"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/B43DK5> a skos:Concept ;
+    ex:Verwendungshinweis "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden." ;
     skos:altLabel "amendment date"@en,
         "change date"@en,
         "date of change"@en ;
@@ -154,7 +201,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "B43DK5" ;
     skos:prefLabel "Änderungsdatum"@de,
-        "modification date"@en .
+        "modification date"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/B5DD1A> a skos:Concept ;
     skos:altLabel "Objektansprache"@de,
@@ -167,9 +217,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "B5DD1A" ;
     skos:prefLabel "Objektbenennung"@de,
-        "object title"@en .
+        "object title"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/B9835A> a skos:Concept ;
+    ex:Verwendungshinweis "Für die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. Bei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann!" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/C11192> ;
     skos:definition "Angaben zur Person (Name, ggfs. Funktion) der für die Durchführung des Monitorings verantwortlichen Person."@de,
         "Personal details (name, position if applicable) of the person responsible for carrying out the monitoring"@en ;
@@ -177,9 +231,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "B9835A" ;
     skos:prefLabel "Zuständige Person (Monitoring)"@de,
-        "responsible person (monitoring)"@en .
+        "responsible person (monitoring)"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/BA8198> a skos:Concept ;
+    ex:Verwendungshinweis "Die einzuhaltende relative Luftfeuchtigkeit soll in Prozent erfasst werden." ;
     dcterms:source "D941BB" ;
     skos:altLabel "Luftfeuchte (konservatorische Bedingungen)"@de ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/C3A182> ;
@@ -188,7 +246,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "BA8198" ;
     skos:prefLabel "Luftfeuchtigkeit (konservatorische Bedingung)"@de,
-        "humidity (recommended conditions)"@en .
+        "humidity (recommended conditions)"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/BB78D2> a skos:Concept ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/B7B8B6> ;
@@ -197,9 +258,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "BB78D2" ;
     skos:prefLabel "Getroffene Schutzmaßnahmen"@de,
-        "proctective measures taken"@en .
+        "proctective measures taken"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/BF3639> a skos:Concept ;
+    ex:Verwendungshinweis "Die Erfassung sollte hier hin Form von \"Ja/Nein\" Abfragen oder Checkboxen erfolgen." ;
     skos:altLabel "contaminants"@en,
         "harmful substances"@en,
         "hazardous substances"@en ;
@@ -209,25 +274,36 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "BF3639" ;
     skos:prefLabel "Schadstoffe"@de,
-        "pollutants"@en .
+        "pollutants"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/BF6D19> a skos:Concept ;
+    ex:Verwendungshinweis "Die Erfassung sollte hier hin Form von \"Ja/Nein\" Abfragen oder Checkboxen erfolgen." ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/FFFCB7> ;
     skos:definition "Angabe ob Kontrolle auf Schädlingsbefall, Schimmelbildung oder andere biologische Aktivität am Objekt oder in dessen unmittelbarer Umgebung durchgeführt wurde."@de,
         "Indication of whether checks for pest infestation, mould growth or other biological activity were carried out on the property or in its immediate vicinity"@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "BF6D19" ;
     skos:prefLabel "biologischer Befall"@de,
-        "biological infestation"@en .
+        "biological infestation"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/BGC9F3> a skos:Concept ;
+    ex:Verwendungshinweis "An dieser Stelle sollten auch ergänzende Informationen zu anderen Metadaten eingetragen werden. Zum Beispiel, ob bei Gemälden der Rahmen als fester Bestandteil mit in die die Maße einbezogen wurde." ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/DA2D73> ;
     skos:definition "Möglichkeit weitere charakteristische Eigenschaften des Objektes zu beschreiben, die sich nicht eindeutig zum Objekttyp oder einer der anderen definierten Beschreibungselemente zuordnen lassen.   Beispiel: Farbe, Form, Besonderheit beim Aussehen"@de,
         "Option to describe other characteristic properties of the object that cannot clearly be assigned to the object type or any of the other defined description elements."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "BGC9F3" ;
     skos:prefLabel "Weitere Objekteigenschaften"@de,
-        "further object properties"@en .
+        "further object properties"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "optional" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/BGG5A6> a skos:Concept ;
     skos:altLabel "Befund"@de,
@@ -238,7 +314,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "BGG5A6" ;
     skos:prefLabel "Untersuchungsergebnis"@de,
-        "examination results"@en .
+        "examination results"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/BGGCA4> a skos:Concept ;
     skos:altLabel "hazard type"@en ;
@@ -248,9 +327,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "BGGCA4" ;
     skos:prefLabel "Art der Gefährdung"@de,
-        "type of hazard"@en .
+        "type of hazard"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/C2488A> a skos:Concept ;
+    ex:Verwendungshinweis "Die Definition des Schadensgrad ist häufig sehr subjektiv bzw. objektspezifisch und kaum generisch vorzuschreiben. Daher sollte stets genau beschrieben werden, was die jeweilige Bewertung im konkreten Anwendungsfall bedeutet." ;
     skos:altLabel "Grad des Schadensphänomens"@de,
         "degree of damage"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/AA6941> ;
@@ -259,7 +342,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "C2488A" ;
     skos:prefLabel "Schadensgrad"@de,
-        "extent of damage"@en .
+        "extent of damage"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/C33D85> a skos:Concept ;
     skos:altLabel "Grund der Beprobung"@de ;
@@ -269,7 +355,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "C33D85" ;
     skos:prefLabel "Anlass der Probenahme"@de,
-        "reason for sampling"@en .
+        "reason for sampling"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/C364G1> a skos:Concept ;
     skos:altLabel "Mischungsverhältnis"@de ;
@@ -279,18 +368,27 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "C364G1" ;
     skos:prefLabel "Konzentration"@de,
-        "concentration"@en .
+        "concentration"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "optional" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/C421BF> a skos:Concept ;
+    ex:Verwendungshinweis "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden." ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/CGC619> ;
     skos:definition "Erfassung des Produktions- oder Abfülldatums industrieller Produkte zur Nachvollziehbarkeit von Rezepturänderungen und Qualitätsschwankungen. Dient der Rückverfolgung von Chargen bei ungewöhnlichen Vorkommnissen und ermöglicht das Einholen relevanter Hintergrundinformationen zur Langzeitstabilität"@de,
         "Recording of the production or filling date of industrial products for traceability of recipe changes and quality fluctuations. Used to trace batches in the event of unusual occurrences and enables relevant background information on long-term stability to be obtained."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "C421BF" ;
     skos:prefLabel "Herstellungsdatum"@de,
-        "date of manufacture"@en .
+        "date of manufacture"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "optional" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/C4BCF8> a skos:Concept ;
+    ex:Empfohlene_Vokabulare "Art & Architecture Thesaurus" ;
+    ex:Verwendungshinweis "Idealerweise sollte auch die Belastbarkeit dieser Angaben mit erfasst werden. Da es sich häufig um interpretative Zuschreibungen handelt, sollte der Grad der Sicherheit bzw. die zugrundeliegende Beobachtung oder Untersuchung angegeben werden." ;
     skos:altLabel "Technik"@de,
         "manufacturing technique"@en,
         "production technique"@en ;
@@ -301,7 +399,11 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "C4BCF8" ;
     skos:prefLabel "Herstellungstechnik"@de,
-        "manufacturing technology"@en .
+        "manufacturing technology"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:KL9LCA "Ja" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/C6A532> a skos:Concept ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/BAA258> ;
@@ -310,9 +412,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "C6A532" ;
     skos:prefLabel "Anlass der Erhaltungsmaßnahme"@de,
-        "reason for conservation intervention"@en .
+        "reason for conservation intervention"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/C79561> a skos:Concept ;
+    ex:Verwendungshinweis "Für die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. Bei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann! Die Namen sollten im Format \"Vorname Nachname erfasst werden\"" ;
     skos:altLabel "Konservator*in"@de,
         "Restaurator*in"@de,
         "Conservator"@en,
@@ -324,18 +430,26 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "C79561" ;
     skos:prefLabel "Zuständige Person (Erhaltungsmaßnahme)"@de,
-        "responsible person (conservation intervention)"@en .
+        "responsible person (conservation intervention)"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/C7C3B7> a skos:Concept ;
+    ex:Verwendungshinweis "Die Angaben sollten sowohl den numerischen Wert als auch die Maßeinheit nach metrischem System im jeweils fachspezifischen Standard (g oder kg) enthalten" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/DA2D73> ;
     skos:definition "Angaben zur Masse des Objekts zum letzten Zeitpunkt der Objektuntersuchung"@de,
         "Information on the mass of the object at the last time of the object examination"@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "C7C3B7" ;
     skos:prefLabel "aktuelles Gewicht"@de,
-        "current mass"@en .
+        "current mass"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "optional" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/C8CG15> a skos:Concept ;
+    ex:Verwendungshinweis "Für die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. Bei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann! Die Namen sollten im Format \"Vorname Nachname erfasst werden\"" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/CD5C3F> ;
     skos:definition "Benennung der Person, die die Entnahme der Probe durchgeführt hat bzw. für diese verantwortlich ist."@de,
         "Name of the person who took the sample or is responsible for it."@en ;
@@ -343,9 +457,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "C8CG15" ;
     skos:prefLabel "Zuständige Person (Probenahme)"@de,
-        "Sampling person"@en .
+        "Sampling person"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/C9C527> a skos:Concept ;
+    ex:Verwendungshinweis "Die Erfassung sollte hier hin Form von \"Ja/Nein\" Abfragen oder Checkboxen erfolgen." ;
     skos:altLabel "LUX-Stunden"@de,
         "LUX hours"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/FFFCB7> ;
@@ -354,9 +472,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "C9C527" ;
     skos:prefLabel "Lichtexposition"@de,
-        "light exposure"@en .
+        "light exposure"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/CA1BC5> a skos:Concept ;
+    ex:Verwendungshinweis "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden. Im Falle der Nacherfassung" ;
     skos:altLabel "Datum der Erfassung (Zustandserfassung)"@de,
         "date of recording"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/F52262> ;
@@ -366,7 +488,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "CA1BC5" ;
     skos:prefLabel "Erfassungsdatum"@de,
-        "date of entry"@en .
+        "date of entry"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/CA8K78> a skos:Concept ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/BC5B57> ;
@@ -375,9 +500,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "CA8K78" ;
     skos:prefLabel "Vollständigkeit"@de,
-        "completeness"@en .
+        "completeness"@en ;
+    ocmp:EO7QK9 "nein" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/CB7747> a skos:Concept ;
+    ex:Verwendungshinweis "Der genaue Aufbau der Kennung kann individuell gestaltet werden. Wichtig ist, dass eindeutig zugeordnet werden kann, auf welche konkrete Probe sich die Angaben beziehen." ;
     skos:altLabel "Name der Probe"@de,
         "Nummer der Probe"@de,
         "sample ID"@en,
@@ -390,7 +519,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "CB7747" ;
     skos:prefLabel "Kennung der Probe"@de,
-        "sample identifier"@en .
+        "sample identifier"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/CD3341> a skos:Concept ;
     dcterms:source "Begriff und Definition nach DIN EN 16095: 2012-10" ;
@@ -406,9 +538,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "CD3341" ;
     skos:prefLabel "Herkunft"@de,
-        "origin"@en .
+        "origin"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/CDD613> a skos:Concept ;
+    ex:Verwendungshinweis "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden." ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/DA9CGG> ;
     skos:definition "kalendermäßige Erfassung des Zeitpunktes, an dem die jeweilige Maßnahme begonnen wurde."@de,
         "calendar-based recording of the date on which the respective measure was initiated."@en ;
@@ -416,9 +552,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "CDD613" ;
     skos:prefLabel "Beginn der Maßnahme"@de,
-        "start of intervention"@en .
+        "start of intervention"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/CDF685> a skos:Concept ;
+    ex:Verwendungshinweis "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden." ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/DA9CGG> ;
     skos:definition "kalendermäßige Erfassung des Zeitpunktes, an dem die jeweilige Maßnahme beendet wurde."@de,
         "calendar-based recording of the date on which the respective measure was completed."@en ;
@@ -426,7 +566,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "CDF685" ;
     skos:prefLabel "Ende der Maßnahme"@de,
-        "end of intervention"@en .
+        "end of intervention"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/CF3C22> a skos:Concept ;
     skos:altLabel "Fragestellung"@de,
@@ -439,7 +582,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "CF3C22" ;
     skos:prefLabel "Untersuchungsanlass"@de,
-        "reason for examination"@en .
+        "reason for examination"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/D1CFD5> a skos:Concept ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/DAB4B7> ;
@@ -448,9 +594,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "D1CFD5" ;
     skos:prefLabel "verwendetes Material (Untersuchung)"@de,
-        "Material(s) used (examination)"@en .
+        "Material(s) used (examination)"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/D3AF3A> a skos:Concept ;
+    ex:Verwendungshinweis "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden." ;
     skos:altLabel "Datum der Beprobung"@de,
         "sampling date"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/CD5C3F> ;
@@ -460,9 +610,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "D3AF3A" ;
     skos:prefLabel "Datum der Probennahme"@de,
-        "date of sampling"@en .
+        "date of sampling"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/D4A13D> a skos:Concept ;
+    ex:Verwendungshinweis "Idealerweise sollte auch die Belastbarkeit dieser Angabe erfasst werden, d.h. ob die Ursache des Schadens gesichert bekannt ist (z.B. dokumentierter Wasserschaden) oder lediglich vermutet wird." ;
     dcterms:source "Begriff nach DIN EN 15898:2020-02" ;
     skos:altLabel "Schadensursache"@de,
         "damaging factor"@en ;
@@ -472,7 +626,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "D4A13D" ;
     skos:prefLabel "Schadensfaktor"@de,
-        "cause of damage"@en .
+        "cause of damage"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "optional" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/D6A11G> a skos:Concept ;
     skos:altLabel "Metadaten"@de,
@@ -485,9 +642,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "D6A11G" ;
     skos:prefLabel "Geräteeinstellungen (Untersuchungsgerät)"@de,
-        "instrument settings (examination instrument)"@en .
+        "instrument settings (examination instrument)"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/D78721> a skos:Concept ;
+    ex:Verwendungshinweis "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden." ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/AC16G1> ;
     skos:definition "Zeitpunkt, zu dem der Bericht erstellt wurde"@de,
         "Date on which the report was prepared"@en ;
@@ -495,7 +656,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "D78721" ;
     skos:prefLabel "Erstellungsdatum des Datensatzes"@de,
-        "date of report creation"@en .
+        "date of report creation"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/D865C3> a skos:Concept ;
     skos:altLabel "Hersteller"@de,
@@ -507,9 +671,14 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "D865C3" ;
     skos:prefLabel "Bezugsquelle"@de,
-        "source"@en .
+        "source"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "optional" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/D866AD> a skos:Concept ;
+    ex:Empfohlene_Vokabulare "Art & Architecture Thesaurus" ;
+    ex:Verwendungshinweis "Idealerweise sollte auch die Belastbarkeit dieser Angaben mit erfasst werden, zum Beispiel ob zur Materialbestimmung eine naturwissenschaftliche Analyse verwendet wurde oder ob sie lediglich auf einer visuellen Begutachtung des Objektes beruht." ;
     skos:altLabel "Material"@de,
         "Objektwerkstoff"@de ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/DA2D73> ;
@@ -519,7 +688,11 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "D866AD" ;
     skos:prefLabel "Objektmaterial"@de,
-        "object material"@en .
+        "object material"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:KL9LCA "Ja" ;
+    ocmp:TQKQBM "URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/D941BB> a skos:Concept ;
     dcterms:source "A2FA1B",
@@ -535,7 +708,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "D941BB" ;
     skos:prefLabel "Präsentationsvorgaben"@de,
-        "presentation guidelines"@en .
+        "presentation guidelines"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/D9A6FA> a skos:Concept ;
     skos:altLabel "Beprobungsmethode"@de,
@@ -548,9 +724,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "D9A6FA" ;
     skos:prefLabel "Entnahmemethode"@de,
-        "sampling method"@en .
+        "sampling method"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/DF7759> a skos:Concept ;
+    ex:Verwendungshinweis "Die einzuhaltende Beleuchtungsstärke soll in LUX erfasst werden, die maximal zulässige Expositionszeit in Stunden" ;
     dcterms:source "D941BB" ;
     skos:altLabel "LUX (konservatorische Bedingung)"@de,
         "LUX (conservation condition"@en ;
@@ -560,9 +740,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "DF7759" ;
     skos:prefLabel "Beleuchtungsstärke (konservatorische Bedingungen)"@de,
-        "illuminance (recommended conditions)"@en .
+        "illuminance (recommended conditions)"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "optional" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/F1BA31> a skos:Concept ;
+    ex:Empfohlene_Vokabulare "Art & Architecture Thesaurus" ;
     skos:altLabel "Objektart"@de,
         "Objektbezeichnung"@de,
         "Sachbegriff"@de ;
@@ -572,7 +756,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "F1BA31" ;
     skos:prefLabel "Objekttyp"@de,
-        "object type"@en .
+        "object type"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/F2244D> a skos:Concept ;
     dcterms:source "C3A182" ;
@@ -582,9 +769,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "F2244D" ;
     skos:prefLabel "Verpackungs- und Transportempfehlungen"@de,
-        "Packaging and transport recommendations"@en .
+        "Packaging and transport recommendations"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/F285B2> a skos:Concept ;
+    ex:Verwendungshinweis "Der Name sollte im Format \"Vorname Nachname\" erfasst werden." ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/AC16G1> ;
     skos:definition "Angaben zur Person (Name, ggfs. Funktion) der für den Bericht verantwortlichen Person."@de,
         "Personal details (name, position if applicable) of the person responsible for the report"@en ;
@@ -592,9 +783,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "F285B2" ;
     skos:prefLabel "Bearbeiter*in des Datensatzes"@de,
-        "author"@en .
+        "author"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/F2A45F> a skos:Concept ;
+    ex:Verwendungshinweis "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden." ;
     skos:altLabel "receipt date"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/B51DAF> ;
     skos:definition "Datum, an dem das Objekt in die aktuell zuständige Sammlung aufgenommen wurde. An dieser Stelle ist (noch) nicht das Datum, an dem das Objekt in die Restaurierungseinrichtung eingeliefert wurde gemeint."@de,
@@ -604,9 +799,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "F2A45F" ;
     skos:prefLabel "Eingangsdatum"@de,
-        "date of receipt"@en .
+        "date of receipt"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/F2AG55> a skos:Concept ;
+    ex:Verwendungshinweis "Gängige wissenschaftliche Zitationsweisen sind einzuhalten." ;
     skos:altLabel "Bibliographie"@de,
         "bibliography"@en,
         "references"@en ;
@@ -616,7 +815,10 @@
     skos:notation "F2AG55" ;
     skos:prefLabel "Verwendete Literatur"@de,
         "literature used"@en ;
-    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> .
+    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "optional" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/F396G6> a skos:Concept ;
     dcterms:source "A5C668",
@@ -631,9 +833,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "F396G6" ;
     skos:prefLabel "Ergebnis des Monitorings"@de,
-        "result of monitoring"@en .
+        "result of monitoring"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/F3G8D1> a skos:Concept ;
+    ex:Verwendungshinweis "Für die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. Bei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann! Personennamen sollten in der Form \"Vorname Nachname\" erfasst werden.  Sollen keine Personennamen veröffentlicht werden, ist an dieser Stelle das zuständige Institution/Körperschaft zu nennen." ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/B51DAF> ;
     skos:definition "Benannte Person, die für Rückfragen in Bezug auf das Objekt und den Umgang mit diesem kontaktiert werden kann. Dies kann bei Privatbesitz der Eigentümer sein oder bei Objekten aus öffentlichen Einrichtungen z.B. der/die zuständige Kurator*in."@de,
         "The designated person who can be contacted for queries regarding the object and its handling. For private property, this may be the owner; for objects from public institutions, it may be the responsible curator, for example."@en ;
@@ -641,7 +847,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "F3G8D1" ;
     skos:prefLabel "Ansprechpartner*in"@de,
-        "contact person"@en .
+        "contact person"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "optional" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/F58F6D> a skos:Concept ;
     skos:altLabel "Lokalisation der Probennahme"@de,
@@ -653,9 +862,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "F58F6D" ;
     skos:prefLabel "Stelle der Probenahme"@de,
-        "sampling location"@en .
+        "sampling location"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/F5G576> a skos:Concept ;
+    ex:Verwendungshinweis "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden." ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/C11192> ;
     skos:definition "Zeitpunkt der durchgeführten Kontrollmaßnahme zur chronologischen Dokumentation und Nachvollziehbarkeit"@de,
         "Time of the control measure carried out for chronological documentation and traceability"@en ;
@@ -663,9 +876,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "F5G576" ;
     skos:prefLabel "Datum des Monitoring"@de,
-        "date of monitoring"@en .
+        "date of monitoring"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/F72743> a skos:Concept ;
+    ex:Verwendungshinweis "Besonders wenn dies von einer externen Einrichtung durchgeführt wird, ist die Erfassung zu empfehlen.  In Fällen, in denen bei der Veröffentlichung des Datensatzes die zuständige Person nicht genannt werden kann/darf, sollte stattdessen zumindest die zuständige Einrichtung im Datensatz enthalten sein." ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/CD5C3F> ;
     skos:definition "Benennung der Einrichtung, die die Probenentnahme durchgeführt hat."@de,
         "Name of the facility that carried out the sampling."@en ;
@@ -673,9 +890,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "F72743" ;
     skos:prefLabel "Durchführende Einrichtung (Probenahme)"@de,
-        "Sampling institution"@en .
+        "Sampling institution"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/F87124> a skos:Concept ;
+    ex:Empfohlene_Vokabulare "Art & Architecture Thesaurus" ;
     skos:altLabel "Gerät"@de,
         "instrument"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/A13CD1> ;
@@ -684,7 +905,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "F87124" ;
     skos:prefLabel "Werkzeug"@de,
-        "tool"@en .
+        "tool"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/F8F594> a skos:Concept ;
     skos:altLabel "Art der Untersuchung"@de,
@@ -696,7 +920,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "F8F594" ;
     skos:prefLabel "Untersuchungsart"@de,
-        "type of examination"@en .
+        "type of examination"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "optionale" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/F9GB13> a skos:Concept ;
     skos:altLabel "Objektdatierung"@de,
@@ -708,7 +935,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "F9GB13" ;
     skos:prefLabel "Datierung"@de,
-        "dating"@en .
+        "dating"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/FBFFF5> a skos:Concept ;
     skos:altLabel "hazard information"@en ;
@@ -718,9 +948,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "FBFFF5" ;
     skos:prefLabel "Gefährdungshinweise"@de,
-        "hazard warnings"@en .
+        "hazard warnings"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/FC3322> a skos:Concept ;
+    ex:Verwendungshinweis "Bei diesem Feld muss zwischen der internen Erfassung des genauen Standorts und der allgemeinen Standortangabe für die Veröffentlichung des Datensatzes unterschieden werden. Der genaue Standort dient der internen Dokumentation und kann bei Bedarf vertraulich behandelt werden. Für veröffentlichte Datensätze sollte nur der übergeordnete Standort (z. B. Einrichtung,  Ausstellung, Depot) angegeben werden." ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/DA2D73> ;
     skos:definition "Angaben zum letzten bekannten Standort des Objekts."@de,
         "Information about the last known location of the object."@en ;
@@ -728,7 +962,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "FC3322" ;
     skos:prefLabel "aktueller Standort"@de,
-        "current location"@en .
+        "current location"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/FD2B2B> a skos:Concept ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/CD5C3F> ;
@@ -737,9 +974,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "FD2B2B" ;
     skos:prefLabel "Probenbeschreibung"@de,
-        "sample description"@en .
+        "sample description"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/FD6617> a skos:Concept ;
+    ex:Verwendungshinweis "Die einzuhaltenden Anforderungen sollen nach Möglichkeit in Mikrowatt pro Lumen (µW/lm) erfasst werden. Aber auch Angaben in Mikrowatt pro Quadratzentimeter oder in Prozent (bei Bezug auf UV-Filter) sind möglich. Wichtig ist neben der Erfassung der numerischen Werte auch die jeweilige Einheit mit anzugeben." ;
     dcterms:source "D941BB" ;
     skos:altLabel "UV (konservatorische Bedingungen)"@de,
         "ultraviolet protection"@en ;
@@ -749,7 +990,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "FD6617" ;
     skos:prefLabel "UV-Schutz (konservatorische Bedingungen)"@de,
-        "UV protection (recommended conditions)"@en .
+        "UV protection (recommended conditions)"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "optional" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/FGF575> a skos:Concept ;
     skos:altLabel "Erhaltungsziel"@de,
@@ -762,16 +1006,23 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "FGF575" ;
     skos:prefLabel "konservatorische Zielsetzung"@de,
-        "conservation objective"@en .
+        "conservation objective"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/FRG491G> a skos:Concept ;
+    ex:Verwendungshinweis "Die Angaben sollten sowohl den numerischen Wert als auch die Maßeinheit nach metrischem System im jeweils fachspezifischem Standard (mm, cm, m) enthalten" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/DBC278> ;
     skos:definition "Angabe zur größten linearen Ausdehnung eines Objekten mit runder, ovaler oder ringförmiger Grundform, gemessen zwischen zwei gegenüberliegenden Punkten über den geometrischen Mittelpunkt."@de,
         "Specification of the greatest linear extension of an object with a round, oval or ring-shaped base, as measured between two opposite points across its geometric centre."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "FRG491G" ;
     skos:prefLabel "Durchmesser"@de,
-        "diameter"@en .
+        "diameter"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "optional" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/G56866> a skos:Concept ;
     skos:altLabel "Nutzungsrechte"@de,
@@ -782,7 +1033,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "G56866" ;
     skos:prefLabel "Zugangsrecht"@de,
-        "access rights"@en .
+        "access rights"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/G59SR3> a skos:Concept ;
     skos:altLabel "Kennzeichnungsnummerntyp"@de ;
@@ -792,9 +1046,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "G59SR3" ;
     skos:prefLabel "Art der Kennzeichnungsnummer"@de,
-        "type of identification number"@en .
+        "type of identification number"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/G73958> a skos:Concept ;
+    ex:Verwendungshinweis "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden." ;
     skos:altLabel "Datum der Untersuchung"@de,
         "examination date"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/B3FCA1> ;
@@ -804,9 +1062,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "G73958" ;
     skos:prefLabel "Untersuchungsdatum"@de,
-        "date of examination"@en .
+        "date of examination"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/G76A78> a skos:Concept ;
+    ex:Empfohlene_Vokabulare "GND, Wikidata, VIAF" ;
     dcterms:source "Begriff nach DIN EN 16095:2012-10" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/B51DAF> ;
     skos:definition "Angaben zur Person, die das Objekt hergestellt hat - sofern bekannt.   Beispiel: \"Leonardo da Vinci\""@de,
@@ -815,9 +1077,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "G76A78" ;
     skos:prefLabel "Schöpfer*in"@de,
-        "creator"@en .
+        "creator"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "optional" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/G76B7G> a skos:Concept ;
+    ex:Verwendungshinweis "Besonders wenn dies von einer externen Einrichtung durchgeführt wird, ist die Erfassung zu empfehlen.  In Fällen, in denen bei der Veröffentlichung des Datensatzes die zuständige Person nicht genannt werden kann/darf, sollte stattdessen zumindest die zuständige Einrichtung im Datensatz enthalten sein." ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/B3FCA1> ;
     skos:definition "Benennung der Einrichtung, die die Untersuchung durchgeführt hat."@de,
         "Name of the institution that conducted the examination."@en ;
@@ -825,7 +1091,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "G76B7G" ;
     skos:prefLabel "Durchführende Einrichtung (Untersuchung)"@de,
-        "Examining institution"@en .
+        "Examining institution"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/G79CA9> a skos:Concept ;
     dcterms:source "Begriff und Definition nach DIN EN 16095:2012-10" ;
@@ -835,9 +1104,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "G79CA9" ;
     skos:prefLabel "bisherige Umgebungsbedingungen"@de,
-        "previous environmental conditions"@en .
+        "previous environmental conditions"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/G7F25F> a skos:Concept ;
+    ex:Verwendungshinweis "Für die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. Bei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann! Die Namen sollten im Format \"Vorname Nachname erfasst werden\"" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/B3FCA1> ;
     skos:definition "Benennung der Person, die die Untersuchung durchgeführt hat bzw. für diese verantwortlich ist."@de,
         "Name of the person who conducted the examination or is responsible for it."@en ;
@@ -845,9 +1118,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "G7F25F" ;
     skos:prefLabel "Zuständige Person (Untersuchung)"@de,
-        "Examining person"@en .
+        "Examining person"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/G814D2> a skos:Concept ;
+    ex:Verwendungshinweis "In Angabe des Zeitaufwandes soll nach Möglichkeit in Stunden erfolgen" ;
     skos:altLabel "time commitment"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/DA9CGG> ;
     skos:definition "Summe der tatsächlich am Objekt geleisteten Arbeitsstunden währen der Maßnahme, ohne passive Zeiten wie Trocknungsphasen oder parallele Wartezeiten."@de,
@@ -855,7 +1132,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "G814D2" ;
     skos:prefLabel "Zeitaufwand"@de,
-        "time required"@en .
+        "time required"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "(optional)" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/GB6DF3> a skos:Concept ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/B51DAF> ;
@@ -864,9 +1144,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "GB6DF3" ;
     skos:prefLabel "Objektbeziehung"@de,
-        "object relationship"@en .
+        "object relationship"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/GDF23F> a skos:Concept ;
+    ex:Verwendungshinweis "Der Verweis kann je nach Medium unterschiedlich ausfallen. Als URI/URL zu einem digitalen Datensatz oder, im Fall analoger Materialien, als Identifikationsnummer oder Standortangabe der Dokumentenablage" ;
     skos:altLabel "Kennnummer"@de ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/CDD6B5> ;
     skos:definition "Eindeutiger Hinweis, an welchem Ort die Dokumentation(en) zu finden ist/sind."@de,
@@ -874,9 +1158,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "GDF23F" ;
     skos:prefLabel "Verweis"@de,
-        "reference"@en .
+        "reference"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/GF41DG> a skos:Concept ;
+    ex:Verwendungshinweis "In Fällen, in denen bei der Veröffentlichung des Datensatzes die zuständige Person nicht genannt werden kann/darf, sollte stattdessen zumindest die zuständige Einrichtung im Datensatz enthalten sein." ;
     skos:altLabel "Werkstatt, Labor, Atelier, Restaurierungswerkstatt"@de,
         "conservation lab"@en,
         "conservation labratory"@en,
@@ -889,16 +1177,23 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "GF41DG" ;
     skos:prefLabel "Zuständige Restaurierungseinrichtung"@de,
-        "responsible conservation facility"@en .
+        "responsible conservation facility"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/GF856C> a skos:Concept ;
+    ex:Verwendungshinweis "Die Angaben sollten sowohl den numerischen Wert als auch die Maßeinheit nach metrischem System im jeweils fachspezifischen Standard (mm, cm, m) enthalten" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/DBC278> ;
     skos:definition "Angabe der vertikalen Ausdehnung eines Objektes von seiner untersten zur höchsten Stelle (Y-Achse)."@de,
         "Specification of the vertical extension of an object from its lowest to its highest point (Y-axis)."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "GF856C" ;
     skos:prefLabel "Höhe"@de,
-        "hight"@en .
+        "hight"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/GVB7T9> a skos:Concept ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/BC5B57> ;
@@ -907,9 +1202,13 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "GVB7T9" ;
     skos:prefLabel "Stabilität"@de,
-        "stability"@en .
+        "stability"@en ;
+    ocmp:EO7QK9 "ja" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/HRO94F> a skos:Concept ;
+    ex:Verwendungshinweis "Für die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. Bei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann!" ;
     skos:altLabel "person in charge (condition assessment)"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/F52262> ;
     skos:definition "Benennung der Person, die die Zustandserfassung durchgeführt hat bzw. für diese verantwortlich ist."@de,
@@ -918,7 +1217,10 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "HRO94F" ;
     skos:prefLabel "Zuständige Person (Zustandserfassung)"@de,
-        "responsible person (condition assessment)"@en .
+        "responsible person (condition assessment)"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/K343FVC> a skos:Concept ;
     skos:altLabel "Alternative Nummern"@de,
@@ -930,27 +1232,39 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "K343FVC" ;
     skos:prefLabel "Weitere Objektnummern"@de,
-        "alternative object number"@en .
+        "alternative object number"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "optional" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/QD45G7> a skos:Concept ;
+    ex:Verwendungshinweis "Die Angaben sollten sowohl den numerischen Wert als auch die Maßeinheit nach metrischem System im jeweils fachspezifischen Standard (mm, cm, m) enthalten" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/DBC278> ;
     skos:definition "Angabe zur räumlichen Ausdehnung eines Objektes von seiner Vorder- zur Rückseite (Z-Achse)."@de,
         "Information about the spatial extent of an object from its front to its back (Z-axis)."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "QD45G7" ;
     skos:prefLabel "Tiefe"@de,
-        "depth"@en .
+        "depth"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "optional" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/WF436G> a skos:Concept ;
+    ex:Verwendungshinweis "Die Angaben sollten sowohl den numerischen Wert als auch die Maßeinheit nach metrischem System im jeweils fachspezifischen Standard (mm, cm, m) enthalten" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/DBC278> ;
     skos:definition "Angabe der horizontalen Ausdehnung eines Objektes von seiner linken zur rechten Seite in Frontalansicht (X-Achse)."@de,
         "Specification of the horizontal extension of an object from its left to right side in frontal view (X-axis)."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "WF436G" ;
     skos:prefLabel "Breite"@de,
-        "width"@en .
+        "width"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/CDD6B5> a skos:Concept ;
+    ex:Verwendungshinweis "Diese Information kann entweder als Freitext eingegeben oder aus einer zuvor individuell definierten internen Liste gängiger Dokumentationsformen ausgewählt werden (z. B. aus einem Drop-down-Menü oder Checkboxen)" ;
     skos:altLabel "type of documentation"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/F52262> ;
     skos:definition "Angaben, in welcher Form der Zustand erfasst wurde bzw. in welcher/welchen Datenformen/Medien die Dokumentation des Zustandes vorliegt.  Beispiel: \"Zustandsbericht + Fotos\""@de,
@@ -959,7 +1273,10 @@
     skos:narrower <https://www.w3id.org/conservation/terms/metadata/GDF23F> ;
     skos:notation "CDD6B5" ;
     skos:prefLabel "Dokumentationsform"@de,
-        "documentation type"@en .
+        "documentation type"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/D949G6> a skos:Concept ;
     skos:altLabel "examination device"@en ;
@@ -970,7 +1287,10 @@
     skos:narrower <https://www.w3id.org/conservation/terms/metadata/D6A11G> ;
     skos:notation "D949G6" ;
     skos:prefLabel "Untersuchungsgerät"@de,
-        "examination instrument"@en .
+        "examination instrument"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/F7D3DB> a skos:Concept ;
     dcterms:source "Begriff nach DIN EN 16095:2012-10" ;
@@ -984,7 +1304,10 @@
     skos:narrower <https://www.w3id.org/conservation/terms/metadata/G59SR3> ;
     skos:notation "F7D3DB" ;
     skos:prefLabel "Kennzeichnungsnummer"@de,
-        "identification number"@en .
+        "identification number"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/G5TA85> a skos:Concept ;
     skos:altLabel "Grund der Zustandserfassung"@de ;
@@ -995,7 +1318,10 @@
     skos:narrower <https://www.w3id.org/conservation/terms/metadata/A8ABBA> ;
     skos:notation "G5TA85" ;
     skos:prefLabel "Anlass der Zustandserfassung"@de,
-        "reason for the condition assessment"@en .
+        "reason for the condition assessment"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/A13CD1> a skos:Concept ;
     dcterms:source "Begriff und Definition nach DIN EN 15898:2020-02" ;
@@ -1014,9 +1340,13 @@
         <https://www.w3id.org/conservation/terms/metadata/F87124> ;
     skos:notation "A13CD1" ;
     skos:prefLabel "Eingriff"@de,
-        "treatment"@en .
+        "treatment"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/AA6941> a skos:Concept ;
+    ex:Verwendungshinweis "Idealerweise sollte auch die Belastbarkeit dieser Angaben mit erfasst werden, indem z.B. die Art der Untersuchung/Feststellung dieser Veränderung dokumentiert wird." ;
     skos:altLabel "Beschädigung"@de,
         "Schaden"@de,
         "Schadensbild"@de,
@@ -1030,7 +1360,10 @@
         <https://www.w3id.org/conservation/terms/metadata/D4A13D> ;
     skos:notation "AA6941" ;
     skos:prefLabel "Schadensphänomene"@de,
-        "damage"@en .
+        "damage"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/BC5B57> a skos:Concept ;
     dcterms:source "Begriff nach DIN EN 15898:2020-02" ;
@@ -1043,7 +1376,10 @@
         <https://www.w3id.org/conservation/terms/metadata/GVB7T9> ;
     skos:notation "BC5B57" ;
     skos:prefLabel "Physischer Objektzustand"@de,
-        "physical condition"@en .
+        "physical condition"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/CCCC7G> a skos:Concept ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/B7B8B6> ;
@@ -1054,7 +1390,9 @@
         <https://www.w3id.org/conservation/terms/metadata/AFD671> ;
     skos:notation "CCCC7G" ;
     skos:prefLabel "Letzte Gefährdungsbewertung"@de,
-        "last hazard assessment"@en .
+        "last hazard assessment"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "optional" .
 
 <https://www.w3id.org/conservation/terms/metadata/D1F5D3> a skos:Concept ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/AC16G1> ;
@@ -1065,7 +1403,10 @@
         <https://www.w3id.org/conservation/terms/metadata/B43DK5> ;
     skos:notation "D1F5D3" ;
     skos:prefLabel "Version"@de,
-        "version"@en .
+        "version"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/DAB4B7> a skos:Concept ;
     skos:altLabel "Untersuchungsmethode"@de,
@@ -1082,7 +1423,10 @@
         <https://www.w3id.org/conservation/terms/metadata/D949G6> ;
     skos:notation "DAB4B7" ;
     skos:prefLabel "Untersuchungsverfahren"@de,
-        "examination procedure"@en .
+        "examination procedure"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/AC1786> a skos:Concept ;
     dcterms:source "Begriff und Definition nach DIN EN 16095:2012-10 und DIN EN 15898:2020-02" ;
@@ -1098,7 +1442,9 @@
         <https://www.w3id.org/conservation/terms/metadata/G79CA9> ;
     skos:notation "AC1786" ;
     skos:prefLabel "Zustandsbeschreibung"@de,
-        "condition description"@en .
+        "condition description"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/BAA258> a skos:Concept ;
     skos:altLabel "Behandlungskonzept"@de,
@@ -1119,7 +1465,9 @@
     skos:notation "BAA258" ;
     skos:prefLabel "Erhaltungskonzept"@de,
         "conservation plan"@en ;
-    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> .
+    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/C93638> a skos:Concept ;
     skos:definition "Übergeordneter Begriff zur Erfassung aller Angaben bezüglich vorbeugender Maßnahmen, die ohne direkten Eingriff am Objekt selbst darauf abzielen Schäden am Objekt zu vermindern."@de,
@@ -1131,9 +1479,12 @@
     skos:notation "C93638" ;
     skos:prefLabel "Präventive Konservierung"@de,
         "preventive conservation"@en ;
-    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> .
+    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" .
 
 <https://www.w3id.org/conservation/terms/metadata/CGC619> a skos:Concept ;
+    ex:Empfohlene_Vokabulare "Art & Architecture Thesaurus" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/A13CD1> ;
     skos:definition "Benennung des bzw. der Materialien, die für die jeweilige konservatorische und/oder restauratorische Maßnahme verwendet wurden."@de,
         "Name of the material(s) used for the respective conservation and/or restoration measure."@en ;
@@ -1143,7 +1494,10 @@
         <https://www.w3id.org/conservation/terms/metadata/D865C3> ;
     skos:notation "CGC619" ;
     skos:prefLabel "Verwendetes Material (Erhaltungsmaßnahme)"@de,
-        "used material (conservation intervention)"@en .
+        "used material (conservation intervention)"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/GF9C49> a skos:Concept ;
     skos:altLabel "recommendations for handling"@en,
@@ -1157,7 +1511,9 @@
         <https://www.w3id.org/conservation/terms/metadata/F2244D> ;
     skos:notation "GF9C49" ;
     skos:prefLabel "Allgemeine Umgangsempfehlungen"@de,
-        "general handling recommendations"@en .
+        "general handling recommendations"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" .
 
 <https://www.w3id.org/conservation/terms/metadata/AC16G1> a skos:Concept ;
     skos:definition "administrative Angaben zu dem vorliegenden Bericht und seinen Inhalten"@de,
@@ -1170,7 +1526,8 @@
     skos:notation "AC16G1" ;
     skos:prefLabel "Administrative Metadaten"@de,
         "administrative metadata"@en ;
-    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> .
+    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
+    ocmp:JYGNTK "Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/B7B8B6> a skos:Concept ;
     skos:definition "Übergeordneter Begriff zur Strukturierung aller Angaben, zu potentiellen Gefahren, die von einem individuellen (behandelten) Objekt ausgehen und Maßnahmen, die zum Schutz der Gesundheit bei Umgang mit den jeweiligen Objekten eingehalten werden sollten.   Nicht gemeint sind dabei die allgemeinen Arbeitssicherheitsmaßnahmen, die im Rahmen der gesetzlichen Vorgaben für Restaurator*innen gelten."@de,
@@ -1183,7 +1540,9 @@
     skos:notation "B7B8B6" ;
     skos:prefLabel "Gefährdungspotential"@de,
         "risk potential"@en ;
-    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> .
+    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "bedingte Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/C11192> a skos:Concept ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/C93638> ;
@@ -1196,7 +1555,9 @@
         <https://www.w3id.org/conservation/terms/metadata/FFFCB7> ;
     skos:notation "C11192" ;
     skos:prefLabel "Monitoring"@de,
-        "monitoring"@en .
+        "monitoring"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "empfohlen" .
 
 <https://www.w3id.org/conservation/terms/metadata/C3A182> a skos:Concept ;
     dcterms:source "D941BB" ;
@@ -1211,7 +1572,9 @@
         <https://www.w3id.org/conservation/terms/metadata/FD6617> ;
     skos:notation "C3A182" ;
     skos:prefLabel "Konservatorische Bedingungen"@de,
-        "recommended conditions"@en .
+        "recommended conditions"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" .
 
 <https://www.w3id.org/conservation/terms/metadata/DBC278> a skos:Concept ;
     skos:altLabel "Abmessungen"@de,
@@ -1228,7 +1591,9 @@
         <https://www.w3id.org/conservation/terms/metadata/WF436G> ;
     skos:notation "DBC278" ;
     skos:prefLabel "aktuelle Maße"@de,
-        "current dimensions"@en .
+        "current dimensions"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "bedingte Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/FFFCB7> a skos:Concept ;
     dcterms:source "F396G6" ;
@@ -1242,7 +1607,10 @@
         <https://www.w3id.org/conservation/terms/metadata/C9C527> ;
     skos:notation "FFFCB7" ;
     skos:prefLabel "Überprüfte Bedingungen"@de,
-        "Verified conditions"@en .
+        "Verified conditions"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/F52262> a skos:Concept ;
     skos:altLabel "Zustandserhebung"@de,
@@ -1260,7 +1628,9 @@
     skos:notation "F52262" ;
     skos:prefLabel "Zustandserfassung"@de,
         "condition assessment"@en ;
-    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> .
+    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/DA2D73> a skos:Concept ;
     dcterms:source "Begriff nach DIN EN 16095:2012-10 & DIN EN 15898:2019" ;
@@ -1277,7 +1647,9 @@
     skos:notation "DA2D73" ;
     skos:prefLabel "Objektbeschreibung"@de,
         "object description"@en ;
-    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> .
+    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/DA9CGG> a skos:Concept ;
     skos:altLabel "Bestandserhaltung"@de,
@@ -1303,7 +1675,9 @@
         <https://www.w3id.org/conservation/terms/metadata/GF41DG> ;
     skos:notation "DA9CGG" ;
     skos:prefLabel "Erhaltungsmaßnahme"@de,
-        "intervention"@en .
+        "intervention"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "bedingte Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/CD5C3F> a skos:Concept ;
     dcterms:source "DIN EN 16085:2012-10" ;
@@ -1324,7 +1698,9 @@
     skos:notation "CD5C3F" ;
     skos:prefLabel "Probenahme"@de,
         "sampling"@en ;
-    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> .
+    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "bedingte Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/B3FCA1> a skos:Concept ;
     dcterms:source "Begriff nach DIN EN 15898:2020-02" ;
@@ -1345,7 +1721,9 @@
     skos:notation "B3FCA1" ;
     skos:prefLabel "Untersuchung"@de,
         "examination"@en ;
-    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> .
+    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "bedingte Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/B51DAF> a skos:Concept ;
     dcterms:source "Begriff nach DIN EN 16095:2012-10" ;
@@ -1366,7 +1744,9 @@
     skos:notation "B51DAF" ;
     skos:prefLabel "Objektkennzeichnung"@de,
         "object identification"@en ;
-    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> .
+    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata> a skos:ConceptScheme ;
     dcterms:creator "TWG Standards" ;
