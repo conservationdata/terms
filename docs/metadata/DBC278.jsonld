@@ -2,17 +2,22 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/DBC278",
   "type": "Concept",
   "prefLabel": {
-    "de": "aktuelle Maße"
+    "de": "aktuelle Maße",
+    "en": "current dimensions"
   },
   "altLabel": {
     "de": [
       "Abmessungen",
       "Dimension",
       "Maßangabe"
+    ],
+    "en": [
+      "current measurements"
     ]
   },
   "definition": {
-    "de": "Angaben zu den räumlichen Dimensionen des Objektes, zum letzten Zeitpunkt der Begutachtung. Die Maße des Objektes können sich im Laufe der Zeit verändern (z.B. durch Beschädigung oder die Zusammensetzung eines zerscherbten Objektes)."
+    "de": "Angaben zu den räumlichen Dimensionen des Objektes, zum letzten Zeitpunkt der Begutachtung. Die Maße des Objektes können sich im Laufe der Zeit verändern (z.B. durch Beschädigung oder die Zusammensetzung eines zerscherbten Objektes).",
+    "en": "Information on the spatial dimensions of the object at the time of the last assessment. The dimensions of the object may change over time (e.g. due to damage or the composition of a shattered object)."
   },
   "notation": [
     "DBC278"
@@ -21,49 +26,51 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/FRG491G",
       "prefLabel": {
-        "de": "Durchmesser"
+        "de": "Durchmesser",
+        "en": "diameter"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/GF856C",
       "prefLabel": {
-        "de": "Höhe"
+        "de": "Höhe",
+        "en": "hight"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/QD45G7",
       "prefLabel": {
-        "de": "Tiefe"
+        "de": "Tiefe",
+        "en": "depth"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/WF436G",
       "prefLabel": {
-        "de": "Breite"
+        "de": "Breite",
+        "en": "width"
       }
     }
   ],
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/DA2D73",
     "prefLabel": {
-      "de": "Objektbeschreibung"
+      "de": "Objektbeschreibung",
+      "en": "object description"
     }
   },
   "inScheme": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
   "inSchemeAll": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
-  ],
-  "Verpflichtungsgrad": [
-    "bedingte Pflicht"
-  ],
-  "Wiederholbar": [
-    "Nein"
   ],
   "@context": {
     "@version": 1.1,
@@ -77,7 +84,7 @@
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "doc": "http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -94,6 +101,10 @@
       "@id": "dct:description",
       "@container": "@language"
     },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
     "issued": {
       "@id": "dct:issued",
       "@type": "xsd:date"
@@ -106,12 +117,33 @@
       "@id": "dct:modified",
       "@type": "xsd:date"
     },
-    "creator": "dct:creator",
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
     "publisher": "dct:publisher",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
     "prefLabel": {
       "@container": "@language"
     },
@@ -210,20 +242,8 @@
       "@id": "dct:isReplacedBy",
       "@container": "@set"
     },
-    "TextOrUri": {
-      "@id": "doc:TextOrUri",
-      "@container": "@set"
-    },
-    "Verpflichtungsgrad": {
-      "@id": "doc:Verpflichtungsgrad",
-      "@container": "@set"
-    },
-    "Wiederholbar": {
-      "@id": "doc:Wiederholbar",
-      "@container": "@set"
-    },
-    "EmpfohleneVokabulare": {
-      "@id": "doc:EmpfohleneVokabulare",
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
       "@container": "@set"
     }
   }

@@ -2,7 +2,8 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/B14C4A",
   "type": "Concept",
   "prefLabel": {
-    "de": "Empfehlungen zur Handhabung"
+    "de": "Empfehlungen zur Handhabung",
+    "en": "handling recommendations"
   },
   "altLabel": {
     "de": [
@@ -10,7 +11,8 @@
     ]
   },
   "definition": {
-    "de": "Angaben zu Besonderheiten, die im Zuge der Handhabung des Objektes berücksichtigt werden müssen. \r\r\n\r\r\nBeispiel: \"Nicht an den Henkeln anfassen\""
+    "de": "Angaben zu Besonderheiten, die im Zuge der Handhabung des Objektes berücksichtigt werden müssen.   Beispiel: \"Nicht an den Henkeln anfassen\"",
+    "en": "Information on special features that must be taken into account when handling the object.   Example: ‘Do not touch the handles.’"
   },
   "notation": [
     "B14C4A"
@@ -18,27 +20,22 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/GF9C49",
     "prefLabel": {
-      "de": "Allgemeine Umgangsempfehlungen"
+      "de": "Allgemeine Umgangsempfehlungen",
+      "en": "general handling recommendations"
     }
   },
   "inScheme": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
   "inSchemeAll": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
-  ],
-  "TextOrUri": [
-    "Text"
-  ],
-  "Verpflichtungsgrad": [
-    "empfohlen"
-  ],
-  "Wiederholbar": [
-    "Ja"
   ],
   "@context": {
     "@version": 1.1,
@@ -52,7 +49,7 @@
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "doc": "http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -69,6 +66,10 @@
       "@id": "dct:description",
       "@container": "@language"
     },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
     "issued": {
       "@id": "dct:issued",
       "@type": "xsd:date"
@@ -81,12 +82,33 @@
       "@id": "dct:modified",
       "@type": "xsd:date"
     },
-    "creator": "dct:creator",
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
     "publisher": "dct:publisher",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
     "prefLabel": {
       "@container": "@language"
     },
@@ -185,20 +207,8 @@
       "@id": "dct:isReplacedBy",
       "@container": "@set"
     },
-    "TextOrUri": {
-      "@id": "doc:TextOrUri",
-      "@container": "@set"
-    },
-    "Verpflichtungsgrad": {
-      "@id": "doc:Verpflichtungsgrad",
-      "@container": "@set"
-    },
-    "Wiederholbar": {
-      "@id": "doc:Wiederholbar",
-      "@container": "@set"
-    },
-    "EmpfohleneVokabulare": {
-      "@id": "doc:EmpfohleneVokabulare",
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
       "@container": "@set"
     }
   }

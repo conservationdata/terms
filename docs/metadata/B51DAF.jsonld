@@ -2,20 +2,20 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/B51DAF",
   "type": "Concept",
   "prefLabel": {
-    "de": "Objektkennzeichnung"
+    "de": "Objektkennzeichnung",
+    "en": "object identification"
   },
   "altLabel": {
     "de": [
       "Objektidentifikation"
+    ],
+    "en": [
+      "object labelling"
     ]
   },
   "definition": {
-    "de": "Übergeordneter Begriff zur eindeutigen Kennzeichnung des zu behandelnden Objektes sowie Erfassung weiterer indentifizierender Merkmale, die eine zweifelsfreie Zuordnung des Objektes während des gesamten Behandlungsprozesses gewährleistet."
-  },
-  "note": {
-    "de": [
-      "Begriff nach DIN EN 16095:2012-10"
-    ]
+    "de": "Übergeordneter Begriff zur eindeutigen Kennzeichnung des zu behandelnden Objektes sowie Erfassung weiterer indentifizierender Merkmale, die eine zweifelsfreie Zuordnung des Objektes während des gesamten Behandlungsprozesses gewährleistet.",
+    "en": "A superordinate term that uniquely identifies the object to be treated and records further identifying characteristics. This ensures that the object can be unambiguously assigned throughout the entire treatment process."
   },
   "notation": [
     "B51DAF"
@@ -24,61 +24,73 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/B5DD1A",
       "prefLabel": {
-        "de": "Objektbenennung"
+        "de": "Objektbenennung",
+        "en": "object title"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/CD3341",
       "prefLabel": {
-        "de": "Herkunft"
+        "de": "Herkunft",
+        "en": "origin"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/F2A45F",
       "prefLabel": {
-        "de": "Eingangsdatum"
+        "de": "Eingangsdatum",
+        "en": "date of receipt"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/F3G8D1",
       "prefLabel": {
-        "de": "Ansprechpartner*in"
+        "de": "Ansprechpartner*in",
+        "en": "contact person"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/F9GB13",
       "prefLabel": {
-        "de": "Datierung"
+        "de": "Datierung",
+        "en": "dating"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/F7D3DB",
       "prefLabel": {
-        "de": "Kennzeichnungsnummer"
+        "de": "Kennzeichnungsnummer",
+        "en": "identification number"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/G76A78",
       "prefLabel": {
-        "de": "Schöpfer*in"
+        "de": "Schöpfer*in",
+        "en": "creator"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/GB6DF3",
       "prefLabel": {
-        "de": "Objektbeziehung"
+        "de": "Objektbeziehung",
+        "en": "object relationship"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/K343FVC",
       "prefLabel": {
-        "de": "Weitere Objektnummern"
+        "de": "Weitere Objektnummern",
+        "en": "alternative object number"
       }
     }
   ],
   "inScheme": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
   "inSchemeAll": [
@@ -88,14 +100,14 @@
   ],
   "topConceptOf": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
-  "Verpflichtungsgrad": [
-    "Pflicht"
-  ],
-  "Wiederholbar": [
-    "Nein"
+  "source": [
+    "Begriff nach DIN EN 16095:2012-10"
   ],
   "@context": {
     "@version": 1.1,
@@ -109,7 +121,7 @@
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "doc": "http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -126,6 +138,10 @@
       "@id": "dct:description",
       "@container": "@language"
     },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
     "issued": {
       "@id": "dct:issued",
       "@type": "xsd:date"
@@ -138,12 +154,33 @@
       "@id": "dct:modified",
       "@type": "xsd:date"
     },
-    "creator": "dct:creator",
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
     "publisher": "dct:publisher",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
     "prefLabel": {
       "@container": "@language"
     },
@@ -242,20 +279,8 @@
       "@id": "dct:isReplacedBy",
       "@container": "@set"
     },
-    "TextOrUri": {
-      "@id": "doc:TextOrUri",
-      "@container": "@set"
-    },
-    "Verpflichtungsgrad": {
-      "@id": "doc:Verpflichtungsgrad",
-      "@container": "@set"
-    },
-    "Wiederholbar": {
-      "@id": "doc:Wiederholbar",
-      "@container": "@set"
-    },
-    "EmpfohleneVokabulare": {
-      "@id": "doc:EmpfohleneVokabulare",
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
       "@container": "@set"
     }
   }

@@ -2,22 +2,24 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/CD3341",
   "type": "Concept",
   "prefLabel": {
-    "de": "Herkunft"
+    "de": "Herkunft",
+    "en": "origin"
   },
   "altLabel": {
     "de": [
       "Fundort",
       "Herstellungsort",
       "kulturelle Verortung"
+    ],
+    "en": [
+      "cultural context",
+      "location",
+      "place of manufacture"
     ]
   },
   "definition": {
-    "de": "Sammelbegriff für Angaben zur räumlichen oder kulturellen Verortung eines Objektes, die dessen Entstehungs- oder Auffindungskontext beschreiben. Soll als Einordnung von Objekten in ihren historischen, geografischen und kulturellen Zusammhang dienen. Die Angaben können dabei exakte Ortsangaben als auch größere geografische oder kulturelle Räume sein, je nach Überliefungslage bzw. Erkenntnisstand. \r\r\n\r\r\nBeispiel: \"Fundort: Italien - Numana - Grab 34\", \"kultureller Kontext: Renaissance\""
-  },
-  "note": {
-    "de": [
-      "Begriff und Definition nach DIN EN 16095: 2012-10"
-    ]
+    "de": "Sammelbegriff für Angaben zur räumlichen oder kulturellen Verortung eines Objektes, die dessen Entstehungs- oder Auffindungskontext beschreiben. Soll als Einordnung von Objekten in ihren historischen, geografischen und kulturellen Zusammhang dienen. Die Angaben können dabei exakte Ortsangaben als auch größere geografische oder kulturelle Räume sein, je nach Überliefungslage bzw. Erkenntnisstand.   Beispiel: \"Fundort: Italien - Numana - Grab 34\", \"kultureller Kontext: Renaissance\"",
+    "en": "A collective term for information about the geographical or cultural location of an object and the context in which it was created or found. It serves to classify objects within their historical, geographical, and cultural contexts. This information may include exact location details or broader geographical or cultural areas, depending on the available records or the current state of knowledge.   Example: ‘Location: Italy - Numana - Tomb 34’, ‘Cultural context: Renaissance’"
   },
   "notation": [
     "CD3341"
@@ -25,12 +27,16 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/B51DAF",
     "prefLabel": {
-      "de": "Objektkennzeichnung"
+      "de": "Objektkennzeichnung",
+      "en": "object identification"
     }
   },
   "inScheme": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
   "inSchemeAll": [
@@ -38,14 +44,8 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "TextOrUri": [
-    "Text/URI"
-  ],
-  "Verpflichtungsgrad": [
-    "empfohlen"
-  ],
-  "Wiederholbar": [
-    "Ja"
+  "source": [
+    "Begriff und Definition nach DIN EN 16095: 2012-10"
   ],
   "@context": {
     "@version": 1.1,
@@ -59,7 +59,7 @@
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "doc": "http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -76,6 +76,10 @@
       "@id": "dct:description",
       "@container": "@language"
     },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
     "issued": {
       "@id": "dct:issued",
       "@type": "xsd:date"
@@ -88,12 +92,33 @@
       "@id": "dct:modified",
       "@type": "xsd:date"
     },
-    "creator": "dct:creator",
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
     "publisher": "dct:publisher",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
     "prefLabel": {
       "@container": "@language"
     },
@@ -192,20 +217,8 @@
       "@id": "dct:isReplacedBy",
       "@container": "@set"
     },
-    "TextOrUri": {
-      "@id": "doc:TextOrUri",
-      "@container": "@set"
-    },
-    "Verpflichtungsgrad": {
-      "@id": "doc:Verpflichtungsgrad",
-      "@container": "@set"
-    },
-    "Wiederholbar": {
-      "@id": "doc:Wiederholbar",
-      "@container": "@set"
-    },
-    "EmpfohleneVokabulare": {
-      "@id": "doc:EmpfohleneVokabulare",
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
       "@container": "@set"
     }
   }

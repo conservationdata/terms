@@ -2,48 +2,52 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/AC1786",
   "type": "Concept",
   "prefLabel": {
-    "de": "Zustandsbeschreibung"
+    "de": "Zustandsbeschreibung",
+    "en": "condition description"
   },
   "altLabel": {
     "de": [
       "Diagnose"
+    ],
+    "en": [
+      "description of condition"
     ]
   },
   "definition": {
-    "de": "Oberbegriff für beobachtete, gemessene, geprüfte oder bewertete Informationen, die den Zustand des Objektes zum Zeitpunkt der Erfassung näher beschreiben. Insbesondere Veränderungen des Objektes, die im Vergleich zu einem früheren oder ursprünglichen Zustand bzw. vom zuletzt berichteten Zustand festgestellt werden, müssen dokumentiert werden."
-  },
-  "note": {
-    "de": [
-      "Begriff und Definition nach DIN EN 16095:2012-10 und DIN EN 15898:2020-02"
-    ]
+    "de": "Oberbegriff für beobachtete, gemessene, geprüfte oder bewertete Informationen, die den Zustand des Objektes zum Zeitpunkt der Erfassung näher beschreiben. Insbesondere Veränderungen des Objektes, die im Vergleich zu einem früheren oder ursprünglichen Zustand bzw. vom zuletzt berichteten Zustand festgestellt werden, müssen dokumentiert werden.",
+    "en": "A generic term for information that has been observed, measured, tested or assessed in order to describe the condition of an object in detail at the time of recording. In particular, changes to the object that are detected in comparison to a previous/original condition or to the last reported condition must be documented."
   },
   "notation": [
     "AC1786"
   ],
   "narrower": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata/BC5B57",
+      "id": "https://www.w3id.org/conservation/terms/metadata/AA6941",
       "prefLabel": {
-        "de": "Physischer Objektzustand"
+        "de": "Schadensphänomene",
+        "en": "damage"
       }
     },
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata/AA6941",
+      "id": "https://www.w3id.org/conservation/terms/metadata/BC5B57",
       "prefLabel": {
-        "de": "Schadensphänomene"
+        "de": "Physischer Objektzustand",
+        "en": "physical condition"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/G79CA9",
       "prefLabel": {
-        "de": "bisherige Umgebungsbedingungen"
+        "de": "bisherige Umgebungsbedingungen",
+        "en": "previous environmental conditions"
       }
     }
   ],
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/F52262",
     "prefLabel": {
-      "de": "Zustandserfassung"
+      "de": "Zustandserfassung",
+      "en": "condition assessment"
     }
   },
   "exactMatch": [
@@ -53,7 +57,10 @@
   ],
   "inScheme": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
   "inSchemeAll": [
@@ -61,11 +68,8 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "Verpflichtungsgrad": [
-    "Pflicht"
-  ],
-  "Wiederholbar": [
-    "Nein"
+  "source": [
+    "Begriff und Definition nach DIN EN 16095:2012-10 und DIN EN 15898:2020-02"
   ],
   "@context": {
     "@version": 1.1,
@@ -79,7 +83,7 @@
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "doc": "http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -96,6 +100,10 @@
       "@id": "dct:description",
       "@container": "@language"
     },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
     "issued": {
       "@id": "dct:issued",
       "@type": "xsd:date"
@@ -108,12 +116,33 @@
       "@id": "dct:modified",
       "@type": "xsd:date"
     },
-    "creator": "dct:creator",
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
     "publisher": "dct:publisher",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
     "prefLabel": {
       "@container": "@language"
     },
@@ -212,20 +241,8 @@
       "@id": "dct:isReplacedBy",
       "@container": "@set"
     },
-    "TextOrUri": {
-      "@id": "doc:TextOrUri",
-      "@container": "@set"
-    },
-    "Verpflichtungsgrad": {
-      "@id": "doc:Verpflichtungsgrad",
-      "@container": "@set"
-    },
-    "Wiederholbar": {
-      "@id": "doc:Wiederholbar",
-      "@container": "@set"
-    },
-    "EmpfohleneVokabulare": {
-      "@id": "doc:EmpfohleneVokabulare",
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
       "@container": "@set"
     }
   }

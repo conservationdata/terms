@@ -2,21 +2,21 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/CD5C3F",
   "type": "Concept",
   "prefLabel": {
-    "de": "Probenahme"
+    "de": "Probenahme",
+    "en": "sampling"
   },
   "altLabel": {
     "de": [
       "Beprobung",
       "Probenentnahme"
+    ],
+    "en": [
+      "sample taking"
     ]
   },
   "definition": {
-    "de": "Oberbegriff für Informationen, die die systematische Entnahme von Materialproben aus einem Objekt für Analyse- und Untersuchungszwecke dokumentieren."
-  },
-  "note": {
-    "de": [
-      "DIN EN 16085:2012-10"
-    ]
+    "de": "Oberbegriff für Informationen, die die systematische Entnahme von Materialproben aus einem Objekt für Analyse- und Untersuchungszwecke dokumentieren.",
+    "en": "Generic term for information documenting the systematic removal of material samples from an object for analysis and examination purposes."
   },
   "notation": [
     "CD5C3F"
@@ -25,55 +25,66 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/C33D85",
       "prefLabel": {
-        "de": "Anlass der Probenahme"
+        "de": "Anlass der Probenahme",
+        "en": "reason for sampling"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/C8CG15",
       "prefLabel": {
-        "de": "Zuständige Person (Probenahme)"
+        "de": "Zuständige Person (Probenahme)",
+        "en": "Sampling person"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/CB7747",
       "prefLabel": {
-        "de": "Kennung der Probe"
+        "de": "Kennung der Probe",
+        "en": "sample identifier"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/D3AF3A",
       "prefLabel": {
-        "de": "Datum der Probennahme"
+        "de": "Datum der Probennahme",
+        "en": "date of sampling"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/D9A6FA",
       "prefLabel": {
-        "de": "Entnahmemethode"
+        "de": "Entnahmemethode",
+        "en": "sampling method"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/F58F6D",
       "prefLabel": {
-        "de": "Stelle der Probenahme"
+        "de": "Stelle der Probenahme",
+        "en": "sampling location"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/F72743",
       "prefLabel": {
-        "de": "Durchführende Einrichtung (Probenahme)"
+        "de": "Durchführende Einrichtung (Probenahme)",
+        "en": "Sampling institution"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/FD2B2B",
       "prefLabel": {
-        "de": "Probenbeschreibung"
+        "de": "Probenbeschreibung",
+        "en": "sample description"
       }
     }
   ],
   "inScheme": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
   "inSchemeAll": [
@@ -83,14 +94,14 @@
   ],
   "topConceptOf": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
-  "Verpflichtungsgrad": [
-    "bedingte Pflicht"
-  ],
-  "Wiederholbar": [
-    "Ja"
+  "source": [
+    "DIN EN 16085:2012-10"
   ],
   "@context": {
     "@version": 1.1,
@@ -104,7 +115,7 @@
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "doc": "http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -121,6 +132,10 @@
       "@id": "dct:description",
       "@container": "@language"
     },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
     "issued": {
       "@id": "dct:issued",
       "@type": "xsd:date"
@@ -133,12 +148,33 @@
       "@id": "dct:modified",
       "@type": "xsd:date"
     },
-    "creator": "dct:creator",
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
     "publisher": "dct:publisher",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
     "prefLabel": {
       "@container": "@language"
     },
@@ -237,20 +273,8 @@
       "@id": "dct:isReplacedBy",
       "@container": "@set"
     },
-    "TextOrUri": {
-      "@id": "doc:TextOrUri",
-      "@container": "@set"
-    },
-    "Verpflichtungsgrad": {
-      "@id": "doc:Verpflichtungsgrad",
-      "@container": "@set"
-    },
-    "Wiederholbar": {
-      "@id": "doc:Wiederholbar",
-      "@container": "@set"
-    },
-    "EmpfohleneVokabulare": {
-      "@id": "doc:EmpfohleneVokabulare",
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
       "@container": "@set"
     }
   }

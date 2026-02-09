@@ -2,17 +2,23 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/AA6941",
   "type": "Concept",
   "prefLabel": {
-    "de": "Schadensphänomene"
+    "de": "Schadensphänomene",
+    "en": "damage"
   },
   "altLabel": {
     "de": [
       "Beschädigung",
       "Schaden",
       "Schadensbild"
+    ],
+    "en": [
+      "alteration",
+      "deterioration"
     ]
   },
   "definition": {
-    "de": "Beschreibung der beobachteten negativen Veränderungen am Objekt im Vergleich zu seinem als ursprünglich angenommenen Zustandes. \r\r\n\r\r\nAuch die Angabe, dass keine Beschädigung erkennbar ist, sollte hier erfasst werden!"
+    "de": "Beschreibung der beobachteten negativen Veränderungen am Objekt im Vergleich zu seinem als ursprünglich angenommenen Zustandes.   Auch die Angabe, dass keine Beschädigung erkennbar ist, sollte hier erfasst werden!",
+    "en": "Description of the observed negative changes to the object compared to its original condition.  Even if no damage is apparent, this should be noted here!"
   },
   "notation": [
     "AA6941"
@@ -21,40 +27,37 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/C2488A",
       "prefLabel": {
-        "de": "Schadensgrad"
+        "de": "Schadensgrad",
+        "en": "extent of damage"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/D4A13D",
       "prefLabel": {
-        "de": "Schadensfaktor"
+        "de": "Schadensfaktor",
+        "en": "cause of damage"
       }
     }
   ],
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/AC1786",
     "prefLabel": {
-      "de": "Zustandsbeschreibung"
+      "de": "Zustandsbeschreibung",
+      "en": "condition description"
     }
   },
   "inScheme": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
   "inSchemeAll": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
-  ],
-  "TextOrUri": [
-    "Text/URI"
-  ],
-  "Verpflichtungsgrad": [
-    "Pflicht"
-  ],
-  "Wiederholbar": [
-    "Ja"
   ],
   "@context": {
     "@version": 1.1,
@@ -68,7 +71,7 @@
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "doc": "http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -85,6 +88,10 @@
       "@id": "dct:description",
       "@container": "@language"
     },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
     "issued": {
       "@id": "dct:issued",
       "@type": "xsd:date"
@@ -97,12 +104,33 @@
       "@id": "dct:modified",
       "@type": "xsd:date"
     },
-    "creator": "dct:creator",
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
     "publisher": "dct:publisher",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
     "prefLabel": {
       "@container": "@language"
     },
@@ -201,20 +229,8 @@
       "@id": "dct:isReplacedBy",
       "@container": "@set"
     },
-    "TextOrUri": {
-      "@id": "doc:TextOrUri",
-      "@container": "@set"
-    },
-    "Verpflichtungsgrad": {
-      "@id": "doc:Verpflichtungsgrad",
-      "@container": "@set"
-    },
-    "Wiederholbar": {
-      "@id": "doc:Wiederholbar",
-      "@container": "@set"
-    },
-    "EmpfohleneVokabulare": {
-      "@id": "doc:EmpfohleneVokabulare",
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
       "@container": "@set"
     }
   }

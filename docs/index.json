@@ -1,1 +1,1 @@
-[{"id":"https://www.w3id.org/conservation/terms/metadata","title":null,"dc_title":{"de":"Metadatenvokabular Konservierung/Restaurierung"},"prefLabel":null,"description":null,"dc_description":{"de":"Sammlung relevanter Metadaten des Faches."},"languages":["de"]}]
+[{"id":"https://www.w3id.org/conservation/terms/metadata","title":{"de":"Metadatenvokabular Konservierung/Restaurierung","en":null},"dc_title":null,"prefLabel":null,"description":{"de":"Eine referenzierbare Sammlung relevanter Metadaten des Faches.","en":null},"dc_description":null,"languages":["de","en"]}]

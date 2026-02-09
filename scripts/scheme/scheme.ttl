@@ -124,7 +124,7 @@
     skos:altLabel "Zeitpunkt der Erfassung"@de,
         "time of recording"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/G5TA85> ;
-    skos:definition "Ergänzene Angaben, im Falle einer Zustandserfassung aufgrund konservatorisch-restauratorischer Maßnahme, ob es sich bei dem erfassten Zustand um den Zeitpunkt vor (Vorzustand), nach (Endzustand) oder zwischen der Maßnahme handelt.  Der Zustand vor und nach einer Maßnahme sollte dabei verpflichtend erfasst werden. Weitere Zustandserfassungen zwischen verschiedenen Maßnahmen sind bei Bedarf möglich."@de,
+    skos:definition "Ergänzende Angaben, im Falle einer Zustandserfassung aufgrund konservatorisch-restauratorischer Maßnahme, ob es sich bei dem erfassten Zustand um den Zeitpunkt vor (Vorzustand), nach (Endzustand) oder zwischen der Maßnahme handelt.  Der Zustand vor und nach einer Maßnahme sollte dabei verpflichtend erfasst werden. Weitere Zustandserfassungen zwischen verschiedenen Maßnahmen sind bei Bedarf möglich."@de,
         "In the case of condition assessment based on conservation measures, additional information should be provided on whether the assessed condition refers to the time before, after or between the conservation.  The condition before and after the conservation should be recorded as a matter of course. Further condition assessments between different measures are possible if necessary."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "A8ABBA" ;
@@ -1014,7 +1014,7 @@
 <https://www.w3id.org/conservation/terms/metadata/FRG491G> a skos:Concept ;
     ex:Verwendungshinweis "Die Angaben sollten sowohl den numerischen Wert als auch die Maßeinheit nach metrischem System im jeweils fachspezifischem Standard (mm, cm, m) enthalten" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/DBC278> ;
-    skos:definition "Angabe zur größten linearen Ausdehnung eines Objekten mit runder, ovaler oder ringförmiger Grundform, gemessen zwischen zwei gegenüberliegenden Punkten über den geometrischen Mittelpunkt."@de,
+    skos:definition "Angabe zur größten linearen Ausdehnung eines Objektes mit runder, ovaler oder ringförmiger Grundform, gemessen zwischen zwei gegenüberliegenden Punkten über dem geometrischen Mittelpunkt."@de,
         "Specification of the greatest linear extension of an object with a round, oval or ring-shaped base, as measured between two opposite points across its geometric centre."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "FRG491G" ;
@@ -1312,7 +1312,7 @@
 <https://www.w3id.org/conservation/terms/metadata/G5TA85> a skos:Concept ;
     skos:altLabel "Grund der Zustandserfassung"@de ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/F52262> ;
-    skos:definition "Angaben, vor welchem Hintergrund die Zustandserfassung durchgeführt wurde.   Zum Beispiel im Zuge der Neu-Aufnahme eines Objektes in die Sammlung, in Vor- oder Nachbereichtung einer konservatorisch-restauratorischen Maßnahme, vor oder nach einer Leihnahme, etc."@de,
+    skos:definition "Angaben, vor welchem Hintergrund die Zustandserfassung durchgeführt wurde.   Zum Beispiel im Zuge der Neu-Aufnahme eines Objektes in die Sammlung, in Vor- oder Nachbereitung einer konservatorisch-restauratorischen Maßnahme, vor oder nach einer Leihnahme, etc."@de,
         "Information about the context in which the condition assessment was carried out.  For example, in the course of adding a new object to the collection, in preparation for or follow-up to conservation, before or after a loan, etc."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:narrower <https://www.w3id.org/conservation/terms/metadata/A8ABBA> ;
@@ -1470,7 +1470,7 @@
     ocmp:JYGNTK "Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/C93638> a skos:Concept ;
-    skos:definition "Übergeordneter Begriff zur Erfassung aller Angaben bezüglich vorbeugender Maßnahmen, die ohne direkten Eingriff am Objekt selbst darauf abzielen Schäden am Objekt zu vermindern."@de,
+    skos:definition "Übergeordneter Begriff zur Erfassung aller Angaben bezüglich vorbeugender Maßnahmen, die ohne direkten Eingriff am Objekt selbst darauf abzielen, Schäden am Objekt zu vermindern."@de,
         "Umbrella term covering all information relating to preventive measures that aim to reduce damage to the object without direct intervention on the object itself"@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:narrower <https://www.w3id.org/conservation/terms/metadata/C11192>,

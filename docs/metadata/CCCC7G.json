@@ -2,10 +2,12 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/CCCC7G",
   "type": "Concept",
   "prefLabel": {
-    "de": "Letzte Gefährdungsbewertung"
+    "de": "Letzte Gefährdungsbewertung",
+    "en": "last hazard assessment"
   },
   "definition": {
-    "de": "Oberbegriff zu Angaben der zuletzt durchgeführten Risikoanalyse und Beurteilung des Gefährdungspotentitals eines Objektes"
+    "de": "Oberbegriff zu Angaben der zuletzt durchgeführten Risikoanalyse und Beurteilung des Gefährdungspotentitals eines Objektes",
+    "en": "Generic term for information on the last risk analysis and assessment of the hazard potential of an object"
   },
   "notation": [
     "CCCC7G"
@@ -14,37 +16,37 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/ADD53A",
       "prefLabel": {
-        "de": "Einschätzung (Gefährdungsbewertung)"
+        "de": "Einschätzung (Gefährdungsbewertung)",
+        "en": "result (safety assessment)"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/AFD671",
       "prefLabel": {
-        "de": "Datum der Gefährdungsbewertung"
+        "de": "Datum der Gefährdungsbewertung",
+        "en": "date of hazard assessment"
       }
     }
   ],
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/B7B8B6",
     "prefLabel": {
-      "de": "Gefährdungspotential"
+      "de": "Gefährdungspotential",
+      "en": "risk potential"
     }
   },
   "inScheme": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
   "inSchemeAll": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
-  ],
-  "Verpflichtungsgrad": [
-    "optional"
-  ],
-  "Wiederholbar": [
-    "Nein"
   ],
   "@context": {
     "@version": 1.1,
@@ -58,7 +60,7 @@
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "doc": "http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -75,6 +77,10 @@
       "@id": "dct:description",
       "@container": "@language"
     },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
     "issued": {
       "@id": "dct:issued",
       "@type": "xsd:date"
@@ -87,12 +93,33 @@
       "@id": "dct:modified",
       "@type": "xsd:date"
     },
-    "creator": "dct:creator",
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
     "publisher": "dct:publisher",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
     "prefLabel": {
       "@container": "@language"
     },
@@ -191,20 +218,8 @@
       "@id": "dct:isReplacedBy",
       "@container": "@set"
     },
-    "TextOrUri": {
-      "@id": "doc:TextOrUri",
-      "@container": "@set"
-    },
-    "Verpflichtungsgrad": {
-      "@id": "doc:Verpflichtungsgrad",
-      "@container": "@set"
-    },
-    "Wiederholbar": {
-      "@id": "doc:Wiederholbar",
-      "@container": "@set"
-    },
-    "EmpfohleneVokabulare": {
-      "@id": "doc:EmpfohleneVokabulare",
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
       "@container": "@set"
     }
   }

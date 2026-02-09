@@ -2,10 +2,17 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F2A45F",
   "type": "Concept",
   "prefLabel": {
-    "de": "Eingangsdatum"
+    "de": "Eingangsdatum",
+    "en": "date of receipt"
+  },
+  "altLabel": {
+    "en": [
+      "receipt date"
+    ]
   },
   "definition": {
-    "de": "Datum, an dem das Objekt in die aktuell zuständige Sammlung aufgenommen wurde. An dieser Stelle ist (noch) nicht das Datum, an dem das Objekt in die Restaurierungseinrichtung eingeliefert wurde gemeint."
+    "de": "Datum, an dem das Objekt in die aktuell zuständige Sammlung aufgenommen wurde. An dieser Stelle ist (noch) nicht das Datum, an dem das Objekt in die Restaurierungseinrichtung eingeliefert wurde gemeint.",
+    "en": "The date on which the object was added to the collection currently responsible for it. It does not yet refer to the date on which the object was delivered to the conservation department."
   },
   "notation": [
     "F2A45F"
@@ -13,7 +20,8 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/B51DAF",
     "prefLabel": {
-      "de": "Objektkennzeichnung"
+      "de": "Objektkennzeichnung",
+      "en": "object identification"
     }
   },
   "exactMatch": [
@@ -26,22 +34,16 @@
   ],
   "inScheme": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
   "inSchemeAll": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
-  ],
-  "TextOrUri": [
-    "Text"
-  ],
-  "Verpflichtungsgrad": [
-    "bedingte Pflicht"
-  ],
-  "Wiederholbar": [
-    "Nein"
   ],
   "@context": {
     "@version": 1.1,
@@ -55,7 +57,7 @@
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "doc": "http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -72,6 +74,10 @@
       "@id": "dct:description",
       "@container": "@language"
     },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
     "issued": {
       "@id": "dct:issued",
       "@type": "xsd:date"
@@ -84,12 +90,33 @@
       "@id": "dct:modified",
       "@type": "xsd:date"
     },
-    "creator": "dct:creator",
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
     "publisher": "dct:publisher",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
     "prefLabel": {
       "@container": "@language"
     },
@@ -188,20 +215,8 @@
       "@id": "dct:isReplacedBy",
       "@container": "@set"
     },
-    "TextOrUri": {
-      "@id": "doc:TextOrUri",
-      "@container": "@set"
-    },
-    "Verpflichtungsgrad": {
-      "@id": "doc:Verpflichtungsgrad",
-      "@container": "@set"
-    },
-    "Wiederholbar": {
-      "@id": "doc:Wiederholbar",
-      "@container": "@set"
-    },
-    "EmpfohleneVokabulare": {
-      "@id": "doc:EmpfohleneVokabulare",
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
       "@container": "@set"
     }
   }

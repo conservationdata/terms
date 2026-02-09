@@ -2,15 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/B3FCA1",
   "type": "Concept",
   "prefLabel": {
-    "de": "Untersuchung"
+    "de": "Untersuchung",
+    "en": "examination"
+  },
+  "altLabel": {
+    "en": [
+      "analysis",
+      "investigation"
+    ]
   },
   "definition": {
-    "de": "Oberbegriff für Informationen im Kontext der systematischen Begutachtung und Analyse eines Objekte zur Ermittlung von Materialzusammensetzungen, Objektaufbau, Herstellungstechnik, Erhaltungszuständen und/oder weitere Fragestellungen"
-  },
-  "note": {
-    "de": [
-      "Begriff nach DIN EN 15898:2020-02"
-    ]
+    "de": "Oberbegriff für Informationen im Kontext der systematischen Begutachtung und Analyse eines Objekte zur Ermittlung von Materialzusammensetzungen, Objektaufbau, Herstellungstechnik, Erhaltungszuständen und/oder weitere Fragestellungen",
+    "en": "Generic term for information in the context of the systematic assessment and analysis of an object to determine material composition, object structure, manufacturing technique, state of preservation and/or other issues."
   },
   "notation": [
     "B3FCA1"
@@ -19,61 +22,73 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/A15F83",
       "prefLabel": {
-        "de": "Lokalisation"
+        "de": "Lokalisation",
+        "en": "place of examination"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/A2AG55",
       "prefLabel": {
-        "de": "Untersuchungskennung"
+        "de": "Untersuchungskennung",
+        "en": "examination identifier"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/BGG5A6",
       "prefLabel": {
-        "de": "Untersuchungsergebnis"
+        "de": "Untersuchungsergebnis",
+        "en": "examination results"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/CF3C22",
       "prefLabel": {
-        "de": "Untersuchungsanlass"
+        "de": "Untersuchungsanlass",
+        "en": "reason for examination"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/DAB4B7",
       "prefLabel": {
-        "de": "Untersuchungsverfahren"
+        "de": "Untersuchungsverfahren",
+        "en": "examination procedure"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/F8F594",
       "prefLabel": {
-        "de": "Untersuchungsart"
+        "de": "Untersuchungsart",
+        "en": "type of examination"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/G73958",
       "prefLabel": {
-        "de": "Untersuchungsdatum"
+        "de": "Untersuchungsdatum",
+        "en": "date of examination"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/G76B7G",
       "prefLabel": {
-        "de": "Durchführende Einrichtung (Untersuchung)"
+        "de": "Durchführende Einrichtung (Untersuchung)",
+        "en": "Examining institution"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/G7F25F",
       "prefLabel": {
-        "de": "Zuständige Person (Untersuchung)"
+        "de": "Zuständige Person (Untersuchung)",
+        "en": "Examining person"
       }
     }
   ],
   "inScheme": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
   "inSchemeAll": [
@@ -83,14 +98,14 @@
   ],
   "topConceptOf": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
-  "Verpflichtungsgrad": [
-    "bedingte Pflicht"
-  ],
-  "Wiederholbar": [
-    "Ja"
+  "source": [
+    "Begriff nach DIN EN 15898:2020-02"
   ],
   "@context": {
     "@version": 1.1,
@@ -104,7 +119,7 @@
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "doc": "http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -121,6 +136,10 @@
       "@id": "dct:description",
       "@container": "@language"
     },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
     "issued": {
       "@id": "dct:issued",
       "@type": "xsd:date"
@@ -133,12 +152,33 @@
       "@id": "dct:modified",
       "@type": "xsd:date"
     },
-    "creator": "dct:creator",
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
     "publisher": "dct:publisher",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
     "prefLabel": {
       "@container": "@language"
     },
@@ -237,20 +277,8 @@
       "@id": "dct:isReplacedBy",
       "@container": "@set"
     },
-    "TextOrUri": {
-      "@id": "doc:TextOrUri",
-      "@container": "@set"
-    },
-    "Verpflichtungsgrad": {
-      "@id": "doc:Verpflichtungsgrad",
-      "@container": "@set"
-    },
-    "Wiederholbar": {
-      "@id": "doc:Wiederholbar",
-      "@container": "@set"
-    },
-    "EmpfohleneVokabulare": {
-      "@id": "doc:EmpfohleneVokabulare",
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
       "@container": "@set"
     }
   }

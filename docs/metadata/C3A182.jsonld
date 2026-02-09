@@ -2,15 +2,17 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/C3A182",
   "type": "Concept",
   "prefLabel": {
-    "de": "Konservatorische Bedingungen"
+    "de": "Konservatorische Bedingungen",
+    "en": "recommended conditions"
+  },
+  "altLabel": {
+    "en": [
+      "conservation conditions"
+    ]
   },
   "definition": {
-    "de": "Sammeloberbegriff für Angaben bezüglich erforderlicher Umgebungsparameter und physikalischer Rahmenbedingungen, die für die optimale Erhaltung des Objektes notwendig sind."
-  },
-  "note": {
-    "de": [
-      "D941BB"
-    ]
+    "de": "Sammeloberbegriff für Angaben bezüglich erforderlicher Umgebungsparameter und physikalischer Rahmenbedingungen, die für die optimale Erhaltung des Objektes notwendig sind.",
+    "en": "Collective term for information regarding the necessary environmental parameters and physical conditions required for the optimal preservation of the object."
   },
   "notation": [
     "C3A182"
@@ -19,37 +21,45 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/A2FA1B",
       "prefLabel": {
-        "de": "Temperatur (konservatorische Bedingungen)"
+        "de": "Temperatur (konservatorische Bedingungen)",
+        "en": "temperature (recommended conditions)"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/BA8198",
       "prefLabel": {
-        "de": "Luftfeuchtigkeit (konservatorische Bedingung)"
+        "de": "Luftfeuchtigkeit (konservatorische Bedingung)",
+        "en": "humidity (recommended conditions)"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/DF7759",
       "prefLabel": {
-        "de": "Beleuchtungsstärke (konservatorische Bedingungen)"
+        "de": "Beleuchtungsstärke (konservatorische Bedingungen)",
+        "en": "illuminance (recommended conditions)"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/FD6617",
       "prefLabel": {
-        "de": "UV-Schutz (konservatorische Bedingungen)"
+        "de": "UV-Schutz (konservatorische Bedingungen)",
+        "en": "UV protection (recommended conditions)"
       }
     }
   ],
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/C93638",
     "prefLabel": {
-      "de": "Präventive Konservierung"
+      "de": "Präventive Konservierung",
+      "en": "preventive conservation"
     }
   },
   "inScheme": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
   "inSchemeAll": [
@@ -57,11 +67,8 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "Verpflichtungsgrad": [
-    "empfohlen"
-  ],
-  "Wiederholbar": [
-    "Nein"
+  "source": [
+    "D941BB"
   ],
   "@context": {
     "@version": 1.1,
@@ -75,7 +82,7 @@
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "doc": "http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -92,6 +99,10 @@
       "@id": "dct:description",
       "@container": "@language"
     },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
     "issued": {
       "@id": "dct:issued",
       "@type": "xsd:date"
@@ -104,12 +115,33 @@
       "@id": "dct:modified",
       "@type": "xsd:date"
     },
-    "creator": "dct:creator",
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
     "publisher": "dct:publisher",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
     "prefLabel": {
       "@container": "@language"
     },
@@ -208,20 +240,8 @@
       "@id": "dct:isReplacedBy",
       "@container": "@set"
     },
-    "TextOrUri": {
-      "@id": "doc:TextOrUri",
-      "@container": "@set"
-    },
-    "Verpflichtungsgrad": {
-      "@id": "doc:Verpflichtungsgrad",
-      "@container": "@set"
-    },
-    "Wiederholbar": {
-      "@id": "doc:Wiederholbar",
-      "@container": "@set"
-    },
-    "EmpfohleneVokabulare": {
-      "@id": "doc:EmpfohleneVokabulare",
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
       "@container": "@set"
     }
   }

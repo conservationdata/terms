@@ -2,10 +2,12 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/B7B8B6",
   "type": "Concept",
   "prefLabel": {
-    "de": "Gefährdungspotential"
+    "de": "Gefährdungspotential",
+    "en": "risk potential"
   },
   "definition": {
-    "de": "Übergeordneter Begriff zur Strukturierung aller Angaben, zu potentiellen Gefahren, die von einem individuellen (behandelten) Objekt ausgehen und Maßnahmen, die zum Schutz der Gesundheit bei Umgang mit den jeweiligen Objekten eingehalten werden sollten. \r\r\n\r\r\nNicht gemeint sind dabei die allgemeinen Arbeitssicherheitsmaßnahmen, die im Rahmen der gesetzlichen Vorgaben für Restaurator*innen gelten."
+    "de": "Übergeordneter Begriff zur Strukturierung aller Angaben, zu potentiellen Gefahren, die von einem individuellen (behandelten) Objekt ausgehen und Maßnahmen, die zum Schutz der Gesundheit bei Umgang mit den jeweiligen Objekten eingehalten werden sollten.   Nicht gemeint sind dabei die allgemeinen Arbeitssicherheitsmaßnahmen, die im Rahmen der gesetzlichen Vorgaben für Restaurator*innen gelten.",
+    "en": "Umbrella term for structuring all information on potential hazards posed by an individual (treated) object and measures that should be observed to protect health when handling the respective objects.  This does not refer to the general occupational safety measures that apply to restorers within the framework of legal requirements."
   },
   "notation": [
     "B7B8B6"
@@ -14,31 +16,38 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/CCCC7G",
       "prefLabel": {
-        "de": "Letzte Gefährdungsbewertung"
+        "de": "Letzte Gefährdungsbewertung",
+        "en": "last hazard assessment"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/BB78D2",
       "prefLabel": {
-        "de": "Getroffene Schutzmaßnahmen"
+        "de": "Getroffene Schutzmaßnahmen",
+        "en": "proctective measures taken"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/BGGCA4",
       "prefLabel": {
-        "de": "Art der Gefährdung"
+        "de": "Art der Gefährdung",
+        "en": "type of hazard"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/FBFFF5",
       "prefLabel": {
-        "de": "Gefährdungshinweise"
+        "de": "Gefährdungshinweise",
+        "en": "hazard warnings"
       }
     }
   ],
   "inScheme": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
   "inSchemeAll": [
@@ -48,14 +57,11 @@
   ],
   "topConceptOf": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
-  ],
-  "Verpflichtungsgrad": [
-    "bedingte Pflicht"
-  ],
-  "Wiederholbar": [
-    "Nein"
   ],
   "@context": {
     "@version": 1.1,
@@ -69,7 +75,7 @@
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "doc": "http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -86,6 +92,10 @@
       "@id": "dct:description",
       "@container": "@language"
     },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
     "issued": {
       "@id": "dct:issued",
       "@type": "xsd:date"
@@ -98,12 +108,33 @@
       "@id": "dct:modified",
       "@type": "xsd:date"
     },
-    "creator": "dct:creator",
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
     "publisher": "dct:publisher",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
     "prefLabel": {
       "@container": "@language"
     },
@@ -202,20 +233,8 @@
       "@id": "dct:isReplacedBy",
       "@container": "@set"
     },
-    "TextOrUri": {
-      "@id": "doc:TextOrUri",
-      "@container": "@set"
-    },
-    "Verpflichtungsgrad": {
-      "@id": "doc:Verpflichtungsgrad",
-      "@container": "@set"
-    },
-    "Wiederholbar": {
-      "@id": "doc:Wiederholbar",
-      "@container": "@set"
-    },
-    "EmpfohleneVokabulare": {
-      "@id": "doc:EmpfohleneVokabulare",
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
       "@container": "@set"
     }
   }

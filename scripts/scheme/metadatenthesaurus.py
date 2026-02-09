@@ -152,7 +152,6 @@ propertyDict = {
     "Wiederholbar": (ocmp.EO7QK9, Literal, False),
     "Unsicher": (ocmp.KL9LCA, Literal, False),
     
-
     # ex (not declared yet...)
     "Verwendungshinweis": (ex.Verwendungshinweis, Literal, False),
     "Empfohlene Vokabulare": (ex.Empfohlene_Vokabulare, Literal, False),

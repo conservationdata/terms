@@ -2,15 +2,20 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/A4G52F",
   "type": "Concept",
   "prefLabel": {
-    "de": "konservatorische Vorgeschichte"
+    "de": "konservatorische Vorgeschichte",
+    "en": "conservation history"
   },
   "altLabel": {
     "de": [
       "Spuren früherer Konservierungs- /Restaurierunseingriffe"
+    ],
+    "en": [
+      "Evidence of previous conservation"
     ]
   },
   "definition": {
-    "de": "Beschreibung von Spuren früherer, nicht dokumentierter konservatorisch-restauratorischer Eingriffe am Objekt sowie der vermuteten Behandlungsmaßnahmen, die diese Spuren verursacht haben könnten."
+    "de": "Beschreibung von Spuren früherer, nicht dokumentierter konservatorisch-restauratorischer Eingriffe am Objekt sowie der vermuteten Behandlungsmaßnahmen, die diese Spuren verursacht haben könnten.",
+    "en": "Description of traces of previous, undocumented conservation work on the object and the presumed treatment measures that may have caused these traces."
   },
   "notation": [
     "A4G52F"
@@ -18,27 +23,22 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/F52262",
     "prefLabel": {
-      "de": "Zustandserfassung"
+      "de": "Zustandserfassung",
+      "en": "condition assessment"
     }
   },
   "inScheme": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
   "inSchemeAll": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
-  ],
-  "TextOrUri": [
-    "Text"
-  ],
-  "Verpflichtungsgrad": [
-    "empfohlen"
-  ],
-  "Wiederholbar": [
-    "Nein"
   ],
   "@context": {
     "@version": 1.1,
@@ -52,7 +52,7 @@
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "doc": "http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -69,6 +69,10 @@
       "@id": "dct:description",
       "@container": "@language"
     },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
     "issued": {
       "@id": "dct:issued",
       "@type": "xsd:date"
@@ -81,12 +85,33 @@
       "@id": "dct:modified",
       "@type": "xsd:date"
     },
-    "creator": "dct:creator",
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
     "publisher": "dct:publisher",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
     "prefLabel": {
       "@container": "@language"
     },
@@ -185,20 +210,8 @@
       "@id": "dct:isReplacedBy",
       "@container": "@set"
     },
-    "TextOrUri": {
-      "@id": "doc:TextOrUri",
-      "@container": "@set"
-    },
-    "Verpflichtungsgrad": {
-      "@id": "doc:Verpflichtungsgrad",
-      "@container": "@set"
-    },
-    "Wiederholbar": {
-      "@id": "doc:Wiederholbar",
-      "@container": "@set"
-    },
-    "EmpfohleneVokabulare": {
-      "@id": "doc:EmpfohleneVokabulare",
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
       "@container": "@set"
     }
   }

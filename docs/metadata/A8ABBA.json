@@ -2,15 +2,20 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/A8ABBA",
   "type": "Concept",
   "prefLabel": {
-    "de": "Erfassungszeitpunkt"
+    "de": "Erfassungszeitpunkt",
+    "en": "time of entry"
   },
   "altLabel": {
     "de": [
       "Zeitpunkt der Erfassung"
+    ],
+    "en": [
+      "time of recording"
     ]
   },
   "definition": {
-    "de": "Angaben ob es sich bei dem erfassten Zustand um den Zeitpunkt vor, nach oder zwischen einem konservatorisch-restauratorischen Eingriff handelt oder der Zustand beispielsweise im Zuge eines Monitorings, ohne anschließendem Eingriff, erfasst wurde. \r\r\n\r\r\nDer Zustand vor und nach einem Eingriff sollte dabei verpflichtend erfasst werden. Weitere Zustandserfassungen sind bei Bedarf möglich."
+    "de": "Ergänzende Angaben, im Falle einer Zustandserfassung aufgrund konservatorisch-restauratorischer Maßnahme, ob es sich bei dem erfassten Zustand um den Zeitpunkt vor (Vorzustand), nach (Endzustand) oder zwischen der Maßnahme handelt.  Der Zustand vor und nach einer Maßnahme sollte dabei verpflichtend erfasst werden. Weitere Zustandserfassungen zwischen verschiedenen Maßnahmen sind bei Bedarf möglich.",
+    "en": "In the case of condition assessment based on conservation measures, additional information should be provided on whether the assessed condition refers to the time before, after or between the conservation.  The condition before and after the conservation should be recorded as a matter of course. Further condition assessments between different measures are possible if necessary."
   },
   "notation": [
     "A8ABBA"
@@ -18,27 +23,22 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/G5TA85",
     "prefLabel": {
-      "de": "Anlass der Zustandserfassung"
+      "de": "Anlass der Zustandserfassung",
+      "en": "reason for the condition assessment"
     }
   },
   "inScheme": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
   "inSchemeAll": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
-  ],
-  "TextOrUri": [
-    "Text"
-  ],
-  "Verpflichtungsgrad": [
-    "bedingte Pflicht"
-  ],
-  "Wiederholbar": [
-    "Nein"
   ],
   "@context": {
     "@version": 1.1,
@@ -52,7 +52,7 @@
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "doc": "http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -69,6 +69,10 @@
       "@id": "dct:description",
       "@container": "@language"
     },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
     "issued": {
       "@id": "dct:issued",
       "@type": "xsd:date"
@@ -81,12 +85,33 @@
       "@id": "dct:modified",
       "@type": "xsd:date"
     },
-    "creator": "dct:creator",
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
     "publisher": "dct:publisher",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
     "prefLabel": {
       "@container": "@language"
     },
@@ -185,20 +210,8 @@
       "@id": "dct:isReplacedBy",
       "@container": "@set"
     },
-    "TextOrUri": {
-      "@id": "doc:TextOrUri",
-      "@container": "@set"
-    },
-    "Verpflichtungsgrad": {
-      "@id": "doc:Verpflichtungsgrad",
-      "@container": "@set"
-    },
-    "Wiederholbar": {
-      "@id": "doc:Wiederholbar",
-      "@container": "@set"
-    },
-    "EmpfohleneVokabulare": {
-      "@id": "doc:EmpfohleneVokabulare",
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
       "@container": "@set"
     }
   }

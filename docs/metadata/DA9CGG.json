@@ -2,7 +2,8 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/DA9CGG",
   "type": "Concept",
   "prefLabel": {
-    "de": "Erhaltungsmaßnahme"
+    "de": "Erhaltungsmaßnahme",
+    "en": "intervention"
   },
   "altLabel": {
     "de": [
@@ -11,10 +12,16 @@
       "Konservierung",
       "Konservierung-Restaurierung",
       "Restaurierung"
+    ],
+    "en": [
+      "conservation",
+      "measure",
+      "restoration"
     ]
   },
   "definition": {
-    "de": "Oberbegriff für die Sammlung an Angaben, die zur konkreten Maßnahme erfasst werden."
+    "de": "Oberbegriff für die Angaben, die zur Durchführung einer konkreten Maßnahme erfasst werden.",
+    "en": "Generic term for the information that is recorded for the realisation of a specific conservation measure."
   },
   "notation": [
     "DA9CGG"
@@ -23,50 +30,58 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/AF1F5C",
       "prefLabel": {
-        "de": "Maßnahmenkennnummer"
+        "de": "Maßnahmenkennnummer",
+        "en": "intervention identifier"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/C79561",
       "prefLabel": {
-        "de": "Zuständige Person (Erhaltungsmaßnahme)"
+        "de": "Zuständige Person (Erhaltungsmaßnahme)",
+        "en": "responsible person (conservation intervention)"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/CDD613",
       "prefLabel": {
-        "de": "Beginn der Maßnahme"
+        "de": "Beginn der Maßnahme",
+        "en": "start of intervention"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/CDF685",
       "prefLabel": {
-        "de": "Ende der Maßnahme"
+        "de": "Ende der Maßnahme",
+        "en": "end of intervention"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/A13CD1",
       "prefLabel": {
-        "de": "Eingriff"
+        "de": "Eingriff",
+        "en": "treatment"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/G814D2",
       "prefLabel": {
-        "de": "Zeitaufwand"
+        "de": "Zeitaufwand",
+        "en": "time required"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/GF41DG",
       "prefLabel": {
-        "de": "Zuständige Restaurierungseinrichtung"
+        "de": "Zuständige Restaurierungseinrichtung",
+        "en": "responsible conservation facility"
       }
     }
   ],
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/BAA258",
     "prefLabel": {
-      "de": "Erhaltungskonzept"
+      "de": "Erhaltungskonzept",
+      "en": "conservation plan"
     }
   },
   "exactMatch": [
@@ -79,19 +94,16 @@
   ],
   "inScheme": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
   "inSchemeAll": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
-  ],
-  "Verpflichtungsgrad": [
-    "bedingte Pflicht"
-  ],
-  "Wiederholbar": [
-    "Ja"
   ],
   "@context": {
     "@version": 1.1,
@@ -105,7 +117,7 @@
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "doc": "http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -122,6 +134,10 @@
       "@id": "dct:description",
       "@container": "@language"
     },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
     "issued": {
       "@id": "dct:issued",
       "@type": "xsd:date"
@@ -134,12 +150,33 @@
       "@id": "dct:modified",
       "@type": "xsd:date"
     },
-    "creator": "dct:creator",
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
     "publisher": "dct:publisher",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
     "prefLabel": {
       "@container": "@language"
     },
@@ -238,20 +275,8 @@
       "@id": "dct:isReplacedBy",
       "@container": "@set"
     },
-    "TextOrUri": {
-      "@id": "doc:TextOrUri",
-      "@container": "@set"
-    },
-    "Verpflichtungsgrad": {
-      "@id": "doc:Verpflichtungsgrad",
-      "@container": "@set"
-    },
-    "Wiederholbar": {
-      "@id": "doc:Wiederholbar",
-      "@container": "@set"
-    },
-    "EmpfohleneVokabulare": {
-      "@id": "doc:EmpfohleneVokabulare",
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
       "@container": "@set"
     }
   }

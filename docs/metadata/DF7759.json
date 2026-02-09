@@ -2,20 +2,20 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/DF7759",
   "type": "Concept",
   "prefLabel": {
-    "de": "Beleuchtungsstärke (konservatorische Bedingungen)"
+    "de": "Beleuchtungsstärke (konservatorische Bedingungen)",
+    "en": "illuminance (recommended conditions)"
   },
   "altLabel": {
     "de": [
       "LUX (konservatorische Bedingung)"
+    ],
+    "en": [
+      "LUX (conservation condition"
     ]
   },
   "definition": {
-    "de": "Angabe der maximal zulässigen Beleuchtungsstärke in LUX bzw. Expositionszeit für die schonende Präsenation zur Minimierung photochemischer und photophysikalischer Schädigungsprozesse bei gleichzeitig Gewährleistung ausreichender Sichtbarkeit für Betrachtung."
-  },
-  "note": {
-    "de": [
-      "D941BB"
-    ]
+    "de": "Angabe der maximal zulässigen Beleuchtungsstärke in LUX bzw. Expositionszeit für die schonende Präsenation zur Minimierung photochemischer und photophysikalischer Schädigungsprozesse bei gleichzeitig Gewährleistung ausreichender Sichtbarkeit für Betrachtung.",
+    "en": "Specification of the maximum permissible illuminance in LUX or exposure time for gentle presentation to minimise photochemical and photophysical damage processes while ensuring sufficient visibility for viewing"
   },
   "notation": [
     "DF7759"
@@ -23,12 +23,16 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/C3A182",
     "prefLabel": {
-      "de": "Konservatorische Bedingungen"
+      "de": "Konservatorische Bedingungen",
+      "en": "recommended conditions"
     }
   },
   "inScheme": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
   "inSchemeAll": [
@@ -36,14 +40,8 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "TextOrUri": [
-    "Text"
-  ],
-  "Verpflichtungsgrad": [
-    "optional"
-  ],
-  "Wiederholbar": [
-    "Nein"
+  "source": [
+    "D941BB"
   ],
   "@context": {
     "@version": 1.1,
@@ -57,7 +55,7 @@
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "doc": "http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -74,6 +72,10 @@
       "@id": "dct:description",
       "@container": "@language"
     },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
     "issued": {
       "@id": "dct:issued",
       "@type": "xsd:date"
@@ -86,12 +88,33 @@
       "@id": "dct:modified",
       "@type": "xsd:date"
     },
-    "creator": "dct:creator",
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
     "publisher": "dct:publisher",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
     "prefLabel": {
       "@container": "@language"
     },
@@ -190,20 +213,8 @@
       "@id": "dct:isReplacedBy",
       "@container": "@set"
     },
-    "TextOrUri": {
-      "@id": "doc:TextOrUri",
-      "@container": "@set"
-    },
-    "Verpflichtungsgrad": {
-      "@id": "doc:Verpflichtungsgrad",
-      "@container": "@set"
-    },
-    "Wiederholbar": {
-      "@id": "doc:Wiederholbar",
-      "@container": "@set"
-    },
-    "EmpfohleneVokabulare": {
-      "@id": "doc:EmpfohleneVokabulare",
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
       "@container": "@set"
     }
   }

@@ -2,10 +2,12 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/C421BF",
   "type": "Concept",
   "prefLabel": {
-    "de": "Herstellungsdatum"
+    "de": "Herstellungsdatum",
+    "en": "date of manufacture"
   },
   "definition": {
-    "de": "Erfassung des Produktions- oder Abfülldatums industrieller Produkte zur Nachvollziehbarkeit von Rezepturänderungen und Qualitätsschwankungen. Dient der Rückverfolgung von Chargen bei ungewöhnlichen Vorkommnissen und ermöglicht das Einholen relevanter Hintergrundinformationen zur Langzeitstabilität"
+    "de": "Erfassung des Produktions- oder Abfülldatums industrieller Produkte zur Nachvollziehbarkeit von Rezepturänderungen und Qualitätsschwankungen. Dient der Rückverfolgung von Chargen bei ungewöhnlichen Vorkommnissen und ermöglicht das Einholen relevanter Hintergrundinformationen zur Langzeitstabilität",
+    "en": "Recording of the production or filling date of industrial products for traceability of recipe changes and quality fluctuations. Used to trace batches in the event of unusual occurrences and enables relevant background information on long-term stability to be obtained."
   },
   "notation": [
     "C421BF"
@@ -13,27 +15,22 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/CGC619",
     "prefLabel": {
-      "de": "Verwendetes Material (Erhaltungsmaßnahme)"
+      "de": "Verwendetes Material (Erhaltungsmaßnahme)",
+      "en": "used material (conservation intervention)"
     }
   },
   "inScheme": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
   "inSchemeAll": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
-  ],
-  "TextOrUri": [
-    "Text"
-  ],
-  "Verpflichtungsgrad": [
-    "optional"
-  ],
-  "Wiederholbar": [
-    "Nein"
   ],
   "@context": {
     "@version": 1.1,
@@ -47,7 +44,7 @@
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "doc": "http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -64,6 +61,10 @@
       "@id": "dct:description",
       "@container": "@language"
     },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
     "issued": {
       "@id": "dct:issued",
       "@type": "xsd:date"
@@ -76,12 +77,33 @@
       "@id": "dct:modified",
       "@type": "xsd:date"
     },
-    "creator": "dct:creator",
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
     "publisher": "dct:publisher",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
     "prefLabel": {
       "@container": "@language"
     },
@@ -180,20 +202,8 @@
       "@id": "dct:isReplacedBy",
       "@container": "@set"
     },
-    "TextOrUri": {
-      "@id": "doc:TextOrUri",
-      "@container": "@set"
-    },
-    "Verpflichtungsgrad": {
-      "@id": "doc:Verpflichtungsgrad",
-      "@container": "@set"
-    },
-    "Wiederholbar": {
-      "@id": "doc:Wiederholbar",
-      "@container": "@set"
-    },
-    "EmpfohleneVokabulare": {
-      "@id": "doc:EmpfohleneVokabulare",
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
       "@container": "@set"
     }
   }

@@ -2,10 +2,12 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/CGC619",
   "type": "Concept",
   "prefLabel": {
-    "de": "Verwendetes Material (Erhaltungsmaßnahme)"
+    "de": "Verwendetes Material (Erhaltungsmaßnahme)",
+    "en": "used material (conservation intervention)"
   },
   "definition": {
-    "de": "Benennung des bzw. der Materialien, die für die jeweilige konservatorische und/oder restauratorische Maßnahme verwendet wurden."
+    "de": "Benennung des bzw. der Materialien, die für die jeweilige konservatorische und/oder restauratorische Maßnahme verwendet wurden.",
+    "en": "Name of the material(s) used for the respective conservation and/or restoration measure."
   },
   "notation": [
     "CGC619"
@@ -14,49 +16,44 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/C364G1",
       "prefLabel": {
-        "de": "Konzentration"
+        "de": "Konzentration",
+        "en": "concentration"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/C421BF",
       "prefLabel": {
-        "de": "Herstellungsdatum"
+        "de": "Herstellungsdatum",
+        "en": "date of manufacture"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/D865C3",
       "prefLabel": {
-        "de": "Bezugsquelle"
+        "de": "Bezugsquelle",
+        "en": "source"
       }
     }
   ],
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/A13CD1",
     "prefLabel": {
-      "de": "Eingriff"
+      "de": "Eingriff",
+      "en": "treatment"
     }
   },
   "inScheme": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
   "inSchemeAll": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
-  ],
-  "TextOrUri": [
-    "Text/URI"
-  ],
-  "Verpflichtungsgrad": [
-    "Pflicht"
-  ],
-  "Wiederholbar": [
-    "Ja"
-  ],
-  "EmpfohleneVokabulare": [
-    "Art & Architecture Thesaurus"
   ],
   "@context": {
     "@version": 1.1,
@@ -70,7 +67,7 @@
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "doc": "http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -87,6 +84,10 @@
       "@id": "dct:description",
       "@container": "@language"
     },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
     "issued": {
       "@id": "dct:issued",
       "@type": "xsd:date"
@@ -99,12 +100,33 @@
       "@id": "dct:modified",
       "@type": "xsd:date"
     },
-    "creator": "dct:creator",
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
     "publisher": "dct:publisher",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
     "prefLabel": {
       "@container": "@language"
     },
@@ -203,20 +225,8 @@
       "@id": "dct:isReplacedBy",
       "@container": "@set"
     },
-    "TextOrUri": {
-      "@id": "doc:TextOrUri",
-      "@container": "@set"
-    },
-    "Verpflichtungsgrad": {
-      "@id": "doc:Verpflichtungsgrad",
-      "@container": "@set"
-    },
-    "Wiederholbar": {
-      "@id": "doc:Wiederholbar",
-      "@container": "@set"
-    },
-    "EmpfohleneVokabulare": {
-      "@id": "doc:EmpfohleneVokabulare",
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
       "@container": "@set"
     }
   }

@@ -2,7 +2,7 @@ from rdflib import Graph
 import sys
 from pathlib import Path
 
-generated = Path("scripts/konservierungsthesaurus/scheme.ttl")
+generated = Path("scripts/schemes/scheme.ttl")
 current = Path("data/scheme.ttl")
 
 if not current.exists():

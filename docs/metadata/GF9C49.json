@@ -2,10 +2,18 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/GF9C49",
   "type": "Concept",
   "prefLabel": {
-    "de": "Allgemeine Umgangsempfehlungen"
+    "de": "Allgemeine Umgangsempfehlungen",
+    "en": "general handling recommendations"
+  },
+  "altLabel": {
+    "en": [
+      "recommendations for handling",
+      "recommendations for use"
+    ]
   },
   "definition": {
-    "de": "Sammelbegriff zur Strukturierung von Richtlinien und Handlungsanweisungen für den sachgerechten Umgang mit dem behandelten Objekt, die zur langfristigen Erhaltung und Vermeidung von Folgeschäden generell und/oder nach abgeschlossener Konservierungs-Restaurierungsbehandlung zu beachten sind."
+    "de": "Sammelbegriff zur Strukturierung von Richtlinien und Handlungsanweisungen für den sachgerechten Umgang mit dem behandelten Objekt, die zur langfristigen Erhaltung und Vermeidung von Folgeschäden generell und/oder nach abgeschlossener Konservierungs-Restaurierungsbehandlung zu beachten sind.",
+    "en": "Collective term for structuring guidelines and instructions for the proper handling of the object in question, which must be observed for long-term preservation and to prevent consequential damage in general and/or after conservation-restoration treatment has been completed"
   },
   "notation": [
     "GF9C49"
@@ -14,43 +22,44 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/B14C4A",
       "prefLabel": {
-        "de": "Empfehlungen zur Handhabung"
+        "de": "Empfehlungen zur Handhabung",
+        "en": "handling recommendations"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/D941BB",
       "prefLabel": {
-        "de": "Präsentationsvorgaben"
+        "de": "Präsentationsvorgaben",
+        "en": "presentation guidelines"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/F2244D",
       "prefLabel": {
-        "de": "Verpackungs- und Transportempfehlungen"
+        "de": "Verpackungs- und Transportempfehlungen",
+        "en": "Packaging and transport recommendations"
       }
     }
   ],
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/C93638",
     "prefLabel": {
-      "de": "Präventive Konservierung"
+      "de": "Präventive Konservierung",
+      "en": "preventive conservation"
     }
   },
   "inScheme": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
   "inSchemeAll": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
-  ],
-  "Verpflichtungsgrad": [
-    "empfohlen"
-  ],
-  "Wiederholbar": [
-    "Nein"
   ],
   "@context": {
     "@version": 1.1,
@@ -64,7 +73,7 @@
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "doc": "http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -81,6 +90,10 @@
       "@id": "dct:description",
       "@container": "@language"
     },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
     "issued": {
       "@id": "dct:issued",
       "@type": "xsd:date"
@@ -93,12 +106,33 @@
       "@id": "dct:modified",
       "@type": "xsd:date"
     },
-    "creator": "dct:creator",
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
     "publisher": "dct:publisher",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
     "prefLabel": {
       "@container": "@language"
     },
@@ -197,20 +231,8 @@
       "@id": "dct:isReplacedBy",
       "@container": "@set"
     },
-    "TextOrUri": {
-      "@id": "doc:TextOrUri",
-      "@container": "@set"
-    },
-    "Verpflichtungsgrad": {
-      "@id": "doc:Verpflichtungsgrad",
-      "@container": "@set"
-    },
-    "Wiederholbar": {
-      "@id": "doc:Wiederholbar",
-      "@container": "@set"
-    },
-    "EmpfohleneVokabulare": {
-      "@id": "doc:EmpfohleneVokabulare",
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
       "@container": "@set"
     }
   }

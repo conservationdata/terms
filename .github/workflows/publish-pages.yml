@@ -23,8 +23,8 @@ jobs:
           pip install requests pandas rdflib
       - name: Generate konservierungsthesaurus TTL
         run: |
-          cd scripts/konservierungsthesaurus
-          python konservierungsthesaurus.py
+          cd scripts/scheme
+          python scheme.py
       - name: Compare RDF graphs
         id: rdfdiff
         run: |

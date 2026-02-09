@@ -2,10 +2,12 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/C93638",
   "type": "Concept",
   "prefLabel": {
-    "de": "Präventive Konservierung"
+    "de": "Präventive Konservierung",
+    "en": "preventive conservation"
   },
   "definition": {
-    "de": "Übergeordneter Begriff zur Erfassung aller Angaben bezüglich vorbeugender Maßnahmen, die ohne direkten Eingriff am Objekt selbst darauf abzielen Schäden am Objekt zu vermindern."
+    "de": "Übergeordneter Begriff zur Erfassung aller Angaben bezüglich vorbeugender Maßnahmen, die ohne direkten Eingriff am Objekt selbst darauf abzielen, Schäden am Objekt zu vermindern.",
+    "en": "Umbrella term covering all information relating to preventive measures that aim to reduce damage to the object without direct intervention on the object itself"
   },
   "notation": [
     "C93638"
@@ -14,25 +16,31 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/C3A182",
       "prefLabel": {
-        "de": "Konservatorische Bedingungen"
+        "de": "Konservatorische Bedingungen",
+        "en": "recommended conditions"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/GF9C49",
       "prefLabel": {
-        "de": "Allgemeine Umgangsempfehlungen"
+        "de": "Allgemeine Umgangsempfehlungen",
+        "en": "general handling recommendations"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/C11192",
       "prefLabel": {
-        "de": "Monitoring"
+        "de": "Monitoring",
+        "en": "monitoring"
       }
     }
   ],
   "inScheme": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
   ],
   "inSchemeAll": [
@@ -42,14 +50,11 @@
   ],
   "topConceptOf": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata"
+      "id": "https://www.w3id.org/conservation/terms/metadata",
+      "title": {
+        "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
     }
-  ],
-  "Verpflichtungsgrad": [
-    "empfohlen"
-  ],
-  "Wiederholbar": [
-    "Nein"
   ],
   "@context": {
     "@version": 1.1,
@@ -63,7 +68,7 @@
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "doc": "http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -80,6 +85,10 @@
       "@id": "dct:description",
       "@container": "@language"
     },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
     "issued": {
       "@id": "dct:issued",
       "@type": "xsd:date"
@@ -92,12 +101,33 @@
       "@id": "dct:modified",
       "@type": "xsd:date"
     },
-    "creator": "dct:creator",
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
     "publisher": "dct:publisher",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
     "prefLabel": {
       "@container": "@language"
     },
@@ -196,20 +226,8 @@
       "@id": "dct:isReplacedBy",
       "@container": "@set"
     },
-    "TextOrUri": {
-      "@id": "doc:TextOrUri",
-      "@container": "@set"
-    },
-    "Verpflichtungsgrad": {
-      "@id": "doc:Verpflichtungsgrad",
-      "@container": "@set"
-    },
-    "Wiederholbar": {
-      "@id": "doc:Wiederholbar",
-      "@container": "@set"
-    },
-    "EmpfohleneVokabulare": {
-      "@id": "doc:EmpfohleneVokabulare",
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
       "@container": "@set"
     }
   }
