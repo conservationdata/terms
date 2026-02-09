@@ -37,6 +37,9 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
+  "Verpflichtungsgrad": "Pflicht",
+  "Feldwert": "Text/URI",
+  "Wiederholbar": "Nein",
   "Verwendungshinweis": "Bei diesem Feld muss zwischen der internen Erfassung des genauen Standorts und der allgemeinen Standortangabe für die Veröffentlichung des Datensatzes unterschieden werden. Der genaue Standort dient der internen Dokumentation und kann bei Bedarf vertraulich behandelt werden. Für veröffentlichte Datensätze sollte nur der übergeordnete Standort (z. B. Einrichtung,  Ausstellung, Depot) angegeben werden.",
   "@context": {
     "@version": 1.1,
@@ -214,10 +217,10 @@
       "@id": "rdfs:seeAlso",
       "@container": "@set"
     },
-    "Verpflichtungsgrad": "ocmp:Verpflichtungsgrad",
-    "Feldwert": "ocmp:Feldwert",
-    "Wiederholbar": "ocmp:Wiederholbar",
-    "Unsicher": "ocmp:Unsicher",
+    "Verpflichtungsgrad": "ocmp:JYGNTK",
+    "Feldwert": "ocmp:TQKQBM",
+    "Wiederholbar": "ocmp:EO7QK9",
+    "Unsicher": "ocmp:KL9LCA",
     "Verwendungshinweis": "ex:Verwendungshinweis",
     "Vokabularempfehlung": "ex:Vokabularempfehlung",
     "Zugangslevel": "ex:Zugangslevel"

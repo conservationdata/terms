@@ -43,6 +43,10 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
+  "Verpflichtungsgrad": "Pflicht",
+  "Feldwert": "URI",
+  "Wiederholbar": "Ja",
+  "Unsicher": "Ja",
   "Verwendungshinweis": "Idealerweise sollte auch die Belastbarkeit dieser Angaben mit erfasst werden, zum Beispiel ob zur Materialbestimmung eine naturwissenschaftliche Analyse verwendet wurde oder ob sie lediglich auf einer visuellen Begutachtung des Objektes beruht.",
   "Vokabularempfehlung": "Art & Architecture Thesaurus",
   "@context": {
@@ -221,10 +225,10 @@
       "@id": "rdfs:seeAlso",
       "@container": "@set"
     },
-    "Verpflichtungsgrad": "ocmp:Verpflichtungsgrad",
-    "Feldwert": "ocmp:Feldwert",
-    "Wiederholbar": "ocmp:Wiederholbar",
-    "Unsicher": "ocmp:Unsicher",
+    "Verpflichtungsgrad": "ocmp:JYGNTK",
+    "Feldwert": "ocmp:TQKQBM",
+    "Wiederholbar": "ocmp:EO7QK9",
+    "Unsicher": "ocmp:KL9LCA",
     "Verwendungshinweis": "ex:Verwendungshinweis",
     "Vokabularempfehlung": "ex:Vokabularempfehlung",
     "Zugangslevel": "ex:Zugangslevel"

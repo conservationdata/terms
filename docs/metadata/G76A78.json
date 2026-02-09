@@ -40,6 +40,9 @@
   "source": [
     "Begriff nach DIN EN 16095:2012-10"
   ],
+  "Verpflichtungsgrad": "optional",
+  "Feldwert": "Text/URI",
+  "Wiederholbar": "Ja",
   "Vokabularempfehlung": "GND, Wikidata, VIAF",
   "@context": {
     "@version": 1.1,
@@ -217,10 +220,10 @@
       "@id": "rdfs:seeAlso",
       "@container": "@set"
     },
-    "Verpflichtungsgrad": "ocmp:Verpflichtungsgrad",
-    "Feldwert": "ocmp:Feldwert",
-    "Wiederholbar": "ocmp:Wiederholbar",
-    "Unsicher": "ocmp:Unsicher",
+    "Verpflichtungsgrad": "ocmp:JYGNTK",
+    "Feldwert": "ocmp:TQKQBM",
+    "Wiederholbar": "ocmp:EO7QK9",
+    "Unsicher": "ocmp:KL9LCA",
     "Verwendungshinweis": "ex:Verwendungshinweis",
     "Vokabularempfehlung": "ex:Vokabularempfehlung",
     "Zugangslevel": "ex:Zugangslevel"

@@ -43,6 +43,9 @@
   "source": [
     "D941BB"
   ],
+  "Verpflichtungsgrad": "optional",
+  "Feldwert": "Text",
+  "Wiederholbar": "Nein",
   "Verwendungshinweis": "Die einzuhaltende Beleuchtungsstärke soll in LUX erfasst werden, die maximal zulässige Expositionszeit in Stunden",
   "@context": {
     "@version": 1.1,
@@ -220,10 +223,10 @@
       "@id": "rdfs:seeAlso",
       "@container": "@set"
     },
-    "Verpflichtungsgrad": "ocmp:Verpflichtungsgrad",
-    "Feldwert": "ocmp:Feldwert",
-    "Wiederholbar": "ocmp:Wiederholbar",
-    "Unsicher": "ocmp:Unsicher",
+    "Verpflichtungsgrad": "ocmp:JYGNTK",
+    "Feldwert": "ocmp:TQKQBM",
+    "Wiederholbar": "ocmp:EO7QK9",
+    "Unsicher": "ocmp:KL9LCA",
     "Verwendungshinweis": "ex:Verwendungshinweis",
     "Vokabularempfehlung": "ex:Vokabularempfehlung",
     "Zugangslevel": "ex:Zugangslevel"

@@ -43,6 +43,9 @@
   "source": [
     "Begriff nach DIN EN 15898:2020-02"
   ],
+  "Verpflichtungsgrad": "optional",
+  "Feldwert": "Text",
+  "Wiederholbar": "Nein",
   "Verwendungshinweis": "Idealerweise sollte auch die Belastbarkeit dieser Angabe erfasst werden, d.h. ob die Ursache des Schadens gesichert bekannt ist (z.B. dokumentierter Wasserschaden) oder lediglich vermutet wird.",
   "@context": {
     "@version": 1.1,
@@ -220,10 +223,10 @@
       "@id": "rdfs:seeAlso",
       "@container": "@set"
     },
-    "Verpflichtungsgrad": "ocmp:Verpflichtungsgrad",
-    "Feldwert": "ocmp:Feldwert",
-    "Wiederholbar": "ocmp:Wiederholbar",
-    "Unsicher": "ocmp:Unsicher",
+    "Verpflichtungsgrad": "ocmp:JYGNTK",
+    "Feldwert": "ocmp:TQKQBM",
+    "Wiederholbar": "ocmp:EO7QK9",
+    "Unsicher": "ocmp:KL9LCA",
     "Verwendungshinweis": "ex:Verwendungshinweis",
     "Vokabularempfehlung": "ex:Vokabularempfehlung",
     "Zugangslevel": "ex:Zugangslevel"
