@@ -43,6 +43,7 @@
   "source": [
     "D941BB"
   ],
+  "Verwendungshinweis": "Die einzuhaltenden Anforderungen sollen nach Möglichkeit in Mikrowatt pro Lumen (µW/lm) erfasst werden. Aber auch Angaben in Mikrowatt pro Quadratzentimeter oder in Prozent (bei Bezug auf UV-Filter) sind möglich. Wichtig ist neben der Erfassung der numerischen Werte auch die jeweilige Einheit mit anzugeben.",
   "@context": {
     "@version": 1.1,
     "id": "@id",
@@ -56,6 +57,8 @@
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ocmp": "https://www.w3id.org/objectcore/terminology/",
+    "ex": "http://example.org/",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -216,6 +219,13 @@
     "seeAlso": {
       "@id": "rdfs:seeAlso",
       "@container": "@set"
-    }
+    },
+    "Verpflichtungsgrad": "ocmp:Verpflichtungsgrad",
+    "Feldwert": "ocmp:Feldwert",
+    "Wiederholbar": "ocmp:Wiederholbar",
+    "Unsicher": "ocmp:Unsicher",
+    "Verwendungshinweis": "ex:Verwendungshinweis",
+    "Vokabularempfehlung": "ex:Vokabularempfehlung",
+    "Zugangslevel": "ex:Zugangslevel"
   }
 }

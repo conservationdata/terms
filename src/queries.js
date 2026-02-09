@@ -131,6 +131,13 @@ module.exports.allConcept = (inScheme, languages) => `
           source
           creator
           seeAlso
+          Verpflichtungsgrad
+          Feldwert
+          Wiederholbar
+          Unsicher
+          Verwendungshinweis
+          Vokabularempfehlung
+          Zugangslevel
           deprecated
           isReplacedBy {
             id

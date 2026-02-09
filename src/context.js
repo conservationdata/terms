@@ -12,6 +12,8 @@ const jsonld = {
     ldp: "http://www.w3.org/ns/ldp#",
     owl: "http://www.w3.org/2002/07/owl#",
     rdfs: "http://www.w3.org/2000/01/rdf-schema#",
+    ocmp: "https://www.w3id.org/objectcore/terminology/",
+    ex: "http://example.org/",
     title: {
       "@id": "dct:title",
       "@container": "@language",
@@ -149,6 +151,13 @@ const jsonld = {
       "@id": "rdfs:seeAlso",
       "@container": "@set",
     },
+    Verpflichtungsgrad: "ocmp:Verpflichtungsgrad",
+    Feldwert: "ocmp:Feldwert",
+    Wiederholbar: "ocmp:Wiederholbar",
+    Unsicher: "ocmp:Unsicher",
+    Verwendungshinweis: "ex:Verwendungshinweis",
+    Vokabularempfehlung: "ex:Vokabularempfehlung",
+    Zugangslevel: "ex:Zugangslevel",
   },
 }
 

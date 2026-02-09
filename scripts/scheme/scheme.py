@@ -154,7 +154,7 @@ propertyDict = {
     
     # ex (not declared yet...)
     "Verwendungshinweis": (ex.Verwendungshinweis, Literal, False),
-    "Empfohlene Vokabulare": (ex.Empfohlene_Vokabulare, Literal, False),
+    "Vokabularempfehlung": (ex.Vokabularempfehlung, Literal, False),
     "Zugangslevel":(ex.Zugangslevel, Literal, False)
 
 }

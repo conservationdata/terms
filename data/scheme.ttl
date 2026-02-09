@@ -387,8 +387,8 @@
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/C4BCF8> a skos:Concept ;
-    ex:Empfohlene_Vokabulare "Art & Architecture Thesaurus" ;
     ex:Verwendungshinweis "Idealerweise sollte auch die Belastbarkeit dieser Angaben mit erfasst werden. Da es sich häufig um interpretative Zuschreibungen handelt, sollte der Grad der Sicherheit bzw. die zugrundeliegende Beobachtung oder Untersuchung angegeben werden." ;
+    ex:Vokabularempfehlung "Art & Architecture Thesaurus" ;
     skos:altLabel "Technik"@de,
         "manufacturing technique"@en,
         "production technique"@en ;
@@ -677,8 +677,8 @@
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/D866AD> a skos:Concept ;
-    ex:Empfohlene_Vokabulare "Art & Architecture Thesaurus" ;
     ex:Verwendungshinweis "Idealerweise sollte auch die Belastbarkeit dieser Angaben mit erfasst werden, zum Beispiel ob zur Materialbestimmung eine naturwissenschaftliche Analyse verwendet wurde oder ob sie lediglich auf einer visuellen Begutachtung des Objektes beruht." ;
+    ex:Vokabularempfehlung "Art & Architecture Thesaurus" ;
     skos:altLabel "Material"@de,
         "Objektwerkstoff"@de ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/DA2D73> ;
@@ -746,7 +746,7 @@
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/F1BA31> a skos:Concept ;
-    ex:Empfohlene_Vokabulare "Art & Architecture Thesaurus" ;
+    ex:Vokabularempfehlung "Art & Architecture Thesaurus" ;
     skos:altLabel "Objektart"@de,
         "Objektbezeichnung"@de,
         "Sachbegriff"@de ;
@@ -896,7 +896,7 @@
     ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/F87124> a skos:Concept ;
-    ex:Empfohlene_Vokabulare "Art & Architecture Thesaurus" ;
+    ex:Vokabularempfehlung "Art & Architecture Thesaurus" ;
     skos:altLabel "Gerät"@de,
         "instrument"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/A13CD1> ;
@@ -1068,7 +1068,7 @@
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/G76A78> a skos:Concept ;
-    ex:Empfohlene_Vokabulare "GND, Wikidata, VIAF" ;
+    ex:Vokabularempfehlung "GND, Wikidata, VIAF" ;
     dcterms:source "Begriff nach DIN EN 16095:2012-10" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/B51DAF> ;
     skos:definition "Angaben zur Person, die das Objekt hergestellt hat - sofern bekannt.   Beispiel: \"Leonardo da Vinci\""@de,
@@ -1484,7 +1484,7 @@
     ocmp:JYGNTK "empfohlen" .
 
 <https://www.w3id.org/conservation/terms/metadata/CGC619> a skos:Concept ;
-    ex:Empfohlene_Vokabulare "Art & Architecture Thesaurus" ;
+    ex:Vokabularempfehlung "Art & Architecture Thesaurus" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/A13CD1> ;
     skos:definition "Benennung des bzw. der Materialien, die für die jeweilige konservatorische und/oder restauratorische Maßnahme verwendet wurden."@de,
         "Name of the material(s) used for the respective conservation and/or restoration measure."@en ;

@@ -56,7 +56,14 @@ module.exports = (languages) => `
     isReplacedBy: [Concept],
     source: [String],
     creator: [String],
-    seeAlso: [String]
+    seeAlso: [String],
+    Verpflichtungsgrad: String,
+    Feldwert: String,
+    Wiederholbar: String,
+    Unsicher: String,
+    Verwendungshinweis: String,
+    Vokabularempfehlung: String,
+    Zugangslevel: String,
   }
 
   type LanguageMap {

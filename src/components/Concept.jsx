@@ -296,6 +296,49 @@ const Concept = ({
           </ul>
         </div>
       )}
+      {concept.Verpflichtungsgrad && concept.Verpflichtungsgrad.length > 0 && (
+        <div>
+          <h3>Verpflichtungsgrad</h3>
+          <p>{concept.Verpflichtungsgrad}</p>
+        </div>
+      )}
+      {concept.Feldwert && concept.Feldwert.length > 0 && (
+        <div>
+          <h3>Feldwert</h3>
+          <p>{concept.Feldwert}</p>
+        </div>
+      )}
+      {concept.Wiederholbar && concept.Wiederholbar.length > 0 && (
+        <div>
+          <h3>Wiederholbar</h3>
+          <p>{concept.Wiederholbar}</p>
+        </div>
+      )}
+      {concept.Unsicher && concept.Unsicher.length > 0 && (
+        <div>
+          <h3>Unsicher</h3>
+          <p>{concept.Unsicher}</p>
+        </div>
+      )}
+      {concept.Verwendungshinweis && concept.Verwendungshinweis.length > 0 && (
+        <div>
+          <h3>Verwendungshinweis</h3>
+          <p>{concept.Verwendungshinweis}</p>
+        </div>
+      )}
+      {concept.Vokabularempfehlung &&
+        concept.Vokabularempfehlung.length > 0 && (
+          <div>
+            <h3>Vokabularempfehlung</h3>
+            <p>{concept.Vokabularempfehlung}</p>
+          </div>
+        )}
+      {concept.Zugangslevel && concept.Zugangslevel.length > 0 && (
+        <div>
+          <h3>Zugangslevel</h3>
+          <p>{concept.Zugangslevel}</p>
+        </div>
+      )}
     </div>
   )
 }

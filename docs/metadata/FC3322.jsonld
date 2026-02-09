@@ -37,6 +37,7 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
+  "Verwendungshinweis": "Bei diesem Feld muss zwischen der internen Erfassung des genauen Standorts und der allgemeinen Standortangabe für die Veröffentlichung des Datensatzes unterschieden werden. Der genaue Standort dient der internen Dokumentation und kann bei Bedarf vertraulich behandelt werden. Für veröffentlichte Datensätze sollte nur der übergeordnete Standort (z. B. Einrichtung,  Ausstellung, Depot) angegeben werden.",
   "@context": {
     "@version": 1.1,
     "id": "@id",
@@ -50,6 +51,8 @@
     "ldp": "http://www.w3.org/ns/ldp#",
     "owl": "http://www.w3.org/2002/07/owl#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ocmp": "https://www.w3id.org/objectcore/terminology/",
+    "ex": "http://example.org/",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -210,6 +213,13 @@
     "seeAlso": {
       "@id": "rdfs:seeAlso",
       "@container": "@set"
-    }
+    },
+    "Verpflichtungsgrad": "ocmp:Verpflichtungsgrad",
+    "Feldwert": "ocmp:Feldwert",
+    "Wiederholbar": "ocmp:Wiederholbar",
+    "Unsicher": "ocmp:Unsicher",
+    "Verwendungshinweis": "ex:Verwendungshinweis",
+    "Vokabularempfehlung": "ex:Vokabularempfehlung",
+    "Zugangslevel": "ex:Zugangslevel"
   }
 }
