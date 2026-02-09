@@ -21,7 +21,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip install requests pandas rdflib
-      - name: Generate konservierungsthesaurus TTL
+      - name: Generate scheme TTL
         run: |
           cd scripts/scheme
           python scheme.py
@@ -33,7 +33,7 @@ jobs:
       - name: Update data TTL
         if: steps.rdfdiff.outcome == 'success'
         run: |
-          cp scripts/konservierungsthesaurus/scheme.ttl data/scheme.ttl
+          cp scripts/scheme/scheme.ttl data/scheme.ttl
       # --- Node / Gatsby ----------------------------------------
       - name: Set up Node.js
         if: steps.rdfdiff.outcome == 'success'
