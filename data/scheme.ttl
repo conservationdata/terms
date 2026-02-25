@@ -1757,10 +1757,21 @@
     ocmp:JYGNTK "Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata> a skos:ConceptScheme ;
+    dcterms:contributor "Birte Reepen",
+        "Elena Gómez Sánchez (DBM)",
+        "Gisela Gulbins (REM/VDR)",
+        "Gudrun Schwenk (SODa)",
+        "Kristina Fischer (LEIZA)",
+        "Lasse Mempel-Länger (LEIZA)",
+        "Nathaly Witt (LEIZA)",
+        "Sarah Thompson" ;
     dcterms:creator "TWG Standards" ;
     dcterms:description "Eine referenzierbare Sammlung relevanter Metadaten des Faches."@de ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:publisher "TWG Standards" ;
+    dcterms:publisher "Deutsches Bergbau-Museum Bochum",
+        "Leibniz-Zentrum für Archäologie",
+        "Reiss-Engelhorn-Museen",
+        "Verband der Restaurator:innen (VDR) e.V." ;
     dcterms:rights "CC BY 4.0" ;
     dcterms:subject "Konservierung"@de,
         "Metadaten"@de,
