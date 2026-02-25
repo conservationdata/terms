@@ -1757,8 +1757,7 @@
     ocmp:JYGNTK "Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata> a skos:ConceptScheme ;
-    dcterms:contributor "Birte Reepen",
-        "Elena Gómez Sánchez (DBM)",
+    dcterms:contributor "Elena Gómez Sánchez (DBM)",
         "Gisela Gulbins (REM/VDR)",
         "Gudrun Schwenk (SODa)",
         "Kristina Fischer (LEIZA)",
