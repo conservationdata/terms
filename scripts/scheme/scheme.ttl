@@ -4,15 +4,6 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 
-<https://www.w3id.org/conservation/terms/metadata/G50P34> a skos:Concept ;
-    skos:definition "Angaben zur Sprache, in der der Bericht vorliegt."@de,
-        "Information on the language in which the report is available"@en ;
-    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
-    skos:notation "G50P34" ;
-    skos:prefLabel "Sprache"@de,
-        "language"@en ;
-    ocmp:JYGNTK "empfohlen" .
-
 <https://www.w3id.org/conservation/terms/metadata/LGPT6AC> a skos:Concept ;
     skos:definition "Angabe, um was für eine Art von weitere Objektnummer es sich handelt.   z.B. frühere Inventarnummer, temporäre Nummer, etc."@de,
         "Indication of what type of additional object number it is.  E.g. previous inventory number, temporary number, etc."@en ;
@@ -21,16 +12,6 @@
     skos:prefLabel "Art der weiteren Objektnummer"@de ;
     ocmp:JYGNTK "optional" ;
     ocmp:TQKQBM "Text" .
-
-<https://www.w3id.org/conservation/terms/metadata/WE34BL> a skos:Concept ;
-    skos:altLabel "ID Datensatz"@de ;
-    skos:definition "Eindeutige Kennung, die den Bericht referenzierbar macht."@de,
-        "Unique identifier that makes the report referenceable"@en ;
-    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
-    skos:notation "WE34BL" ;
-    skos:prefLabel "Datensatzkennung"@de,
-        "record identifier"@en ;
-    ocmp:JYGNTK "Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/98ZG32> a skos:Concept ;
     ex:Verwendungshinweis "Der Name sollte im Format \"Vorname Nachname\" erfasst werden." ;
@@ -782,8 +763,8 @@
     skos:exactMatch <http://terminology.lido-schema.org/lido00163> ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "F285B2" ;
-    skos:prefLabel "Bearbeiter*in des Datensatzes"@de,
-        "author"@en ;
+    skos:prefLabel "Bearbeiter*in"@de,
+        "creator"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "Pflicht" ;
     ocmp:TQKQBM "Text" .
@@ -1024,6 +1005,18 @@
     ocmp:JYGNTK "optional" ;
     ocmp:TQKQBM "Text" .
 
+<https://www.w3id.org/conservation/terms/metadata/G50P34> a skos:Concept ;
+    skos:broader <https://www.w3id.org/conservation/terms/metadata/AC16G1> ;
+    skos:definition "Angaben zur Sprache, in der der Bericht vorliegt."@de,
+        "Information on the language in which the report is available"@en ;
+    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
+    skos:notation "G50P34" ;
+    skos:prefLabel "Sprache"@de,
+        "language"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "empfohlen" ;
+    ocmp:TQKQBM "Text" .
+
 <https://www.w3id.org/conservation/terms/metadata/G56866> a skos:Concept ;
     skos:altLabel "Nutzungsrechte"@de,
         "rights of access"@en ;
@@ -1235,6 +1228,19 @@
         "alternative object number"@en ;
     ocmp:EO7QK9 "Ja" ;
     ocmp:JYGNTK "optional" ;
+    ocmp:TQKQBM "Text" .
+
+<https://www.w3id.org/conservation/terms/metadata/K543W2> a skos:Concept ;
+    skos:altLabel "ID Datensatz"@de ;
+    skos:broader <https://www.w3id.org/conservation/terms/metadata/AC16G1> ;
+    skos:definition "Eindeutige Kennung, die den Bericht referenzierbar macht."@de,
+        "Unique identifier that makes the report referenceable"@en ;
+    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
+    skos:notation "K543W2" ;
+    skos:prefLabel "Datensatzkennung"@de,
+        "record identifier"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/QD45G7> a skos:Concept ;
@@ -1453,7 +1459,7 @@
         "Konservierungsplanung"@de,
         "Maßnahmenkonzept"@de,
         "Restaurierungskonzept"@de,
-        "conservation concept"@en,
+        "conservation plan"@en,
         "conservation strategy"@en ;
     skos:closeMatch <http://terminology.lido-schema.org/lido00032> ;
     skos:definition "Oberbegriff für sämtliche Informationen, die im Zuge der Planung, Vorbereitung und Durchführung einer Erhaltungsmaßnahme erfasst werden."@de,
@@ -1464,7 +1470,7 @@
         <https://www.w3id.org/conservation/terms/metadata/FGF575> ;
     skos:notation "BAA258" ;
     skos:prefLabel "Erhaltungskonzept"@de,
-        "conservation plan"@en ;
+        "conservation concept"@en ;
     skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
     ocmp:EO7QK9 "Ja" ;
     ocmp:JYGNTK "Pflicht" .
@@ -1493,7 +1499,7 @@
         <https://www.w3id.org/conservation/terms/metadata/C421BF>,
         <https://www.w3id.org/conservation/terms/metadata/D865C3> ;
     skos:notation "CGC619" ;
-    skos:prefLabel "Verwendetes Material (Erhaltungsmaßnahme)"@de,
+    skos:prefLabel "Verwendetes Material (Eingriff)"@de,
         "used material (conservation intervention)"@en ;
     ocmp:EO7QK9 "Ja" ;
     ocmp:JYGNTK "Pflicht" ;
@@ -1514,20 +1520,6 @@
         "general handling recommendations"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "empfohlen" .
-
-<https://www.w3id.org/conservation/terms/metadata/AC16G1> a skos:Concept ;
-    skos:definition "administrative Angaben zu dem vorliegenden Bericht und seinen Inhalten"@de,
-        "Administrative information about this report and its contents"@en ;
-    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
-    skos:narrower <https://www.w3id.org/conservation/terms/metadata/D1F5D3>,
-        <https://www.w3id.org/conservation/terms/metadata/D78721>,
-        <https://www.w3id.org/conservation/terms/metadata/F285B2>,
-        <https://www.w3id.org/conservation/terms/metadata/G56866> ;
-    skos:notation "AC16G1" ;
-    skos:prefLabel "Administrative Metadaten"@de,
-        "administrative metadata"@en ;
-    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
-    ocmp:JYGNTK "Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/B7B8B6> a skos:Concept ;
     skos:definition "Übergeordneter Begriff zur Strukturierung aller Angaben, zu potentiellen Gefahren, die von einem individuellen (behandelten) Objekt ausgehen und Maßnahmen, die zum Schutz der Gesundheit bei Umgang mit den jeweiligen Objekten eingehalten werden sollten.   Nicht gemeint sind dabei die allgemeinen Arbeitssicherheitsmaßnahmen, die im Rahmen der gesetzlichen Vorgaben für Restaurator*innen gelten."@de,
@@ -1611,6 +1603,22 @@
     ocmp:EO7QK9 "Ja" ;
     ocmp:JYGNTK "empfohlen" ;
     ocmp:TQKQBM "Text" .
+
+<https://www.w3id.org/conservation/terms/metadata/AC16G1> a skos:Concept ;
+    skos:definition "administrative Angaben zu dem vorliegenden Bericht und seinen Inhalten"@de,
+        "Administrative information about this report and its contents"@en ;
+    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
+    skos:narrower <https://www.w3id.org/conservation/terms/metadata/D1F5D3>,
+        <https://www.w3id.org/conservation/terms/metadata/D78721>,
+        <https://www.w3id.org/conservation/terms/metadata/F285B2>,
+        <https://www.w3id.org/conservation/terms/metadata/G50P34>,
+        <https://www.w3id.org/conservation/terms/metadata/G56866>,
+        <https://www.w3id.org/conservation/terms/metadata/K543W2> ;
+    skos:notation "AC16G1" ;
+    skos:prefLabel "Administrative Metadaten"@de,
+        "administrative metadata"@en ;
+    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
+    ocmp:JYGNTK "Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/F52262> a skos:Concept ;
     skos:altLabel "Zustandserhebung"@de,

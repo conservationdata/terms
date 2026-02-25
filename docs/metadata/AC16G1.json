@@ -30,8 +30,15 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/F285B2",
       "prefLabel": {
-        "de": "Bearbeiter*in des Datensatzes",
-        "en": "author"
+        "de": "Bearbeiter*in",
+        "en": "creator"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/G50P34",
+      "prefLabel": {
+        "de": "Sprache",
+        "en": "language"
       }
     },
     {
@@ -39,6 +46,13 @@
       "prefLabel": {
         "de": "Zugangsrecht",
         "en": "access rights"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/K543W2",
+      "prefLabel": {
+        "de": "Datensatzkennung",
+        "en": "record identifier"
       }
     }
   ],

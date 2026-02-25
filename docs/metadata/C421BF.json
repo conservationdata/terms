@@ -15,7 +15,7 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/CGC619",
     "prefLabel": {
-      "de": "Verwendetes Material (Erhaltungsmaßnahme)",
+      "de": "Verwendetes Material (Eingriff)",
       "en": "used material (conservation intervention)"
     }
   },

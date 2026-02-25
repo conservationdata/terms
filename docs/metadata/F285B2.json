@@ -2,8 +2,8 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F285B2",
   "type": "Concept",
   "prefLabel": {
-    "de": "Bearbeiter*in des Datensatzes",
-    "en": "author"
+    "de": "Bearbeiter*in",
+    "en": "creator"
   },
   "definition": {
     "de": "Angaben zur Person (Name, ggfs. Funktion) der für den Bericht verantwortlichen Person.",

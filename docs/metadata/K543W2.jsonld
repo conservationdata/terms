@@ -1,5 +1,5 @@
 {
-  "id": "https://www.w3id.org/conservation/terms/metadata/WE34BL",
+  "id": "https://www.w3id.org/conservation/terms/metadata/K543W2",
   "type": "Concept",
   "prefLabel": {
     "de": "Datensatzkennung",
@@ -15,8 +15,15 @@
     "en": "Unique identifier that makes the report referenceable"
   },
   "notation": [
-    "WE34BL"
+    "K543W2"
   ],
+  "broader": {
+    "id": "https://www.w3id.org/conservation/terms/metadata/AC16G1",
+    "prefLabel": {
+      "de": "Administrative Metadaten",
+      "en": "administrative metadata"
+    }
+  },
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata",
@@ -31,6 +38,8 @@
     }
   ],
   "Verpflichtungsgrad": "Pflicht",
+  "Feldwert": "Text",
+  "Wiederholbar": "Nein",
   "@context": {
     "@version": 1.1,
     "id": "@id",

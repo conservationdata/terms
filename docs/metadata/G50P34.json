@@ -12,6 +12,13 @@
   "notation": [
     "G50P34"
   ],
+  "broader": {
+    "id": "https://www.w3id.org/conservation/terms/metadata/AC16G1",
+    "prefLabel": {
+      "de": "Administrative Metadaten",
+      "en": "administrative metadata"
+    }
+  },
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata",
@@ -26,6 +33,8 @@
     }
   ],
   "Verpflichtungsgrad": "empfohlen",
+  "Feldwert": "Text",
+  "Wiederholbar": "Nein",
   "@context": {
     "@version": 1.1,
     "id": "@id",
