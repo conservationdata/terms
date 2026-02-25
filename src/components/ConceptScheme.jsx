@@ -41,10 +41,14 @@ const ConceptScheme = ({
               <Markdown>{i18n(language)(description)}</Markdown>
             </div>
           )}
-          {conceptScheme.publisher && (
+          {conceptScheme.publisher && conceptScheme.publisher.length > 0 && (
             <div>
               <h3>Publisher</h3>
-              <p>{conceptScheme.publisher}</p>
+              <ul>
+                {conceptScheme.publisher.map((publisher, i) => (
+                  <li key={i}>{publisher}</li>
+                ))}
+              </ul>
             </div>
           )}
           {conceptScheme.creator && conceptScheme.creator.length > 0 && (
