@@ -4,15 +4,6 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 
-<https://www.w3id.org/conservation/terms/metadata/LGPT6AC> a skos:Concept ;
-    skos:definition "Angabe, um was für eine Art von weitere Objektnummer es sich handelt.   z.B. frühere Inventarnummer, temporäre Nummer, etc."@de,
-        "Indication of what type of additional object number it is.  E.g. previous inventory number, temporary number, etc."@en ;
-    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
-    skos:notation "LGPT6AC" ;
-    skos:prefLabel "Art der weiteren Objektnummer"@de ;
-    ocmp:JYGNTK "optional" ;
-    ocmp:TQKQBM "Text" .
-
 <https://www.w3id.org/conservation/terms/metadata/98ZG32> a skos:Concept ;
     ex:Verwendungshinweis "Der Name sollte im Format \"Vorname Nachname\" erfasst werden." ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/D1F5D3> ;
@@ -1215,21 +1206,6 @@
     ocmp:JYGNTK "Pflicht" ;
     ocmp:TQKQBM "Text" .
 
-<https://www.w3id.org/conservation/terms/metadata/K343FVC> a skos:Concept ;
-    skos:altLabel "Alternative Nummern"@de,
-        "other object number"@en ;
-    skos:broader <https://www.w3id.org/conservation/terms/metadata/B51DAF> ;
-    skos:definition "Weitere Nummern, die in der Vergangenheit dem Objekt zugeordnet wurden und erfasst werden sollen."@de,
-        "These are other numbers that were previously assigned to the object and should be recorded."@en ;
-    skos:exactMatch <http://terminology.lido-schema.org/lido00188> ;
-    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
-    skos:notation "K343FVC" ;
-    skos:prefLabel "Weitere Objektnummern"@de,
-        "alternative object number"@en ;
-    ocmp:EO7QK9 "Ja" ;
-    ocmp:JYGNTK "optional" ;
-    ocmp:TQKQBM "Text" .
-
 <https://www.w3id.org/conservation/terms/metadata/K543W2> a skos:Concept ;
     skos:altLabel "ID Datensatz"@de ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/AC16G1> ;
@@ -1241,6 +1217,16 @@
         "record identifier"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text" .
+
+<https://www.w3id.org/conservation/terms/metadata/LGPT6AC> a skos:Concept ;
+    skos:broader <https://www.w3id.org/conservation/terms/metadata/K343FVC> ;
+    skos:definition "Angabe, um was für eine Art von weitere Objektnummer es sich handelt.   z.B. frühere Inventarnummer, temporäre Nummer, etc."@de,
+        "Indication of what type of additional object number it is.  E.g. previous inventory number, temporary number, etc."@en ;
+    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
+    skos:notation "LGPT6AC" ;
+    skos:prefLabel "Art der weiteren Objektnummer"@de ;
+    ocmp:JYGNTK "optional" ;
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/QD45G7> a skos:Concept ;
@@ -1327,6 +1313,22 @@
         "reason for the condition assessment"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "bedingte Pflicht" ;
+    ocmp:TQKQBM "Text" .
+
+<https://www.w3id.org/conservation/terms/metadata/K343FVC> a skos:Concept ;
+    skos:altLabel "Alternative Nummern"@de,
+        "other object number"@en ;
+    skos:broader <https://www.w3id.org/conservation/terms/metadata/B51DAF> ;
+    skos:definition "Weitere Nummern, die in der Vergangenheit dem Objekt zugeordnet wurden und erfasst werden sollen."@de,
+        "These are other numbers that were previously assigned to the object and should be recorded."@en ;
+    skos:exactMatch <http://terminology.lido-schema.org/lido00188> ;
+    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
+    skos:narrower <https://www.w3id.org/conservation/terms/metadata/LGPT6AC> ;
+    skos:notation "K343FVC" ;
+    skos:prefLabel "Weitere Objektnummern"@de,
+        "alternative object number"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "optional" ;
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/A13CD1> a skos:Concept ;

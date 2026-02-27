@@ -20,6 +20,14 @@
   "notation": [
     "K343FVC"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/LGPT6AC",
+      "prefLabel": {
+        "de": "Art der weiteren Objektnummer"
+      }
+    }
+  ],
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/B51DAF",
     "prefLabel": {

@@ -11,6 +11,13 @@
   "notation": [
     "LGPT6AC"
   ],
+  "broader": {
+    "id": "https://www.w3id.org/conservation/terms/metadata/K343FVC",
+    "prefLabel": {
+      "de": "Weitere Objektnummern",
+      "en": "alternative object number"
+    }
+  },
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata",
