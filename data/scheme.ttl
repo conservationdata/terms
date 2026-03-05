@@ -1226,7 +1226,7 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "LGPT6AC" ;
     skos:prefLabel "Art der weiteren Objektnummer"@de ;
-    ocmp:JYGNTK "optional" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/QD45G7> a skos:Concept ;
