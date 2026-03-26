@@ -19,10 +19,24 @@
   ],
   "narrower": [
     {
+      "id": "https://www.w3id.org/conservation/terms/metadata/C7C3B7",
+      "prefLabel": {
+        "de": "aktuelles Gewicht",
+        "en": "current mass"
+      }
+    },
+    {
       "id": "https://www.w3id.org/conservation/terms/metadata/CA8K78",
       "prefLabel": {
         "de": "Vollständigkeit",
         "en": "completeness"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/DBC278",
+      "prefLabel": {
+        "de": "aktuelle Maße",
+        "en": "current dimensions"
       }
     },
     {

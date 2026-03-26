@@ -2,11 +2,11 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/FC3322",
   "type": "Concept",
   "prefLabel": {
-    "de": "aktueller Standort",
+    "de": "Standort",
     "en": "current location"
   },
   "definition": {
-    "de": "Angaben zum letzten bekannten Standort des Objekts.",
+    "de": "Angaben zum letzten bekannten Standort des Objekts, vor der Einlieferung in die Restaurierungswerkstatt.",
     "en": "Information about the last known location of the object."
   },
   "notation": [

@@ -409,7 +409,7 @@
 
 <https://www.w3id.org/conservation/terms/metadata/C7C3B7> a skos:Concept ;
     ex:Verwendungshinweis "Die Angaben sollten sowohl den numerischen Wert als auch die Maßeinheit nach metrischem System im jeweils fachspezifischen Standard (g oder kg) enthalten" ;
-    skos:broader <https://www.w3id.org/conservation/terms/metadata/DA2D73> ;
+    skos:broader <https://www.w3id.org/conservation/terms/metadata/BC5B57> ;
     skos:definition "Angaben zur Masse des Objekts zum letzten Zeitpunkt der Objektuntersuchung"@de,
         "Information on the mass of the object at the last time of the object examination"@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
@@ -928,12 +928,12 @@
 <https://www.w3id.org/conservation/terms/metadata/FC3322> a skos:Concept ;
     ex:Verwendungshinweis "Bei diesem Feld muss zwischen der internen Erfassung des genauen Standorts und der allgemeinen Standortangabe für die Veröffentlichung des Datensatzes unterschieden werden. Der genaue Standort dient der internen Dokumentation und kann bei Bedarf vertraulich behandelt werden. Für veröffentlichte Datensätze sollte nur der übergeordnete Standort (z. B. Einrichtung,  Ausstellung, Depot) angegeben werden." ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/DA2D73> ;
-    skos:definition "Angaben zum letzten bekannten Standort des Objekts."@de,
+    skos:definition "Angaben zum letzten bekannten Standort des Objekts, vor der Einlieferung in die Restaurierungswerkstatt."@de,
         "Information about the last known location of the object."@en ;
     skos:exactMatch <http://terminology.lido-schema.org/lido01018> ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "FC3322" ;
-    skos:prefLabel "aktueller Standort"@de,
+    skos:prefLabel "Standort"@de,
         "current location"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "Pflicht" ;
@@ -1373,22 +1373,6 @@
     ocmp:JYGNTK "Pflicht" ;
     ocmp:TQKQBM "Text/URI" .
 
-<https://www.w3id.org/conservation/terms/metadata/BC5B57> a skos:Concept ;
-    dcterms:source "Begriff nach DIN EN 15898:2020-02" ;
-    skos:altLabel "Erhaltungszustand"@de ;
-    skos:broader <https://www.w3id.org/conservation/terms/metadata/AC1786> ;
-    skos:definition "Beschreibung der physischen Merkmale und Eigenschaften des Objektes wie Vollständigkeit, Stabilität, Festigkeit, Maße, Feuchtigkeitsgehalt, etc."@de,
-        "A description of the object's physical characteristics and properties, such as completeness, stability, strength, dimensions, moisture content, etc."@en ;
-    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
-    skos:narrower <https://www.w3id.org/conservation/terms/metadata/CA8K78>,
-        <https://www.w3id.org/conservation/terms/metadata/GVB7T9> ;
-    skos:notation "BC5B57" ;
-    skos:prefLabel "Physischer Objektzustand"@de,
-        "physical condition"@en ;
-    ocmp:EO7QK9 "Ja" ;
-    ocmp:JYGNTK "Pflicht" ;
-    ocmp:TQKQBM "Text/URI" .
-
 <https://www.w3id.org/conservation/terms/metadata/CCCC7G> a skos:Concept ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/B7B8B6> ;
     skos:definition "Oberbegriff zu Angaben der zuletzt durchgeführten Risikoanalyse und Beurteilung des Gefährdungspotentitals eines Objektes"@de,
@@ -1538,6 +1522,24 @@
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "bedingte Pflicht" .
 
+<https://www.w3id.org/conservation/terms/metadata/BC5B57> a skos:Concept ;
+    dcterms:source "Begriff nach DIN EN 15898:2020-02" ;
+    skos:altLabel "Erhaltungszustand"@de ;
+    skos:broader <https://www.w3id.org/conservation/terms/metadata/AC1786> ;
+    skos:definition "Beschreibung der physischen Merkmale und Eigenschaften des Objektes wie Vollständigkeit, Stabilität, Festigkeit, Maße, Feuchtigkeitsgehalt, etc."@de,
+        "A description of the object's physical characteristics and properties, such as completeness, stability, strength, dimensions, moisture content, etc."@en ;
+    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
+    skos:narrower <https://www.w3id.org/conservation/terms/metadata/C7C3B7>,
+        <https://www.w3id.org/conservation/terms/metadata/CA8K78>,
+        <https://www.w3id.org/conservation/terms/metadata/DBC278>,
+        <https://www.w3id.org/conservation/terms/metadata/GVB7T9> ;
+    skos:notation "BC5B57" ;
+    skos:prefLabel "Physischer Objektzustand"@de,
+        "physical condition"@en ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text/URI" .
+
 <https://www.w3id.org/conservation/terms/metadata/C11192> a skos:Concept ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/C93638> ;
     skos:definition "Sammeloberbegriff zur Dokumentation regelmäßiger Kontrollmaßnahmen des Objektzustandes und der Umgebungsbedingungen zur frühzeitigen Erkennung von Veränderungen und Einleitung entsprechender (Gegen-)Maßnahmen"@de,
@@ -1575,7 +1577,7 @@
         "Dimension"@de,
         "Maßangabe"@de,
         "current measurements"@en ;
-    skos:broader <https://www.w3id.org/conservation/terms/metadata/DA2D73> ;
+    skos:broader <https://www.w3id.org/conservation/terms/metadata/BC5B57> ;
     skos:definition "Angaben zu den räumlichen Dimensionen des Objektes, zum letzten Zeitpunkt der Begutachtung. Die Maße des Objektes können sich im Laufe der Zeit verändern (z.B. durch Beschädigung oder die Zusammensetzung eines zerscherbten Objektes)."@de,
         "Information on the spatial dimensions of the object at the time of the last assessment. The dimensions of the object may change over time (e.g. due to damage or the composition of a shattered object)."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
@@ -1605,6 +1607,23 @@
     ocmp:EO7QK9 "Ja" ;
     ocmp:JYGNTK "empfohlen" ;
     ocmp:TQKQBM "Text" .
+
+<https://www.w3id.org/conservation/terms/metadata/DA2D73> a skos:Concept ;
+    dcterms:source "Begriff nach DIN EN 16095:2012-10 & DIN EN 15898:2019" ;
+    skos:definition "Oberbegriff für Informationen, die die Beschaffenheit, Merkmale und die Bedeutung des Objektes näher beschreiben"@de,
+        "A generic term for information that provides a more detailed description of an object's nature, characteristics and significance."@en ;
+    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
+    skos:narrower <https://www.w3id.org/conservation/terms/metadata/BGC9F3>,
+        <https://www.w3id.org/conservation/terms/metadata/C4BCF8>,
+        <https://www.w3id.org/conservation/terms/metadata/D866AD>,
+        <https://www.w3id.org/conservation/terms/metadata/F1BA31>,
+        <https://www.w3id.org/conservation/terms/metadata/FC3322> ;
+    skos:notation "DA2D73" ;
+    skos:prefLabel "Objektbeschreibung"@de,
+        "object description"@en ;
+    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/AC16G1> a skos:Concept ;
     skos:definition "administrative Angaben zu dem vorliegenden Bericht und seinen Inhalten"@de,
@@ -1640,25 +1659,6 @@
         "condition assessment"@en ;
     skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
     ocmp:EO7QK9 "Ja" ;
-    ocmp:JYGNTK "Pflicht" .
-
-<https://www.w3id.org/conservation/terms/metadata/DA2D73> a skos:Concept ;
-    dcterms:source "Begriff nach DIN EN 16095:2012-10 & DIN EN 15898:2019" ;
-    skos:definition "Oberbegriff für Informationen, die die Beschaffenheit, Merkmale und die Bedeutung des Objektes näher beschreiben"@de,
-        "A generic term for information that provides a more detailed description of an object's nature, characteristics and significance."@en ;
-    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
-    skos:narrower <https://www.w3id.org/conservation/terms/metadata/BGC9F3>,
-        <https://www.w3id.org/conservation/terms/metadata/C4BCF8>,
-        <https://www.w3id.org/conservation/terms/metadata/C7C3B7>,
-        <https://www.w3id.org/conservation/terms/metadata/D866AD>,
-        <https://www.w3id.org/conservation/terms/metadata/DBC278>,
-        <https://www.w3id.org/conservation/terms/metadata/F1BA31>,
-        <https://www.w3id.org/conservation/terms/metadata/FC3322> ;
-    skos:notation "DA2D73" ;
-    skos:prefLabel "Objektbeschreibung"@de,
-        "object description"@en ;
-    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
-    ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/DA9CGG> a skos:Concept ;

@@ -53,10 +53,10 @@
     }
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/DA2D73",
+    "id": "https://www.w3id.org/conservation/terms/metadata/BC5B57",
     "prefLabel": {
-      "de": "Objektbeschreibung",
-      "en": "object description"
+      "de": "Physischer Objektzustand",
+      "en": "physical condition"
     }
   },
   "inScheme": [

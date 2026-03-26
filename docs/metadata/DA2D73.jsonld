@@ -28,13 +28,6 @@
       }
     },
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata/C7C3B7",
-      "prefLabel": {
-        "de": "aktuelles Gewicht",
-        "en": "current mass"
-      }
-    },
-    {
       "id": "https://www.w3id.org/conservation/terms/metadata/D866AD",
       "prefLabel": {
         "de": "Objektmaterial",
@@ -51,15 +44,8 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/FC3322",
       "prefLabel": {
-        "de": "aktueller Standort",
+        "de": "Standort",
         "en": "current location"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/DBC278",
-      "prefLabel": {
-        "de": "aktuelle Maße",
-        "en": "current dimensions"
       }
     }
   ],
