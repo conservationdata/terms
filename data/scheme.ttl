@@ -1537,8 +1537,7 @@
     skos:prefLabel "Physischer Objektzustand"@de,
         "physical condition"@en ;
     ocmp:EO7QK9 "Ja" ;
-    ocmp:JYGNTK "Pflicht" ;
-    ocmp:TQKQBM "Text/URI" .
+    ocmp:JYGNTK "Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/C11192> a skos:Concept ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/C93638> ;

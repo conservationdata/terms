@@ -71,7 +71,6 @@
     "Begriff nach DIN EN 15898:2020-02"
   ],
   "Verpflichtungsgrad": "Pflicht",
-  "Feldwert": "Text/URI",
   "Wiederholbar": "Ja",
   "@context": {
     "@version": 1.1,
