@@ -927,15 +927,15 @@
 
 <https://www.w3id.org/conservation/terms/metadata/FC3322> a skos:Concept ;
     ex:Verwendungshinweis "Bei diesem Feld muss zwischen der internen Erfassung des genauen Standorts und der allgemeinen Standortangabe für die Veröffentlichung des Datensatzes unterschieden werden. Der genaue Standort dient der internen Dokumentation und kann bei Bedarf vertraulich behandelt werden. Für veröffentlichte Datensätze sollte nur der übergeordnete Standort (z. B. Einrichtung,  Ausstellung, Depot) angegeben werden." ;
-    skos:broader <https://www.w3id.org/conservation/terms/metadata/DA2D73> ;
-    skos:definition "Angaben zum letzten bekannten Standort des Objekts, vor der Einlieferung in die Restaurierungswerkstatt."@de,
-        "Information about the last known location of the object."@en ;
+    skos:broader <https://www.w3id.org/conservation/terms/metadata/B51DAF> ;
+    skos:definition "Angabe des regelhaften Aufbewahrungsort des Objekts, außerhalb der Restaurierungseinrichtung."@de,
+        "Indication of the usual storage location of the object, outside the restoration facility"@en ;
     skos:exactMatch <http://terminology.lido-schema.org/lido01018> ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "FC3322" ;
     skos:prefLabel "Standort"@de,
         "current location"@en ;
-    ocmp:EO7QK9 "Nein" ;
+    ocmp:EO7QK9 "Ja" ;
     ocmp:JYGNTK "Pflicht" ;
     ocmp:TQKQBM "Text/URI" .
 
@@ -1571,6 +1571,22 @@
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "empfohlen" .
 
+<https://www.w3id.org/conservation/terms/metadata/DA2D73> a skos:Concept ;
+    dcterms:source "Begriff nach DIN EN 16095:2012-10 & DIN EN 15898:2019" ;
+    skos:definition "Oberbegriff für Informationen, die die Beschaffenheit, Merkmale und die Bedeutung des Objektes näher beschreiben"@de,
+        "A generic term for information that provides a more detailed description of an object's nature, characteristics and significance."@en ;
+    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
+    skos:narrower <https://www.w3id.org/conservation/terms/metadata/BGC9F3>,
+        <https://www.w3id.org/conservation/terms/metadata/C4BCF8>,
+        <https://www.w3id.org/conservation/terms/metadata/D866AD>,
+        <https://www.w3id.org/conservation/terms/metadata/F1BA31> ;
+    skos:notation "DA2D73" ;
+    skos:prefLabel "Objektbeschreibung"@de,
+        "object description"@en ;
+    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" .
+
 <https://www.w3id.org/conservation/terms/metadata/DBC278> a skos:Concept ;
     skos:altLabel "Abmessungen"@de,
         "Dimension"@de,
@@ -1606,23 +1622,6 @@
     ocmp:EO7QK9 "Ja" ;
     ocmp:JYGNTK "empfohlen" ;
     ocmp:TQKQBM "Text" .
-
-<https://www.w3id.org/conservation/terms/metadata/DA2D73> a skos:Concept ;
-    dcterms:source "Begriff nach DIN EN 16095:2012-10 & DIN EN 15898:2019" ;
-    skos:definition "Oberbegriff für Informationen, die die Beschaffenheit, Merkmale und die Bedeutung des Objektes näher beschreiben"@de,
-        "A generic term for information that provides a more detailed description of an object's nature, characteristics and significance."@en ;
-    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
-    skos:narrower <https://www.w3id.org/conservation/terms/metadata/BGC9F3>,
-        <https://www.w3id.org/conservation/terms/metadata/C4BCF8>,
-        <https://www.w3id.org/conservation/terms/metadata/D866AD>,
-        <https://www.w3id.org/conservation/terms/metadata/F1BA31>,
-        <https://www.w3id.org/conservation/terms/metadata/FC3322> ;
-    skos:notation "DA2D73" ;
-    skos:prefLabel "Objektbeschreibung"@de,
-        "object description"@en ;
-    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
-    ocmp:EO7QK9 "Nein" ;
-    ocmp:JYGNTK "Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/AC16G1> a skos:Concept ;
     skos:definition "administrative Angaben zu dem vorliegenden Bericht und seinen Inhalten"@de,
@@ -1747,6 +1746,7 @@
         <https://www.w3id.org/conservation/terms/metadata/F3G8D1>,
         <https://www.w3id.org/conservation/terms/metadata/F7D3DB>,
         <https://www.w3id.org/conservation/terms/metadata/F9GB13>,
+        <https://www.w3id.org/conservation/terms/metadata/FC3322>,
         <https://www.w3id.org/conservation/terms/metadata/G76A78>,
         <https://www.w3id.org/conservation/terms/metadata/GB6DF3>,
         <https://www.w3id.org/conservation/terms/metadata/K343FVC> ;

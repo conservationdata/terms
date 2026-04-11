@@ -40,13 +40,6 @@
         "de": "Objekttyp",
         "en": "object type"
       }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/FC3322",
-      "prefLabel": {
-        "de": "Standort",
-        "en": "current location"
-      }
     }
   ],
   "inScheme": [

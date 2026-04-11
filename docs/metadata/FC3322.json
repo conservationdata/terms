@@ -6,17 +6,17 @@
     "en": "current location"
   },
   "definition": {
-    "de": "Angaben zum letzten bekannten Standort des Objekts, vor der Einlieferung in die Restaurierungswerkstatt.",
-    "en": "Information about the last known location of the object."
+    "de": "Angabe des regelhaften Aufbewahrungsort des Objekts, außerhalb der Restaurierungseinrichtung.",
+    "en": "Indication of the usual storage location of the object, outside the restoration facility"
   },
   "notation": [
     "FC3322"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/DA2D73",
+    "id": "https://www.w3id.org/conservation/terms/metadata/B51DAF",
     "prefLabel": {
-      "de": "Objektbeschreibung",
-      "en": "object description"
+      "de": "Objektkennzeichnung",
+      "en": "object identification"
     }
   },
   "exactMatch": [
@@ -39,7 +39,7 @@
   ],
   "Verpflichtungsgrad": "Pflicht",
   "Feldwert": "Text/URI",
-  "Wiederholbar": "Nein",
+  "Wiederholbar": "Ja",
   "Verwendungshinweis": "Bei diesem Feld muss zwischen der internen Erfassung des genauen Standorts und der allgemeinen Standortangabe für die Veröffentlichung des Datensatzes unterschieden werden. Der genaue Standort dient der internen Dokumentation und kann bei Bedarf vertraulich behandelt werden. Für veröffentlichte Datensätze sollte nur der übergeordnete Standort (z. B. Einrichtung,  Ausstellung, Depot) angegeben werden.",
   "@context": {
     "@version": 1.1,
