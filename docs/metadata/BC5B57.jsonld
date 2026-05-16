@@ -71,6 +71,7 @@
     "Begriff nach DIN EN 15898:2020-02"
   ],
   "Verpflichtungsgrad": "Pflicht",
+  "Feldwert": "Text",
   "Wiederholbar": "Ja",
   "@context": {
     "@version": 1.1,

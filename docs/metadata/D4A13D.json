@@ -43,7 +43,7 @@
   "source": [
     "Begriff nach DIN EN 15898:2020-02"
   ],
-  "Verpflichtungsgrad": "optional",
+  "Verpflichtungsgrad": "empfohlen",
   "Feldwert": "Text",
   "Wiederholbar": "Nein",
   "Verwendungshinweis": "Idealerweise sollte auch die Belastbarkeit dieser Angabe erfasst werden, d.h. ob die Ursache des Schadens gesichert bekannt ist (z.B. dokumentierter Wasserschaden) oder lediglich vermutet wird.",
