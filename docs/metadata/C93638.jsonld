@@ -39,7 +39,8 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata",
       "title": {
-        "de": "Metadatenvokabular Konservierung/Restaurierung"
+        "de": "Conservation Metadata Terminology",
+        "en": "Conservation Metadata Terminology"
       }
     }
   ],
@@ -52,7 +53,8 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata",
       "title": {
-        "de": "Metadatenvokabular Konservierung/Restaurierung"
+        "de": "Conservation Metadata Terminology",
+        "en": "Conservation Metadata Terminology"
       }
     }
   ],

@@ -1766,8 +1766,9 @@
         "Lasse Mempel-Länger (LEIZA)",
         "Nathaly Witt (LEIZA)",
         "Sarah Thompson" ;
-    dcterms:creator "TWG Standards" ;
-    dcterms:description "Eine referenzierbare Sammlung relevanter Metadaten des Faches."@de ;
+    dcterms:creator "TWG Community-Standards für kontrollierte Vokabulare und Austauschformate im Bereich der Erhaltung und Pflege des kulturellen Erbes" ;
+    dcterms:description "Dieses Vokabular bildet die referenzierbare Begriffsbasis für das Metadatenschema zur Dokumentation von Konservierungs- und Restaurierungsmaßnahmen, das in einer Arbeitsgruppe von NFDI4Objects entwickelt wurde. Jedes Metadatenelement ist nach dem Simple Knowledge Organization System (SKOS) modelliert und verfügt über einen eindeutigen, persistenten Identifikator (URI), eine präzise Definition sowie Mappings zu weiteren etablierten Metadatenstandards. Durch die Referenzierung der hier enthaltenen Konzepte bleibt die Bedeutung eines Elements systemübergreifend eindeutig, unabhängig davon, wie Institutionen ihre Datenbankfelder intern benennen."@de,
+        "This vocabulary provides the referenceable conceptual foundation for the metadata schema for documenting conservation interventions, developed by a working group within NFDI4Objects. Each metadata element is modelled using the Simple Knowledge Organization System (SKOS) and is assigned a unique, persistent identifier (URI), a precise definition, and mappings to further established metadata standards. By referencing the concepts contained here, the meaning of each element remains unambiguous across systems, regardless of how institutions label their database fields internally."@en ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:publisher "Deutsches Bergbau-Museum Bochum",
         "Leibniz-Zentrum für Archäologie",
@@ -1780,7 +1781,8 @@
         "conservation"@en,
         "metadata"@en,
         "restoration"@en ;
-    dcterms:title "Metadatenvokabular Konservierung/Restaurierung"@de ;
+    dcterms:title "Conservation Metadata Terminology"@de,
+        "Conservation Metadata Terminology"@en ;
     vann:preferredNamespaceUri "https://www.w3id.org/conservation/terms/metadata/" ;
     skos:hasTopConcept <https://www.w3id.org/conservation/terms/metadata/AC16G1>,
         <https://www.w3id.org/conservation/terms/metadata/B3FCA1>,
