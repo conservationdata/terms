@@ -20,8 +20,8 @@
     ]
   },
   "definition": {
-    "de": "Oberbegriff für sämtliche Informationen, die im Zuge der Planung, Vorbereitung und Durchführung einer Erhaltungsmaßnahme erfasst werden.",
-    "en": "Generic term for all information recorded in the course of a conservation."
+    "de": "Containerbegriff für sämtliche Informationen, die im Zuge der Planung, Vorbereitung und Durchführung einer Erhaltungsmaßnahme erfasst werden.",
+    "en": "Container concept for all information recorded in the course of a conservation."
   },
   "notation": [
     "BAA258"

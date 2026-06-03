@@ -14,8 +14,8 @@
     ]
   },
   "definition": {
-    "de": "Oberbegriff für Informationen, die die systematische Erfassung des Zustands eines Objektes zu einem definierten Zeitpunkt dokumentieren.",
-    "en": "A generic term for information documenting the systematic recording of an object's condition at a defined point in time."
+    "de": "Containerbegriff  für Informationen, die die systematische Erfassung des Zustands eines Objektes zu einem definierten Zeitpunkt dokumentieren.",
+    "en": "Container concept for information documenting the systematic recording of an object's condition at a defined point in time."
   },
   "notation": [
     "F52262"

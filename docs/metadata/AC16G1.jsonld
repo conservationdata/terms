@@ -6,8 +6,8 @@
     "en": "administrative metadata"
   },
   "definition": {
-    "de": "administrative Angaben zu dem vorliegenden Bericht und seinen Inhalten",
-    "en": "Administrative information about this report and its contents"
+    "de": "Containerbegriff für administrative Angaben zu dem vorliegenden Bericht und seinen Inhalten",
+    "en": "Container concept for administrative information about this report and its contents"
   },
   "notation": [
     "AC16G1"

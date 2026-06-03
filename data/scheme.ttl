@@ -1448,8 +1448,8 @@
         "conservation plan"@en,
         "conservation strategy"@en ;
     skos:closeMatch <http://terminology.lido-schema.org/lido00032> ;
-    skos:definition "Oberbegriff für sämtliche Informationen, die im Zuge der Planung, Vorbereitung und Durchführung einer Erhaltungsmaßnahme erfasst werden."@de,
-        "Generic term for all information recorded in the course of a conservation."@en ;
+    skos:definition "Containerbegriff für sämtliche Informationen, die im Zuge der Planung, Vorbereitung und Durchführung einer Erhaltungsmaßnahme erfasst werden."@de,
+        "Container concept for all information recorded in the course of a conservation."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:narrower <https://www.w3id.org/conservation/terms/metadata/C6A532>,
         <https://www.w3id.org/conservation/terms/metadata/DA9CGG>,
@@ -1462,8 +1462,8 @@
     ocmp:JYGNTK "Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/C93638> a skos:Concept ;
-    skos:definition "Übergeordneter Begriff zur Erfassung aller Angaben bezüglich vorbeugender Maßnahmen, die ohne direkten Eingriff am Objekt selbst darauf abzielen, Schäden am Objekt zu vermindern."@de,
-        "Umbrella term covering all information relating to preventive measures that aim to reduce damage to the object without direct intervention on the object itself"@en ;
+    skos:definition "Containerbegriff  zur Erfassung aller Angaben bezüglich vorbeugender Maßnahmen, die ohne direkten Eingriff am Objekt selbst darauf abzielen, Schäden am Objekt zu vermindern."@de,
+        "Container concept covering all information relating to preventive measures that aim to reduce damage to the object without direct intervention on the object itself"@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:narrower <https://www.w3id.org/conservation/terms/metadata/C11192>,
         <https://www.w3id.org/conservation/terms/metadata/C3A182>,
@@ -1508,8 +1508,8 @@
     ocmp:JYGNTK "empfohlen" .
 
 <https://www.w3id.org/conservation/terms/metadata/B7B8B6> a skos:Concept ;
-    skos:definition "Übergeordneter Begriff zur Strukturierung aller Angaben, zu potentiellen Gefahren, die von einem individuellen (behandelten) Objekt ausgehen und Maßnahmen, die zum Schutz der Gesundheit bei Umgang mit den jeweiligen Objekten eingehalten werden sollten.   Nicht gemeint sind dabei die allgemeinen Arbeitssicherheitsmaßnahmen, die im Rahmen der gesetzlichen Vorgaben für Restaurator*innen gelten."@de,
-        "Umbrella term for structuring all information on potential hazards posed by an individual (treated) object and measures that should be observed to protect health when handling the respective objects.  This does not refer to the general occupational safety measures that apply to restorers within the framework of legal requirements."@en ;
+    skos:definition "Containerbegriff zur Strukturierung aller Angaben, zu potentiellen Gefahren, die von einem individuellen (behandelten) Objekt ausgehen und Maßnahmen, die zum Schutz der Gesundheit bei Umgang mit den jeweiligen Objekten eingehalten werden sollten.   Nicht gemeint sind dabei die allgemeinen Arbeitssicherheitsmaßnahmen, die im Rahmen der gesetzlichen Vorgaben für Restaurator*innen gelten."@de,
+        "Container concept for structuring all information on potential hazards posed by an individual (treated) object and measures that should be observed to protect health when handling the respective objects.  This does not refer to the general occupational safety measures that apply to restorers within the framework of legal requirements."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:narrower <https://www.w3id.org/conservation/terms/metadata/BB78D2>,
         <https://www.w3id.org/conservation/terms/metadata/BGGCA4>,
@@ -1574,8 +1574,8 @@
 
 <https://www.w3id.org/conservation/terms/metadata/DA2D73> a skos:Concept ;
     dcterms:source "Begriff nach DIN EN 16095:2012-10 & DIN EN 15898:2019" ;
-    skos:definition "Oberbegriff für Informationen, die die Beschaffenheit, Merkmale und die Bedeutung des Objektes näher beschreiben"@de,
-        "A generic term for information that provides a more detailed description of an object's nature, characteristics and significance."@en ;
+    skos:definition "Containerbegriff  für Informationen, die die Beschaffenheit, Merkmale und die Bedeutung des Objektes näher beschreiben"@de,
+        "Container concept for information that provides a more detailed description of an object's nature, characteristics and significance."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:narrower <https://www.w3id.org/conservation/terms/metadata/BGC9F3>,
         <https://www.w3id.org/conservation/terms/metadata/C4BCF8>,
@@ -1625,8 +1625,8 @@
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/AC16G1> a skos:Concept ;
-    skos:definition "administrative Angaben zu dem vorliegenden Bericht und seinen Inhalten"@de,
-        "Administrative information about this report and its contents"@en ;
+    skos:definition "Containerbegriff für administrative Angaben zu dem vorliegenden Bericht und seinen Inhalten"@de,
+        "Container concept for administrative information about this report and its contents"@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:narrower <https://www.w3id.org/conservation/terms/metadata/D1F5D3>,
         <https://www.w3id.org/conservation/terms/metadata/D78721>,
@@ -1643,8 +1643,8 @@
 <https://www.w3id.org/conservation/terms/metadata/F52262> a skos:Concept ;
     skos:altLabel "Zustandserhebung"@de,
         "condition survey"@en ;
-    skos:definition "Oberbegriff für Informationen, die die systematische Erfassung des Zustands eines Objektes zu einem definierten Zeitpunkt dokumentieren."@de,
-        "A generic term for information documenting the systematic recording of an object's condition at a defined point in time."@en ;
+    skos:definition "Containerbegriff  für Informationen, die die systematische Erfassung des Zustands eines Objektes zu einem definierten Zeitpunkt dokumentieren."@de,
+        "Container concept for information documenting the systematic recording of an object's condition at a defined point in time."@en ;
     skos:exactMatch <http://terminology.lido-schema.org/lido00931> ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:narrower <https://www.w3id.org/conservation/terms/metadata/A4G52F>,
@@ -1693,8 +1693,8 @@
     skos:altLabel "Beprobung"@de,
         "Probenentnahme"@de,
         "sample taking"@en ;
-    skos:definition "Oberbegriff für Informationen, die die systematische Entnahme von Materialproben aus einem Objekt für Analyse- und Untersuchungszwecke dokumentieren."@de,
-        "Generic term for information documenting the systematic removal of material samples from an object for analysis and examination purposes."@en ;
+    skos:definition "Containerbegriff für Informationen, die die systematische Entnahme von Materialproben aus einem Objekt für Analyse- und Untersuchungszwecke dokumentieren."@de,
+        "Container concept for information documenting the systematic removal of material samples from an object for analysis and examination purposes."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:narrower <https://www.w3id.org/conservation/terms/metadata/C33D85>,
         <https://www.w3id.org/conservation/terms/metadata/C8CG15>,
@@ -1715,8 +1715,8 @@
     dcterms:source "Begriff nach DIN EN 15898:2020-02" ;
     skos:altLabel "analysis"@en,
         "investigation"@en ;
-    skos:definition "Oberbegriff für Informationen im Kontext der systematischen Begutachtung und Analyse eines Objekte zur Ermittlung von Materialzusammensetzungen, Objektaufbau, Herstellungstechnik, Erhaltungszuständen und/oder weitere Fragestellungen"@de,
-        "Generic term for information in the context of the systematic assessment and analysis of an object to determine material composition, object structure, manufacturing technique, state of preservation and/or other issues."@en ;
+    skos:definition "Containerbegriff  für Informationen im Kontext der systematischen Begutachtung und Analyse eines Objekte zur Ermittlung von Materialzusammensetzungen, Objektaufbau, Herstellungstechnik, Erhaltungszuständen und/oder weitere Fragestellungen"@de,
+        "Container concept for information in the context of the systematic assessment and analysis of an object to determine material composition, object structure, manufacturing technique, state of preservation and/or other parameters."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:narrower <https://www.w3id.org/conservation/terms/metadata/A15F83>,
         <https://www.w3id.org/conservation/terms/metadata/A2AG55>,
@@ -1738,8 +1738,8 @@
     dcterms:source "Begriff nach DIN EN 16095:2012-10" ;
     skos:altLabel "Objektidentifikation"@de,
         "object labelling"@en ;
-    skos:definition "Übergeordneter Begriff zur eindeutigen Kennzeichnung des zu behandelnden Objektes sowie Erfassung weiterer indentifizierender Merkmale, die eine zweifelsfreie Zuordnung des Objektes während des gesamten Behandlungsprozesses gewährleistet."@de,
-        "A superordinate term that uniquely identifies the object to be treated and records further identifying characteristics. This ensures that the object can be unambiguously assigned throughout the entire treatment process."@en ;
+    skos:definition "Containerbegriff zur eindeutigen Kennzeichnung des zu behandelnden Objektes sowie Erfassung weiterer indentifizierender Merkmale, die eine zweifelsfreie Zuordnung des Objektes während des gesamten Behandlungsprozesses gewährleistet."@de,
+        "Container concept that uniquely identifies the object to be treated and records further identifying characteristics. This ensures that the object can be unambiguously assigned throughout the entire treatment process."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:narrower <https://www.w3id.org/conservation/terms/metadata/B5DD1A>,
         <https://www.w3id.org/conservation/terms/metadata/CD3341>,

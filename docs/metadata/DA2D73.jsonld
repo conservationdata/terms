@@ -6,8 +6,8 @@
     "en": "object description"
   },
   "definition": {
-    "de": "Oberbegriff für Informationen, die die Beschaffenheit, Merkmale und die Bedeutung des Objektes näher beschreiben",
-    "en": "A generic term for information that provides a more detailed description of an object's nature, characteristics and significance."
+    "de": "Containerbegriff  für Informationen, die die Beschaffenheit, Merkmale und die Bedeutung des Objektes näher beschreiben",
+    "en": "Container concept for information that provides a more detailed description of an object's nature, characteristics and significance."
   },
   "notation": [
     "DA2D73"

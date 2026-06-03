@@ -14,8 +14,8 @@
     ]
   },
   "definition": {
-    "de": "Übergeordneter Begriff zur eindeutigen Kennzeichnung des zu behandelnden Objektes sowie Erfassung weiterer indentifizierender Merkmale, die eine zweifelsfreie Zuordnung des Objektes während des gesamten Behandlungsprozesses gewährleistet.",
-    "en": "A superordinate term that uniquely identifies the object to be treated and records further identifying characteristics. This ensures that the object can be unambiguously assigned throughout the entire treatment process."
+    "de": "Containerbegriff zur eindeutigen Kennzeichnung des zu behandelnden Objektes sowie Erfassung weiterer indentifizierender Merkmale, die eine zweifelsfreie Zuordnung des Objektes während des gesamten Behandlungsprozesses gewährleistet.",
+    "en": "Container concept that uniquely identifies the object to be treated and records further identifying characteristics. This ensures that the object can be unambiguously assigned throughout the entire treatment process."
   },
   "notation": [
     "B51DAF"

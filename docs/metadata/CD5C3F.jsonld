@@ -15,8 +15,8 @@
     ]
   },
   "definition": {
-    "de": "Oberbegriff für Informationen, die die systematische Entnahme von Materialproben aus einem Objekt für Analyse- und Untersuchungszwecke dokumentieren.",
-    "en": "Generic term for information documenting the systematic removal of material samples from an object for analysis and examination purposes."
+    "de": "Containerbegriff für Informationen, die die systematische Entnahme von Materialproben aus einem Objekt für Analyse- und Untersuchungszwecke dokumentieren.",
+    "en": "Container concept for information documenting the systematic removal of material samples from an object for analysis and examination purposes."
   },
   "notation": [
     "CD5C3F"

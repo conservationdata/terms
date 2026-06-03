@@ -12,8 +12,8 @@
     ]
   },
   "definition": {
-    "de": "Oberbegriff für Informationen im Kontext der systematischen Begutachtung und Analyse eines Objekte zur Ermittlung von Materialzusammensetzungen, Objektaufbau, Herstellungstechnik, Erhaltungszuständen und/oder weitere Fragestellungen",
-    "en": "Generic term for information in the context of the systematic assessment and analysis of an object to determine material composition, object structure, manufacturing technique, state of preservation and/or other issues."
+    "de": "Containerbegriff  für Informationen im Kontext der systematischen Begutachtung und Analyse eines Objekte zur Ermittlung von Materialzusammensetzungen, Objektaufbau, Herstellungstechnik, Erhaltungszuständen und/oder weitere Fragestellungen",
+    "en": "Container concept for information in the context of the systematic assessment and analysis of an object to determine material composition, object structure, manufacturing technique, state of preservation and/or other parameters."
   },
   "notation": [
     "B3FCA1"
