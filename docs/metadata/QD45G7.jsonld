@@ -7,7 +7,7 @@
   },
   "definition": {
     "de": "Angabe zur räumlichen Ausdehnung eines Objektes von seiner Vorder- zur Rückseite (Z-Achse).",
-    "en": "Information about the spatial extent of an object from its front to its back (Z-axis)."
+    "en": "Information about the spatial dimension of an object from its front to its back (Z-axis)."
   },
   "notation": [
     "QD45G7"

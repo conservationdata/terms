@@ -12,7 +12,7 @@
   },
   "definition": {
     "de": "Angabe, um was für eine Art von Nummer es sich bei der Kennzeichnungsnummer handelt. Ob es sich um eine feste Inventarnummer handelt oder eine temporäre Nummer (z.B. Fundnummer), o.Ä.",
-    "en": "Information about what type of number the identification number is. Whether it is a fixed inventory number or a temporary number (e.g. found number), etc."
+    "en": "Information about what type of number the identification number is, for example, whether it is a fixed inventory number or a temporary number (e.g. find number), etc."
   },
   "notation": [
     "G59SR3"

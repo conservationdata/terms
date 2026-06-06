@@ -15,7 +15,7 @@
   },
   "definition": {
     "de": "Datum, an dem die jeweilige Untersuchung durchgeführt wurde.  Auch vage Angaben über den genauen Zeitpunkt einer Untersuchung, z.B. bei der Nacherfassung historischer Untersuchungen, sind Informationen. Auch die Angabe \"unbekannt\" ist möglich.",
-    "en": "Date on which the respective examination was performed.  Even vague information about the exact time of an examination, e.g. when retroactively recording historical examinations, constitutes information. The entry ‘unknown’ is also possible."
+    "en": "Date on which the respective examination was carried out.  Even vague information about the exact time of an examination, e.g. when retroactively recording historical examinations, constitutes information. The entry ‘unknown’ is also possible."
   },
   "notation": [
     "G73958"

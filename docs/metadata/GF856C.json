@@ -7,7 +7,7 @@
   },
   "definition": {
     "de": "Angabe der vertikalen Ausdehnung eines Objektes von seiner untersten zur höchsten Stelle (Y-Achse).",
-    "en": "Specification of the vertical extension of an object from its lowest to its highest point (Y-axis)."
+    "en": "Specification of the vertical dimension of an object from its lowest to its highest point (Y-axis)."
   },
   "notation": [
     "GF856C"

@@ -17,7 +17,7 @@
   },
   "definition": {
     "de": "Hintergrundinformationen, warum diese Untersuchung durchgeführt wurde. Angabe der Fragestellung, die mit der Untersuchung bearbeitet werden soll.",
-    "en": "Background information on why this examination was conducted. Specification of the question to be addressed by the examination."
+    "en": "Background information on why this examination was carried out. Specification of the question to be addressed by the examination."
   },
   "notation": [
     "CF3C22"

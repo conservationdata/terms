@@ -7,7 +7,7 @@
   },
   "definition": {
     "de": "Angaben zum Material, welches für die Untersuchung des Objektes verwendet wurde. Diese Angabe ist besonders dann wichtig, wenn die Materialien Spuren bzw. Rückstände auf dem Objekt hinterlassen haben könnten.",
-    "en": "Information about the material used to examine the object. This information is particularly important if the materials could have left traces or residues on the object."
+    "en": "Information about the materials used to examine the object. This information is particularly important if the materials could have left traces or residues on the object."
   },
   "notation": [
     "D1CFD5"

@@ -7,7 +7,7 @@
   },
   "definition": {
     "de": "Angabe der horizontalen Ausdehnung eines Objektes von seiner linken zur rechten Seite in Frontalansicht (X-Achse).",
-    "en": "Specification of the horizontal extension of an object from its left to right side in frontal view (X-axis)."
+    "en": "Specification of the horizontal dimension of an object from its left to right side in frontal view (X-axis)."
   },
   "notation": [
     "WF436G"

@@ -7,7 +7,7 @@
   },
   "definition": {
     "de": "Angabe zur größten linearen Ausdehnung eines Objektes mit runder, ovaler oder ringförmiger Grundform, gemessen zwischen zwei gegenüberliegenden Punkten über dem geometrischen Mittelpunkt.",
-    "en": "Specification of the greatest linear extension of an object with a round, oval or ring-shaped base, as measured between two opposite points across its geometric centre."
+    "en": "Specification of the greatest linear dimension of an object with a round, oval or ring-shaped base, as measured between two opposite points across its geometric centre."
   },
   "notation": [
     "FRG491G"

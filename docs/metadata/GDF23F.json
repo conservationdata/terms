@@ -12,7 +12,7 @@
   },
   "definition": {
     "de": "Eindeutiger Hinweis, an welchem Ort die Dokumentation(en) zu finden ist/sind.",
-    "en": "Clear indication of where the documentation(s) can be found."
+    "en": "Clear indication of where the documentation can be found."
   },
   "notation": [
     "GDF23F"

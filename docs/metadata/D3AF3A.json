@@ -15,7 +15,7 @@
   },
   "definition": {
     "de": "Datum, an dem die Probe aus dem Objekt entnommen wurde.  Auch vage Angaben über den genauen Zeitpunkt der Probennahme, z.B. bei der Nacherfassung historischer Unterlagen, sind Informationen. Auch die Angabe \"unbekannt\" ist möglich.",
-    "en": "Date on which the sample was taken from the object.  Even vague information about the exact time of sampling, e.g. when recording historical documents retrospectively, is still information. The entry ‘unknown’ is also possible."
+    "en": "Date on which the sample was taken from the object.  Even vague information about the exact time of sampling, e.g. when recording historical documents retrospectively, is still information. The entry ‘unknown’ is also valid."
   },
   "notation": [
     "D3AF3A"

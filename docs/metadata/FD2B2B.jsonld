@@ -7,7 +7,7 @@
   },
   "definition": {
     "de": "Kurze Definition der wichtigsten Eigenschaften und Beschaffenheit der Probe. Möglichkeit, weitere Hintergrundinformationen zur Probe bzw. dem Befund, aus dem die Probe entstammt, zu erfassen.  Beispiel: \"Erdreste mit roten Verfärbungen\" , \"Textilfasern von rechter Skelettrippe\"",
-    "en": "Brief definition of the most important characteristics and properties of the sample. Option to record further background information on the sample or the findings from which the sample originates.  Example: ‘Soil residues with red discolouration’, ‘Textile fibres from right skeletal rib’."
+    "en": "Brief definition of the most important characteristics and properties of the sample. Option to record further background information on the sample or the context from which the sample originates.  Example: ‘Soil residues with red discolouration’, ‘Textile fibres from right skeletal rib’."
   },
   "notation": [
     "FD2B2B"

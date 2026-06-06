@@ -15,7 +15,7 @@
   },
   "definition": {
     "de": "Angabe des Datums, an dem die Erfassung des Zustandes durchgeführt wurde.",
-    "en": "Indication of the date on which the condition was recorded."
+    "en": "Indication of the date on which the object's condition was recorded."
   },
   "notation": [
     "CA1BC5"

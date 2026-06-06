@@ -13,7 +13,7 @@
   },
   "definition": {
     "de": "Angaben zum Material bzw. den Materialien aus dem/aus denen das Objekt besteht.    Beispiel: \"Bronze (Ergebnis RFA)\", \"Buntmetall (Ergebnis visuelle Begutachtung) \"",
-    "en": "Information about the material or materials that the object is made from."
+    "en": "Information about the material or materials from which the object is made."
   },
   "notation": [
     "D866AD"

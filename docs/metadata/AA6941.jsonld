@@ -18,7 +18,7 @@
   },
   "definition": {
     "de": "Beschreibung der beobachteten negativen Veränderungen am Objekt im Vergleich zu seinem als ursprünglich angenommenen Zustandes.   Auch die Angabe, dass keine Beschädigung erkennbar ist, sollte hier erfasst werden!",
-    "en": "Description of the observed negative changes to the object compared to its original condition.  Even if no damage is apparent, this should be noted here!"
+    "en": "Description of any observed negative changes to the object compared to its original condition.  Even if no damage is apparent, this should be noted here!"
   },
   "notation": [
     "AA6941"

@@ -12,7 +12,7 @@
   },
   "definition": {
     "de": "Angaben, in welcher Form der Zustand erfasst wurde bzw. in welcher/welchen Datenformen/Medien die Dokumentation des Zustandes vorliegt.  Beispiel: \"Zustandsbericht + Fotos\"",
-    "en": "Information on how the condition was recorded, and the data formats/media in which the condition documentation is available.  Example: 'Condition report + photos'."
+    "en": "Information on how the objects's condition was recorded, and the data formats/media in which the condition documentation is available.  Example: 'Condition report + photos'."
   },
   "notation": [
     "CDD6B5"

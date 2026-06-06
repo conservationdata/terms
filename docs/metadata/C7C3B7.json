@@ -7,7 +7,7 @@
   },
   "definition": {
     "de": "Angaben zur Masse des Objekts zum letzten Zeitpunkt der Objektuntersuchung",
-    "en": "Information on the mass of the object at the last time of the object examination"
+    "en": "Information on the mass of the object at the time of its last examination"
   },
   "notation": [
     "C7C3B7"
