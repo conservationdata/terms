@@ -1192,7 +1192,7 @@
     ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/HRO94F> a skos:Concept ;
-    ex:Verwendungshinweis "Für die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. Bei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann!" ;
+    ex:Verwendungshinweis "Im Regelfall sollten Vor- und Nachname sowie ein maschinenlesbarer Identifier (z.B. ORCID, ROR, ISNI) erfasst werden. Für die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. Bei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann!" ;
     skos:altLabel "person in charge (condition assessment)"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/F52262> ;
     skos:definition "Benennung der Person, die die Zustandserfassung durchgeführt hat bzw. für diese verantwortlich ist."@de,
