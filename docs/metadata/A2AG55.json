@@ -42,7 +42,7 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "Verpflichtungsgrad": "bedingte Pflicht",
+  "Verpflichtungsgrad": "Pflicht",
   "Feldwert": "Text",
   "Wiederholbar": "Nein",
   "Verwendungshinweis": "Der genaue Aufbau der Kennung kann individuell gestaltet werden. Wichtig ist, dass eindeutig zugeordnet werden kann, auf welche konkrete Untersuchung sich die Angaben beziehen.",

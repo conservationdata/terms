@@ -2,12 +2,12 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/AF1F5C",
   "type": "Concept",
   "prefLabel": {
-    "de": "Maßnahmenkennnummer",
+    "de": "Maßnahmenkennnung",
     "en": "intervention identifier"
   },
   "altLabel": {
     "de": [
-      "Identifikationsnummer (Erhaltungsmaßnahme)"
+      "Identifikationsnummer (Erhaltungsmaßnahme); Maßnahmenkennnummer"
     ],
     "en": [
       "intervention ID",
@@ -42,7 +42,7 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "Verpflichtungsgrad": "Bedingte Pflicht",
+  "Verpflichtungsgrad": "Pflicht",
   "Feldwert": "Text",
   "Wiederholbar": "Nein",
   "Verwendungshinweis": "Wie genau diese Nummer in den jeweiligen Einrichtungen bezeichnet wird, bleibt individuell und wird auf diesen generischen Oberbegriff gemappt.",

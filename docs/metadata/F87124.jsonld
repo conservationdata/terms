@@ -41,7 +41,7 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "Verpflichtungsgrad": "empfohlen",
+  "Verpflichtungsgrad": "bedingte Pflicht",
   "Feldwert": "Text/URI",
   "Wiederholbar": "Ja",
   "Vokabularempfehlung": "Art & Architecture Thesaurus",

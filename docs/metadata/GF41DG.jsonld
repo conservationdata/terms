@@ -49,7 +49,7 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "Verpflichtungsgrad": "Pflicht",
+  "Verpflichtungsgrad": "bedingte Pflicht",
   "Feldwert": "Text",
   "Wiederholbar": "Nein",
   "Verwendungshinweis": "In Fällen, in denen bei der Veröffentlichung des Datensatzes die zuständige Person nicht genannt werden kann/darf, sollte stattdessen zumindest die zuständige Einrichtung im Datensatz enthalten sein.",

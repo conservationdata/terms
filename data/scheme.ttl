@@ -46,7 +46,7 @@
     skos:prefLabel "Untersuchungskennung"@de,
         "examination identifier"@en ;
     ocmp:EO7QK9 "Nein" ;
-    ocmp:JYGNTK "bedingte Pflicht" ;
+    ocmp:JYGNTK "Pflicht" ;
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/A2FA1B> a skos:Concept ;
@@ -120,7 +120,7 @@
 
 <https://www.w3id.org/conservation/terms/metadata/AF1F5C> a skos:Concept ;
     ex:Verwendungshinweis "Wie genau diese Nummer in den jeweiligen Einrichtungen bezeichnet wird, bleibt individuell und wird auf diesen generischen Oberbegriff gemappt." ;
-    skos:altLabel "Identifikationsnummer (Erhaltungsmaßnahme)"@de,
+    skos:altLabel "Identifikationsnummer (Erhaltungsmaßnahme); Maßnahmenkennnummer"@de,
         "intervention ID"@en,
         "intervention identification"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/DA9CGG> ;
@@ -128,10 +128,10 @@
         "Number that uniquely identifies the respective conservation measure.  Example: Laboratory number, documentation numbers, worksheet number, etc."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "AF1F5C" ;
-    skos:prefLabel "Maßnahmenkennnummer"@de,
+    skos:prefLabel "Maßnahmenkennnung"@de,
         "intervention identifier"@en ;
     ocmp:EO7QK9 "Nein" ;
-    ocmp:JYGNTK "Bedingte Pflicht" ;
+    ocmp:JYGNTK "Pflicht" ;
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/AFD671> a skos:Concept ;
@@ -879,7 +879,7 @@
     skos:prefLabel "Werkzeug"@de,
         "tool"@en ;
     ocmp:EO7QK9 "Ja" ;
-    ocmp:JYGNTK "empfohlen" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
     ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/F8F594> a skos:Concept ;
@@ -1163,7 +1163,7 @@
     skos:prefLabel "Zuständige Restaurierungseinrichtung"@de,
         "responsible conservation facility"@en ;
     ocmp:EO7QK9 "Nein" ;
-    ocmp:JYGNTK "Pflicht" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/GF856C> a skos:Concept ;
