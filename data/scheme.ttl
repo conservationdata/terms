@@ -879,7 +879,7 @@
     skos:prefLabel "Werkzeug"@de,
         "tool"@en ;
     ocmp:EO7QK9 "Ja" ;
-    ocmp:JYGNTK "bedingte Pflicht" ;
+    ocmp:JYGNTK "empfohlen" ;
     ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/F8F594> a skos:Concept ;
