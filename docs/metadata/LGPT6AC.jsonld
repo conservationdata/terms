@@ -2,7 +2,8 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/LGPT6AC",
   "type": "Concept",
   "prefLabel": {
-    "de": "Art der weiteren Objektnummer"
+    "de": "Art der weiteren Objektnummer",
+    "en": "type of alternative object number"
   },
   "definition": {
     "de": "Angabe, um was für eine Art von weitere Objektnummer es sich handelt.   z.B. frühere Inventarnummer, temporäre Nummer, etc.",

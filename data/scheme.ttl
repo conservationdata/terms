@@ -1225,7 +1225,8 @@
         "Indication of what type of additional object number it is.  E.g. previous inventory number, temporary number, etc."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "LGPT6AC" ;
-    skos:prefLabel "Art der weiteren Objektnummer"@de ;
+    skos:prefLabel "Art der weiteren Objektnummer"@de,
+        "type of alternative object number"@en ;
     ocmp:JYGNTK "bedingte Pflicht" ;
     ocmp:TQKQBM "Text" .
 
@@ -1316,7 +1317,7 @@
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/K343FVC> a skos:Concept ;
-    skos:altLabel "Alternative Nummern"@de,
+    skos:altLabel "Alternative Nummern, Alte Intenvarnummer"@de,
         "other object number"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/B51DAF> ;
     skos:definition "Weitere Nummern, die in der Vergangenheit dem Objekt zugeordnet wurden und erfasst werden sollen."@de,

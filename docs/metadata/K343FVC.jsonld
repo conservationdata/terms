@@ -7,7 +7,7 @@
   },
   "altLabel": {
     "de": [
-      "Alternative Nummern"
+      "Alternative Nummern, Alte Intenvarnummer"
     ],
     "en": [
       "other object number"
@@ -24,7 +24,8 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/LGPT6AC",
       "prefLabel": {
-        "de": "Art der weiteren Objektnummer"
+        "de": "Art der weiteren Objektnummer",
+        "en": "type of alternative object number"
       }
     }
   ],
