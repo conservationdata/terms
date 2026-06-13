@@ -811,14 +811,14 @@
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/F3G8D1> a skos:Concept ;
-    ex:Verwendungshinweis "Für die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. Bei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann! Personennamen sollten in der Form \"Vorname Nachname\" erfasst werden.   Sollen keine Personennamen veröffentlicht werden, ist an dieser Stelle das zuständige Institution/Körperschaft zu nennen." ;
+    ex:Verwendungshinweis "Im Regelfall sollten Vor- und Nachname sowie ein maschinenlesbarer Identifier (z.B. ORCID) erfasst werden. Für die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. Bei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann! Sollen keine Personennamen veröffentlicht werden, ist an dieser Stelle das zuständige Institution/Körperschaft zu nennen." ;
+    skos:altLabel "Ansprechpartner:in"@de ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/B51DAF> ;
-    skos:definition "Benannte Person, die für Rückfragen in Bezug auf das Objekt und den Umgang mit diesem kontaktiert werden kann. Dies kann bei Privatbesitz der Eigentümer sein oder bei Objekten aus öffentlichen Einrichtungen z.B. der/die zuständige Kurator*in."@de,
+    skos:definition "Benannte Person, die für Rückfragen in Bezug auf das Objekt und den Umgang mit diesem kontaktiert werden kann. Dies kann bei Privatbesitz der/die Eigentümer:in sein oder bei Objekten aus öffentlichen Einrichtungen z.B. der/die zuständige Kurator:in."@de,
         "The designated person who can be contacted for queries regarding the object and its handling. For private property, this may be the owner; for objects from public institutions, it may be the responsible curator, for example."@en ;
-    skos:exactMatch <http://terminology.lido-schema.org/lido00163> ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "F3G8D1" ;
-    skos:prefLabel "Ansprechpartner*in"@de,
+    skos:prefLabel "Ansprechperson"@de,
         "contact person"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "optional" ;
@@ -1054,13 +1054,13 @@
 <https://www.w3id.org/conservation/terms/metadata/G76A78> a skos:Concept ;
     ex:Vokabularempfehlung "GND, Wikidata, VIAF" ;
     dcterms:source "Begriff nach DIN EN 16095:2012-10" ;
+    skos:altLabel "Schöpfende Person"@de ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/B51DAF> ;
     skos:definition "Angaben zur Person, die das Objekt hergestellt hat - sofern bekannt.   Beispiel: \"Leonardo da Vinci\""@de,
         "If known, details of the person who made the object."@en ;
-    skos:exactMatch <http://terminology.lido-schema.org/lido00163> ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "G76A78" ;
-    skos:prefLabel "Schöpfer*in"@de,
+    skos:prefLabel "Schöpfer:in"@de,
         "creator"@en ;
     ocmp:EO7QK9 "Ja" ;
     ocmp:JYGNTK "optional" ;

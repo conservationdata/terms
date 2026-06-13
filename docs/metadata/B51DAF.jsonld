@@ -45,7 +45,7 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/F3G8D1",
       "prefLabel": {
-        "de": "Ansprechpartner*in",
+        "de": "Ansprechperson",
         "en": "contact person"
       }
     },
@@ -73,7 +73,7 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/G76A78",
       "prefLabel": {
-        "de": "Schöpfer*in",
+        "de": "Schöpfer:in",
         "en": "creator"
       }
     },
