@@ -1,81 +1,30 @@
 {
-  "id": "https://www.w3id.org/conservation/terms/metadata/F52262",
+  "id": "https://www.w3id.org/conservation/terms/metadata/R48T23",
   "type": "Concept",
   "prefLabel": {
-    "de": "Zustandserfassung",
-    "en": "condition assessment"
+    "de": "Kennung der Zustandserfassung",
+    "en": "ID of the condition assessment"
   },
   "altLabel": {
     "de": [
-      "Zustandserhebung"
-    ],
-    "en": [
-      "condition survey"
+      "ID der Zustandserfassung",
+      "Record_ID"
     ]
   },
   "definition": {
-    "de": "Containerbegriff  für Informationen, die die systematische Erfassung des Zustands eines Objektes zu einem definierten Zeitpunkt dokumentieren.",
-    "en": "Container concept for information documenting the systematic recording of an object's condition at a defined point in time."
+    "de": "Nummer, mit der die jeweilige Zustandserfassung eindeutig identifiziert und referenziert werden kann. Beispiel: Z_2024-06-13 oder XY_25642",
+    "en": "A number used to uniquely identify and reference the respective condition assessment. Example: Z_2024-06-13 or XY_25642"
   },
   "notation": [
-    "F52262"
+    "R48T23"
   ],
-  "narrower": [
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/A4G52F",
-      "prefLabel": {
-        "de": "konservatorische Vorgeschichte",
-        "en": "conservation history"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/G5TA85",
-      "prefLabel": {
-        "de": "Anlass der Zustandserfassung",
-        "en": "reason for the condition assessment"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/CA1BC5",
-      "prefLabel": {
-        "de": "Erfassungsdatum",
-        "en": "date of entry"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/AC1786",
-      "prefLabel": {
-        "de": "Zustandsbeschreibung",
-        "en": "condition description"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/CDD6B5",
-      "prefLabel": {
-        "de": "Dokumentationsform",
-        "en": "documentation type"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/HRO94F",
-      "prefLabel": {
-        "de": "Zuständige Person (Zustandserfassung)",
-        "en": "responsible person (condition assessment)"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/R48T23",
-      "prefLabel": {
-        "de": "Kennung der Zustandserfassung",
-        "en": "ID of the condition assessment"
-      }
+  "broader": {
+    "id": "https://www.w3id.org/conservation/terms/metadata/F52262",
+    "prefLabel": {
+      "de": "Zustandserfassung",
+      "en": "condition assessment"
     }
-  ],
-  "exactMatch": [
-    {
-      "id": "http://terminology.lido-schema.org/lido00931"
-    }
-  ],
+  },
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata",
@@ -90,17 +39,10 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "topConceptOf": [
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata",
-      "title": {
-        "de": "Conservation Metadata Terminology",
-        "en": "Conservation Metadata Terminology"
-      }
-    }
-  ],
   "Verpflichtungsgrad": "Pflicht",
-  "Wiederholbar": "Ja",
+  "Feldwert": "Text",
+  "Wiederholbar": "Nein",
+  "Verwendungshinweis": "Der genaue Aufbau der Kennung kann individuell gestaltet werden. Wichtig ist, dass eindeutig zugeordnet werden kann, auf welche konkrete Zustandserfassung sich die Angaben beziehen.",
   "@context": {
     "@version": 1.1,
     "id": "@id",

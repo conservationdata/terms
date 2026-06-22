@@ -1077,7 +1077,7 @@
     skos:prefLabel "Durchführende Einrichtung (Untersuchung)"@de,
         "Examining institution"@en ;
     ocmp:EO7QK9 "Nein" ;
-    ocmp:JYGNTK "empfohlen" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
     ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/G79CA9> a skos:Concept ;
@@ -1104,7 +1104,7 @@
     skos:prefLabel "Zuständige Person (Untersuchung)"@de,
         "Examining person"@en ;
     ocmp:EO7QK9 "Nein" ;
-    ocmp:JYGNTK "Pflicht" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/G814D2> a skos:Concept ;
@@ -1241,6 +1241,21 @@
         "depth"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "optional" ;
+    ocmp:TQKQBM "Text" .
+
+<https://www.w3id.org/conservation/terms/metadata/R48T23> a skos:Concept ;
+    ex:Verwendungshinweis "Der genaue Aufbau der Kennung kann individuell gestaltet werden. Wichtig ist, dass eindeutig zugeordnet werden kann, auf welche konkrete Zustandserfassung sich die Angaben beziehen." ;
+    skos:altLabel "ID der Zustandserfassung"@de,
+        "Record_ID"@de ;
+    skos:broader <https://www.w3id.org/conservation/terms/metadata/F52262> ;
+    skos:definition "Nummer, mit der die jeweilige Zustandserfassung eindeutig identifiziert und referenziert werden kann. Beispiel: Z_2024-06-13 oder XY_25642"@de,
+        "A number used to uniquely identify and reference the respective condition assessment. Example: Z_2024-06-13 or XY_25642"@en ;
+    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
+    skos:notation "R48T23" ;
+    skos:prefLabel "Kennung der Zustandserfassung"@de,
+        "ID of the condition assessment"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/WF436G> a skos:Concept ;
@@ -1641,26 +1656,6 @@
     skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
     ocmp:JYGNTK "Pflicht" .
 
-<https://www.w3id.org/conservation/terms/metadata/F52262> a skos:Concept ;
-    skos:altLabel "Zustandserhebung"@de,
-        "condition survey"@en ;
-    skos:definition "Containerbegriff  für Informationen, die die systematische Erfassung des Zustands eines Objektes zu einem definierten Zeitpunkt dokumentieren."@de,
-        "Container concept for information documenting the systematic recording of an object's condition at a defined point in time."@en ;
-    skos:exactMatch <http://terminology.lido-schema.org/lido00931> ;
-    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
-    skos:narrower <https://www.w3id.org/conservation/terms/metadata/A4G52F>,
-        <https://www.w3id.org/conservation/terms/metadata/AC1786>,
-        <https://www.w3id.org/conservation/terms/metadata/CA1BC5>,
-        <https://www.w3id.org/conservation/terms/metadata/CDD6B5>,
-        <https://www.w3id.org/conservation/terms/metadata/G5TA85>,
-        <https://www.w3id.org/conservation/terms/metadata/HRO94F> ;
-    skos:notation "F52262" ;
-    skos:prefLabel "Zustandserfassung"@de,
-        "condition assessment"@en ;
-    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
-    ocmp:EO7QK9 "Ja" ;
-    ocmp:JYGNTK "Pflicht" .
-
 <https://www.w3id.org/conservation/terms/metadata/DA9CGG> a skos:Concept ;
     skos:altLabel "Bestandserhaltung"@de,
         "Durchgeführte Maßnahme"@de,
@@ -1688,6 +1683,27 @@
         "intervention"@en ;
     ocmp:EO7QK9 "Ja" ;
     ocmp:JYGNTK "bedingte Pflicht" .
+
+<https://www.w3id.org/conservation/terms/metadata/F52262> a skos:Concept ;
+    skos:altLabel "Zustandserhebung"@de,
+        "condition survey"@en ;
+    skos:definition "Containerbegriff  für Informationen, die die systematische Erfassung des Zustands eines Objektes zu einem definierten Zeitpunkt dokumentieren."@de,
+        "Container concept for information documenting the systematic recording of an object's condition at a defined point in time."@en ;
+    skos:exactMatch <http://terminology.lido-schema.org/lido00931> ;
+    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
+    skos:narrower <https://www.w3id.org/conservation/terms/metadata/A4G52F>,
+        <https://www.w3id.org/conservation/terms/metadata/AC1786>,
+        <https://www.w3id.org/conservation/terms/metadata/CA1BC5>,
+        <https://www.w3id.org/conservation/terms/metadata/CDD6B5>,
+        <https://www.w3id.org/conservation/terms/metadata/G5TA85>,
+        <https://www.w3id.org/conservation/terms/metadata/HRO94F>,
+        <https://www.w3id.org/conservation/terms/metadata/R48T23> ;
+    skos:notation "F52262" ;
+    skos:prefLabel "Zustandserfassung"@de,
+        "condition assessment"@en ;
+    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
+    ocmp:EO7QK9 "Ja" ;
+    ocmp:JYGNTK "Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/CD5C3F> a skos:Concept ;
     dcterms:source "DIN EN 16085:2012-10" ;
