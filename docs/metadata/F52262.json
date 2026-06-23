@@ -38,7 +38,7 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/CA1BC5",
       "prefLabel": {
-        "de": "Erfassungsdatum",
+        "de": "Erfassungsdatum (Zustandserfassung)",
         "en": "date of entry"
       }
     },

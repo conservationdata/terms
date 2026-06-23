@@ -7,8 +7,10 @@
   },
   "altLabel": {
     "de": [
-      "ID der Zustandserfassung",
-      "Record_ID"
+      "ID der Zustandserfassung"
+    ],
+    "en": [
+      "record_ID (condition assessment)"
     ]
   },
   "definition": {
@@ -40,7 +42,7 @@
     }
   ],
   "Verpflichtungsgrad": "Pflicht",
-  "Feldwert": "Text",
+  "Feldwert": "Text/URI",
   "Wiederholbar": "Nein",
   "Verwendungshinweis": "Der genaue Aufbau der Kennung kann individuell gestaltet werden. Wichtig ist, dass eindeutig zugeordnet werden kann, auf welche konkrete Zustandserfassung sich die Angaben beziehen.",
   "@context": {

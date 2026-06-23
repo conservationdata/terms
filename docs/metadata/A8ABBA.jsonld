@@ -2,12 +2,12 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/A8ABBA",
   "type": "Concept",
   "prefLabel": {
-    "de": "Erfassungszeitpunkt",
+    "de": "Erfassungszeitpunkt (Zustandserfassung)",
     "en": "time of entry"
   },
   "altLabel": {
     "de": [
-      "Zeitpunkt der Erfassung"
+      "Zeitpunkt der Zustandserfassung"
     ],
     "en": [
       "time of recording"

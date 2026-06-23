@@ -93,14 +93,14 @@
 
 <https://www.w3id.org/conservation/terms/metadata/A8ABBA> a skos:Concept ;
     ex:Verwendungshinweis "Auswahl zwischen: vor Eingriff, nach Eingriff, zwischen Eingriff, Monitoring" ;
-    skos:altLabel "Zeitpunkt der Erfassung"@de,
+    skos:altLabel "Zeitpunkt der Zustandserfassung"@de,
         "time of recording"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/G5TA85> ;
     skos:definition "Ergänzende Angaben, im Falle einer Zustandserfassung aufgrund konservatorisch-restauratorischer Maßnahme, ob es sich bei dem erfassten Zustand um den Zeitpunkt vor (Vorzustand), nach (Endzustand) oder zwischen der Maßnahme handelt.  Der Zustand vor und nach einer Maßnahme sollte dabei verpflichtend erfasst werden. Weitere Zustandserfassungen zwischen verschiedenen Maßnahmen sind bei Bedarf möglich."@de,
         "In the case of condition assessment based on conservation measures, additional information should be provided on whether the assessed condition refers to the time before, after or between the conservation.  The condition before and after the conservation should be recorded as a matter of course. Further condition assessments between different interventions are possible if necessary."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "A8ABBA" ;
-    skos:prefLabel "Erfassungszeitpunkt"@de,
+    skos:prefLabel "Erfassungszeitpunkt (Zustandserfassung)"@de,
         "time of entry"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "bedingte Pflicht" ;
@@ -431,7 +431,7 @@
     skos:prefLabel "Zuständige Person (Probenahme)"@de,
         "Sampling person"@en ;
     ocmp:EO7QK9 "Nein" ;
-    ocmp:JYGNTK "Pflicht" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/C9C527> a skos:Concept ;
@@ -450,7 +450,7 @@
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/CA1BC5> a skos:Concept ;
-    ex:Verwendungshinweis "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden. Im Falle der Nacherfassung" ;
+    ex:Verwendungshinweis "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden." ;
     skos:altLabel "Datum der Erfassung (Zustandserfassung)"@de,
         "date of recording"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/F52262> ;
@@ -459,7 +459,7 @@
     skos:exactMatch <http://terminology.lido-schema.org/lido00528> ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "CA1BC5" ;
-    skos:prefLabel "Erfassungsdatum"@de,
+    skos:prefLabel "Erfassungsdatum (Zustandserfassung)"@de,
         "date of entry"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "Pflicht" ;
@@ -479,8 +479,10 @@
 
 <https://www.w3id.org/conservation/terms/metadata/CB7747> a skos:Concept ;
     ex:Verwendungshinweis "Der genaue Aufbau der Kennung kann individuell gestaltet werden. Wichtig ist, dass eindeutig zugeordnet werden kann, auf welche konkrete Probe sich die Angaben beziehen." ;
-    skos:altLabel "Name der Probe"@de,
+    skos:altLabel "Kennung der Probe"@de,
+        "Name der Probe"@de,
         "Nummer der Probe"@de,
+        "Proben_ID"@de,
         "sample ID"@en,
         "sample identification"@en,
         "sample name"@en,
@@ -490,7 +492,7 @@
         "Designation or number that uniquely identifies the respective sample.  Example: Metal sample_24601"@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "CB7747" ;
-    skos:prefLabel "Kennung der Probe"@de,
+    skos:prefLabel "Probenkennung"@de,
         "sample identifier"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "Pflicht" ;
@@ -1246,7 +1248,7 @@
 <https://www.w3id.org/conservation/terms/metadata/R48T23> a skos:Concept ;
     ex:Verwendungshinweis "Der genaue Aufbau der Kennung kann individuell gestaltet werden. Wichtig ist, dass eindeutig zugeordnet werden kann, auf welche konkrete Zustandserfassung sich die Angaben beziehen." ;
     skos:altLabel "ID der Zustandserfassung"@de,
-        "Record_ID"@de ;
+        "record_ID (condition assessment)"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/F52262> ;
     skos:definition "Nummer, mit der die jeweilige Zustandserfassung eindeutig identifiziert und referenziert werden kann. Beispiel: Z_2024-06-13 oder XY_25642"@de,
         "A number used to uniquely identify and reference the respective condition assessment. Example: Z_2024-06-13 or XY_25642"@en ;
@@ -1256,7 +1258,7 @@
         "ID of the condition assessment"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "Pflicht" ;
-    ocmp:TQKQBM "Text" .
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/WF436G> a skos:Concept ;
     ex:Verwendungshinweis "Die Angaben sollten sowohl den numerischen Wert als auch die Maßeinheit nach metrischem System im jeweils fachspezifischen Standard (mm, cm, m) enthalten" ;
@@ -1441,8 +1443,8 @@
     skos:altLabel "Diagnose"@de,
         "description of condition"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/F52262> ;
-    skos:definition "Oberbegriff für beobachtete, gemessene, geprüfte oder bewertete Informationen, die den Zustand des Objektes zum Zeitpunkt der Erfassung näher beschreiben. Insbesondere Veränderungen des Objektes, die im Vergleich zu einem früheren oder ursprünglichen Zustand bzw. vom zuletzt berichteten Zustand festgestellt werden, müssen dokumentiert werden."@de,
-        "A generic term for information that has been observed, measured, tested or assessed in order to describe the condition of an object in detail at the time of recording. In particular, changes to the object that are detected in comparison to a previous/original condition or to the last reported condition must be documented."@en ;
+    skos:definition "Containerelement für beobachtete, gemessene, geprüfte oder bewertete Informationen, die den Zustand des Objektes zum Zeitpunkt der Erfassung näher beschreiben. Insbesondere Veränderungen des Objektes, die im Vergleich zu einem früheren oder ursprünglichen Zustand bzw. vom zuletzt berichteten Zustand festgestellt werden, müssen dokumentiert werden."@de,
+        "Container element for information that has been observed, measured, tested or assessed in order to describe the condition of an object in detail at the time of recording. In particular, changes to the object that are detected in comparison to a previous/original condition or to the last reported condition must be documented."@en ;
     skos:exactMatch <http://terminology.lido-schema.org/lido00268> ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:narrower <https://www.w3id.org/conservation/terms/metadata/AA6941>,

@@ -2,7 +2,7 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/CA1BC5",
   "type": "Concept",
   "prefLabel": {
-    "de": "Erfassungsdatum",
+    "de": "Erfassungsdatum (Zustandserfassung)",
     "en": "date of entry"
   },
   "altLabel": {
@@ -49,7 +49,7 @@
   "Verpflichtungsgrad": "Pflicht",
   "Feldwert": "Text",
   "Wiederholbar": "Nein",
-  "Verwendungshinweis": "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden. Im Falle der Nacherfassung",
+  "Verwendungshinweis": "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden.",
   "@context": {
     "@version": 1.1,
     "id": "@id",

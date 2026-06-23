@@ -39,7 +39,7 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/CB7747",
       "prefLabel": {
-        "de": "Kennung der Probe",
+        "de": "Probenkennung",
         "en": "sample identifier"
       }
     },

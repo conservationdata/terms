@@ -14,8 +14,8 @@
     ]
   },
   "definition": {
-    "de": "Oberbegriff für beobachtete, gemessene, geprüfte oder bewertete Informationen, die den Zustand des Objektes zum Zeitpunkt der Erfassung näher beschreiben. Insbesondere Veränderungen des Objektes, die im Vergleich zu einem früheren oder ursprünglichen Zustand bzw. vom zuletzt berichteten Zustand festgestellt werden, müssen dokumentiert werden.",
-    "en": "A generic term for information that has been observed, measured, tested or assessed in order to describe the condition of an object in detail at the time of recording. In particular, changes to the object that are detected in comparison to a previous/original condition or to the last reported condition must be documented."
+    "de": "Containerelement für beobachtete, gemessene, geprüfte oder bewertete Informationen, die den Zustand des Objektes zum Zeitpunkt der Erfassung näher beschreiben. Insbesondere Veränderungen des Objektes, die im Vergleich zu einem früheren oder ursprünglichen Zustand bzw. vom zuletzt berichteten Zustand festgestellt werden, müssen dokumentiert werden.",
+    "en": "Container element for information that has been observed, measured, tested or assessed in order to describe the condition of an object in detail at the time of recording. In particular, changes to the object that are detected in comparison to a previous/original condition or to the last reported condition must be documented."
   },
   "notation": [
     "AC1786"
