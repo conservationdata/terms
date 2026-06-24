@@ -16,8 +16,8 @@
     ]
   },
   "definition": {
-    "de": "Angaben zu den räumlichen Dimensionen des Objektes, zum letzten Zeitpunkt der Begutachtung. Die Maße des Objektes können sich im Laufe der Zeit verändern (z.B. durch Beschädigung oder die Zusammensetzung eines zerscherbten Objektes).",
-    "en": "Information on the spatial dimensions of the object at the time of the last assessment. The dimensions of the object may change over time (e.g. due to damage or the reunification of a shattered object)."
+    "de": "Element-Set, dass die räumlichen Dimensionen des Objektes, zum jeweiligen Zeitpunkt der Zustandserfassung, bündelt. Die Maße des Objektes können sich im Laufe der Zeit verändern (z.B. durch Beschädigung oder die Zusammensetzung eines zerscherbten Objektes).",
+    "en": "A element-set that captures the spatial dimensions of the object at the time the condition is recorded. The dimensions of the object may change over time (e.g. due to damage or the composition of a shattered object)."
   },
   "notation": [
     "DBC278"

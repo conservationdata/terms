@@ -410,8 +410,8 @@
 <https://www.w3id.org/conservation/terms/metadata/C7C3B7> a skos:Concept ;
     ex:Verwendungshinweis "Die Angaben sollten sowohl den numerischen Wert als auch die Maßeinheit nach metrischem System im jeweils fachspezifischen Standard (g oder kg) enthalten" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/BC5B57> ;
-    skos:definition "Angaben zur Masse des Objekts zum letzten Zeitpunkt der Objektuntersuchung"@de,
-        "Information on the mass of the object at the time of its last examination"@en ;
+    skos:definition "Angaben zur Masse des Objekts zum Zeitpunkt der Zustandserfassung."@de,
+        "Information on the mass of the object at the time the condition was recorded."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "C7C3B7" ;
     skos:prefLabel "aktuelles Gewicht"@de,
@@ -1385,7 +1385,7 @@
     skos:narrower <https://www.w3id.org/conservation/terms/metadata/C2488A>,
         <https://www.w3id.org/conservation/terms/metadata/D4A13D> ;
     skos:notation "AA6941" ;
-    skos:prefLabel "Schadensphänomene"@de,
+    skos:prefLabel "Schadensphänomen"@de,
         "damage"@en ;
     ocmp:EO7QK9 "Ja" ;
     ocmp:JYGNTK "Pflicht" ;
@@ -1612,8 +1612,8 @@
         "Maßangabe"@de,
         "current measurements"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/BC5B57> ;
-    skos:definition "Angaben zu den räumlichen Dimensionen des Objektes, zum letzten Zeitpunkt der Begutachtung. Die Maße des Objektes können sich im Laufe der Zeit verändern (z.B. durch Beschädigung oder die Zusammensetzung eines zerscherbten Objektes)."@de,
-        "Information on the spatial dimensions of the object at the time of the last assessment. The dimensions of the object may change over time (e.g. due to damage or the reunification of a shattered object)."@en ;
+    skos:definition "Element-Set, dass die räumlichen Dimensionen des Objektes, zum jeweiligen Zeitpunkt der Zustandserfassung, bündelt. Die Maße des Objektes können sich im Laufe der Zeit verändern (z.B. durch Beschädigung oder die Zusammensetzung eines zerscherbten Objektes)."@de,
+        "A element-set that captures the spatial dimensions of the object at the time the condition is recorded. The dimensions of the object may change over time (e.g. due to damage or the composition of a shattered object)."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:narrower <https://www.w3id.org/conservation/terms/metadata/FRG491G>,
         <https://www.w3id.org/conservation/terms/metadata/GF856C>,

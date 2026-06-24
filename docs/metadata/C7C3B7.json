@@ -6,8 +6,8 @@
     "en": "current mass"
   },
   "definition": {
-    "de": "Angaben zur Masse des Objekts zum letzten Zeitpunkt der Objektuntersuchung",
-    "en": "Information on the mass of the object at the time of its last examination"
+    "de": "Angaben zur Masse des Objekts zum Zeitpunkt der Zustandserfassung.",
+    "en": "Information on the mass of the object at the time the condition was recorded."
   },
   "notation": [
     "C7C3B7"
