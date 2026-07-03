@@ -18,7 +18,7 @@ module.exports = (languages) => `
     issued: String,
     preferredNamespaceUri: String,
     preferredNamespacePrefix: String,
-    publisher: String,
+    publisher: [String],
     creator: [String],
     contributor: [String],
     subject: LanguageMapArray,
