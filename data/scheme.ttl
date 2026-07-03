@@ -1779,8 +1779,10 @@
 
 <https://www.w3id.org/conservation/terms/metadata> a skos:ConceptScheme ;
     dcterms:contributor "Elena Gómez Sánchez (DBM)",
+        "Eva Schoel",
         "Gisela Gulbins (REM/VDR)",
         "Gudrun Schwenk (SODa)",
+        "Hannah Zettner",
         "Kristina Fischer (LEIZA)",
         "Lasse Mempel-Länger (LEIZA)",
         "Nathaly Witt (LEIZA)",
@@ -1790,7 +1792,7 @@
         "This vocabulary provides the referenceable conceptual foundation for the metadata schema for documenting conservation interventions, developed by a working group within NFDI4Objects. Each metadata element is modelled using the Simple Knowledge Organization System (SKOS) and is assigned a unique, persistent identifier (URI), a precise definition, and mappings to further established metadata standards. By referencing the concepts contained here, the meaning of each element remains unambiguous across systems, regardless of how institutions label their database fields internally."@en ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:publisher "Deutsches Bergbau-Museum Bochum (DBM)",
-        "Leibniz-Zentrum für Archaeologie (LEIZA)",
+        "Leibniz-Zentrum für Archäologie (LEIZA)",
         "Reiss-Engelhorn-Museen (REM)",
         "Sammlungen, Objekte, Datenkompetenzen (SODa)",
         "Verband der Restaurator:innen (VDR) e.V." ;
