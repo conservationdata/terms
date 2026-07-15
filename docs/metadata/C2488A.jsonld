@@ -44,7 +44,7 @@
   "Verpflichtungsgrad": "empfohlen",
   "Feldwert": "Text",
   "Wiederholbar": "Nein",
-  "Verwendungshinweis": "Die Definition des Schadensgrad ist häufig sehr subjektiv bzw. objektspezifisch und kaum generisch vorzuschreiben. Daher sollte stets genau beschrieben werden, was die jeweilige Bewertung im konkreten Anwendungsfall bedeutet.",
+  "Verwendungshinweis": "Die Definition des Schadensgrad ist häufig sehr subjektiv bzw. objektspezifisch und kaum generisch vorzuschreiben. Daher sollte neben der strukturierten Angabe zum Schadensgrad zusätzlich an geeigneter Stelle eine genauere Beschreibung, was die jeweilige Bewertung im konkreten Anwendungsfall bedeutet, bereit gestellt werden. Ebenso ist ein Verweis auf die subjektive Einschätzung des/der zuständigen Restaurator:in in Bezug auf diese Angabe sinnvoll.",
   "@context": {
     "@version": 1.1,
     "id": "@id",

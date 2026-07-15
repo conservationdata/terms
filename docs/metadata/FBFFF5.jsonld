@@ -11,7 +11,7 @@
     ]
   },
   "definition": {
-    "de": "Hinweise auf potenzielle Gefahrenquellen und Risiken im Zusammenhang mit dem Objekt oder den bei der konservatorisch-restauratorischen Maßnahme (oder früheren Maßnahmen) verwendeten Materialien.  Beispiel: Schimmelbefall, Schadstoffkontaminiert",
+    "de": "Hinweise auf potenzielle Gefahrenquellen und Risiken im Zusammenhang mit dem Objekt oder den bei der konservatorisch-restauratorischen Maßnahme (oder früheren Maßnahmen) verwendeten Materialien. Bewertung des aktuellen Gefährdungsstatus und der verbleibenden Risiken.  Beispiel: Schimmelbefall, Schadstoffkontaminiert",
     "en": "Information on potential hazards and risks associated with the object or the materials used in the conservation-restoration measures (or previous measures)  Example: mould infestation, contamination with harmful substances"
   },
   "notation": [
@@ -20,8 +20,8 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/B7B8B6",
     "prefLabel": {
-      "de": "Gefährdungspotential",
-      "en": "risk potential"
+      "de": "Gefährdungsbewertung",
+      "en": "safety assessment"
     }
   },
   "inScheme": [

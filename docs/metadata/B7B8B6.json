@@ -2,8 +2,8 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/B7B8B6",
   "type": "Concept",
   "prefLabel": {
-    "de": "Gefährdungspotential",
-    "en": "risk potential"
+    "de": "Gefährdungsbewertung",
+    "en": "safety assessment"
   },
   "definition": {
     "de": "Containerbegriff zur Strukturierung aller Angaben, zu potentiellen Gefahren, die von einem individuellen (behandelten) Objekt ausgehen und Maßnahmen, die zum Schutz der Gesundheit bei Umgang mit den jeweiligen Objekten eingehalten werden sollten.   Nicht gemeint sind dabei die allgemeinen Arbeitssicherheitsmaßnahmen, die im Rahmen der gesetzlichen Vorgaben für Restaurator*innen gelten.",
@@ -14,10 +14,10 @@
   ],
   "narrower": [
     {
-      "id": "https://www.w3id.org/conservation/terms/metadata/CCCC7G",
+      "id": "https://www.w3id.org/conservation/terms/metadata/AFD671",
       "prefLabel": {
-        "de": "Letzte Gefährdungsbewertung",
-        "en": "last hazard assessment"
+        "de": "Datum der Gefährdungsbewertung",
+        "en": "date of hazard assessment"
       }
     },
     {
@@ -32,6 +32,12 @@
       "prefLabel": {
         "de": "Art der Gefährdung",
         "en": "type of hazard"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/CCCC7G",
+      "prefLabel": {
+        "de": "Zuständige Person (Gefährdungsbewertung)"
       }
     },
     {

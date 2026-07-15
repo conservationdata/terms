@@ -34,7 +34,7 @@
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/A2AG55> a skos:Concept ;
-    ex:Verwendungshinweis "Der genaue Aufbau der Kennung kann individuell gestaltet werden. Wichtig ist, dass eindeutig zugeordnet werden kann, auf welche konkrete Untersuchung sich die Angaben beziehen." ;
+    ex:Verwendungshinweis "Der genaue Aufbau der Kennung kann individuell gestaltet werden. Im Idealfall wird ein persistenter Idenfikator (PID) verwendet. Wichtig ist, dass eindeutig zugeordnet werden kann, auf welche konkrete Untersuchung sich die Angaben beziehen." ;
     skos:altLabel "Kennung der Untersuchung"@de,
         "examiantion identification"@en,
         "examination ID"@en ;
@@ -47,7 +47,7 @@
         "examination identifier"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "Pflicht" ;
-    ocmp:TQKQBM "Text" .
+    ocmp:TQKQBM "Text/ URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/A2FA1B> a skos:Concept ;
     ex:Verwendungshinweis "Die einzuhaltenden Temperaturwerte ebenso wie die Abweichung sollen in Grad Celsius erfasst werden." ;
@@ -106,18 +106,6 @@
     ocmp:JYGNTK "bedingte Pflicht" ;
     ocmp:TQKQBM "Text" .
 
-<https://www.w3id.org/conservation/terms/metadata/ADD53A> a skos:Concept ;
-    skos:broader <https://www.w3id.org/conservation/terms/metadata/CCCC7G> ;
-    skos:definition "Bewertung des aktuellen Gefährdungsstatus und der verbleibenden Risiken basierend auf der letzten Gefährdungsbewertung."@de,
-        "Assessment of the current hazard status and residual risks based on the latest risk assessment"@en ;
-    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
-    skos:notation "ADD53A" ;
-    skos:prefLabel "Einschätzung (Gefährdungsbewertung)"@de,
-        "result (safety assessment)"@en ;
-    ocmp:EO7QK9 "Nein" ;
-    ocmp:JYGNTK "empfohlen" ;
-    ocmp:TQKQBM "Text" .
-
 <https://www.w3id.org/conservation/terms/metadata/AF1F5C> a skos:Concept ;
     ex:Verwendungshinweis "Wie genau diese Nummer in den jeweiligen Einrichtungen bezeichnet wird, bleibt individuell und wird auf diesen generischen Oberbegriff gemappt." ;
     skos:altLabel "Identifikationsnummer (Erhaltungsmaßnahme); Maßnahmenkennnummer"@de,
@@ -136,7 +124,7 @@
 
 <https://www.w3id.org/conservation/terms/metadata/AFD671> a skos:Concept ;
     ex:Verwendungshinweis "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden." ;
-    skos:broader <https://www.w3id.org/conservation/terms/metadata/CCCC7G> ;
+    skos:broader <https://www.w3id.org/conservation/terms/metadata/B7B8B6> ;
     skos:definition "Erfassung des Datums, an dem die letzte Gefährdungsbewertung durchgeführt wurde."@de,
         "Recording of the date on which the last risk assessment was carried out"@en ;
     skos:exactMatch <http://terminology.lido-schema.org/lido00528> ;
@@ -145,7 +133,7 @@
     skos:prefLabel "Datum der Gefährdungsbewertung"@de,
         "date of hazard assessment"@en ;
     ocmp:EO7QK9 "Nein" ;
-    ocmp:JYGNTK "empfohlen" ;
+    ocmp:JYGNTK "Pflicht" ;
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/B14C4A> a skos:Concept ;
@@ -305,7 +293,7 @@
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/C2488A> a skos:Concept ;
-    ex:Verwendungshinweis "Die Definition des Schadensgrad ist häufig sehr subjektiv bzw. objektspezifisch und kaum generisch vorzuschreiben. Daher sollte stets genau beschrieben werden, was die jeweilige Bewertung im konkreten Anwendungsfall bedeutet." ;
+    ex:Verwendungshinweis "Die Definition des Schadensgrad ist häufig sehr subjektiv bzw. objektspezifisch und kaum generisch vorzuschreiben. Daher sollte neben der strukturierten Angabe zum Schadensgrad zusätzlich an geeigneter Stelle eine genauere Beschreibung, was die jeweilige Bewertung im konkreten Anwendungsfall bedeutet, bereit gestellt werden. Ebenso ist ein Verweis auf die subjektive Einschätzung des/der zuständigen Restaurator:in in Bezug auf diese Angabe sinnvoll." ;
     skos:altLabel "Grad des Schadensphänomens"@de,
         "degree of damage"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/AA6941> ;
@@ -421,10 +409,10 @@
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/C8CG15> a skos:Concept ;
-    ex:Verwendungshinweis "Für die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. Bei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann! Die Namen sollten im Format \"Vorname Nachname erfasst werden\"" ;
+    ex:Verwendungshinweis "Der Name sollten im Format \"Vorname Nachname\" sowie idealfall zusätzlich mit einem maschinenlesbaren Identifier (z.B. ORCID) erfasst werden.  Für die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. Bei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann!" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/CD5C3F> ;
     skos:definition "Benennung der Person, die die Entnahme der Probe durchgeführt hat bzw. für diese verantwortlich ist."@de,
-        "Name of the person who took the sample or is responsible for it."@en ;
+        "Information about the person who took the sample or is responsible for it."@en ;
     skos:exactMatch <http://terminology.lido-schema.org/lido00163> ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "C8CG15" ;
@@ -478,7 +466,7 @@
     ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/CB7747> a skos:Concept ;
-    ex:Verwendungshinweis "Der genaue Aufbau der Kennung kann individuell gestaltet werden. Wichtig ist, dass eindeutig zugeordnet werden kann, auf welche konkrete Probe sich die Angaben beziehen." ;
+    ex:Verwendungshinweis "Der genaue Aufbau der Kennung kann individuell gestaltet werden. Im Idealfall wird ein persistenter Idenfikator (PID) verwendet. Wichtig ist, dass eindeutig zugeordnet werden kann, auf welche konkrete Probe sich die Angaben beziehen." ;
     skos:altLabel "Kennung der Probe"@de,
         "Name der Probe"@de,
         "Nummer der Probe"@de,
@@ -496,7 +484,14 @@
         "sample identifier"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "Pflicht" ;
-    ocmp:TQKQBM "Text" .
+    ocmp:TQKQBM "Text/URI" .
+
+<https://www.w3id.org/conservation/terms/metadata/CCCC7G> a skos:Concept ;
+    skos:broader <https://www.w3id.org/conservation/terms/metadata/B7B8B6> ;
+    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
+    skos:notation "CCCC7G" ;
+    skos:prefLabel "Zuständige Person (Gefährdungsbewertung)"@de ;
+    ocmp:JYGNTK "Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/CD3341> a skos:Concept ;
     dcterms:source "Begriff und Definition nach DIN EN 16095: 2012-10" ;
@@ -606,8 +601,8 @@
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/D6A11G> a skos:Concept ;
-    skos:altLabel "Metadaten"@de,
-        "Parameter"@de,
+    skos:altLabel "Metadaten (Untersuchungsgerät)"@de,
+        "Parameter (Untersuchungsgerät)"@de,
         "device configuration (examination instrument)"@en,
         "device settings (examination instrument)"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/D949G6> ;
@@ -856,7 +851,7 @@
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/F72743> a skos:Concept ;
-    ex:Verwendungshinweis "Besonders wenn dies von einer externen Einrichtung durchgeführt wird, ist die Erfassung zu empfehlen.  In Fällen, in denen bei der Veröffentlichung des Datensatzes die zuständige Person nicht genannt werden kann/darf, sollte stattdessen zumindest die zuständige Einrichtung im Datensatz enthalten sein." ;
+    ex:Verwendungshinweis "Idealerweise sollte, vor allem bei extern beauftragten Einrichtungen, der Institutsname, die spezifische Abteilung sowie ein persistenter Identifikator (z. B. ROR, ISNI) angegeben werden.   In Fällen, in denen bei der Veröffentlichung des Datensatzes die zuständige Person nicht genannt werden kann/darf, sollte stattdessen zumindest die zuständige Einrichtung im Datensatz enthalten sein." ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/CD5C3F> ;
     skos:definition "Benennung der Einrichtung, die die Probenentnahme durchgeführt hat."@de,
         "Name of the facility that carried out the sampling."@en ;
@@ -917,7 +912,7 @@
 <https://www.w3id.org/conservation/terms/metadata/FBFFF5> a skos:Concept ;
     skos:altLabel "hazard information"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/B7B8B6> ;
-    skos:definition "Hinweise auf potenzielle Gefahrenquellen und Risiken im Zusammenhang mit dem Objekt oder den bei der konservatorisch-restauratorischen Maßnahme (oder früheren Maßnahmen) verwendeten Materialien.  Beispiel: Schimmelbefall, Schadstoffkontaminiert"@de,
+    skos:definition "Hinweise auf potenzielle Gefahrenquellen und Risiken im Zusammenhang mit dem Objekt oder den bei der konservatorisch-restauratorischen Maßnahme (oder früheren Maßnahmen) verwendeten Materialien. Bewertung des aktuellen Gefährdungsstatus und der verbleibenden Risiken.  Beispiel: Schimmelbefall, Schadstoffkontaminiert"@de,
         "Information on potential hazards and risks associated with the object or the materials used in the conservation-restoration measures (or previous measures)  Example: mould infestation, contamination with harmful substances"@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "FBFFF5" ;
@@ -1011,10 +1006,11 @@
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/G56866> a skos:Concept ;
-    skos:altLabel "Nutzungsrechte"@de,
+    skos:altLabel "Lizenz"@de,
+        "Nutzungsrechte"@de,
         "rights of access"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/AC16G1> ;
-    skos:definition "Angaben zum Urheberrecht bzw. der Nutzungsrechte des Berichtes"@de,
+    skos:definition "Angaben zum Urheberrecht bzw. der Nutzungsrechte des Berichtes. Im Idealfall sollte dabei auch eine konkrete Lizenz angegeben werden, wie die Daten verwendet werden dürfen."@de,
         "Information on copyright and rights of use for the report"@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "G56866" ;
@@ -1069,7 +1065,7 @@
     ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/G76B7G> a skos:Concept ;
-    ex:Verwendungshinweis "Besonders wenn dies von einer externen Einrichtung durchgeführt wird, ist die Erfassung zu empfehlen.  In Fällen, in denen bei der Veröffentlichung des Datensatzes die zuständige Person nicht genannt werden kann/darf, sollte stattdessen zumindest die zuständige Einrichtung im Datensatz enthalten sein." ;
+    ex:Verwendungshinweis "Idealerweise sollte, vor allem bei extern beauftragten Einrichtungen, der Institutsname, die spezifische Abteilung sowie ein persistenter Identifikator (z. B. ROR, ISNI) angegeben werden.   In Fällen, in denen bei der Veröffentlichung des Datensatzes die zuständige Person nicht genannt werden kann/darf, sollte stattdessen zumindest die zuständige Einrichtung im Datensatz enthalten sein." ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/B3FCA1> ;
     skos:definition "Benennung der Einrichtung, die die Untersuchung durchgeführt hat."@de,
         "Name of the institution that conducted the examination."@en ;
@@ -1096,7 +1092,7 @@
     ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/G7F25F> a skos:Concept ;
-    ex:Verwendungshinweis "Für die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. Bei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann! Die Namen sollten im Format \"Vorname Nachname erfasst werden\"" ;
+    ex:Verwendungshinweis "Der Name sollten im Format \"Vorname Nachname\" sowie idealfall zusätzlich mit einem maschinenlesbaren Identifier (z.B. ORCID) erfasst werden.  Für die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. Bei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann!" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/B3FCA1> ;
     skos:definition "Benennung der Person, die die Untersuchung durchgeführt hat bzw. für diese verantwortlich ist."@de,
         "Name of the person who conducted the examination or is responsible for it."@en ;
@@ -1107,7 +1103,7 @@
         "Examining person"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "bedingte Pflicht" ;
-    ocmp:TQKQBM "Text" .
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/G814D2> a skos:Concept ;
     ex:Verwendungshinweis "In Angabe des Zeitaufwandes soll nach Möglichkeit in Stunden erfolgen" ;
@@ -1391,19 +1387,6 @@
     ocmp:JYGNTK "Pflicht" ;
     ocmp:TQKQBM "Text/URI" .
 
-<https://www.w3id.org/conservation/terms/metadata/CCCC7G> a skos:Concept ;
-    skos:broader <https://www.w3id.org/conservation/terms/metadata/B7B8B6> ;
-    skos:definition "Oberbegriff zu Angaben der zuletzt durchgeführten Risikoanalyse und Beurteilung des Gefährdungspotentitals eines Objektes"@de,
-        "Generic term for information on the last risk analysis and assessment of the hazard potential of an object"@en ;
-    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
-    skos:narrower <https://www.w3id.org/conservation/terms/metadata/ADD53A>,
-        <https://www.w3id.org/conservation/terms/metadata/AFD671> ;
-    skos:notation "CCCC7G" ;
-    skos:prefLabel "Letzte Gefährdungsbewertung"@de,
-        "last hazard assessment"@en ;
-    ocmp:EO7QK9 "Nein" ;
-    ocmp:JYGNTK "optional" .
-
 <https://www.w3id.org/conservation/terms/metadata/D1F5D3> a skos:Concept ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/AC16G1> ;
     skos:definition "Angaben zur Versionierung bzw. Überarbeitung des Berichtes"@de,
@@ -1525,21 +1508,6 @@
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "empfohlen" .
 
-<https://www.w3id.org/conservation/terms/metadata/B7B8B6> a skos:Concept ;
-    skos:definition "Containerbegriff zur Strukturierung aller Angaben, zu potentiellen Gefahren, die von einem individuellen (behandelten) Objekt ausgehen und Maßnahmen, die zum Schutz der Gesundheit bei Umgang mit den jeweiligen Objekten eingehalten werden sollten.   Nicht gemeint sind dabei die allgemeinen Arbeitssicherheitsmaßnahmen, die im Rahmen der gesetzlichen Vorgaben für Restaurator*innen gelten."@de,
-        "Container concept for structuring all information on potential hazards posed by an individual (treated) object and measures that should be observed to protect health when handling the respective objects.  This does not refer to the general occupational safety measures that apply to restorers within the framework of legal requirements."@en ;
-    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
-    skos:narrower <https://www.w3id.org/conservation/terms/metadata/BB78D2>,
-        <https://www.w3id.org/conservation/terms/metadata/BGGCA4>,
-        <https://www.w3id.org/conservation/terms/metadata/CCCC7G>,
-        <https://www.w3id.org/conservation/terms/metadata/FBFFF5> ;
-    skos:notation "B7B8B6" ;
-    skos:prefLabel "Gefährdungspotential"@de,
-        "risk potential"@en ;
-    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
-    ocmp:EO7QK9 "Nein" ;
-    ocmp:JYGNTK "bedingte Pflicht" .
-
 <https://www.w3id.org/conservation/terms/metadata/BC5B57> a skos:Concept ;
     dcterms:source "Begriff nach DIN EN 15898:2020-02" ;
     skos:altLabel "Erhaltungszustand"@de ;
@@ -1641,6 +1609,22 @@
     ocmp:EO7QK9 "Ja" ;
     ocmp:JYGNTK "empfohlen" ;
     ocmp:TQKQBM "Text" .
+
+<https://www.w3id.org/conservation/terms/metadata/B7B8B6> a skos:Concept ;
+    skos:definition "Containerbegriff zur Strukturierung aller Angaben, zu potentiellen Gefahren, die von einem individuellen (behandelten) Objekt ausgehen und Maßnahmen, die zum Schutz der Gesundheit bei Umgang mit den jeweiligen Objekten eingehalten werden sollten.   Nicht gemeint sind dabei die allgemeinen Arbeitssicherheitsmaßnahmen, die im Rahmen der gesetzlichen Vorgaben für Restaurator*innen gelten."@de,
+        "Container concept for structuring all information on potential hazards posed by an individual (treated) object and measures that should be observed to protect health when handling the respective objects.  This does not refer to the general occupational safety measures that apply to restorers within the framework of legal requirements."@en ;
+    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
+    skos:narrower <https://www.w3id.org/conservation/terms/metadata/AFD671>,
+        <https://www.w3id.org/conservation/terms/metadata/BB78D2>,
+        <https://www.w3id.org/conservation/terms/metadata/BGGCA4>,
+        <https://www.w3id.org/conservation/terms/metadata/CCCC7G>,
+        <https://www.w3id.org/conservation/terms/metadata/FBFFF5> ;
+    skos:notation "B7B8B6" ;
+    skos:prefLabel "Gefährdungsbewertung"@de,
+        "safety assessment"@en ;
+    skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "bedingte Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/AC16G1> a skos:Concept ;
     skos:definition "Containerbegriff für administrative Angaben zu dem vorliegenden Bericht und seinen Inhalten"@de,

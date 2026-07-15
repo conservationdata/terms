@@ -41,7 +41,7 @@
   "Verpflichtungsgrad": "bedingte Pflicht",
   "Feldwert": "Text/URI",
   "Wiederholbar": "Nein",
-  "Verwendungshinweis": "Besonders wenn dies von einer externen Einrichtung durchgeführt wird, ist die Erfassung zu empfehlen.  In Fällen, in denen bei der Veröffentlichung des Datensatzes die zuständige Person nicht genannt werden kann/darf, sollte stattdessen zumindest die zuständige Einrichtung im Datensatz enthalten sein.",
+  "Verwendungshinweis": "Idealerweise sollte, vor allem bei extern beauftragten Einrichtungen, der Institutsname, die spezifische Abteilung sowie ein persistenter Identifikator (z. B. ROR, ISNI) angegeben werden.   In Fällen, in denen bei der Veröffentlichung des Datensatzes die zuständige Person nicht genannt werden kann/darf, sollte stattdessen zumindest die zuständige Einrichtung im Datensatz enthalten sein.",
   "@context": {
     "@version": 1.1,
     "id": "@id",

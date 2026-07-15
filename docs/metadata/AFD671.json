@@ -13,10 +13,10 @@
     "AFD671"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/CCCC7G",
+    "id": "https://www.w3id.org/conservation/terms/metadata/B7B8B6",
     "prefLabel": {
-      "de": "Letzte Gefährdungsbewertung",
-      "en": "last hazard assessment"
+      "de": "Gefährdungsbewertung",
+      "en": "safety assessment"
     }
   },
   "exactMatch": [
@@ -38,7 +38,7 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "Verpflichtungsgrad": "empfohlen",
+  "Verpflichtungsgrad": "Pflicht",
   "Feldwert": "Text",
   "Wiederholbar": "Nein",
   "Verwendungshinweis": "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden.",

@@ -2,37 +2,16 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/CCCC7G",
   "type": "Concept",
   "prefLabel": {
-    "de": "Letzte Gefährdungsbewertung",
-    "en": "last hazard assessment"
-  },
-  "definition": {
-    "de": "Oberbegriff zu Angaben der zuletzt durchgeführten Risikoanalyse und Beurteilung des Gefährdungspotentitals eines Objektes",
-    "en": "Generic term for information on the last risk analysis and assessment of the hazard potential of an object"
+    "de": "Zuständige Person (Gefährdungsbewertung)"
   },
   "notation": [
     "CCCC7G"
   ],
-  "narrower": [
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/ADD53A",
-      "prefLabel": {
-        "de": "Einschätzung (Gefährdungsbewertung)",
-        "en": "result (safety assessment)"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/conservation/terms/metadata/AFD671",
-      "prefLabel": {
-        "de": "Datum der Gefährdungsbewertung",
-        "en": "date of hazard assessment"
-      }
-    }
-  ],
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/B7B8B6",
     "prefLabel": {
-      "de": "Gefährdungspotential",
-      "en": "risk potential"
+      "de": "Gefährdungsbewertung",
+      "en": "safety assessment"
     }
   },
   "inScheme": [
@@ -49,8 +28,7 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "Verpflichtungsgrad": "optional",
-  "Wiederholbar": "Nein",
+  "Verpflichtungsgrad": "Pflicht",
   "@context": {
     "@version": 1.1,
     "id": "@id",
