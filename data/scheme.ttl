@@ -392,7 +392,7 @@
     skos:prefLabel "Zuständige Person (Erhaltungsmaßnahme)"@de,
         "responsible person (conservation intervention)"@en ;
     ocmp:EO7QK9 "Nein" ;
-    ocmp:JYGNTK "Pflicht" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/C7C3B7> a skos:Concept ;
@@ -1158,7 +1158,7 @@
     skos:exactMatch <http://terminology.lido-schema.org/lido00413> ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "GF41DG" ;
-    skos:prefLabel "Zuständige Restaurierungseinrichtung"@de,
+    skos:prefLabel "Durchführende Restaurierungseinrichtung"@de,
         "responsible conservation facility"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "bedingte Pflicht" ;
