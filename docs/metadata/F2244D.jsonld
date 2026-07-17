@@ -33,9 +33,6 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "source": [
-    "C3A182"
-  ],
   "Verpflichtungsgrad": "empfohlen",
   "Feldwert": "Text",
   "Wiederholbar": "Ja",

@@ -7,7 +7,10 @@
   },
   "altLabel": {
     "de": [
-      "Werkstatt, Labor, Atelier, Restaurierungswerkstatt"
+      "Atelier",
+      "Labor",
+      "Restaurierungswerkstatt",
+      "Werkstatt"
     ],
     "en": [
       "conservation lab",
@@ -50,9 +53,9 @@
     }
   ],
   "Verpflichtungsgrad": "bedingte Pflicht",
-  "Feldwert": "Text",
+  "Feldwert": "Text/URI",
   "Wiederholbar": "Nein",
-  "Verwendungshinweis": "In Fällen, in denen bei der Veröffentlichung des Datensatzes die zuständige Person nicht genannt werden kann/darf, sollte stattdessen zumindest die zuständige Einrichtung im Datensatz enthalten sein.",
+  "Verwendungshinweis": "Idealerweise sollte der Institutsname, die spezifische Abteilung sowie ein persistenter Identifikator (z. B. ROR, ISNI) angegeben werden.   In Fällen, in denen bei der Veröffentlichung des Datensatzes die zuständige Person nicht genannt werden kann/darf, sollte stattdessen zumindest die zuständige Einrichtung im Datensatz enthalten sein.",
   "@context": {
     "@version": 1.1,
     "id": "@id",

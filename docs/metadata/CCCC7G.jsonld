@@ -2,7 +2,12 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/CCCC7G",
   "type": "Concept",
   "prefLabel": {
-    "de": "Zuständige Person (Gefährdungsbewertung)"
+    "de": "Zuständige Person (Gefährdungsbewertung)",
+    "en": "responsible person (safety assessment)"
+  },
+  "definition": {
+    "de": "Benennung der Person, die die Gefährdungsbewertung durchgeführt hat bzw. für diese verantwortlich ist.",
+    "en": "Information about the person who carried out the safety assessment or is responsible for it."
   },
   "notation": [
     "CCCC7G"
@@ -29,6 +34,9 @@
     }
   ],
   "Verpflichtungsgrad": "Pflicht",
+  "Feldwert": "Text/URI",
+  "Wiederholbar": "Nein",
+  "Verwendungshinweis": "Der Name sollten im Format \"Vorname Nachname\" sowie idealfall zusätzlich mit einem maschinenlesbaren Identifier (z.B. ORCID) erfasst werden.  Für die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. Bei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann!",
   "@context": {
     "@version": 1.1,
     "id": "@id",

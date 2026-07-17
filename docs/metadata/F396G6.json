@@ -38,13 +38,6 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "source": [
-    "A5C668",
-    "BF3639",
-    "BF6D19",
-    "C9C527",
-    "FFFCB7"
-  ],
   "Verpflichtungsgrad": "empfohlen",
   "Feldwert": "Text",
   "Wiederholbar": "Ja",

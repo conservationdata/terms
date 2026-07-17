@@ -51,7 +51,6 @@
 
 <https://www.w3id.org/conservation/terms/metadata/A2FA1B> a skos:Concept ;
     ex:Verwendungshinweis "Die einzuhaltenden Temperaturwerte ebenso wie die Abweichung sollen in Grad Celsius erfasst werden." ;
-    dcterms:source "D941BB" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/C3A182> ;
     skos:definition "Angabe der erforderlichen Temperaturwerte und zulässigen Schwankungsbereiche (maximal tolerierbare Abweichungen) für die sachgerechte Lagerung zur Vermeidung temperaturbedingter Schäden."@de,
         "Specification of the required temperature values and permissible fluctuation ranges (maximum tolerable deviations) for proper storage to avoid temperature-related damage."@en ;
@@ -107,7 +106,7 @@
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/AF1F5C> a skos:Concept ;
-    ex:Verwendungshinweis "Wie genau diese Nummer in den jeweiligen Einrichtungen bezeichnet wird, bleibt individuell und wird auf diesen generischen Oberbegriff gemappt." ;
+    ex:Verwendungshinweis "Der genaue Aufbau der Kennung und deren Bezeichnung kann individuell gestaltet werden. Im Idealfall wird ein persistenter Idenfikator (PID) verwendet. Wichtig ist, dass eindeutig zugeordnet werden kann, auf welche konkrete Maßnahme sich die Angaben beziehen." ;
     skos:altLabel "Identifikationsnummer (Erhaltungsmaßnahme); Maßnahmenkennnummer"@de,
         "intervention ID"@en,
         "intervention identification"@en ;
@@ -120,7 +119,7 @@
         "intervention identifier"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "Pflicht" ;
-    ocmp:TQKQBM "Text" .
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/AFD671> a skos:Concept ;
     ex:Verwendungshinweis "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden." ;
@@ -198,7 +197,6 @@
 
 <https://www.w3id.org/conservation/terms/metadata/BA8198> a skos:Concept ;
     ex:Verwendungshinweis "Die einzuhaltende relative Luftfeuchtigkeit soll in Prozent erfasst werden." ;
-    dcterms:source "D941BB" ;
     skos:altLabel "Luftfeuchte (konservatorische Bedingungen)"@de ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/C3A182> ;
     skos:definition "Angabe der einzuhaltenden relativen Luftfeuchtigkeit und zulässigen Schwankungsbereiche (maximal tolerierbare Abweichungen) für die sachgerechte Lagerung zur Vermeidung feuchtigkeitsbedingter Schäden."@de,
@@ -375,10 +373,10 @@
         "reason for conservation intervention"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "empfohlen" ;
-    ocmp:TQKQBM "Text" .
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/C79561> a skos:Concept ;
-    ex:Verwendungshinweis "Für die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. Bei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann! Die Namen sollten im Format \"Vorname Nachname erfasst werden\"" ;
+    ex:Verwendungshinweis "Der Name sollten im Format \"Vorname Nachname\" sowie idealfall zusätzlich mit einem maschinenlesbaren Identifier (z.B. ORCID) erfasst werden.  Für die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. Bei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann!" ;
     skos:altLabel "Konservator*in"@de,
         "Restaurator*in"@de,
         "Conservator"@en,
@@ -393,7 +391,7 @@
         "responsible person (conservation intervention)"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "bedingte Pflicht" ;
-    ocmp:TQKQBM "Text" .
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/C7C3B7> a skos:Concept ;
     ex:Verwendungshinweis "Die Angaben sollten sowohl den numerischen Wert als auch die Maßeinheit nach metrischem System im jeweils fachspezifischen Standard (g oder kg) enthalten" ;
@@ -487,11 +485,17 @@
     ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/CCCC7G> a skos:Concept ;
+    ex:Verwendungshinweis "Der Name sollten im Format \"Vorname Nachname\" sowie idealfall zusätzlich mit einem maschinenlesbaren Identifier (z.B. ORCID) erfasst werden.  Für die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. Bei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann!" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/B7B8B6> ;
+    skos:definition "Benennung der Person, die die Gefährdungsbewertung durchgeführt hat bzw. für diese verantwortlich ist."@de,
+        "Information about the person who carried out the safety assessment or is responsible for it."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "CCCC7G" ;
-    skos:prefLabel "Zuständige Person (Gefährdungsbewertung)"@de ;
-    ocmp:JYGNTK "Pflicht" .
+    skos:prefLabel "Zuständige Person (Gefährdungsbewertung)"@de,
+        "responsible person (safety assessment)"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/CD3341> a skos:Concept ;
     dcterms:source "Begriff und Definition nach DIN EN 16095: 2012-10" ;
@@ -524,7 +528,7 @@
         "start of intervention"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "Pflicht" ;
-    ocmp:TQKQBM "Text" .
+    ocmp:TQKQBM "Date/Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/CDF685> a skos:Concept ;
     ex:Verwendungshinweis "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden." ;
@@ -538,7 +542,7 @@
         "end of intervention"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "Pflicht" ;
-    ocmp:TQKQBM "Text" .
+    ocmp:TQKQBM "Date/Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/CF3C22> a skos:Concept ;
     skos:altLabel "Fragestellung"@de,
@@ -664,11 +668,6 @@
     ocmp:TQKQBM "URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/D941BB> a skos:Concept ;
-    dcterms:source "A2FA1B",
-        "BA8198",
-        "C3A182",
-        "DF7759",
-        "FD6617" ;
     skos:altLabel "exhibition guidelines"@en,
         "presentation specifications"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/GF9C49> ;
@@ -700,7 +699,6 @@
 
 <https://www.w3id.org/conservation/terms/metadata/DF7759> a skos:Concept ;
     ex:Verwendungshinweis "Die einzuhaltende Beleuchtungsstärke soll in LUX erfasst werden, die maximal zulässige Expositionszeit in Stunden" ;
-    dcterms:source "D941BB" ;
     skos:altLabel "LUX (konservatorische Bedingung)"@de,
         "LUX (conservation condition"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/C3A182> ;
@@ -731,7 +729,6 @@
     ocmp:TQKQBM "URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/F2244D> a skos:Concept ;
-    dcterms:source "C3A182" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/GF9C49> ;
     skos:definition "Angaben zu Besonderheiten, die im Zuge der Objektverpackung oder des Transportes zu beachten sind.   Beispiel: \"Objekt ausschließlich liegend transportieren\", \"Transport nur in klimatisiertem Fahrzeug\""@de,
         "Information on special features that must be taken into account during the packaging or transport of the object.   Example: ‘Transport object lying down only’, ‘Transport only in air-conditioned vehicle’"@en ;
@@ -790,11 +787,6 @@
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/F396G6> a skos:Concept ;
-    dcterms:source "A5C668",
-        "BF3639",
-        "BF6D19",
-        "C9C527",
-        "FFFCB7" ;
     skos:altLabel "outcome of monitoring"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/C11192> ;
     skos:definition "Zusammenfassende Bewertung aller durchgeführten Kontrollmaßnahme mit Angabe festgestellter Beobachtungen, Auffälligkeiten oder Handlungsempfehlungen.   Beispiel: \"Alle Parameter im Normbereich\", \"Luftfeuchtigkeit 5% über Sollwert, Nachregulierung erforderlich\", \"Verdacht auf Schimmelbildung, Objekt zur weiteren Untersuchung in Labor verbracht\""@de,
@@ -950,7 +942,6 @@
 
 <https://www.w3id.org/conservation/terms/metadata/FD6617> a skos:Concept ;
     ex:Verwendungshinweis "Die einzuhaltenden Anforderungen sollen nach Möglichkeit in Mikrowatt pro Lumen (µW/lm) erfasst werden. Aber auch Angaben in Mikrowatt pro Quadratzentimeter oder in Prozent (bei Bezug auf UV-Filter) sind möglich. Wichtig ist neben der Erfassung der numerischen Werte auch die jeweilige Einheit mit anzugeben." ;
-    dcterms:source "D941BB" ;
     skos:altLabel "UV (konservatorische Bedingungen)"@de,
         "ultraviolet protection"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/C3A182> ;
@@ -967,7 +958,8 @@
 <https://www.w3id.org/conservation/terms/metadata/FGF575> a skos:Concept ;
     skos:altLabel "Erhaltungsziel"@de,
         "Konservierungsziel"@de,
-        "konservatorische Zielsetzung"@de,
+        "Maßnahmenziel"@de,
+        "Ziel der Erhaltungsmaßnahme"@de,
         "conservation goal"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/BAA258> ;
     skos:definition "Beschreibung der angestrebten Ergebnisse, die mit der durchgeführten Maßnahme erreicht werden sollen.  Beispiel: Sicherung der Malschichten, Volle Rekonstruktion der ursprünglichen Form"@de,
@@ -1146,8 +1138,11 @@
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/GF41DG> a skos:Concept ;
-    ex:Verwendungshinweis "In Fällen, in denen bei der Veröffentlichung des Datensatzes die zuständige Person nicht genannt werden kann/darf, sollte stattdessen zumindest die zuständige Einrichtung im Datensatz enthalten sein." ;
-    skos:altLabel "Werkstatt, Labor, Atelier, Restaurierungswerkstatt"@de,
+    ex:Verwendungshinweis "Idealerweise sollte der Institutsname, die spezifische Abteilung sowie ein persistenter Identifikator (z. B. ROR, ISNI) angegeben werden.   In Fällen, in denen bei der Veröffentlichung des Datensatzes die zuständige Person nicht genannt werden kann/darf, sollte stattdessen zumindest die zuständige Einrichtung im Datensatz enthalten sein." ;
+    skos:altLabel "Atelier"@de,
+        "Labor"@de,
+        "Restaurierungswerkstatt"@de,
+        "Werkstatt"@de,
         "conservation lab"@en,
         "conservation labratory"@en,
         "conservation workshop"@en,
@@ -1162,7 +1157,7 @@
         "responsible conservation facility"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "bedingte Pflicht" ;
-    ocmp:TQKQBM "Text" .
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/GF856C> a skos:Concept ;
     ex:Verwendungshinweis "Die Angaben sollten sowohl den numerischen Wert als auch die Maßeinheit nach metrischem System im jeweils fachspezifischen Standard (mm, cm, m) enthalten" ;
@@ -1542,7 +1537,6 @@
     ocmp:JYGNTK "empfohlen" .
 
 <https://www.w3id.org/conservation/terms/metadata/C3A182> a skos:Concept ;
-    dcterms:source "D941BB" ;
     skos:altLabel "conservation conditions"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/C93638> ;
     skos:definition "Sammeloberbegriff für Angaben bezüglich erforderlicher Umgebungsparameter und physikalischer Rahmenbedingungen, die für die optimale Erhaltung des Objektes notwendig sind."@de,
@@ -1594,7 +1588,6 @@
     ocmp:JYGNTK "bedingte Pflicht" .
 
 <https://www.w3id.org/conservation/terms/metadata/FFFCB7> a skos:Concept ;
-    dcterms:source "F396G6" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/C11192> ;
     skos:definition "Oberbegriff der kontrollierten Parameter und Umgebungsfaktoren während des Monitorings."@de,
         "Generic term for the controlled parameters and environmental factors during monitoring"@en ;
