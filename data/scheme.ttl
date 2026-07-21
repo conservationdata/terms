@@ -12,11 +12,11 @@
     skos:exactMatch <http://terminology.lido-schema.org/lido00163> ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "98ZG32" ;
-    skos:prefLabel "Bearbeiter*in der Änderung"@de,
+    skos:prefLabel "Bearbeiter:in der Änderung"@de,
         "editor"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "empfohlen" ;
-    ocmp:TQKQBM "Text" .
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/A15F83> a skos:Concept ;
     skos:altLabel "Untersuchungsstelle"@de,
@@ -123,6 +123,7 @@
 
 <https://www.w3id.org/conservation/terms/metadata/AFD671> a skos:Concept ;
     ex:Verwendungshinweis "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden." ;
+    skos:altLabel "date of hazard assessment"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/B7B8B6> ;
     skos:definition "Erfassung des Datums, an dem die letzte Gefährdungsbewertung durchgeführt wurde."@de,
         "Recording of the date on which the last risk assessment was carried out"@en ;
@@ -130,7 +131,7 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "AFD671" ;
     skos:prefLabel "Datum der Gefährdungsbewertung"@de,
-        "date of hazard assessment"@en ;
+        "date of safety assessment"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "Pflicht" ;
     ocmp:TQKQBM "Text" .
@@ -192,7 +193,7 @@
     skos:prefLabel "Zuständige Person (Monitoring)"@de,
         "responsible person (monitoring)"@en ;
     ocmp:EO7QK9 "Nein" ;
-    ocmp:JYGNTK "empfohlen" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/BA8198> a skos:Concept ;
@@ -741,18 +742,18 @@
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/F285B2> a skos:Concept ;
-    ex:Verwendungshinweis "Der Name sollte im Format \"Vorname Nachname\" erfasst werden." ;
+    ex:Verwendungshinweis "Der Name sollten im Format \"Vorname Nachname\" sowie idealfall zusätzlich mit einem maschinenlesbaren Identifier (z.B. ORCID) erfasst werden.  Für die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. Bei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann!" ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/AC16G1> ;
-    skos:definition "Angaben zur Person (Name, ggfs. Funktion) der für den Bericht verantwortlichen Person."@de,
-        "Personal details (name, position if applicable) of the person responsible for the report"@en ;
+    skos:definition "Angaben zur Person (Name, ggfs. Funktion), die den betreffenden Datensatz erstellt hat."@de,
+        "Details of the person (name, role if applicable) who created the relevant data record."@en ;
     skos:exactMatch <http://terminology.lido-schema.org/lido00163> ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "F285B2" ;
-    skos:prefLabel "Bearbeiter*in"@de,
+    skos:prefLabel "Bearbeiter:in"@de,
         "creator"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "Pflicht" ;
-    ocmp:TQKQBM "Text" .
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/F2A45F> a skos:Concept ;
     ex:Verwendungshinweis "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden." ;
@@ -796,7 +797,7 @@
     skos:prefLabel "Ergebnis des Monitorings"@de,
         "result of monitoring"@en ;
     ocmp:EO7QK9 "Ja" ;
-    ocmp:JYGNTK "empfohlen" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/F3G8D1> a skos:Concept ;
@@ -839,7 +840,7 @@
     skos:prefLabel "Datum des Monitoring"@de,
         "date of monitoring"@en ;
     ocmp:EO7QK9 "Nein" ;
-    ocmp:JYGNTK "empfohlen" ;
+    ocmp:JYGNTK "bedingte Pflicht" ;
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/F72743> a skos:Concept ;
@@ -1210,7 +1211,7 @@
         "record identifier"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "Pflicht" ;
-    ocmp:TQKQBM "Text" .
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/LGPT6AC> a skos:Concept ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/K343FVC> ;
@@ -1222,6 +1223,22 @@
         "type of alternative object number"@en ;
     ocmp:JYGNTK "bedingte Pflicht" ;
     ocmp:TQKQBM "Text" .
+
+<https://www.w3id.org/conservation/terms/metadata/Q2R50D> a skos:Concept ;
+    ex:Verwendungshinweis "Dieses Element ist vor allem bei der Publikation bzw. dem externen Austausch des Datensatzes relevant. Erfasst werden sollten dabei der Name der Einrichtung, sowie ein maschinenlesbarer Identifier (z.B. ROR, ISIL)." ;
+    skos:altLabel "Bereitstellende Einrichtung"@de,
+        "Zuständige Einrichtung (Datensatz)"@de,
+        "responsible institution (Data record)"@en ;
+    skos:broader <https://www.w3id.org/conservation/terms/metadata/AC16G1> ;
+    skos:definition "Angabe zur Institution, die den betreffenden Datensatz vorhält."@de,
+        "Information about the institution that holds the relevant data record."@en ;
+    skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
+    skos:notation "Q2R50D" ;
+    skos:prefLabel "Datenhaltende Einrichtung"@de,
+        "Data holding institution"@en ;
+    ocmp:EO7QK9 "Nein" ;
+    ocmp:JYGNTK "Pflicht" ;
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/QD45G7> a skos:Concept ;
     ex:Verwendungshinweis "Die Angaben sollten sowohl den numerischen Wert als auch die Maßeinheit nach metrischem System im jeweils fachspezifischen Standard (mm, cm, m) enthalten" ;
@@ -1604,6 +1621,7 @@
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/B7B8B6> a skos:Concept ;
+    skos:altLabel "hazard assessment"@en ;
     skos:definition "Containerbegriff zur Strukturierung aller Angaben, zu potentiellen Gefahren, die von einem individuellen (behandelten) Objekt ausgehen und Maßnahmen, die zum Schutz der Gesundheit bei Umgang mit den jeweiligen Objekten eingehalten werden sollten.   Nicht gemeint sind dabei die allgemeinen Arbeitssicherheitsmaßnahmen, die im Rahmen der gesetzlichen Vorgaben für Restaurator*innen gelten."@de,
         "Container concept for structuring all information on potential hazards posed by an individual (treated) object and measures that should be observed to protect health when handling the respective objects.  This does not refer to the general occupational safety measures that apply to restorers within the framework of legal requirements."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
@@ -1628,7 +1646,8 @@
         <https://www.w3id.org/conservation/terms/metadata/F285B2>,
         <https://www.w3id.org/conservation/terms/metadata/G50P34>,
         <https://www.w3id.org/conservation/terms/metadata/G56866>,
-        <https://www.w3id.org/conservation/terms/metadata/K543W2> ;
+        <https://www.w3id.org/conservation/terms/metadata/K543W2>,
+        <https://www.w3id.org/conservation/terms/metadata/Q2R50D> ;
     skos:notation "AC16G1" ;
     skos:prefLabel "Administrative Metadaten"@de,
         "administrative metadata"@en ;

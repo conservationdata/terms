@@ -3,7 +3,12 @@
   "type": "Concept",
   "prefLabel": {
     "de": "Datum der Gefährdungsbewertung",
-    "en": "date of hazard assessment"
+    "en": "date of safety assessment"
+  },
+  "altLabel": {
+    "en": [
+      "date of hazard assessment"
+    ]
   },
   "definition": {
     "de": "Erfassung des Datums, an dem die letzte Gefährdungsbewertung durchgeführt wurde.",

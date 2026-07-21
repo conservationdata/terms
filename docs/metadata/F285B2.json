@@ -2,12 +2,12 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F285B2",
   "type": "Concept",
   "prefLabel": {
-    "de": "Bearbeiter*in",
+    "de": "Bearbeiter:in",
     "en": "creator"
   },
   "definition": {
-    "de": "Angaben zur Person (Name, ggfs. Funktion) der für den Bericht verantwortlichen Person.",
-    "en": "Personal details (name, position if applicable) of the person responsible for the report"
+    "de": "Angaben zur Person (Name, ggfs. Funktion), die den betreffenden Datensatz erstellt hat.",
+    "en": "Details of the person (name, role if applicable) who created the relevant data record."
   },
   "notation": [
     "F285B2"
@@ -39,9 +39,9 @@
     }
   ],
   "Verpflichtungsgrad": "Pflicht",
-  "Feldwert": "Text",
+  "Feldwert": "Text/URI",
   "Wiederholbar": "Nein",
-  "Verwendungshinweis": "Der Name sollte im Format \"Vorname Nachname\" erfasst werden.",
+  "Verwendungshinweis": "Der Name sollten im Format \"Vorname Nachname\" sowie idealfall zusätzlich mit einem maschinenlesbaren Identifier (z.B. ORCID) erfasst werden.  Für die interne Zuweisung der Verantwortlichkeit/Zuständigkeit ist es empfohlen, diese Daten regelhaft zu erfassen. Bei der potenziellen Veröffentlichung bzw. dem Austausch des Datensatzes außerhalb der eigenen Einrichtung ist an dieser Stelle zu entscheiden, in wie fern die Person namentlich genannt werden möchte/kann!",
   "@context": {
     "@version": 1.1,
     "id": "@id",

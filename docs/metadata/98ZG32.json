@@ -2,7 +2,7 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/98ZG32",
   "type": "Concept",
   "prefLabel": {
-    "de": "Bearbeiter*in der Änderung",
+    "de": "Bearbeiter:in der Änderung",
     "en": "editor"
   },
   "definition": {
@@ -39,7 +39,7 @@
     }
   ],
   "Verpflichtungsgrad": "empfohlen",
-  "Feldwert": "Text",
+  "Feldwert": "Text/URI",
   "Wiederholbar": "Nein",
   "Verwendungshinweis": "Der Name sollte im Format \"Vorname Nachname\" erfasst werden.",
   "@context": {

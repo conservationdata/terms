@@ -30,7 +30,7 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/F285B2",
       "prefLabel": {
-        "de": "Bearbeiter*in",
+        "de": "Bearbeiter:in",
         "en": "creator"
       }
     },
@@ -53,6 +53,13 @@
       "prefLabel": {
         "de": "Datensatzkennung",
         "en": "record identifier"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/conservation/terms/metadata/Q2R50D",
+      "prefLabel": {
+        "de": "Datenhaltende Einrichtung",
+        "en": "Data holding institution"
       }
     }
   ],

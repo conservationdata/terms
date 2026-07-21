@@ -1,27 +1,31 @@
 {
-  "id": "https://www.w3id.org/conservation/terms/metadata/F396G6",
+  "id": "https://www.w3id.org/conservation/terms/metadata/Q2R50D",
   "type": "Concept",
   "prefLabel": {
-    "de": "Ergebnis des Monitorings",
-    "en": "result of monitoring"
+    "de": "Datenhaltende Einrichtung",
+    "en": "Data holding institution"
   },
   "altLabel": {
+    "de": [
+      "Bereitstellende Einrichtung",
+      "Zuständige Einrichtung (Datensatz)"
+    ],
     "en": [
-      "outcome of monitoring"
+      "responsible institution (Data record)"
     ]
   },
   "definition": {
-    "de": "Zusammenfassende Bewertung aller durchgeführten Kontrollmaßnahme mit Angabe festgestellter Beobachtungen, Auffälligkeiten oder Handlungsempfehlungen.   Beispiel: \"Alle Parameter im Normbereich\", \"Luftfeuchtigkeit 5% über Sollwert, Nachregulierung erforderlich\", \"Verdacht auf Schimmelbildung, Objekt zur weiteren Untersuchung in Labor verbracht\"",
-    "en": "Summary assessment of all control measures carried out, including observations, anomalies or recommendations for action.   Example: ‘All parameters within normal range’, ‘Humidity 5% above target value, readjustment required’, ‘Suspected mould growth, object sent to laboratory for further examination’"
+    "de": "Angabe zur Institution, die den betreffenden Datensatz vorhält.",
+    "en": "Information about the institution that holds the relevant data record."
   },
   "notation": [
-    "F396G6"
+    "Q2R50D"
   ],
   "broader": {
-    "id": "https://www.w3id.org/conservation/terms/metadata/C11192",
+    "id": "https://www.w3id.org/conservation/terms/metadata/AC16G1",
     "prefLabel": {
-      "de": "Monitoring",
-      "en": "monitoring"
+      "de": "Administrative Metadaten",
+      "en": "administrative metadata"
     }
   },
   "inScheme": [
@@ -38,9 +42,10 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "Verpflichtungsgrad": "bedingte Pflicht",
-  "Feldwert": "Text",
-  "Wiederholbar": "Ja",
+  "Verpflichtungsgrad": "Pflicht",
+  "Feldwert": "Text/URI",
+  "Wiederholbar": "Nein",
+  "Verwendungshinweis": "Dieses Element ist vor allem bei der Publikation bzw. dem externen Austausch des Datensatzes relevant. Erfasst werden sollten dabei der Name der Einrichtung, sowie ein maschinenlesbarer Identifier (z.B. ROR, ISIL).",
   "@context": {
     "@version": 1.1,
     "id": "@id",
