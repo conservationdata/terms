@@ -19,7 +19,7 @@
       "en": "examination"
     }
   },
-  "exactMatch": [
+  "closeMatch": [
     {
       "id": "http://terminology.lido-schema.org/lido00163"
     }

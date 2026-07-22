@@ -3,7 +3,7 @@
   "type": "Concept",
   "prefLabel": {
     "de": "Temperatur (konservatorische Bedingungen)",
-    "en": "temperature (recommended conditions)"
+    "en": "temperature (conservation conditions)"
   },
   "definition": {
     "de": "Angabe der erforderlichen Temperaturwerte und zulässigen Schwankungsbereiche (maximal tolerierbare Abweichungen) für die sachgerechte Lagerung zur Vermeidung temperaturbedingter Schäden.",
@@ -16,7 +16,7 @@
     "id": "https://www.w3id.org/conservation/terms/metadata/C3A182",
     "prefLabel": {
       "de": "Konservatorische Bedingungen",
-      "en": "recommended conditions"
+      "en": "conservation conditions"
     }
   },
   "inScheme": [

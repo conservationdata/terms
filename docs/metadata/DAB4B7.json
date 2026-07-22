@@ -47,6 +47,11 @@
       "en": "examination"
     }
   },
+  "closeMatch": [
+    {
+      "id": "http://terminology.lido-schema.org/lido01114"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata",

@@ -45,9 +45,9 @@
     }
   ],
   "Verpflichtungsgrad": "optional",
-  "Feldwert": "Text",
+  "Feldwert": "Text/URI",
   "Wiederholbar": "Ja",
-  "Verwendungshinweis": "Gängige wissenschaftliche Zitationsweisen sind einzuhalten.",
+  "Verwendungshinweis": "Gängige wissenschaftliche Zitationsweisen sind einzuhalten. Im Idealfall enthält die Angabe eine direkte Verknüpfung zur referenzierten Ressource (z.B. über die Angabe einer DOI).",
   "@context": {
     "@version": 1.1,
     "id": "@id",

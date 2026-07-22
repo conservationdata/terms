@@ -6,8 +6,8 @@
     "en": "version"
   },
   "definition": {
-    "de": "Angaben zur Versionierung bzw. Überarbeitung des Berichtes",
-    "en": "Information on the versioning or revision of the report"
+    "de": "Angaben zur Versionierung bzw. Überarbeitung des Berichtes.",
+    "en": "Information on the versioning or revision of the report."
   },
   "notation": [
     "D1F5D3"
@@ -23,8 +23,8 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/B43DK5",
       "prefLabel": {
-        "de": "Änderungsdatum",
-        "en": "modification date"
+        "de": "Änderungsdatum (Datensatz)",
+        "en": "modification date (data record)"
       }
     }
   ],
@@ -35,6 +35,11 @@
       "en": "administrative metadata"
     }
   },
+  "exactMatch": [
+    {
+      "id": "https://datacite-metadata-schema.readthedocs.io/en/4.6/properties/version/"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata",

@@ -24,7 +24,7 @@
       "en": "condition assessment"
     }
   },
-  "exactMatch": [
+  "closeMatch": [
     {
       "id": "http://terminology.lido-schema.org/lido00163"
     }

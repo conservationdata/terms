@@ -28,6 +28,16 @@
       "en": "administrative metadata"
     }
   },
+  "closeMatch": [
+    {
+      "id": "http://terminology.lido-schema.org/lido00920"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://datacite-metadata-schema.readthedocs.io/en/4.6/properties/rights/"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata",
@@ -43,7 +53,7 @@
     }
   ],
   "Verpflichtungsgrad": "empfohlen",
-  "Feldwert": "Text",
+  "Feldwert": "Text/URI",
   "Wiederholbar": "Nein",
   "@context": {
     "@version": 1.1,

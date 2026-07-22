@@ -7,7 +7,12 @@
   },
   "altLabel": {
     "de": [
-      "ID Datensatz"
+      "Datensatz ID",
+      "Datensatz Identifier"
+    ],
+    "en": [
+      "identifier (dataset)",
+      "record ID"
     ]
   },
   "definition": {
@@ -24,6 +29,11 @@
       "en": "administrative metadata"
     }
   },
+  "exactMatch": [
+    {
+      "id": "https://datacite-metadata-schema.readthedocs.io/en/4.6/properties/identifier/"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata",
@@ -41,6 +51,7 @@
   "Verpflichtungsgrad": "Pflicht",
   "Feldwert": "Text/URI",
   "Wiederholbar": "Nein",
+  "Verwendungshinweis": "Bei der Herausgabe der Daten bietet es sich an, die lokale Datensatzkennung mit dem Identifier der Institution (z.B. ROR, ISIL) zu kombinieren, um eine Eindeutigkeit der Kennung über die eigene Einrichtung hinaus sicherzustellen.  Im Idealfall werden für die Datensatzkennung direkt persistente Identifikatoren (PIDs) wie DOIs oder URNs verwendet, die maschinenlesbar und standardisiert sind und auf eine öffentlich zugängliche Ressource (z.B. einem Repositorium oder Sammlungsportal) auflösen.",
   "@context": {
     "@version": 1.1,
     "id": "@id",

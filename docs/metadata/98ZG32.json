@@ -6,8 +6,8 @@
     "en": "editor"
   },
   "definition": {
-    "de": "Angaben zur Person, die die Änderung durchgeführt hat.",
-    "en": "Details of the person who made the change"
+    "de": "Angaben zur Person, die eine Änderung am Datensatz durchgeführt hat.",
+    "en": "Details of the person who made a change to the record"
   },
   "notation": [
     "98ZG32"
@@ -19,7 +19,7 @@
       "en": "version"
     }
   },
-  "exactMatch": [
+  "closeMatch": [
     {
       "id": "http://terminology.lido-schema.org/lido00163"
     }
@@ -41,7 +41,7 @@
   "Verpflichtungsgrad": "empfohlen",
   "Feldwert": "Text/URI",
   "Wiederholbar": "Nein",
-  "Verwendungshinweis": "Der Name sollte im Format \"Vorname Nachname\" erfasst werden.",
+  "Verwendungshinweis": "Der Name sollten im Format \"Vorname Nachname\" sowie idealfall zusätzlich mit einem maschinenlesbaren Identifier (z.B. ORCID) erfasst werden.",
   "@context": {
     "@version": 1.1,
     "id": "@id",

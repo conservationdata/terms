@@ -83,6 +83,11 @@
       }
     }
   ],
+  "relatedMatch": [
+    {
+      "id": "http://terminology.lido-schema.org/lido01115"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata",

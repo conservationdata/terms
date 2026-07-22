@@ -3,7 +3,7 @@
   "type": "Concept",
   "prefLabel": {
     "de": "Beleuchtungsstärke (konservatorische Bedingungen)",
-    "en": "illuminance (recommended conditions)"
+    "en": "illuminance (conservation conditions)"
   },
   "altLabel": {
     "de": [
@@ -24,7 +24,7 @@
     "id": "https://www.w3id.org/conservation/terms/metadata/C3A182",
     "prefLabel": {
       "de": "Konservatorische Bedingungen",
-      "en": "recommended conditions"
+      "en": "conservation conditions"
     }
   },
   "inScheme": [

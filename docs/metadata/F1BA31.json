@@ -26,6 +26,11 @@
       "en": "object description"
     }
   },
+  "closeMatch": [
+    {
+      "id": "http://terminology.lido-schema.org/lido00853"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata",

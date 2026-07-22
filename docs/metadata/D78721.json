@@ -6,8 +6,8 @@
     "en": "date of report creation"
   },
   "definition": {
-    "de": "Zeitpunkt, zu dem der Bericht erstellt wurde",
-    "en": "Date on which the report was prepared"
+    "de": "Zeitpunkt, zu dem der Bericht erstellt wurde.",
+    "en": "Date on which the report was prepared."
   },
   "notation": [
     "D78721"
@@ -19,9 +19,19 @@
       "en": "administrative metadata"
     }
   },
-  "exactMatch": [
+  "relatedMatch": [
     {
       "id": "http://terminology.lido-schema.org/lido00528"
+    }
+  ],
+  "closeMatch": [
+    {
+      "id": "https://datacite-metadata-schema.readthedocs.io/en/4.6/properties/publicationyear/"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://terminology.lido-schema.org/lido00472"
     }
   ],
   "inScheme": [

@@ -36,6 +36,11 @@
       "en": "object identification"
     }
   },
+  "narrowMatch": [
+    {
+      "id": "http://terminology.lido-schema.org/lido00113"
+    }
+  ],
   "closeMatch": [
     {
       "id": "http://vocab.getty.edu/aat/300404626"

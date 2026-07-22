@@ -3,14 +3,14 @@
   "type": "Concept",
   "prefLabel": {
     "de": "UV-Schutz (konservatorische Bedingungen)",
-    "en": "UV protection (recommended conditions)"
+    "en": "UV protection (conservation conditions)"
   },
   "altLabel": {
     "de": [
       "UV (konservatorische Bedingungen)"
     ],
     "en": [
-      "ultraviolet protection"
+      "ultraviolet protection (conservation conditions)"
     ]
   },
   "definition": {
@@ -24,7 +24,7 @@
     "id": "https://www.w3id.org/conservation/terms/metadata/C3A182",
     "prefLabel": {
       "de": "Konservatorische Bedingungen",
-      "en": "recommended conditions"
+      "en": "conservation conditions"
     }
   },
   "inScheme": [

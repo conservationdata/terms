@@ -11,8 +11,8 @@
     ]
   },
   "definition": {
-    "de": "Kategorisierung und Beschreibung der konkreten Gefährdungsart, z. B. chemisch, physikalisch oder biologisch",
-    "en": "Categorisation and description of the specific type of hazard, e.g. chemical, physical or biological"
+    "de": "Kategorisierung der konkreten Gefährdungsart, z. B. chemisch, physikalisch oder biologisch",
+    "en": "Categorisation of the specific type of hazard, e.g. chemical, physical or biological"
   },
   "notation": [
     "BGGCA4"
@@ -21,7 +21,7 @@
     "id": "https://www.w3id.org/conservation/terms/metadata/B7B8B6",
     "prefLabel": {
       "de": "Gefährdungsbewertung",
-      "en": "safety assessment"
+      "en": "risk assessment"
     }
   },
   "inScheme": [
@@ -39,7 +39,7 @@
     }
   ],
   "Verpflichtungsgrad": "bedingte Pflicht",
-  "Feldwert": "Text",
+  "Feldwert": "Text/URI",
   "Wiederholbar": "Ja",
   "@context": {
     "@version": 1.1,

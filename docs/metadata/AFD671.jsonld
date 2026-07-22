@@ -3,16 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "de": "Datum der Gefährdungsbewertung",
-    "en": "date of safety assessment"
+    "en": "date of risk assessment"
   },
   "altLabel": {
     "en": [
-      "date of hazard assessment"
+      "date of hazard assessment",
+      "date of safety assessment"
     ]
   },
   "definition": {
-    "de": "Erfassung des Datums, an dem die letzte Gefährdungsbewertung durchgeführt wurde.",
-    "en": "Recording of the date on which the last risk assessment was carried out"
+    "de": "Erfassung des Datums, an dem die Gefährdungsbewertung durchgeführt wurde.",
+    "en": "Recording of the date on which the risk assessment was carried out"
   },
   "notation": [
     "AFD671"
@@ -21,10 +22,10 @@
     "id": "https://www.w3id.org/conservation/terms/metadata/B7B8B6",
     "prefLabel": {
       "de": "Gefährdungsbewertung",
-      "en": "safety assessment"
+      "en": "risk assessment"
     }
   },
-  "exactMatch": [
+  "relatedMatch": [
     {
       "id": "http://terminology.lido-schema.org/lido00528"
     }
@@ -44,7 +45,7 @@
     }
   ],
   "Verpflichtungsgrad": "Pflicht",
-  "Feldwert": "Text",
+  "Feldwert": "Date/String",
   "Wiederholbar": "Nein",
   "Verwendungshinweis": "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden.",
   "@context": {

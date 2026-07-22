@@ -28,6 +28,11 @@
       "en": "administrative metadata"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://datacite-metadata-schema.readthedocs.io/en/4.6/properties/publisher/"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.w3id.org/conservation/terms/metadata",

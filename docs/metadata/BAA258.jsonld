@@ -49,7 +49,7 @@
       }
     }
   ],
-  "closeMatch": [
+  "relatedMatch": [
     {
       "id": "http://terminology.lido-schema.org/lido00032"
     }

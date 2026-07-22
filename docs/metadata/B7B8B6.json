@@ -3,11 +3,12 @@
   "type": "Concept",
   "prefLabel": {
     "de": "Gefährdungsbewertung",
-    "en": "safety assessment"
+    "en": "risk assessment"
   },
   "altLabel": {
     "en": [
-      "hazard assessment"
+      "hazard assessment",
+      "safety assessment"
     ]
   },
   "definition": {
@@ -22,7 +23,7 @@
       "id": "https://www.w3id.org/conservation/terms/metadata/AFD671",
       "prefLabel": {
         "de": "Datum der Gefährdungsbewertung",
-        "en": "date of safety assessment"
+        "en": "date of risk assessment"
       }
     },
     {
@@ -43,7 +44,7 @@
       "id": "https://www.w3id.org/conservation/terms/metadata/CCCC7G",
       "prefLabel": {
         "de": "Zuständige Person (Gefährdungsbewertung)",
-        "en": "responsible person (safety assessment)"
+        "en": "responsible person (risk assessment)"
       }
     },
     {

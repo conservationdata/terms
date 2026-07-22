@@ -19,7 +19,7 @@
       "en": "monitoring"
     }
   },
-  "exactMatch": [
+  "relatedMatch": [
     {
       "id": "http://terminology.lido-schema.org/lido00528"
     }
@@ -39,7 +39,7 @@
     }
   ],
   "Verpflichtungsgrad": "bedingte Pflicht",
-  "Feldwert": "Text",
+  "Feldwert": "Date/ String",
   "Wiederholbar": "Nein",
   "Verwendungshinweis": "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden.",
   "@context": {

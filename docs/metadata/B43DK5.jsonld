@@ -2,8 +2,8 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/B43DK5",
   "type": "Concept",
   "prefLabel": {
-    "de": "Änderungsdatum",
-    "en": "modification date"
+    "de": "Änderungsdatum (Datensatz)",
+    "en": "modification date (data record)"
   },
   "altLabel": {
     "en": [
@@ -14,7 +14,7 @@
   },
   "definition": {
     "de": "Zeitpunkt, zu dem der Bericht geändert wurde",
-    "en": "Time at which the report was amended"
+    "en": "Date at which the report was amended"
   },
   "notation": [
     "B43DK5"
@@ -26,9 +26,14 @@
       "en": "version"
     }
   },
-  "exactMatch": [
+  "relatedMatch": [
     {
       "id": "http://terminology.lido-schema.org/lido00528"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://terminology.lido-schema.org/lido00473"
     }
   ],
   "inScheme": [
@@ -46,7 +51,7 @@
     }
   ],
   "Verpflichtungsgrad": "empfohlen",
-  "Feldwert": "Text",
+  "Feldwert": "Date/String",
   "Wiederholbar": "Nein",
   "Verwendungshinweis": "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden.",
   "@context": {

@@ -27,7 +27,7 @@
       "en": "sampling"
     }
   },
-  "exactMatch": [
+  "relatedMatch": [
     {
       "id": "http://terminology.lido-schema.org/lido00528"
     }

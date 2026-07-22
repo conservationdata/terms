@@ -3,11 +3,11 @@
   "type": "Concept",
   "prefLabel": {
     "de": "Konservatorische Bedingungen",
-    "en": "recommended conditions"
+    "en": "conservation conditions"
   },
   "altLabel": {
     "en": [
-      "conservation conditions"
+      "recommended conditions"
     ]
   },
   "definition": {
@@ -22,28 +22,28 @@
       "id": "https://www.w3id.org/conservation/terms/metadata/A2FA1B",
       "prefLabel": {
         "de": "Temperatur (konservatorische Bedingungen)",
-        "en": "temperature (recommended conditions)"
+        "en": "temperature (conservation conditions)"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/BA8198",
       "prefLabel": {
         "de": "Luftfeuchtigkeit (konservatorische Bedingung)",
-        "en": "humidity (recommended conditions)"
+        "en": "humidity (conservation conditions)"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/DF7759",
       "prefLabel": {
         "de": "Beleuchtungsstärke (konservatorische Bedingungen)",
-        "en": "illuminance (recommended conditions)"
+        "en": "illuminance (conservation conditions)"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/FD6617",
       "prefLabel": {
         "de": "UV-Schutz (konservatorische Bedingungen)",
-        "en": "UV protection (recommended conditions)"
+        "en": "UV protection (conservation conditions)"
       }
     }
   ],

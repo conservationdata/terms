@@ -19,9 +19,14 @@
       "en": "administrative metadata"
     }
   },
-  "exactMatch": [
+  "closeMatch": [
     {
       "id": "http://terminology.lido-schema.org/lido00163"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://datacite-metadata-schema.readthedocs.io/en/4.6/properties/creator/"
     }
   ],
   "inScheme": [

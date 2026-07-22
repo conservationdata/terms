@@ -25,7 +25,7 @@
       "en": "object identification"
     }
   },
-  "exactMatch": [
+  "relatedMatch": [
     {
       "id": "http://terminology.lido-schema.org/lido00529"
     }
