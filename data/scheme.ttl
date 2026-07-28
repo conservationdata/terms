@@ -1343,7 +1343,7 @@
         "identification number"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "Pflicht" ;
-    ocmp:TQKQBM "Text" .
+    ocmp:TQKQBM "Text/URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/G5TA85> a skos:Concept ;
     skos:altLabel "Grund der Zustandserfassung"@de ;
