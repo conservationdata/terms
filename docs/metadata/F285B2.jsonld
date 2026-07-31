@@ -2,8 +2,8 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F285B2",
   "type": "Concept",
   "prefLabel": {
-    "de": "Bearbeiter:in",
-    "en": "creator"
+    "de": "Bearbeiter:in (Datensatz)",
+    "en": "creator (data set)"
   },
   "definition": {
     "de": "Angaben zur Person (Name, ggfs. Funktion), die den betreffenden Datensatz erstellt hat.",

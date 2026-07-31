@@ -507,6 +507,7 @@
         "kulturelle Verortung"@de,
         "cultural context"@en,
         "location"@en,
+        "origin"@en,
         "place of manufacture"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/B51DAF> ;
     skos:definition "Sammelbegriff für Angaben zur räumlichen oder kulturellen Verortung eines Objektes, die dessen Entstehungs- oder Auffindungskontext beschreiben. Soll als Einordnung von Objekten in ihren historischen, geografischen und kulturellen Zusammhang dienen. Die Angaben können dabei exakte Ortsangaben als auch größere geografische oder kulturelle Räume sein, je nach Überliefungslage bzw. Erkenntnisstand.   Beispiel: \"Fundort: Italien - Numana - Grab 34\", \"kultureller Kontext: Renaissance\""@de,
@@ -514,7 +515,7 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "CD3341" ;
     skos:prefLabel "Herkunft"@de,
-        "origin"@en ;
+        "provenance"@en ;
     ocmp:EO7QK9 "Ja" ;
     ocmp:JYGNTK "empfohlen" ;
     ocmp:TQKQBM "Text/URI" .
@@ -757,8 +758,8 @@
     skos:exactMatch <https://datacite-metadata-schema.readthedocs.io/en/4.6/properties/creator/> ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "F285B2" ;
-    skos:prefLabel "Bearbeiter:in"@de,
-        "creator"@en ;
+    skos:prefLabel "Bearbeiter:in (Datensatz)"@de,
+        "creator (data set)"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "Pflicht" ;
     ocmp:TQKQBM "Text/URI" .
@@ -1036,7 +1037,7 @@
         "type of identification number"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "Pflicht" ;
-    ocmp:TQKQBM "Text" .
+    ocmp:TQKQBM "Text/ URI" .
 
 <https://www.w3id.org/conservation/terms/metadata/G73958> a skos:Concept ;
     ex:Verwendungshinweis "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden." ;
@@ -1064,7 +1065,7 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "G76A78" ;
     skos:prefLabel "Schöpfer:in"@de,
-        "creator"@en ;
+        "creator (object)"@en ;
     ocmp:EO7QK9 "Ja" ;
     ocmp:JYGNTK "optional" ;
     ocmp:TQKQBM "Text/URI" .
@@ -1360,16 +1361,16 @@
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/K343FVC> a skos:Concept ;
-    skos:altLabel "Alternative Nummern, Alte Intenvarnummer"@de,
+    skos:altLabel "Alternative Nummer, Alte Intenvarnummer"@de,
         "other object number"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/B51DAF> ;
-    skos:definition "Weitere Nummern, die in der Vergangenheit dem Objekt zugeordnet wurden und erfasst werden sollen."@de,
-        "Other numbers that were previously assigned to the object and should be recorded."@en ;
+    skos:definition "Weitere Nummer, die in der Vergangenheit dem Objekt zugeordnet wurde und erfasst werden solle."@de,
+        "Other number that was previously assigned to the object and should be recorded."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:narrowMatch <http://terminology.lido-schema.org/lido00188> ;
     skos:narrower <https://www.w3id.org/conservation/terms/metadata/LGPT6AC> ;
     skos:notation "K343FVC" ;
-    skos:prefLabel "Weitere Objektnummern"@de,
+    skos:prefLabel "Weitere Objektnummer"@de,
         "alternative object number"@en ;
     ocmp:EO7QK9 "Ja" ;
     ocmp:JYGNTK "optional" ;

@@ -32,7 +32,7 @@
       "id": "https://www.w3id.org/conservation/terms/metadata/CD3341",
       "prefLabel": {
         "de": "Herkunft",
-        "en": "origin"
+        "en": "provenance"
       }
     },
     {
@@ -74,7 +74,7 @@
       "id": "https://www.w3id.org/conservation/terms/metadata/G76A78",
       "prefLabel": {
         "de": "Schöpfer:in",
-        "en": "creator"
+        "en": "creator (object)"
       }
     },
     {
@@ -87,7 +87,7 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/K343FVC",
       "prefLabel": {
-        "de": "Weitere Objektnummern",
+        "de": "Weitere Objektnummer",
         "en": "alternative object number"
       }
     }

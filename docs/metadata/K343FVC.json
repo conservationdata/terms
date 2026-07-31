@@ -2,20 +2,20 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/K343FVC",
   "type": "Concept",
   "prefLabel": {
-    "de": "Weitere Objektnummern",
+    "de": "Weitere Objektnummer",
     "en": "alternative object number"
   },
   "altLabel": {
     "de": [
-      "Alternative Nummern, Alte Intenvarnummer"
+      "Alternative Nummer, Alte Intenvarnummer"
     ],
     "en": [
       "other object number"
     ]
   },
   "definition": {
-    "de": "Weitere Nummern, die in der Vergangenheit dem Objekt zugeordnet wurden und erfasst werden sollen.",
-    "en": "Other numbers that were previously assigned to the object and should be recorded."
+    "de": "Weitere Nummer, die in der Vergangenheit dem Objekt zugeordnet wurde und erfasst werden solle.",
+    "en": "Other number that was previously assigned to the object and should be recorded."
   },
   "notation": [
     "K343FVC"
