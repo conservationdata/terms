@@ -47,7 +47,7 @@
     }
   ],
   "Verpflichtungsgrad": "Pflicht",
-  "Feldwert": "Text",
+  "Feldwert": "DateText",
   "Wiederholbar": "Nein",
   "Verwendungshinweis": "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden.",
   "@context": {
