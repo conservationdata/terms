@@ -72,7 +72,7 @@
     skos:notation "A4G52F" ;
     skos:prefLabel "konservatorische Vorgeschichte"@de,
         "conservation history"@en ;
-    ocmp:EO7QK9 "Nein" ;
+    ocmp:EO7QK9 "Ja" ;
     ocmp:JYGNTK "empfohlen" ;
     ocmp:TQKQBM "Text" .
 
