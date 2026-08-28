@@ -2,7 +2,7 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/C33D85",
   "type": "Concept",
   "prefLabel": {
-    "de": "Anlass der Probenahme",
+    "de": "Anlass der Probennahme",
     "en": "reason for sampling"
   },
   "altLabel": {
@@ -20,7 +20,7 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/CD5C3F",
     "prefLabel": {
-      "de": "Probenahme",
+      "de": "Probennahme",
       "en": "sampling"
     }
   },

@@ -2,7 +2,7 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F72743",
   "type": "Concept",
   "prefLabel": {
-    "de": "Durchführende Einrichtung (Probenahme)",
+    "de": "Durchführende Einrichtung (Probennahme)",
     "en": "Sampling institution"
   },
   "definition": {
@@ -15,7 +15,7 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/CD5C3F",
     "prefLabel": {
-      "de": "Probenahme",
+      "de": "Probennahme",
       "en": "sampling"
     }
   },

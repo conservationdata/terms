@@ -2,7 +2,7 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F58F6D",
   "type": "Concept",
   "prefLabel": {
-    "de": "Stelle der Probenahme",
+    "de": "Stelle der Probennahme",
     "en": "sampling location"
   },
   "altLabel": {
@@ -24,7 +24,7 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/CD5C3F",
     "prefLabel": {
-      "de": "Probenahme",
+      "de": "Probennahme",
       "en": "sampling"
     }
   },

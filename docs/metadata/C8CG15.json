@@ -2,7 +2,7 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/C8CG15",
   "type": "Concept",
   "prefLabel": {
-    "de": "Zuständige Person (Probenahme)",
+    "de": "Zuständige Person (Probennahme)",
     "en": "Sampling person"
   },
   "definition": {
@@ -15,7 +15,7 @@
   "broader": {
     "id": "https://www.w3id.org/conservation/terms/metadata/CD5C3F",
     "prefLabel": {
-      "de": "Probenahme",
+      "de": "Probennahme",
       "en": "sampling"
     }
   },

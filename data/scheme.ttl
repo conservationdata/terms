@@ -314,7 +314,7 @@
         "Background information on why the sample was taken. Details of the question to be addressed by the sampling or the planned type of examination.  Example: material determination, age dating."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "C33D85" ;
-    skos:prefLabel "Anlass der Probenahme"@de,
+    skos:prefLabel "Anlass der Probennahme"@de,
         "reason for sampling"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "bedingte Pflicht" ;
@@ -416,7 +416,7 @@
         "Information about the person who took the sample or is responsible for it."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "C8CG15" ;
-    skos:prefLabel "Zuständige Person (Probenahme)"@de,
+    skos:prefLabel "Zuständige Person (Probennahme)"@de,
         "Sampling person"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "bedingte Pflicht" ;
@@ -832,7 +832,7 @@
         "Indication of where on the object the sample was taken. As accurate a description as possible of the sample location for later identification.  Examples: front, lower left edge, fracture edge of the shard, inside of the base."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "F58F6D" ;
-    skos:prefLabel "Stelle der Probenahme"@de,
+    skos:prefLabel "Stelle der Probennahme"@de,
         "sampling location"@en ;
     ocmp:EO7QK9 "Ja" ;
     ocmp:JYGNTK "Pflicht" ;
@@ -860,7 +860,7 @@
         "Name of the facility that carried out the sampling."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "F72743" ;
-    skos:prefLabel "Durchführende Einrichtung (Probenahme)"@de,
+    skos:prefLabel "Durchführende Einrichtung (Probennahme)"@de,
         "Sampling institution"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "bedingte Pflicht" ;
@@ -1744,7 +1744,7 @@
         <https://www.w3id.org/conservation/terms/metadata/F72743>,
         <https://www.w3id.org/conservation/terms/metadata/FD2B2B> ;
     skos:notation "CD5C3F" ;
-    skos:prefLabel "Probenahme"@de,
+    skos:prefLabel "Probennahme"@de,
         "sampling"@en ;
     skos:topConceptOf <https://www.w3id.org/conservation/terms/metadata> ;
     ocmp:EO7QK9 "Ja" ;

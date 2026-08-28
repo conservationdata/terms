@@ -2,7 +2,7 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/CD5C3F",
   "type": "Concept",
   "prefLabel": {
-    "de": "Probenahme",
+    "de": "Probennahme",
     "en": "sampling"
   },
   "altLabel": {
@@ -25,14 +25,14 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/C33D85",
       "prefLabel": {
-        "de": "Anlass der Probenahme",
+        "de": "Anlass der Probennahme",
         "en": "reason for sampling"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/C8CG15",
       "prefLabel": {
-        "de": "Zuständige Person (Probenahme)",
+        "de": "Zuständige Person (Probennahme)",
         "en": "Sampling person"
       }
     },
@@ -60,14 +60,14 @@
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/F58F6D",
       "prefLabel": {
-        "de": "Stelle der Probenahme",
+        "de": "Stelle der Probennahme",
         "en": "sampling location"
       }
     },
     {
       "id": "https://www.w3id.org/conservation/terms/metadata/F72743",
       "prefLabel": {
-        "de": "Durchführende Einrichtung (Probenahme)",
+        "de": "Durchführende Einrichtung (Probennahme)",
         "en": "Sampling institution"
       }
     },
