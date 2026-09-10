@@ -1357,7 +1357,7 @@
     skos:prefLabel "Anlass der Zustandserfassung"@de,
         "reason for the condition assessment"@en ;
     ocmp:EO7QK9 "Nein" ;
-    ocmp:JYGNTK "bedingte Pflicht" ;
+    ocmp:JYGNTK "Pflicht" ;
     ocmp:TQKQBM "Text" .
 
 <https://www.w3id.org/conservation/terms/metadata/K343FVC> a skos:Concept ;

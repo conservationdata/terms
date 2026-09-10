@@ -47,7 +47,7 @@
       "id": "https://www.w3id.org/conservation/terms/metadata"
     }
   ],
-  "Verpflichtungsgrad": "bedingte Pflicht",
+  "Verpflichtungsgrad": "Pflicht",
   "Feldwert": "Text",
   "Wiederholbar": "Nein",
   "@context": {
