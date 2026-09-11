@@ -2,12 +2,15 @@
   "id": "https://www.w3id.org/conservation/terms/metadata/F3G8D1",
   "type": "Concept",
   "prefLabel": {
-    "de": "Ansprechperson",
+    "de": "Ansprechpartner:in",
     "en": "contact person"
   },
   "altLabel": {
     "de": [
-      "Ansprechpartner:in"
+      "Ansprechperson"
+    ],
+    "en": [
+      "Ansprechperson"
     ]
   },
   "definition": {
