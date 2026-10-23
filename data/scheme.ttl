@@ -440,14 +440,14 @@
 <https://www.w3id.org/conservation/terms/metadata/CA1BC5> a skos:Concept ;
     ex:Verwendungshinweis "Das Datum sollte nach Möglichkeit gemäß ISO 8601 in der Form YYYY-MM-DD erfasst werden." ;
     skos:altLabel "Datum der Erfassung (Zustandserfassung)"@de,
-        "date of recording"@en ;
+        "Date of recording (condition assessment)"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/F52262> ;
     skos:definition "Angabe des Datums, an dem die Erfassung des Zustandes durchgeführt wurde."@de,
         "Indication of the date on which the object's condition was recorded."@en ;
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "CA1BC5" ;
     skos:prefLabel "Erfassungsdatum (Zustandserfassung)"@de,
-        "date of entry"@en ;
+        "Assessment Date (condition assessment)"@en ;
     skos:relatedMatch <http://terminology.lido-schema.org/lido00528> ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "Pflicht" ;
@@ -1275,6 +1275,11 @@
 <https://www.w3id.org/conservation/terms/metadata/R48T23> a skos:Concept ;
     ex:Verwendungshinweis "Der genaue Aufbau der Kennung kann individuell gestaltet werden. Wichtig ist, dass eindeutig zugeordnet werden kann, auf welche konkrete Zustandserfassung sich die Angaben beziehen." ;
     skos:altLabel "ID der Zustandserfassung"@de,
+        "Condition ID"@en,
+        "Condition assessment ID"@en,
+        "ID of the condition assessment"@en,
+        "Identifier_condition"@en,
+        "Reference number"@en,
         "record_ID (condition assessment)"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/F52262> ;
     skos:definition "Nummer, mit der die jeweilige Zustandserfassung eindeutig identifiziert und referenziert werden kann. Beispiel: Z_2024-06-13 oder XY_25642"@de,
@@ -1282,7 +1287,7 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "R48T23" ;
     skos:prefLabel "Kennung der Zustandserfassung"@de,
-        "ID of the condition assessment"@en ;
+        "Condition Assessment Identifier"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "Pflicht" ;
     ocmp:TQKQBM "Text/URI" .

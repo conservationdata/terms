@@ -3,13 +3,18 @@
   "type": "Concept",
   "prefLabel": {
     "de": "Kennung der Zustandserfassung",
-    "en": "ID of the condition assessment"
+    "en": "Condition Assessment Identifier"
   },
   "altLabel": {
     "de": [
       "ID der Zustandserfassung"
     ],
     "en": [
+      "Condition ID",
+      "Condition assessment ID",
+      "ID of the condition assessment",
+      "Identifier_condition",
+      "Reference number",
       "record_ID (condition assessment)"
     ]
   },

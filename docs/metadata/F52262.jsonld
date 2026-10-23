@@ -39,7 +39,7 @@
       "id": "https://www.w3id.org/conservation/terms/metadata/CA1BC5",
       "prefLabel": {
         "de": "Erfassungsdatum (Zustandserfassung)",
-        "en": "date of entry"
+        "en": "Assessment Date (condition assessment)"
       }
     },
     {
@@ -67,7 +67,7 @@
       "id": "https://www.w3id.org/conservation/terms/metadata/R48T23",
       "prefLabel": {
         "de": "Kennung der Zustandserfassung",
-        "en": "ID of the condition assessment"
+        "en": "Condition Assessment Identifier"
       }
     }
   ],

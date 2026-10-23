@@ -3,14 +3,14 @@
   "type": "Concept",
   "prefLabel": {
     "de": "Erfassungsdatum (Zustandserfassung)",
-    "en": "date of entry"
+    "en": "Assessment Date (condition assessment)"
   },
   "altLabel": {
     "de": [
       "Datum der Erfassung (Zustandserfassung)"
     ],
     "en": [
-      "date of recording"
+      "Date of recording (condition assessment)"
     ]
   },
   "definition": {
