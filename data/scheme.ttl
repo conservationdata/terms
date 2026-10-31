@@ -93,6 +93,7 @@
 <https://www.w3id.org/conservation/terms/metadata/A8ABBA> a skos:Concept ;
     ex:Verwendungshinweis "Auswahl zwischen: vor Eingriff, nach Eingriff, zwischen Eingriff, Monitoring" ;
     skos:altLabel "Zeitpunkt der Zustandserfassung"@de,
+        "time of entry"@en,
         "time of recording"@en ;
     skos:broader <https://www.w3id.org/conservation/terms/metadata/G5TA85> ;
     skos:definition "Ergänzende Angaben, im Falle einer Zustandserfassung aufgrund konservatorisch-restauratorischer Maßnahme, ob es sich bei dem erfassten Zustand um den Zeitpunkt vor (Vorzustand), nach (Endzustand) oder zwischen der Maßnahme handelt.  Der Zustand vor und nach einer Maßnahme sollte dabei verpflichtend erfasst werden. Weitere Zustandserfassungen zwischen verschiedenen Maßnahmen sind bei Bedarf möglich."@de,
@@ -100,7 +101,7 @@
     skos:inScheme <https://www.w3id.org/conservation/terms/metadata> ;
     skos:notation "A8ABBA" ;
     skos:prefLabel "Erfassungszeitpunkt (Zustandserfassung)"@de,
-        "time of entry"@en ;
+        "Assessment Timing (condition assessment)"@en ;
     ocmp:EO7QK9 "Nein" ;
     ocmp:JYGNTK "bedingte Pflicht" ;
     ocmp:TQKQBM "Text" .

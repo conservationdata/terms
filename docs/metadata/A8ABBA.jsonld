@@ -3,13 +3,14 @@
   "type": "Concept",
   "prefLabel": {
     "de": "Erfassungszeitpunkt (Zustandserfassung)",
-    "en": "time of entry"
+    "en": "Assessment Timing (condition assessment)"
   },
   "altLabel": {
     "de": [
       "Zeitpunkt der Zustandserfassung"
     ],
     "en": [
+      "time of entry",
       "time of recording"
     ]
   },
